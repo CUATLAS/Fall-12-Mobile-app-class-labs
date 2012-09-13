@@ -1,0 +1,312 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		38F94C4D15FF8DF8008301D9 /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 38F94C4C15FF8DF8008301D9 /* UIKit.framework */; };
+		38F94C4F15FF8DF8008301D9 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 38F94C4E15FF8DF8008301D9 /* Foundation.framework */; };
+		38F94C5115FF8DF8008301D9 /* CoreGraphics.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 38F94C5015FF8DF8008301D9 /* CoreGraphics.framework */; };
+		38F94C5715FF8DF8008301D9 /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = 38F94C5515FF8DF8008301D9 /* InfoPlist.strings */; };
+		38F94C5915FF8DF8008301D9 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 38F94C5815FF8DF8008301D9 /* main.m */; };
+		38F94C5D15FF8DF8008301D9 /* MADAppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 38F94C5C15FF8DF8008301D9 /* MADAppDelegate.m */; };
+		38F94C6015FF8DF8008301D9 /* MADViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 38F94C5F15FF8DF8008301D9 /* MADViewController.m */; };
+		38F94C6315FF8DF8008301D9 /* MADViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = 38F94C6115FF8DF8008301D9 /* MADViewController.xib */; };
+		38F94C6C15FF8E2E008301D9 /* metslogo300.png in Resources */ = {isa = PBXBuildFile; fileRef = 38F94C6915FF8E2E008301D9 /* metslogo300.png */; };
+		38F94C6D15FF8E2E008301D9 /* yankees_mets_300.png in Resources */ = {isa = PBXBuildFile; fileRef = 38F94C6A15FF8E2E008301D9 /* yankees_mets_300.png */; };
+		38F94C6E15FF8E2E008301D9 /* Yankees-logo-300x300.png in Resources */ = {isa = PBXBuildFile; fileRef = 38F94C6B15FF8E2E008301D9 /* Yankees-logo-300x300.png */; };
+		38F94D1A15FFCD56008301D9 /* bothSeanAndPierce.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 38F94D1715FFCD56008301D9 /* bothSeanAndPierce.jpg */; };
+		38F94D1B15FFCD56008301D9 /* pierce.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 38F94D1815FFCD56008301D9 /* pierce.jpg */; };
+		38F94D1C15FFCD56008301D9 /* seanConnery.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 38F94D1915FFCD56008301D9 /* seanConnery.jpg */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXFileReference section */
+		38F94C4815FF8DF8008301D9 /* helloWorld3.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = helloWorld3.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		38F94C4C15FF8DF8008301D9 /* UIKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = UIKit.framework; path = System/Library/Frameworks/UIKit.framework; sourceTree = SDKROOT; };
+		38F94C4E15FF8DF8008301D9 /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = System/Library/Frameworks/Foundation.framework; sourceTree = SDKROOT; };
+		38F94C5015FF8DF8008301D9 /* CoreGraphics.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreGraphics.framework; path = System/Library/Frameworks/CoreGraphics.framework; sourceTree = SDKROOT; };
+		38F94C5415FF8DF8008301D9 /* helloWorld3-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "helloWorld3-Info.plist"; sourceTree = "<group>"; };
+		38F94C5615FF8DF8008301D9 /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
+		38F94C5815FF8DF8008301D9 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		38F94C5A15FF8DF8008301D9 /* helloWorld3-Prefix.pch */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "helloWorld3-Prefix.pch"; sourceTree = "<group>"; };
+		38F94C5B15FF8DF8008301D9 /* MADAppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = MADAppDelegate.h; sourceTree = "<group>"; };
+		38F94C5C15FF8DF8008301D9 /* MADAppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = MADAppDelegate.m; sourceTree = "<group>"; };
+		38F94C5E15FF8DF8008301D9 /* MADViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = MADViewController.h; sourceTree = "<group>"; };
+		38F94C5F15FF8DF8008301D9 /* MADViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = MADViewController.m; sourceTree = "<group>"; };
+		38F94C6215FF8DF8008301D9 /* en */ = {isa = PBXFileReference; lastKnownFileType = file.xib; name = en; path = en.lproj/MADViewController.xib; sourceTree = "<group>"; };
+		38F94C6915FF8E2E008301D9 /* metslogo300.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = metslogo300.png; sourceTree = "<group>"; };
+		38F94C6A15FF8E2E008301D9 /* yankees_mets_300.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = yankees_mets_300.png; sourceTree = "<group>"; };
+		38F94C6B15FF8E2E008301D9 /* Yankees-logo-300x300.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "Yankees-logo-300x300.png"; sourceTree = "<group>"; };
+		38F94D1715FFCD56008301D9 /* bothSeanAndPierce.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = bothSeanAndPierce.jpg; sourceTree = "<group>"; };
+		38F94D1815FFCD56008301D9 /* pierce.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = pierce.jpg; sourceTree = "<group>"; };
+		38F94D1915FFCD56008301D9 /* seanConnery.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = seanConnery.jpg; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		38F94C4515FF8DF8008301D9 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				38F94C4D15FF8DF8008301D9 /* UIKit.framework in Frameworks */,
+				38F94C4F15FF8DF8008301D9 /* Foundation.framework in Frameworks */,
+				38F94C5115FF8DF8008301D9 /* CoreGraphics.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		38F94C3D15FF8DF8008301D9 = {
+			isa = PBXGroup;
+			children = (
+				38F94C5215FF8DF8008301D9 /* helloWorld3 */,
+				38F94C4B15FF8DF8008301D9 /* Frameworks */,
+				38F94C4915FF8DF8008301D9 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		38F94C4915FF8DF8008301D9 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				38F94C4815FF8DF8008301D9 /* helloWorld3.app */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		38F94C4B15FF8DF8008301D9 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				38F94C4C15FF8DF8008301D9 /* UIKit.framework */,
+				38F94C4E15FF8DF8008301D9 /* Foundation.framework */,
+				38F94C5015FF8DF8008301D9 /* CoreGraphics.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		38F94C5215FF8DF8008301D9 /* helloWorld3 */ = {
+			isa = PBXGroup;
+			children = (
+				38F94C5B15FF8DF8008301D9 /* MADAppDelegate.h */,
+				38F94C5C15FF8DF8008301D9 /* MADAppDelegate.m */,
+				38F94C5E15FF8DF8008301D9 /* MADViewController.h */,
+				38F94C5F15FF8DF8008301D9 /* MADViewController.m */,
+				38F94C6115FF8DF8008301D9 /* MADViewController.xib */,
+				38F94C5315FF8DF8008301D9 /* Supporting Files */,
+			);
+			path = helloWorld3;
+			sourceTree = "<group>";
+		};
+		38F94C5315FF8DF8008301D9 /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				38F94D1715FFCD56008301D9 /* bothSeanAndPierce.jpg */,
+				38F94D1815FFCD56008301D9 /* pierce.jpg */,
+				38F94D1915FFCD56008301D9 /* seanConnery.jpg */,
+				38F94C6915FF8E2E008301D9 /* metslogo300.png */,
+				38F94C6A15FF8E2E008301D9 /* yankees_mets_300.png */,
+				38F94C6B15FF8E2E008301D9 /* Yankees-logo-300x300.png */,
+				38F94C5415FF8DF8008301D9 /* helloWorld3-Info.plist */,
+				38F94C5515FF8DF8008301D9 /* InfoPlist.strings */,
+				38F94C5815FF8DF8008301D9 /* main.m */,
+				38F94C5A15FF8DF8008301D9 /* helloWorld3-Prefix.pch */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		38F94C4715FF8DF8008301D9 /* helloWorld3 */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 38F94C6615FF8DF8008301D9 /* Build configuration list for PBXNativeTarget "helloWorld3" */;
+			buildPhases = (
+				38F94C4415FF8DF8008301D9 /* Sources */,
+				38F94C4515FF8DF8008301D9 /* Frameworks */,
+				38F94C4615FF8DF8008301D9 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = helloWorld3;
+			productName = helloWorld3;
+			productReference = 38F94C4815FF8DF8008301D9 /* helloWorld3.app */;
+			productType = "com.apple.product-type.application";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		38F94C3F15FF8DF8008301D9 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				CLASSPREFIX = MAD;
+				LastUpgradeCheck = 0440;
+				ORGANIZATIONNAME = "Aaron Vimont";
+			};
+			buildConfigurationList = 38F94C4215FF8DF8008301D9 /* Build configuration list for PBXProject "helloWorld3" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+			);
+			mainGroup = 38F94C3D15FF8DF8008301D9;
+			productRefGroup = 38F94C4915FF8DF8008301D9 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				38F94C4715FF8DF8008301D9 /* helloWorld3 */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		38F94C4615FF8DF8008301D9 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				38F94C5715FF8DF8008301D9 /* InfoPlist.strings in Resources */,
+				38F94C6315FF8DF8008301D9 /* MADViewController.xib in Resources */,
+				38F94C6C15FF8E2E008301D9 /* metslogo300.png in Resources */,
+				38F94C6D15FF8E2E008301D9 /* yankees_mets_300.png in Resources */,
+				38F94C6E15FF8E2E008301D9 /* Yankees-logo-300x300.png in Resources */,
+				38F94D1A15FFCD56008301D9 /* bothSeanAndPierce.jpg in Resources */,
+				38F94D1B15FFCD56008301D9 /* pierce.jpg in Resources */,
+				38F94D1C15FFCD56008301D9 /* seanConnery.jpg in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		38F94C4415FF8DF8008301D9 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				38F94C5915FF8DF8008301D9 /* main.m in Sources */,
+				38F94C5D15FF8DF8008301D9 /* MADAppDelegate.m in Sources */,
+				38F94C6015FF8DF8008301D9 /* MADViewController.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXVariantGroup section */
+		38F94C5515FF8DF8008301D9 /* InfoPlist.strings */ = {
+			isa = PBXVariantGroup;
+			children = (
+				38F94C5615FF8DF8008301D9 /* en */,
+			);
+			name = InfoPlist.strings;
+			sourceTree = "<group>";
+		};
+		38F94C6115FF8DF8008301D9 /* MADViewController.xib */ = {
+			isa = PBXVariantGroup;
+			children = (
+				38F94C6215FF8DF8008301D9 /* en */,
+			);
+			name = MADViewController.xib;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		38F94C6415FF8DF8008301D9 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ARCHS = "$(ARCHS_STANDARD_32_BIT)";
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				GCC_VERSION = com.apple.compilers.llvm.clang.1_0;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 5.1;
+				SDKROOT = iphoneos;
+			};
+			name = Debug;
+		};
+		38F94C6515FF8DF8008301D9 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ARCHS = "$(ARCHS_STANDARD_32_BIT)";
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_VERSION = com.apple.compilers.llvm.clang.1_0;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 5.1;
+				OTHER_CFLAGS = "-DNS_BLOCK_ASSERTIONS=1";
+				SDKROOT = iphoneos;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		38F94C6715FF8DF8008301D9 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "helloWorld3/helloWorld3-Prefix.pch";
+				INFOPLIST_FILE = "helloWorld3/helloWorld3-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				WRAPPER_EXTENSION = app;
+			};
+			name = Debug;
+		};
+		38F94C6815FF8DF8008301D9 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "helloWorld3/helloWorld3-Prefix.pch";
+				INFOPLIST_FILE = "helloWorld3/helloWorld3-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				WRAPPER_EXTENSION = app;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		38F94C4215FF8DF8008301D9 /* Build configuration list for PBXProject "helloWorld3" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				38F94C6415FF8DF8008301D9 /* Debug */,
+				38F94C6515FF8DF8008301D9 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		38F94C6615FF8DF8008301D9 /* Build configuration list for PBXNativeTarget "helloWorld3" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				38F94C6715FF8DF8008301D9 /* Debug */,
+				38F94C6815FF8DF8008301D9 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 38F94C3F15FF8DF8008301D9 /* Project object */;
+}
