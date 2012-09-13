@@ -1,0 +1,307 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		3321F207160234E900B210A9 /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 3321F206160234E900B210A9 /* UIKit.framework */; };
+		3321F209160234E900B210A9 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 3321F208160234E900B210A9 /* Foundation.framework */; };
+		3321F20B160234E900B210A9 /* CoreGraphics.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 3321F20A160234E900B210A9 /* CoreGraphics.framework */; };
+		3321F211160234E900B210A9 /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = 3321F20F160234E900B210A9 /* InfoPlist.strings */; };
+		3321F213160234E900B210A9 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 3321F212160234E900B210A9 /* main.m */; };
+		3321F217160234E900B210A9 /* MADAppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 3321F216160234E900B210A9 /* MADAppDelegate.m */; };
+		3321F21A160234E900B210A9 /* MADViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 3321F219160234E900B210A9 /* MADViewController.m */; };
+		3321F21D160234E900B210A9 /* MADViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = 3321F21B160234E900B210A9 /* MADViewController.xib */; };
+		3321F2281602352E00B210A9 /* Beatles_Abbey_Road_icon.png in Resources */ = {isa = PBXBuildFile; fileRef = 3321F2231602352E00B210A9 /* Beatles_Abbey_Road_icon.png */; };
+		3321F2291602352E00B210A9 /* Beatles_Abbey_Road_icon@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 3321F2241602352E00B210A9 /* Beatles_Abbey_Road_icon@2x.png */; };
+		3321F22A1602352E00B210A9 /* Beatles_Abbey_Road.png in Resources */ = {isa = PBXBuildFile; fileRef = 3321F2251602352E00B210A9 /* Beatles_Abbey_Road.png */; };
+		3321F22B1602352E00B210A9 /* beatles1.png in Resources */ = {isa = PBXBuildFile; fileRef = 3321F2261602352E00B210A9 /* beatles1.png */; };
+		3321F22C1602352E00B210A9 /* beatles2.png in Resources */ = {isa = PBXBuildFile; fileRef = 3321F2271602352E00B210A9 /* beatles2.png */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXFileReference section */
+		3321F202160234E900B210A9 /* beatles.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = beatles.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		3321F206160234E900B210A9 /* UIKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = UIKit.framework; path = System/Library/Frameworks/UIKit.framework; sourceTree = SDKROOT; };
+		3321F208160234E900B210A9 /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = System/Library/Frameworks/Foundation.framework; sourceTree = SDKROOT; };
+		3321F20A160234E900B210A9 /* CoreGraphics.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreGraphics.framework; path = System/Library/Frameworks/CoreGraphics.framework; sourceTree = SDKROOT; };
+		3321F20E160234E900B210A9 /* beatles-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "beatles-Info.plist"; sourceTree = "<group>"; };
+		3321F210160234E900B210A9 /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
+		3321F212160234E900B210A9 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		3321F214160234E900B210A9 /* beatles-Prefix.pch */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "beatles-Prefix.pch"; sourceTree = "<group>"; };
+		3321F215160234E900B210A9 /* MADAppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = MADAppDelegate.h; sourceTree = "<group>"; };
+		3321F216160234E900B210A9 /* MADAppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = MADAppDelegate.m; sourceTree = "<group>"; };
+		3321F218160234E900B210A9 /* MADViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = MADViewController.h; sourceTree = "<group>"; };
+		3321F219160234E900B210A9 /* MADViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = MADViewController.m; sourceTree = "<group>"; };
+		3321F21C160234E900B210A9 /* en */ = {isa = PBXFileReference; lastKnownFileType = file.xib; name = en; path = en.lproj/MADViewController.xib; sourceTree = "<group>"; };
+		3321F2231602352E00B210A9 /* Beatles_Abbey_Road_icon.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = Beatles_Abbey_Road_icon.png; sourceTree = "<group>"; };
+		3321F2241602352E00B210A9 /* Beatles_Abbey_Road_icon@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "Beatles_Abbey_Road_icon@2x.png"; sourceTree = "<group>"; };
+		3321F2251602352E00B210A9 /* Beatles_Abbey_Road.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = Beatles_Abbey_Road.png; sourceTree = "<group>"; };
+		3321F2261602352E00B210A9 /* beatles1.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = beatles1.png; sourceTree = "<group>"; };
+		3321F2271602352E00B210A9 /* beatles2.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = beatles2.png; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		3321F1FF160234E900B210A9 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				3321F207160234E900B210A9 /* UIKit.framework in Frameworks */,
+				3321F209160234E900B210A9 /* Foundation.framework in Frameworks */,
+				3321F20B160234E900B210A9 /* CoreGraphics.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		3321F1F7160234E900B210A9 = {
+			isa = PBXGroup;
+			children = (
+				3321F2231602352E00B210A9 /* Beatles_Abbey_Road_icon.png */,
+				3321F2241602352E00B210A9 /* Beatles_Abbey_Road_icon@2x.png */,
+				3321F2251602352E00B210A9 /* Beatles_Abbey_Road.png */,
+				3321F2261602352E00B210A9 /* beatles1.png */,
+				3321F2271602352E00B210A9 /* beatles2.png */,
+				3321F20C160234E900B210A9 /* beatles */,
+				3321F205160234E900B210A9 /* Frameworks */,
+				3321F203160234E900B210A9 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		3321F203160234E900B210A9 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				3321F202160234E900B210A9 /* beatles.app */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		3321F205160234E900B210A9 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				3321F206160234E900B210A9 /* UIKit.framework */,
+				3321F208160234E900B210A9 /* Foundation.framework */,
+				3321F20A160234E900B210A9 /* CoreGraphics.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		3321F20C160234E900B210A9 /* beatles */ = {
+			isa = PBXGroup;
+			children = (
+				3321F215160234E900B210A9 /* MADAppDelegate.h */,
+				3321F216160234E900B210A9 /* MADAppDelegate.m */,
+				3321F218160234E900B210A9 /* MADViewController.h */,
+				3321F219160234E900B210A9 /* MADViewController.m */,
+				3321F21B160234E900B210A9 /* MADViewController.xib */,
+				3321F20D160234E900B210A9 /* Supporting Files */,
+			);
+			path = beatles;
+			sourceTree = "<group>";
+		};
+		3321F20D160234E900B210A9 /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				3321F20E160234E900B210A9 /* beatles-Info.plist */,
+				3321F20F160234E900B210A9 /* InfoPlist.strings */,
+				3321F212160234E900B210A9 /* main.m */,
+				3321F214160234E900B210A9 /* beatles-Prefix.pch */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		3321F201160234E900B210A9 /* beatles */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 3321F220160234E900B210A9 /* Build configuration list for PBXNativeTarget "beatles" */;
+			buildPhases = (
+				3321F1FE160234E900B210A9 /* Sources */,
+				3321F1FF160234E900B210A9 /* Frameworks */,
+				3321F200160234E900B210A9 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = beatles;
+			productName = beatles;
+			productReference = 3321F202160234E900B210A9 /* beatles.app */;
+			productType = "com.apple.product-type.application";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		3321F1F9160234E900B210A9 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				CLASSPREFIX = MAD;
+				LastUpgradeCheck = 0440;
+				ORGANIZATIONNAME = "Elise J Beall";
+			};
+			buildConfigurationList = 3321F1FC160234E900B210A9 /* Build configuration list for PBXProject "beatles" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+			);
+			mainGroup = 3321F1F7160234E900B210A9;
+			productRefGroup = 3321F203160234E900B210A9 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				3321F201160234E900B210A9 /* beatles */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		3321F200160234E900B210A9 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				3321F211160234E900B210A9 /* InfoPlist.strings in Resources */,
+				3321F21D160234E900B210A9 /* MADViewController.xib in Resources */,
+				3321F2281602352E00B210A9 /* Beatles_Abbey_Road_icon.png in Resources */,
+				3321F2291602352E00B210A9 /* Beatles_Abbey_Road_icon@2x.png in Resources */,
+				3321F22A1602352E00B210A9 /* Beatles_Abbey_Road.png in Resources */,
+				3321F22B1602352E00B210A9 /* beatles1.png in Resources */,
+				3321F22C1602352E00B210A9 /* beatles2.png in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		3321F1FE160234E900B210A9 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				3321F213160234E900B210A9 /* main.m in Sources */,
+				3321F217160234E900B210A9 /* MADAppDelegate.m in Sources */,
+				3321F21A160234E900B210A9 /* MADViewController.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXVariantGroup section */
+		3321F20F160234E900B210A9 /* InfoPlist.strings */ = {
+			isa = PBXVariantGroup;
+			children = (
+				3321F210160234E900B210A9 /* en */,
+			);
+			name = InfoPlist.strings;
+			sourceTree = "<group>";
+		};
+		3321F21B160234E900B210A9 /* MADViewController.xib */ = {
+			isa = PBXVariantGroup;
+			children = (
+				3321F21C160234E900B210A9 /* en */,
+			);
+			name = MADViewController.xib;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		3321F21E160234E900B210A9 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ARCHS = "$(ARCHS_STANDARD_32_BIT)";
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				GCC_VERSION = com.apple.compilers.llvm.clang.1_0;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 5.1;
+				SDKROOT = iphoneos;
+			};
+			name = Debug;
+		};
+		3321F21F160234E900B210A9 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ARCHS = "$(ARCHS_STANDARD_32_BIT)";
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_VERSION = com.apple.compilers.llvm.clang.1_0;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 5.1;
+				OTHER_CFLAGS = "-DNS_BLOCK_ASSERTIONS=1";
+				SDKROOT = iphoneos;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		3321F221160234E900B210A9 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "beatles/beatles-Prefix.pch";
+				INFOPLIST_FILE = "beatles/beatles-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				WRAPPER_EXTENSION = app;
+			};
+			name = Debug;
+		};
+		3321F222160234E900B210A9 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "beatles/beatles-Prefix.pch";
+				INFOPLIST_FILE = "beatles/beatles-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				WRAPPER_EXTENSION = app;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		3321F1FC160234E900B210A9 /* Build configuration list for PBXProject "beatles" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				3321F21E160234E900B210A9 /* Debug */,
+				3321F21F160234E900B210A9 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		3321F220160234E900B210A9 /* Build configuration list for PBXNativeTarget "beatles" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				3321F221160234E900B210A9 /* Debug */,
+				3321F222160234E900B210A9 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 3321F1F9160234E900B210A9 /* Project object */;
+}
