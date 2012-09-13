@@ -46,6 +46,7 @@
     titleLabel.text=@"Baby Beatles";
     beatlesImage.image=[UIImage imageNamed:@beatles1.png"];
 }   else if 
+ //
  */
 - (IBAction)changeImage:(UISegmentedControl *)sender {
     if ([sender selectedSegmentIndex]==0) {
