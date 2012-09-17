@@ -35,7 +35,8 @@
     return YES;
 }
 
-- (IBAction)textFieldDoneEditing:(id)sender {
+
+- (IBAction)textFieldDoneEditing:(UITextField *)sender {
     [sender resignFirstResponder];
 	NSString *message = [[NSString alloc] initWithFormat:@"Hello, %@", nameField.text];
 	messageField.text=message;

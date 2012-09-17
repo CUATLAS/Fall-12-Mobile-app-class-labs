@@ -11,7 +11,9 @@
 @interface MADViewController : UIViewController
 @property (weak, nonatomic) IBOutlet UITextField *nameField;
 @property (weak, nonatomic) IBOutlet UILabel *messageField;
-- (IBAction)textFieldDoneEditing:(id)sender;
+- (IBAction)textFieldDoneEditing:(UITextField *)sender;
+
+
 
 
 @end

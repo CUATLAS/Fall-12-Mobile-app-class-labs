@@ -43,6 +43,7 @@
 						<string key="NSFrame">{{0, -57}, {768, 1004}}</string>
 						<reference key="NSSuperview" ref="766721923"/>
 						<reference key="NSWindow"/>
+						<reference key="NSNextKeyView" ref="884541269"/>
 						<string key="NSReuseIdentifierKey">_NS:9</string>
 						<bool key="IBUIUserInteractionEnabled">NO</bool>
 						<string key="targetRuntimeIdentifier">IBIPadFramework</string>
@@ -57,6 +58,7 @@
 						<string key="NSFrame">{{67, 75}, {181, 28}}</string>
 						<reference key="NSSuperview" ref="766721923"/>
 						<reference key="NSWindow"/>
+						<reference key="NSNextKeyView" ref="33806262"/>
 						<string key="NSReuseIdentifierKey">_NS:9</string>
 						<bool key="IBUIOpaque">NO</bool>
 						<bool key="IBUIClipsSubviews">YES</bool>
@@ -84,9 +86,10 @@
 					<object class="IBUITextField" id="33806262">
 						<reference key="NSNextResponder" ref="766721923"/>
 						<int key="NSvFlags">292</int>
-						<string key="NSFrame">{{368, 72}, {211, 31}}</string>
+						<string key="NSFrame">{{355, 72}, {211, 31}}</string>
 						<reference key="NSSuperview" ref="766721923"/>
 						<reference key="NSWindow"/>
+						<reference key="NSNextKeyView" ref="271094735"/>
 						<string key="NSReuseIdentifierKey">_NS:9</string>
 						<bool key="IBUIOpaque">NO</bool>
 						<bool key="IBUIClipsSubviews">YES</bool>
@@ -140,6 +143,7 @@
 				<string key="NSFrame">{{0, 20}, {768, 1004}}</string>
 				<reference key="NSSuperview"/>
 				<reference key="NSWindow"/>
+				<reference key="NSNextKeyView" ref="691860902"/>
 				<object class="NSColor" key="IBUIBackgroundColor">
 					<int key="NSColorSpace">3</int>
 					<bytes key="NSWhite">MQA</bytes>
@@ -151,11 +155,9 @@
 				<string key="targetRuntimeIdentifier">IBIPadFramework</string>
 			</object>
 			<object class="IBUIImageView" id="627388359">
-				<reference key="NSNextResponder"/>
+				<nil key="NSNextResponder"/>
 				<int key="NSvFlags">292</int>
 				<string key="NSFrameSize">{240, 128}</string>
-				<reference key="NSSuperview"/>
-				<reference key="NSWindow"/>
 				<string key="NSReuseIdentifierKey">_NS:9</string>
 				<bool key="IBUIUserInteractionEnabled">NO</bool>
 				<string key="targetRuntimeIdentifier">IBIPadFramework</string>
@@ -173,20 +175,28 @@
 				</object>
 				<object class="IBConnectionRecord">
 					<object class="IBCocoaTouchOutletConnection" key="connection">
+						<string key="label">nameField</string>
+						<reference key="source" ref="841351856"/>
+						<reference key="destination" ref="33806262"/>
+					</object>
+					<int key="connectionID">13</int>
+				</object>
+				<object class="IBConnectionRecord">
+					<object class="IBCocoaTouchOutletConnection" key="connection">
 						<string key="label">messageField</string>
 						<reference key="source" ref="841351856"/>
 						<reference key="destination" ref="271094735"/>
 					</object>
-					<int key="connectionID">10</int>
+					<int key="connectionID">17</int>
 				</object>
 				<object class="IBConnectionRecord">
 					<object class="IBCocoaTouchEventConnection" key="connection">
 						<string key="label">textFieldDoneEditing:</string>
 						<reference key="source" ref="33806262"/>
 						<reference key="destination" ref="841351856"/>
-						<int key="IBEventType">19</int>
+						<int key="IBEventType">20</int>
 					</object>
-					<int key="connectionID">12</int>
+					<int key="connectionID">19</int>
 				</object>
 			</array>
 			<object class="IBMutableOrderedSet" key="objectRecords">
@@ -213,9 +223,9 @@
 						<reference key="object" ref="766721923"/>
 						<array class="NSMutableArray" key="children">
 							<reference ref="884541269"/>
-							<reference ref="691860902"/>
 							<reference ref="271094735"/>
 							<reference ref="33806262"/>
+							<reference ref="691860902"/>
 						</array>
 						<reference key="parent" ref="0"/>
 					</object>
@@ -267,7 +277,7 @@
 			<nil key="activeLocalization"/>
 			<dictionary class="NSMutableDictionary" key="localizations"/>
 			<nil key="sourceID"/>
-			<int key="maxID">12</int>
+			<int key="maxID">19</int>
 		</object>
 		<object class="IBClassDescriber" key="IBDocument.Classes">
 			<array class="NSMutableArray" key="referencedPartialClassDescriptions">
@@ -276,13 +286,13 @@
 					<string key="superclassName">UIViewController</string>
 					<object class="NSMutableDictionary" key="actions">
 						<string key="NS.key.0">textFieldDoneEditing:</string>
-						<string key="NS.object.0">id</string>
+						<string key="NS.object.0">UITextField</string>
 					</object>
 					<object class="NSMutableDictionary" key="actionInfosByName">
 						<string key="NS.key.0">textFieldDoneEditing:</string>
 						<object class="IBActionInfo" key="NS.object.0">
 							<string key="name">textFieldDoneEditing:</string>
-							<string key="candidateClassName">id</string>
+							<string key="candidateClassName">UITextField</string>
 						</object>
 					</object>
 					<dictionary class="NSMutableDictionary" key="outlets">
