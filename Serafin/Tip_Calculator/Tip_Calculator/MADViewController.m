@@ -50,21 +50,24 @@
 // Allows the "Return" button to be used
 - (BOOL)textFieldShouldReturn:(UITextField *)textField
 {
-    //[textField resignFirstResponder];
-    
     // Switch from text field to text field with the "NEXT" button
     
-    if(textField == check_amount)
+    NSInteger nextTag = textField.tag + 1;
+    UIResponder *next_responder = [textField.superview viewWithTag:nextTag];
+    
+    // Check for if there is a next responder
+    if (next_responder)
     {
-        [tip_percent becomeFirstResponder];
+        [next_responder becomeFirstResponder];
     }
-    if(textField == tip_percent)
+    else
     {
-        [people becomeFirstResponder];
+        [textField resignFirstResponder];
+        [self update_tip_totals];
     }
     
-    [textField resignFirstResponder];
-    return YES;
+    // Keeps the keyboard from retracking in between swtiching boxes
+    return NO;
 }
 
 // Tip Calculation
@@ -95,9 +98,9 @@
                                  initWithTitle:@"Ummm..."
                                  message: @"Who is supposed to pay for the bill if no one is there?"
                                  delegate:self  // If one button set to nil
-                                 cancelButtonTitle:@"Cancel"
-                                 otherButtonTitles:@"OK, nil"
-                                ];  // the list must always end with nil
+                                 cancelButtonTitle:@"No One"
+                                 otherButtonTitles:@"Fix It!",
+                                 nil];  // the list must always end with nil
                                         // If no other buttons set to nil
         [alertView show];
         
@@ -114,26 +117,24 @@
     
 }
 
-// Finished typing in the text field?  Update the tip
-- (void)textFieldDidEndEditing:(UITextField *)textField
-{
-    [self update_tip_totals];
-}
 
 // Close the text editor when a click is outside of a text field
 - (void)touchesBegan:(NSSet *)touches withEvent:(UIEvent *)event
 {
     [self.view endEditing:YES];
+    [self update_tip_totals];
 }
 
+// Calculate Button Updates Calculation and Closes Keyboard
 - (IBAction)calculate:(id)sender {
     [self update_tip_totals];
     [self.view endEditing:YES];
 }
-   
+ 
+// Alert popup makes selecting "Fix it!" changes the number of people to 1 and recalculates
 - (void)alertView:(UIAlertView *)alertView didDismissWithButtonIndex:(NSInteger)buttonIndex
 {
-    if (buttonIndex==1) // OK Button
+    if (buttonIndex == 1) // OK Button
     {
         people.text=[NSString stringWithFormat:@"1"];
         [self update_tip_totals];
