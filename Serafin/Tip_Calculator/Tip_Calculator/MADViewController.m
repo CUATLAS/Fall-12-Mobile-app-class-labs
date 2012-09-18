@@ -53,7 +53,7 @@
     //[textField resignFirstResponder];
     
     // Switch from text field to text field with the "NEXT" button
-    /*
+    
     if(textField == check_amount)
     {
         [tip_percent becomeFirstResponder];
@@ -62,8 +62,6 @@
     {
         [people becomeFirstResponder];
     }
-    return NO;
-     */
     
     [textField resignFirstResponder];
     return YES;
@@ -98,7 +96,8 @@
                                  message: @"Who is supposed to pay for the bill if no one is there?"
                                  delegate:self  // If one button set to nil
                                  cancelButtonTitle:@"Cancel"
-                                 otherButtonTitles:@"OK, nil"];  // the list must always end with nil
+                                 otherButtonTitles:@"OK, nil"
+                                ];  // the list must always end with nil
                                         // If no other buttons set to nil
         [alertView show];
         
