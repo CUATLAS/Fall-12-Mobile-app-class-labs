@@ -45,6 +45,13 @@
     [self updateTipAmounts];
 }
 
+-(void)touchesBegan:(NSSet *)touches withEvent:(UIEvent *)event
+{
+    // Resign keyboard if touch detected outside a text field
+    [self.view endEditing:YES];
+    [self updateTipAmounts];
+}
+
 -(void)alertView:(UIAlertView *)alertView didDismissWithButtonIndex:(NSInteger)buttonIndex
 {
     if (buttonIndex == 1) // OK
