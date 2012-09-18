@@ -1,0 +1,307 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		98DD154D1602335F00041972 /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 98DD154C1602335F00041972 /* UIKit.framework */; };
+		98DD154F1602335F00041972 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 98DD154E1602335F00041972 /* Foundation.framework */; };
+		98DD15511602335F00041972 /* CoreGraphics.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 98DD15501602335F00041972 /* CoreGraphics.framework */; };
+		98DD15571602335F00041972 /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = 98DD15551602335F00041972 /* InfoPlist.strings */; };
+		98DD15591602335F00041972 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 98DD15581602335F00041972 /* main.m */; };
+		98DD155D1602335F00041972 /* MADAppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 98DD155C1602335F00041972 /* MADAppDelegate.m */; };
+		98DD15601602335F00041972 /* MADViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 98DD155F1602335F00041972 /* MADViewController.m */; };
+		98DD15631602335F00041972 /* MADViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = 98DD15611602335F00041972 /* MADViewController.xib */; };
+		98DD156E1602337600041972 /* beatles2.png in Resources */ = {isa = PBXBuildFile; fileRef = 98DD15691602337600041972 /* beatles2.png */; };
+		98DD156F1602337600041972 /* beatles1.png in Resources */ = {isa = PBXBuildFile; fileRef = 98DD156A1602337600041972 /* beatles1.png */; };
+		98DD15721602337600041972 /* Beatles_Abbey_Road.png in Resources */ = {isa = PBXBuildFile; fileRef = 98DD156D1602337600041972 /* Beatles_Abbey_Road.png */; };
+		98DD15741602338400041972 /* Beatles_Abbey_Road_icon@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 98DD15731602338400041972 /* Beatles_Abbey_Road_icon@2x.png */; };
+		98DD1576160234C500041972 /* Beatles_Abbey_Road_icon.png in Resources */ = {isa = PBXBuildFile; fileRef = 98DD1575160234C500041972 /* Beatles_Abbey_Road_icon.png */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXFileReference section */
+		98DD15481602335F00041972 /* Beatles.Jenna.9.13.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Beatles.Jenna.9.13.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		98DD154C1602335F00041972 /* UIKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = UIKit.framework; path = System/Library/Frameworks/UIKit.framework; sourceTree = SDKROOT; };
+		98DD154E1602335F00041972 /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = System/Library/Frameworks/Foundation.framework; sourceTree = SDKROOT; };
+		98DD15501602335F00041972 /* CoreGraphics.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreGraphics.framework; path = System/Library/Frameworks/CoreGraphics.framework; sourceTree = SDKROOT; };
+		98DD15541602335F00041972 /* Beatles.Jenna.9.13-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "Beatles.Jenna.9.13-Info.plist"; sourceTree = "<group>"; };
+		98DD15561602335F00041972 /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
+		98DD15581602335F00041972 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		98DD155A1602335F00041972 /* Beatles.Jenna.9.13-Prefix.pch */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "Beatles.Jenna.9.13-Prefix.pch"; sourceTree = "<group>"; };
+		98DD155B1602335F00041972 /* MADAppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = MADAppDelegate.h; sourceTree = "<group>"; };
+		98DD155C1602335F00041972 /* MADAppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = MADAppDelegate.m; sourceTree = "<group>"; };
+		98DD155E1602335F00041972 /* MADViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = MADViewController.h; sourceTree = "<group>"; };
+		98DD155F1602335F00041972 /* MADViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = MADViewController.m; sourceTree = "<group>"; };
+		98DD15621602335F00041972 /* en */ = {isa = PBXFileReference; lastKnownFileType = file.xib; name = en; path = en.lproj/MADViewController.xib; sourceTree = "<group>"; };
+		98DD15691602337600041972 /* beatles2.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = beatles2.png; sourceTree = "<group>"; };
+		98DD156A1602337600041972 /* beatles1.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = beatles1.png; sourceTree = "<group>"; };
+		98DD156D1602337600041972 /* Beatles_Abbey_Road.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = Beatles_Abbey_Road.png; sourceTree = "<group>"; };
+		98DD15731602338400041972 /* Beatles_Abbey_Road_icon@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = "Beatles_Abbey_Road_icon@2x.png"; path = "../Beatles_Abbey_Road_icon@2x.png"; sourceTree = "<group>"; };
+		98DD1575160234C500041972 /* Beatles_Abbey_Road_icon.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = Beatles_Abbey_Road_icon.png; path = ../Beatles_Abbey_Road_icon.png; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		98DD15451602335F00041972 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				98DD154D1602335F00041972 /* UIKit.framework in Frameworks */,
+				98DD154F1602335F00041972 /* Foundation.framework in Frameworks */,
+				98DD15511602335F00041972 /* CoreGraphics.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		98DD153D1602335F00041972 = {
+			isa = PBXGroup;
+			children = (
+				98DD15521602335F00041972 /* Beatles.Jenna.9.13 */,
+				98DD154B1602335F00041972 /* Frameworks */,
+				98DD15491602335F00041972 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		98DD15491602335F00041972 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				98DD15481602335F00041972 /* Beatles.Jenna.9.13.app */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		98DD154B1602335F00041972 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				98DD154C1602335F00041972 /* UIKit.framework */,
+				98DD154E1602335F00041972 /* Foundation.framework */,
+				98DD15501602335F00041972 /* CoreGraphics.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		98DD15521602335F00041972 /* Beatles.Jenna.9.13 */ = {
+			isa = PBXGroup;
+			children = (
+				98DD155B1602335F00041972 /* MADAppDelegate.h */,
+				98DD155C1602335F00041972 /* MADAppDelegate.m */,
+				98DD155E1602335F00041972 /* MADViewController.h */,
+				98DD155F1602335F00041972 /* MADViewController.m */,
+				98DD15611602335F00041972 /* MADViewController.xib */,
+				98DD15531602335F00041972 /* Supporting Files */,
+			);
+			path = Beatles.Jenna.9.13;
+			sourceTree = "<group>";
+		};
+		98DD15531602335F00041972 /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				98DD15691602337600041972 /* beatles2.png */,
+				98DD156A1602337600041972 /* beatles1.png */,
+				98DD1575160234C500041972 /* Beatles_Abbey_Road_icon.png */,
+				98DD15731602338400041972 /* Beatles_Abbey_Road_icon@2x.png */,
+				98DD156D1602337600041972 /* Beatles_Abbey_Road.png */,
+				98DD15541602335F00041972 /* Beatles.Jenna.9.13-Info.plist */,
+				98DD15551602335F00041972 /* InfoPlist.strings */,
+				98DD15581602335F00041972 /* main.m */,
+				98DD155A1602335F00041972 /* Beatles.Jenna.9.13-Prefix.pch */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		98DD15471602335F00041972 /* Beatles.Jenna.9.13 */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 98DD15661602335F00041972 /* Build configuration list for PBXNativeTarget "Beatles.Jenna.9.13" */;
+			buildPhases = (
+				98DD15441602335F00041972 /* Sources */,
+				98DD15451602335F00041972 /* Frameworks */,
+				98DD15461602335F00041972 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = Beatles.Jenna.9.13;
+			productName = Beatles.Jenna.9.13;
+			productReference = 98DD15481602335F00041972 /* Beatles.Jenna.9.13.app */;
+			productType = "com.apple.product-type.application";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		98DD153F1602335F00041972 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				CLASSPREFIX = MAD;
+				LastUpgradeCheck = 0440;
+				ORGANIZATIONNAME = "Jenna Raderstrong";
+			};
+			buildConfigurationList = 98DD15421602335F00041972 /* Build configuration list for PBXProject "Beatles.Jenna.9.13" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+			);
+			mainGroup = 98DD153D1602335F00041972;
+			productRefGroup = 98DD15491602335F00041972 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				98DD15471602335F00041972 /* Beatles.Jenna.9.13 */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		98DD15461602335F00041972 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				98DD15571602335F00041972 /* InfoPlist.strings in Resources */,
+				98DD15631602335F00041972 /* MADViewController.xib in Resources */,
+				98DD156E1602337600041972 /* beatles2.png in Resources */,
+				98DD156F1602337600041972 /* beatles1.png in Resources */,
+				98DD15721602337600041972 /* Beatles_Abbey_Road.png in Resources */,
+				98DD15741602338400041972 /* Beatles_Abbey_Road_icon@2x.png in Resources */,
+				98DD1576160234C500041972 /* Beatles_Abbey_Road_icon.png in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		98DD15441602335F00041972 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				98DD15591602335F00041972 /* main.m in Sources */,
+				98DD155D1602335F00041972 /* MADAppDelegate.m in Sources */,
+				98DD15601602335F00041972 /* MADViewController.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXVariantGroup section */
+		98DD15551602335F00041972 /* InfoPlist.strings */ = {
+			isa = PBXVariantGroup;
+			children = (
+				98DD15561602335F00041972 /* en */,
+			);
+			name = InfoPlist.strings;
+			sourceTree = "<group>";
+		};
+		98DD15611602335F00041972 /* MADViewController.xib */ = {
+			isa = PBXVariantGroup;
+			children = (
+				98DD15621602335F00041972 /* en */,
+			);
+			name = MADViewController.xib;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		98DD15641602335F00041972 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ARCHS = "$(ARCHS_STANDARD_32_BIT)";
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				GCC_VERSION = com.apple.compilers.llvm.clang.1_0;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 5.1;
+				SDKROOT = iphoneos;
+			};
+			name = Debug;
+		};
+		98DD15651602335F00041972 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ARCHS = "$(ARCHS_STANDARD_32_BIT)";
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_VERSION = com.apple.compilers.llvm.clang.1_0;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 5.1;
+				OTHER_CFLAGS = "-DNS_BLOCK_ASSERTIONS=1";
+				SDKROOT = iphoneos;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		98DD15671602335F00041972 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "Beatles.Jenna.9.13/Beatles.Jenna.9.13-Prefix.pch";
+				INFOPLIST_FILE = "Beatles.Jenna.9.13/Beatles.Jenna.9.13-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				WRAPPER_EXTENSION = app;
+			};
+			name = Debug;
+		};
+		98DD15681602335F00041972 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "Beatles.Jenna.9.13/Beatles.Jenna.9.13-Prefix.pch";
+				INFOPLIST_FILE = "Beatles.Jenna.9.13/Beatles.Jenna.9.13-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				WRAPPER_EXTENSION = app;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		98DD15421602335F00041972 /* Build configuration list for PBXProject "Beatles.Jenna.9.13" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				98DD15641602335F00041972 /* Debug */,
+				98DD15651602335F00041972 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		98DD15661602335F00041972 /* Build configuration list for PBXNativeTarget "Beatles.Jenna.9.13" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				98DD15671602335F00041972 /* Debug */,
+				98DD15681602335F00041972 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 98DD153F1602335F00041972 /* Project object */;
+}
