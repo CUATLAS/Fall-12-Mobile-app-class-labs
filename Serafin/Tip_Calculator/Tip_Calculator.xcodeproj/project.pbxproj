@@ -1,0 +1,287 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		4447AB121608CA290096392A /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 4447AB111608CA290096392A /* UIKit.framework */; };
+		4447AB141608CA290096392A /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 4447AB131608CA290096392A /* Foundation.framework */; };
+		4447AB161608CA290096392A /* CoreGraphics.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 4447AB151608CA290096392A /* CoreGraphics.framework */; };
+		4447AB1C1608CA290096392A /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = 4447AB1A1608CA290096392A /* InfoPlist.strings */; };
+		4447AB1E1608CA290096392A /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 4447AB1D1608CA290096392A /* main.m */; };
+		4447AB221608CA290096392A /* MADAppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 4447AB211608CA290096392A /* MADAppDelegate.m */; };
+		4447AB251608CA290096392A /* MADViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 4447AB241608CA290096392A /* MADViewController.m */; };
+		4447AB281608CA290096392A /* MADViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = 4447AB261608CA290096392A /* MADViewController.xib */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXFileReference section */
+		4447AB0D1608CA290096392A /* Tip_Calculator.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Tip_Calculator.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		4447AB111608CA290096392A /* UIKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = UIKit.framework; path = System/Library/Frameworks/UIKit.framework; sourceTree = SDKROOT; };
+		4447AB131608CA290096392A /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = System/Library/Frameworks/Foundation.framework; sourceTree = SDKROOT; };
+		4447AB151608CA290096392A /* CoreGraphics.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreGraphics.framework; path = System/Library/Frameworks/CoreGraphics.framework; sourceTree = SDKROOT; };
+		4447AB191608CA290096392A /* Tip_Calculator-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "Tip_Calculator-Info.plist"; sourceTree = "<group>"; };
+		4447AB1B1608CA290096392A /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
+		4447AB1D1608CA290096392A /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		4447AB1F1608CA290096392A /* Tip_Calculator-Prefix.pch */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "Tip_Calculator-Prefix.pch"; sourceTree = "<group>"; };
+		4447AB201608CA290096392A /* MADAppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = MADAppDelegate.h; sourceTree = "<group>"; };
+		4447AB211608CA290096392A /* MADAppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = MADAppDelegate.m; sourceTree = "<group>"; };
+		4447AB231608CA290096392A /* MADViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = MADViewController.h; sourceTree = "<group>"; };
+		4447AB241608CA290096392A /* MADViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = MADViewController.m; sourceTree = "<group>"; };
+		4447AB271608CA290096392A /* en */ = {isa = PBXFileReference; lastKnownFileType = file.xib; name = en; path = en.lproj/MADViewController.xib; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		4447AB0A1608CA290096392A /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				4447AB121608CA290096392A /* UIKit.framework in Frameworks */,
+				4447AB141608CA290096392A /* Foundation.framework in Frameworks */,
+				4447AB161608CA290096392A /* CoreGraphics.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		4447AB021608CA290096392A = {
+			isa = PBXGroup;
+			children = (
+				4447AB171608CA290096392A /* Tip_Calculator */,
+				4447AB101608CA290096392A /* Frameworks */,
+				4447AB0E1608CA290096392A /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		4447AB0E1608CA290096392A /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				4447AB0D1608CA290096392A /* Tip_Calculator.app */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		4447AB101608CA290096392A /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				4447AB111608CA290096392A /* UIKit.framework */,
+				4447AB131608CA290096392A /* Foundation.framework */,
+				4447AB151608CA290096392A /* CoreGraphics.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		4447AB171608CA290096392A /* Tip_Calculator */ = {
+			isa = PBXGroup;
+			children = (
+				4447AB201608CA290096392A /* MADAppDelegate.h */,
+				4447AB211608CA290096392A /* MADAppDelegate.m */,
+				4447AB231608CA290096392A /* MADViewController.h */,
+				4447AB241608CA290096392A /* MADViewController.m */,
+				4447AB261608CA290096392A /* MADViewController.xib */,
+				4447AB181608CA290096392A /* Supporting Files */,
+			);
+			path = Tip_Calculator;
+			sourceTree = "<group>";
+		};
+		4447AB181608CA290096392A /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				4447AB191608CA290096392A /* Tip_Calculator-Info.plist */,
+				4447AB1A1608CA290096392A /* InfoPlist.strings */,
+				4447AB1D1608CA290096392A /* main.m */,
+				4447AB1F1608CA290096392A /* Tip_Calculator-Prefix.pch */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		4447AB0C1608CA290096392A /* Tip_Calculator */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 4447AB2B1608CA290096392A /* Build configuration list for PBXNativeTarget "Tip_Calculator" */;
+			buildPhases = (
+				4447AB091608CA290096392A /* Sources */,
+				4447AB0A1608CA290096392A /* Frameworks */,
+				4447AB0B1608CA290096392A /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = Tip_Calculator;
+			productName = Tip_Calculator;
+			productReference = 4447AB0D1608CA290096392A /* Tip_Calculator.app */;
+			productType = "com.apple.product-type.application";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		4447AB041608CA290096392A /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				CLASSPREFIX = MAD;
+				LastUpgradeCheck = 0440;
+				ORGANIZATIONNAME = "Scott Serafin";
+			};
+			buildConfigurationList = 4447AB071608CA290096392A /* Build configuration list for PBXProject "Tip_Calculator" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+			);
+			mainGroup = 4447AB021608CA290096392A;
+			productRefGroup = 4447AB0E1608CA290096392A /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				4447AB0C1608CA290096392A /* Tip_Calculator */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		4447AB0B1608CA290096392A /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				4447AB1C1608CA290096392A /* InfoPlist.strings in Resources */,
+				4447AB281608CA290096392A /* MADViewController.xib in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		4447AB091608CA290096392A /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				4447AB1E1608CA290096392A /* main.m in Sources */,
+				4447AB221608CA290096392A /* MADAppDelegate.m in Sources */,
+				4447AB251608CA290096392A /* MADViewController.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXVariantGroup section */
+		4447AB1A1608CA290096392A /* InfoPlist.strings */ = {
+			isa = PBXVariantGroup;
+			children = (
+				4447AB1B1608CA290096392A /* en */,
+			);
+			name = InfoPlist.strings;
+			sourceTree = "<group>";
+		};
+		4447AB261608CA290096392A /* MADViewController.xib */ = {
+			isa = PBXVariantGroup;
+			children = (
+				4447AB271608CA290096392A /* en */,
+			);
+			name = MADViewController.xib;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		4447AB291608CA290096392A /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ARCHS = "$(ARCHS_STANDARD_32_BIT)";
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				GCC_VERSION = com.apple.compilers.llvm.clang.1_0;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 5.1;
+				SDKROOT = iphoneos;
+			};
+			name = Debug;
+		};
+		4447AB2A1608CA290096392A /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ARCHS = "$(ARCHS_STANDARD_32_BIT)";
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_VERSION = com.apple.compilers.llvm.clang.1_0;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 5.1;
+				OTHER_CFLAGS = "-DNS_BLOCK_ASSERTIONS=1";
+				SDKROOT = iphoneos;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		4447AB2C1608CA290096392A /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "Tip_Calculator/Tip_Calculator-Prefix.pch";
+				INFOPLIST_FILE = "Tip_Calculator/Tip_Calculator-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				WRAPPER_EXTENSION = app;
+			};
+			name = Debug;
+		};
+		4447AB2D1608CA290096392A /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "Tip_Calculator/Tip_Calculator-Prefix.pch";
+				INFOPLIST_FILE = "Tip_Calculator/Tip_Calculator-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				WRAPPER_EXTENSION = app;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		4447AB071608CA290096392A /* Build configuration list for PBXProject "Tip_Calculator" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				4447AB291608CA290096392A /* Debug */,
+				4447AB2A1608CA290096392A /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		4447AB2B1608CA290096392A /* Build configuration list for PBXNativeTarget "Tip_Calculator" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				4447AB2C1608CA290096392A /* Debug */,
+				4447AB2D1608CA290096392A /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 4447AB041608CA290096392A /* Project object */;
+}
