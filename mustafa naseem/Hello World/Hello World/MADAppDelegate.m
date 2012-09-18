@@ -1,16 +1,16 @@
 //
-//  HWLAppDelegate.m
+//  MADAppDelegate.m
 //  Hello World
 //
-//  Created by  on 9/17/12.
+//  Created by  on 9/4/12.
 //  Copyright (c) 2012 __MyCompanyName__. All rights reserved.
 //
 
-#import "HWLAppDelegate.h"
+#import "MADAppDelegate.h"
 
-#import "HWLViewController.h"
+#import "MADViewController.h"
 
-@implementation HWLAppDelegate
+@implementation MADAppDelegate
 
 @synthesize window = _window;
 @synthesize viewController = _viewController;
@@ -19,7 +19,7 @@
 {
     self.window = [[UIWindow alloc] initWithFrame:[[UIScreen mainScreen] bounds]];
     // Override point for customization after application launch.
-    self.viewController = [[HWLViewController alloc] initWithNibName:@"HWLViewController" bundle:nil];
+    self.viewController = [[MADViewController alloc] initWithNibName:@"MADViewController" bundle:nil];
     self.window.rootViewController = self.viewController;
     [self.window makeKeyAndVisible];
     return YES;

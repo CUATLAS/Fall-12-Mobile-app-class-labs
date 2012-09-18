@@ -1,18 +1,18 @@
 //
-//  HWLViewController.m
+//  MADViewController.m
 //  Hello World
 //
-//  Created by  on 9/17/12.
+//  Created by  on 9/4/12.
 //  Copyright (c) 2012 __MyCompanyName__. All rights reserved.
 //
 
-#import "HWLViewController.h"
+#import "MADViewController.h"
 
-@interface HWLViewController ()
+@interface MADViewController ()
 
 @end
 
-@implementation HWLViewController
+@implementation MADViewController
 
 - (void)viewDidLoad
 {

@@ -1,13 +1,13 @@
 //
-//  HWLViewController.h
+//  MADViewController.h
 //  Hello World
 //
-//  Created by  on 9/17/12.
+//  Created by  on 9/4/12.
 //  Copyright (c) 2012 __MyCompanyName__. All rights reserved.
 //
 
 #import <UIKit/UIKit.h>
 
-@interface HWLViewController : UIViewController
+@interface MADViewController : UIViewController
 
 @end
