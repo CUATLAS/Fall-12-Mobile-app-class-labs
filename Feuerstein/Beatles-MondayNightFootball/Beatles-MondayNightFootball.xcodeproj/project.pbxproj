@@ -254,6 +254,7 @@
 				GCC_PRECOMPILE_PREFIX_HEADER = YES;
 				GCC_PREFIX_HEADER = "Beatles-MondayNightFootball/Beatles-MondayNightFootball-Prefix.pch";
 				INFOPLIST_FILE = "Beatles-MondayNightFootball/Beatles-MondayNightFootball-Info.plist";
+				IPHONEOS_DEPLOYMENT_TARGET = 4.3;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				WRAPPER_EXTENSION = app;
 			};
@@ -265,6 +266,7 @@
 				GCC_PRECOMPILE_PREFIX_HEADER = YES;
 				GCC_PREFIX_HEADER = "Beatles-MondayNightFootball/Beatles-MondayNightFootball-Prefix.pch";
 				INFOPLIST_FILE = "Beatles-MondayNightFootball/Beatles-MondayNightFootball-Info.plist";
+				IPHONEOS_DEPLOYMENT_TARGET = 4.3;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				WRAPPER_EXTENSION = app;
 			};
@@ -289,6 +291,7 @@
 				A194C4C51602331900BB981A /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};
