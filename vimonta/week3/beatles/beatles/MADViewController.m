@@ -78,6 +78,25 @@
     // create a new font object
     UIFont *newFont = [UIFont systemFontOfSize:fontSize];
     
+    // change text color based on font size
+    switch (fontSize) {
+        case 10:
+            titleLabel.textColor = [UIColor blueColor];
+            break;
+        case 15:
+            titleLabel.textColor = [UIColor purpleColor];
+            break;
+        case 20:
+            titleLabel.textColor = [UIColor redColor];
+            break;
+        case 25:
+            titleLabel.textColor = [UIColor blackColor];
+            break;
+            
+        default:
+            break;
+    }
+    
     // apply the new font to the label
     titleLabel.font = newFont;
 }
