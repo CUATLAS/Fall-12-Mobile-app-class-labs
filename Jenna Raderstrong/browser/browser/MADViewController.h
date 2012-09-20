@@ -12,5 +12,6 @@
 @property (weak, nonatomic) IBOutlet UIWebView *webView;
 @property (weak, nonatomic) IBOutlet UIToolbar *toolBar;
 - (IBAction)bookmarkItemTapped:(UIBarButtonItem *)sender;
+@property (weak, nonatomic) IBOutlet UIActivityIndicatorView *spinner;
 
 @end

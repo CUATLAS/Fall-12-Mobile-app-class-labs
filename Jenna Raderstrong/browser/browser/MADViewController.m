@@ -13,6 +13,7 @@
 @end
 
 @implementation MADViewController
+@synthesize spinner;
 @synthesize webView;
 @synthesize toolBar;
 
@@ -45,6 +46,7 @@
 {
     [self setWebView:nil];
     [self setToolBar:nil];
+    [self setSpinner:nil];
     [super viewDidUnload];
     // Release any retained subviews of the main view.
 }
@@ -76,6 +78,15 @@
         [self loadWebPageWithString:@"http://www.colorado.edu"];
     }
     
+}
+
+-(void)webViewDidStartLoad:(UIWebView *)webView
+{
+    [spinner startAnimating];
+}
+-(void)webViewDidFinishLoad:(UIWebView *)webView
+{
+    [spinner stopAnimating];
 }
 @end
 
