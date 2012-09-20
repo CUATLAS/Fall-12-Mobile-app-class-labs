@@ -26,6 +26,7 @@
                               cancelButtonTitle:nil
                               otherButtonTitles:@"OK", nil];
     
+    // If loading canceled by going to a different page, ignore
     if ([error code] != NSURLErrorCancelled)
         [alertView show];
 }
@@ -108,7 +109,8 @@
             break;
     }
     
-    [self loadWebPageWithString:urlString];
+    if (urlString)
+        [self loadWebPageWithString:urlString];
 }
 
 @end
