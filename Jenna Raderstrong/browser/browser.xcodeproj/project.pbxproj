@@ -1,0 +1,289 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		98B49C46160B6C050093A7B9 /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 98B49C45160B6C050093A7B9 /* UIKit.framework */; };
+		98B49C48160B6C050093A7B9 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 98B49C47160B6C050093A7B9 /* Foundation.framework */; };
+		98B49C4A160B6C050093A7B9 /* CoreGraphics.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 98B49C49160B6C050093A7B9 /* CoreGraphics.framework */; };
+		98B49C50160B6C050093A7B9 /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = 98B49C4E160B6C050093A7B9 /* InfoPlist.strings */; };
+		98B49C52160B6C050093A7B9 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 98B49C51160B6C050093A7B9 /* main.m */; };
+		98B49C56160B6C050093A7B9 /* MADAppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 98B49C55160B6C050093A7B9 /* MADAppDelegate.m */; };
+		98B49C59160B6C050093A7B9 /* MADViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 98B49C58160B6C050093A7B9 /* MADViewController.m */; };
+		98B49C5C160B6C050093A7B9 /* MADViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = 98B49C5A160B6C050093A7B9 /* MADViewController.xib */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXFileReference section */
+		98B49C41160B6C050093A7B9 /* browser.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = browser.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		98B49C45160B6C050093A7B9 /* UIKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = UIKit.framework; path = System/Library/Frameworks/UIKit.framework; sourceTree = SDKROOT; };
+		98B49C47160B6C050093A7B9 /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = System/Library/Frameworks/Foundation.framework; sourceTree = SDKROOT; };
+		98B49C49160B6C050093A7B9 /* CoreGraphics.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreGraphics.framework; path = System/Library/Frameworks/CoreGraphics.framework; sourceTree = SDKROOT; };
+		98B49C4D160B6C050093A7B9 /* browser-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "browser-Info.plist"; sourceTree = "<group>"; };
+		98B49C4F160B6C050093A7B9 /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
+		98B49C51160B6C050093A7B9 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		98B49C53160B6C050093A7B9 /* browser-Prefix.pch */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "browser-Prefix.pch"; sourceTree = "<group>"; };
+		98B49C54160B6C050093A7B9 /* MADAppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = MADAppDelegate.h; sourceTree = "<group>"; };
+		98B49C55160B6C050093A7B9 /* MADAppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = MADAppDelegate.m; sourceTree = "<group>"; };
+		98B49C57160B6C050093A7B9 /* MADViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = MADViewController.h; sourceTree = "<group>"; };
+		98B49C58160B6C050093A7B9 /* MADViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = MADViewController.m; sourceTree = "<group>"; };
+		98B49C5B160B6C050093A7B9 /* en */ = {isa = PBXFileReference; lastKnownFileType = file.xib; name = en; path = en.lproj/MADViewController.xib; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		98B49C3E160B6C050093A7B9 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				98B49C46160B6C050093A7B9 /* UIKit.framework in Frameworks */,
+				98B49C48160B6C050093A7B9 /* Foundation.framework in Frameworks */,
+				98B49C4A160B6C050093A7B9 /* CoreGraphics.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		98B49C36160B6C050093A7B9 = {
+			isa = PBXGroup;
+			children = (
+				98B49C4B160B6C050093A7B9 /* browser */,
+				98B49C44160B6C050093A7B9 /* Frameworks */,
+				98B49C42160B6C050093A7B9 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		98B49C42160B6C050093A7B9 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				98B49C41160B6C050093A7B9 /* browser.app */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		98B49C44160B6C050093A7B9 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				98B49C45160B6C050093A7B9 /* UIKit.framework */,
+				98B49C47160B6C050093A7B9 /* Foundation.framework */,
+				98B49C49160B6C050093A7B9 /* CoreGraphics.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		98B49C4B160B6C050093A7B9 /* browser */ = {
+			isa = PBXGroup;
+			children = (
+				98B49C54160B6C050093A7B9 /* MADAppDelegate.h */,
+				98B49C55160B6C050093A7B9 /* MADAppDelegate.m */,
+				98B49C57160B6C050093A7B9 /* MADViewController.h */,
+				98B49C58160B6C050093A7B9 /* MADViewController.m */,
+				98B49C5A160B6C050093A7B9 /* MADViewController.xib */,
+				98B49C4C160B6C050093A7B9 /* Supporting Files */,
+			);
+			path = browser;
+			sourceTree = "<group>";
+		};
+		98B49C4C160B6C050093A7B9 /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				98B49C4D160B6C050093A7B9 /* browser-Info.plist */,
+				98B49C4E160B6C050093A7B9 /* InfoPlist.strings */,
+				98B49C51160B6C050093A7B9 /* main.m */,
+				98B49C53160B6C050093A7B9 /* browser-Prefix.pch */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		98B49C40160B6C050093A7B9 /* browser */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 98B49C5F160B6C050093A7B9 /* Build configuration list for PBXNativeTarget "browser" */;
+			buildPhases = (
+				98B49C3D160B6C050093A7B9 /* Sources */,
+				98B49C3E160B6C050093A7B9 /* Frameworks */,
+				98B49C3F160B6C050093A7B9 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = browser;
+			productName = browser;
+			productReference = 98B49C41160B6C050093A7B9 /* browser.app */;
+			productType = "com.apple.product-type.application";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		98B49C38160B6C050093A7B9 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				CLASSPREFIX = MAD;
+				LastUpgradeCheck = 0440;
+				ORGANIZATIONNAME = "Jenna Raderstrong";
+			};
+			buildConfigurationList = 98B49C3B160B6C050093A7B9 /* Build configuration list for PBXProject "browser" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+			);
+			mainGroup = 98B49C36160B6C050093A7B9;
+			productRefGroup = 98B49C42160B6C050093A7B9 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				98B49C40160B6C050093A7B9 /* browser */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		98B49C3F160B6C050093A7B9 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				98B49C50160B6C050093A7B9 /* InfoPlist.strings in Resources */,
+				98B49C5C160B6C050093A7B9 /* MADViewController.xib in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		98B49C3D160B6C050093A7B9 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				98B49C52160B6C050093A7B9 /* main.m in Sources */,
+				98B49C56160B6C050093A7B9 /* MADAppDelegate.m in Sources */,
+				98B49C59160B6C050093A7B9 /* MADViewController.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXVariantGroup section */
+		98B49C4E160B6C050093A7B9 /* InfoPlist.strings */ = {
+			isa = PBXVariantGroup;
+			children = (
+				98B49C4F160B6C050093A7B9 /* en */,
+			);
+			name = InfoPlist.strings;
+			sourceTree = "<group>";
+		};
+		98B49C5A160B6C050093A7B9 /* MADViewController.xib */ = {
+			isa = PBXVariantGroup;
+			children = (
+				98B49C5B160B6C050093A7B9 /* en */,
+			);
+			name = MADViewController.xib;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		98B49C5D160B6C050093A7B9 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ARCHS = "$(ARCHS_STANDARD_32_BIT)";
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				GCC_VERSION = com.apple.compilers.llvm.clang.1_0;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 5.1;
+				SDKROOT = iphoneos;
+				TARGETED_DEVICE_FAMILY = 2;
+			};
+			name = Debug;
+		};
+		98B49C5E160B6C050093A7B9 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ARCHS = "$(ARCHS_STANDARD_32_BIT)";
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_VERSION = com.apple.compilers.llvm.clang.1_0;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 5.1;
+				OTHER_CFLAGS = "-DNS_BLOCK_ASSERTIONS=1";
+				SDKROOT = iphoneos;
+				TARGETED_DEVICE_FAMILY = 2;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		98B49C60160B6C050093A7B9 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "browser/browser-Prefix.pch";
+				INFOPLIST_FILE = "browser/browser-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				WRAPPER_EXTENSION = app;
+			};
+			name = Debug;
+		};
+		98B49C61160B6C050093A7B9 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "browser/browser-Prefix.pch";
+				INFOPLIST_FILE = "browser/browser-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				WRAPPER_EXTENSION = app;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		98B49C3B160B6C050093A7B9 /* Build configuration list for PBXProject "browser" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				98B49C5D160B6C050093A7B9 /* Debug */,
+				98B49C5E160B6C050093A7B9 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		98B49C5F160B6C050093A7B9 /* Build configuration list for PBXNativeTarget "browser" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				98B49C60160B6C050093A7B9 /* Debug */,
+				98B49C61160B6C050093A7B9 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 98B49C38160B6C050093A7B9 /* Project object */;
+}
