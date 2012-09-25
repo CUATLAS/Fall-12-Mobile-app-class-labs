@@ -15,6 +15,8 @@
 		4447AB221608CA290096392A /* MADAppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 4447AB211608CA290096392A /* MADAppDelegate.m */; };
 		4447AB251608CA290096392A /* MADViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 4447AB241608CA290096392A /* MADViewController.m */; };
 		4447AB281608CA290096392A /* MADViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = 4447AB261608CA290096392A /* MADViewController.xib */; };
+		44CF2DE3161216B6006EAB95 /* icon.png in Resources */ = {isa = PBXBuildFile; fileRef = 44CF2DE2161216B6006EAB95 /* icon.png */; };
+		44CF2DE6161216B9006EAB95 /* icon-hd.png in Resources */ = {isa = PBXBuildFile; fileRef = 44CF2DE5161216B9006EAB95 /* icon-hd.png */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -31,6 +33,8 @@
 		4447AB231608CA290096392A /* MADViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = MADViewController.h; sourceTree = "<group>"; };
 		4447AB241608CA290096392A /* MADViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = MADViewController.m; sourceTree = "<group>"; };
 		4447AB271608CA290096392A /* en */ = {isa = PBXFileReference; lastKnownFileType = file.xib; name = en; path = en.lproj/MADViewController.xib; sourceTree = "<group>"; };
+		44CF2DE2161216B6006EAB95 /* icon.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = icon.png; sourceTree = "<group>"; };
+		44CF2DE5161216B9006EAB95 /* icon-hd.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "icon-hd.png"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -50,6 +54,8 @@
 		4447AB021608CA290096392A = {
 			isa = PBXGroup;
 			children = (
+				44CF2DE5161216B9006EAB95 /* icon-hd.png */,
+				44CF2DE2161216B6006EAB95 /* icon.png */,
 				4447AB171608CA290096392A /* Tip_Calculator */,
 				4447AB101608CA290096392A /* Frameworks */,
 				4447AB0E1608CA290096392A /* Products */,
@@ -152,6 +158,8 @@
 			files = (
 				4447AB1C1608CA290096392A /* InfoPlist.strings in Resources */,
 				4447AB281608CA290096392A /* MADViewController.xib in Resources */,
+				44CF2DE3161216B6006EAB95 /* icon.png in Resources */,
+				44CF2DE6161216B9006EAB95 /* icon-hd.png in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -280,6 +288,7 @@
 				4447AB2D1608CA290096392A /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};
