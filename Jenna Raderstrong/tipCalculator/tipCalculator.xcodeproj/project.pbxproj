@@ -79,9 +79,9 @@
 			children = (
 				989E67D11608CA95005EA4AB /* MADAppDelegate.h */,
 				989E67D21608CA95005EA4AB /* MADAppDelegate.m */,
+				989E67D71608CA95005EA4AB /* MADViewController.xib */,
 				989E67D41608CA95005EA4AB /* MADViewController.h */,
 				989E67D51608CA95005EA4AB /* MADViewController.m */,
-				989E67D71608CA95005EA4AB /* MADViewController.xib */,
 				989E67C91608CA95005EA4AB /* Supporting Files */,
 			);
 			path = tipCalculator;
@@ -280,6 +280,7 @@
 				989E67DE1608CA95005EA4AB /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};
