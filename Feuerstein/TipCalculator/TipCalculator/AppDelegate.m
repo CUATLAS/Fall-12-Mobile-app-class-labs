@@ -42,6 +42,12 @@
 - (void)applicationDidBecomeActive:(UIApplication *)application
 {
     // Restart any tasks that were paused (or not yet started) while the application was inactive. If the application was previously in the background, optionally refresh the user interface.
+    self.viewController.checkAmountField.text = @"";
+    self.viewController.tipPercentField.text = @"";
+    self.viewController.numPeopleField.text = @"1";
+    self.viewController.tipLabel.text = @"$0.00";
+    self.viewController.totalLabel.text = @"$0.00";
+    self.viewController.perPersonLabel.text = @"$0.00";
 }
 
 - (void)applicationWillTerminate:(UIApplication *)application
