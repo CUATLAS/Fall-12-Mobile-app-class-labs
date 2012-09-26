@@ -15,7 +15,7 @@
 		98355DEB15F8FF8700C4D97E /* MADAppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 98355DEA15F8FF8700C4D97E /* MADAppDelegate.m */; };
 		98355DEE15F8FF8700C4D97E /* MADViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 98355DED15F8FF8700C4D97E /* MADViewController.m */; };
 		98355DF115F8FF8700C4D97E /* MADViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = 98355DEF15F8FF8700C4D97E /* MADViewController.xib */; };
-		98A1D4C31606E7A800C73252 /* atlas.png in Resources */ = {isa = PBXBuildFile; fileRef = 98A1D4C21606E7A800C73252 /* atlas.png */; };
+		98B4DCCC1612986F0092C5F2 /* atlas.png in Resources */ = {isa = PBXBuildFile; fileRef = 98B4DCCB1612986F0092C5F2 /* atlas.png */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -32,7 +32,7 @@
 		98355DEC15F8FF8700C4D97E /* MADViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = MADViewController.h; sourceTree = "<group>"; };
 		98355DED15F8FF8700C4D97E /* MADViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = MADViewController.m; sourceTree = "<group>"; };
 		98355DF015F8FF8700C4D97E /* en */ = {isa = PBXFileReference; lastKnownFileType = file.xib; name = en; path = en.lproj/MADViewController.xib; sourceTree = "<group>"; };
-		98A1D4C21606E7A800C73252 /* atlas.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = atlas.png; path = ../../../../atlas.png; sourceTree = "<group>"; };
+		98B4DCCB1612986F0092C5F2 /* atlas.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = atlas.png; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -92,7 +92,7 @@
 		98355DE115F8FF8700C4D97E /* Supporting Files */ = {
 			isa = PBXGroup;
 			children = (
-				98A1D4C21606E7A800C73252 /* atlas.png */,
+				98B4DCCB1612986F0092C5F2 /* atlas.png */,
 				98355DE215F8FF8700C4D97E /* HelloName3-Info.plist */,
 				98355DE315F8FF8700C4D97E /* InfoPlist.strings */,
 				98355DE615F8FF8700C4D97E /* main.m */,
@@ -155,7 +155,7 @@
 			files = (
 				98355DE515F8FF8700C4D97E /* InfoPlist.strings in Resources */,
 				98355DF115F8FF8700C4D97E /* MADViewController.xib in Resources */,
-				98A1D4C31606E7A800C73252 /* atlas.png in Resources */,
+				98B4DCCC1612986F0092C5F2 /* atlas.png in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
