@@ -15,9 +15,9 @@
 		9894214D1606DDCB00790D9B /* MADAppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 9894214C1606DDCB00790D9B /* MADAppDelegate.m */; };
 		989421501606DDCB00790D9B /* MADViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 9894214F1606DDCB00790D9B /* MADViewController.m */; };
 		989421531606DDCB00790D9B /* MADViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = 989421511606DDCB00790D9B /* MADViewController.xib */; };
-		9894215C1606DE3000790D9B /* Yankees-logo-300x300.png in Resources */ = {isa = PBXBuildFile; fileRef = 989421591606DE3000790D9B /* Yankees-logo-300x300.png */; };
-		9894215D1606DE3000790D9B /* metslogo300.png in Resources */ = {isa = PBXBuildFile; fileRef = 9894215A1606DE3000790D9B /* metslogo300.png */; };
-		9894215E1606DE3000790D9B /* yankees_mets_300.png in Resources */ = {isa = PBXBuildFile; fileRef = 9894215B1606DE3000790D9B /* yankees_mets_300.png */; };
+		989C9ACE1612980100F753A3 /* yankees_mets_300.png in Resources */ = {isa = PBXBuildFile; fileRef = 989C9ACB1612980100F753A3 /* yankees_mets_300.png */; };
+		989C9ACF1612980100F753A3 /* metslogo300.png in Resources */ = {isa = PBXBuildFile; fileRef = 989C9ACC1612980100F753A3 /* metslogo300.png */; };
+		989C9AD01612980100F753A3 /* Yankees-logo-300x300.png in Resources */ = {isa = PBXBuildFile; fileRef = 989C9ACD1612980100F753A3 /* Yankees-logo-300x300.png */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -34,9 +34,9 @@
 		9894214E1606DDCB00790D9B /* MADViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = MADViewController.h; sourceTree = "<group>"; };
 		9894214F1606DDCB00790D9B /* MADViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = MADViewController.m; sourceTree = "<group>"; };
 		989421521606DDCB00790D9B /* en */ = {isa = PBXFileReference; lastKnownFileType = file.xib; name = en; path = en.lproj/MADViewController.xib; sourceTree = "<group>"; };
-		989421591606DE3000790D9B /* Yankees-logo-300x300.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = "Yankees-logo-300x300.png"; path = "../../../../../../../Desktop/Yankees-logo-300x300.png"; sourceTree = "<group>"; };
-		9894215A1606DE3000790D9B /* metslogo300.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = metslogo300.png; path = ../../../../../../../Desktop/metslogo300.png; sourceTree = "<group>"; };
-		9894215B1606DE3000790D9B /* yankees_mets_300.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = yankees_mets_300.png; path = ../../../../../../../Desktop/yankees_mets_300.png; sourceTree = "<group>"; };
+		989C9ACB1612980100F753A3 /* yankees_mets_300.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = yankees_mets_300.png; sourceTree = "<group>"; };
+		989C9ACC1612980100F753A3 /* metslogo300.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = metslogo300.png; sourceTree = "<group>"; };
+		989C9ACD1612980100F753A3 /* Yankees-logo-300x300.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "Yankees-logo-300x300.png"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -96,10 +96,10 @@
 		989421431606DDCB00790D9B /* Supporting Files */ = {
 			isa = PBXGroup;
 			children = (
+				989C9ACB1612980100F753A3 /* yankees_mets_300.png */,
+				989C9ACC1612980100F753A3 /* metslogo300.png */,
+				989C9ACD1612980100F753A3 /* Yankees-logo-300x300.png */,
 				989421441606DDCB00790D9B /* YankeeMet-Info.plist */,
-				989421591606DE3000790D9B /* Yankees-logo-300x300.png */,
-				9894215A1606DE3000790D9B /* metslogo300.png */,
-				9894215B1606DE3000790D9B /* yankees_mets_300.png */,
 				989421451606DDCB00790D9B /* InfoPlist.strings */,
 				989421481606DDCB00790D9B /* main.m */,
 				9894214A1606DDCB00790D9B /* YankeeMet-Prefix.pch */,
@@ -161,9 +161,9 @@
 			files = (
 				989421471606DDCB00790D9B /* InfoPlist.strings in Resources */,
 				989421531606DDCB00790D9B /* MADViewController.xib in Resources */,
-				9894215C1606DE3000790D9B /* Yankees-logo-300x300.png in Resources */,
-				9894215D1606DE3000790D9B /* metslogo300.png in Resources */,
-				9894215E1606DE3000790D9B /* yankees_mets_300.png in Resources */,
+				989C9ACE1612980100F753A3 /* yankees_mets_300.png in Resources */,
+				989C9ACF1612980100F753A3 /* metslogo300.png in Resources */,
+				989C9AD01612980100F753A3 /* Yankees-logo-300x300.png in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -292,6 +292,7 @@
 				989421581606DDCB00790D9B /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};
