@@ -14,6 +14,7 @@
 @property (weak, nonatomic) IBOutlet UISegmentedControl *age_control;
 - (IBAction)age_selector:(UISegmentedControl *)sender;
 - (IBAction)text_slider:(UISlider *)sender;
+@property (weak, nonatomic) IBOutlet UISwitch *capital_switch;
 - (IBAction)capital_switch:(UISwitch *)sender;
 @property (weak, nonatomic) IBOutlet UILabel *switch_label;
 @property (weak, nonatomic) IBOutlet UILabel *font_size_label;
