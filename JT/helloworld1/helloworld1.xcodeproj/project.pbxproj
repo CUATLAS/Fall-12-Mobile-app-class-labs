@@ -1,0 +1,292 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		AFD72F4B15EFC14300F191EA /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = AFD72F4A15EFC14300F191EA /* UIKit.framework */; };
+		AFD72F4D15EFC14300F191EA /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = AFD72F4C15EFC14300F191EA /* Foundation.framework */; };
+		AFD72F4F15EFC14300F191EA /* CoreGraphics.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = AFD72F4E15EFC14300F191EA /* CoreGraphics.framework */; };
+		AFD72F5515EFC14300F191EA /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = AFD72F5315EFC14300F191EA /* InfoPlist.strings */; };
+		AFD72F5715EFC14300F191EA /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = AFD72F5615EFC14300F191EA /* main.m */; };
+		AFD72F5B15EFC14300F191EA /* MADAppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = AFD72F5A15EFC14300F191EA /* MADAppDelegate.m */; };
+		AFD72F5E15EFC14300F191EA /* MADViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = AFD72F5D15EFC14300F191EA /* MADViewController.m */; };
+		AFD72F6115EFC14300F191EA /* MADViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = AFD72F5F15EFC14300F191EA /* MADViewController.xib */; };
+		AFD72F6A15EFCFCF00F191EA /* hello_burst_icon@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = AFD72F6915EFCFCF00F191EA /* hello_burst_icon@2x.png */; };
+		AFD72F6C15EFCFE600F191EA /* hello_burst_icon.png in Resources */ = {isa = PBXBuildFile; fileRef = AFD72F6B15EFCFE600F191EA /* hello_burst_icon.png */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXFileReference section */
+		AFD72F4615EFC14300F191EA /* helloworld1.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = helloworld1.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		AFD72F4A15EFC14300F191EA /* UIKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = UIKit.framework; path = System/Library/Frameworks/UIKit.framework; sourceTree = SDKROOT; };
+		AFD72F4C15EFC14300F191EA /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = System/Library/Frameworks/Foundation.framework; sourceTree = SDKROOT; };
+		AFD72F4E15EFC14300F191EA /* CoreGraphics.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreGraphics.framework; path = System/Library/Frameworks/CoreGraphics.framework; sourceTree = SDKROOT; };
+		AFD72F5215EFC14300F191EA /* helloworld1-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "helloworld1-Info.plist"; sourceTree = "<group>"; };
+		AFD72F5415EFC14300F191EA /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
+		AFD72F5615EFC14300F191EA /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		AFD72F5815EFC14300F191EA /* helloworld1-Prefix.pch */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "helloworld1-Prefix.pch"; sourceTree = "<group>"; };
+		AFD72F5915EFC14300F191EA /* MADAppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = MADAppDelegate.h; sourceTree = "<group>"; };
+		AFD72F5A15EFC14300F191EA /* MADAppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = MADAppDelegate.m; sourceTree = "<group>"; };
+		AFD72F5C15EFC14300F191EA /* MADViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = MADViewController.h; sourceTree = "<group>"; };
+		AFD72F5D15EFC14300F191EA /* MADViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = MADViewController.m; sourceTree = "<group>"; };
+		AFD72F6015EFC14300F191EA /* en */ = {isa = PBXFileReference; lastKnownFileType = file.xib; name = en; path = en.lproj/MADViewController.xib; sourceTree = "<group>"; };
+		AFD72F6715EFCFAF00F191EA /* Default.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = Default.png; sourceTree = "<group>"; };
+		AFD72F6915EFCFCF00F191EA /* hello_burst_icon@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = "hello_burst_icon@2x.png"; path = "../hello_burst_icon@2x.png"; sourceTree = "<group>"; };
+		AFD72F6B15EFCFE600F191EA /* hello_burst_icon.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = hello_burst_icon.png; path = ../hello_burst_icon.png; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		AFD72F4315EFC14300F191EA /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				AFD72F4B15EFC14300F191EA /* UIKit.framework in Frameworks */,
+				AFD72F4D15EFC14300F191EA /* Foundation.framework in Frameworks */,
+				AFD72F4F15EFC14300F191EA /* CoreGraphics.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		AFD72F3B15EFC14300F191EA = {
+			isa = PBXGroup;
+			children = (
+				AFD72F6715EFCFAF00F191EA /* Default.png */,
+				AFD72F5015EFC14300F191EA /* helloworld1 */,
+				AFD72F4915EFC14300F191EA /* Frameworks */,
+				AFD72F4715EFC14300F191EA /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		AFD72F4715EFC14300F191EA /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				AFD72F4615EFC14300F191EA /* helloworld1.app */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		AFD72F4915EFC14300F191EA /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				AFD72F4A15EFC14300F191EA /* UIKit.framework */,
+				AFD72F4C15EFC14300F191EA /* Foundation.framework */,
+				AFD72F4E15EFC14300F191EA /* CoreGraphics.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		AFD72F5015EFC14300F191EA /* helloworld1 */ = {
+			isa = PBXGroup;
+			children = (
+				AFD72F5915EFC14300F191EA /* MADAppDelegate.h */,
+				AFD72F5A15EFC14300F191EA /* MADAppDelegate.m */,
+				AFD72F5C15EFC14300F191EA /* MADViewController.h */,
+				AFD72F5D15EFC14300F191EA /* MADViewController.m */,
+				AFD72F5F15EFC14300F191EA /* MADViewController.xib */,
+				AFD72F5115EFC14300F191EA /* Supporting Files */,
+			);
+			path = helloworld1;
+			sourceTree = "<group>";
+		};
+		AFD72F5115EFC14300F191EA /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				AFD72F6B15EFCFE600F191EA /* hello_burst_icon.png */,
+				AFD72F6915EFCFCF00F191EA /* hello_burst_icon@2x.png */,
+				AFD72F5215EFC14300F191EA /* helloworld1-Info.plist */,
+				AFD72F5315EFC14300F191EA /* InfoPlist.strings */,
+				AFD72F5615EFC14300F191EA /* main.m */,
+				AFD72F5815EFC14300F191EA /* helloworld1-Prefix.pch */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		AFD72F4515EFC14300F191EA /* helloworld1 */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = AFD72F6415EFC14300F191EA /* Build configuration list for PBXNativeTarget "helloworld1" */;
+			buildPhases = (
+				AFD72F4215EFC14300F191EA /* Sources */,
+				AFD72F4315EFC14300F191EA /* Frameworks */,
+				AFD72F4415EFC14300F191EA /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = helloworld1;
+			productName = helloworld1;
+			productReference = AFD72F4615EFC14300F191EA /* helloworld1.app */;
+			productType = "com.apple.product-type.application";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		AFD72F3D15EFC14300F191EA /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				CLASSPREFIX = MAD;
+				LastUpgradeCheck = 0430;
+			};
+			buildConfigurationList = AFD72F4015EFC14300F191EA /* Build configuration list for PBXProject "helloworld1" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+			);
+			mainGroup = AFD72F3B15EFC14300F191EA;
+			productRefGroup = AFD72F4715EFC14300F191EA /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				AFD72F4515EFC14300F191EA /* helloworld1 */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		AFD72F4415EFC14300F191EA /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				AFD72F5515EFC14300F191EA /* InfoPlist.strings in Resources */,
+				AFD72F6115EFC14300F191EA /* MADViewController.xib in Resources */,
+				AFD72F6A15EFCFCF00F191EA /* hello_burst_icon@2x.png in Resources */,
+				AFD72F6C15EFCFE600F191EA /* hello_burst_icon.png in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		AFD72F4215EFC14300F191EA /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				AFD72F5715EFC14300F191EA /* main.m in Sources */,
+				AFD72F5B15EFC14300F191EA /* MADAppDelegate.m in Sources */,
+				AFD72F5E15EFC14300F191EA /* MADViewController.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXVariantGroup section */
+		AFD72F5315EFC14300F191EA /* InfoPlist.strings */ = {
+			isa = PBXVariantGroup;
+			children = (
+				AFD72F5415EFC14300F191EA /* en */,
+			);
+			name = InfoPlist.strings;
+			sourceTree = "<group>";
+		};
+		AFD72F5F15EFC14300F191EA /* MADViewController.xib */ = {
+			isa = PBXVariantGroup;
+			children = (
+				AFD72F6015EFC14300F191EA /* en */,
+			);
+			name = MADViewController.xib;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		AFD72F6215EFC14300F191EA /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ARCHS = "$(ARCHS_STANDARD_32_BIT)";
+				CLANG_ENABLE_OBJC_ARC = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				GCC_VERSION = com.apple.compilers.llvm.clang.1_0;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 5.1;
+				SDKROOT = iphoneos;
+			};
+			name = Debug;
+		};
+		AFD72F6315EFC14300F191EA /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ARCHS = "$(ARCHS_STANDARD_32_BIT)";
+				CLANG_ENABLE_OBJC_ARC = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_VERSION = com.apple.compilers.llvm.clang.1_0;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 5.1;
+				OTHER_CFLAGS = "-DNS_BLOCK_ASSERTIONS=1";
+				SDKROOT = iphoneos;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		AFD72F6515EFC14300F191EA /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "helloworld1/helloworld1-Prefix.pch";
+				INFOPLIST_FILE = "helloworld1/helloworld1-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				WRAPPER_EXTENSION = app;
+			};
+			name = Debug;
+		};
+		AFD72F6615EFC14300F191EA /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "helloworld1/helloworld1-Prefix.pch";
+				INFOPLIST_FILE = "helloworld1/helloworld1-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				WRAPPER_EXTENSION = app;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		AFD72F4015EFC14300F191EA /* Build configuration list for PBXProject "helloworld1" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				AFD72F6215EFC14300F191EA /* Debug */,
+				AFD72F6315EFC14300F191EA /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		AFD72F6415EFC14300F191EA /* Build configuration list for PBXNativeTarget "helloworld1" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				AFD72F6515EFC14300F191EA /* Debug */,
+				AFD72F6615EFC14300F191EA /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = AFD72F3D15EFC14300F191EA /* Project object */;
+}
