@@ -64,22 +64,25 @@
 
 -(void)actionSheet:(UIActionSheet *)actionSheet clickedButtonAtIndex:(NSInteger)buttonIndex
 {
-    if(buttonIndex==0)
-        
-    {
+    switch(buttonIndex){
+ 
+        case 0:
+    
         [self loadWebPageWithString:@"http://atlas.colorado.edu"];
-    }
-    else if(buttonIndex==1)
-    {
+    
+  
+        case 1:
+    
         [self loadWebPageWithString:@"http://tam.colorado.edu"];
-    }
-    else if (buttonIndex==2)
-    {
-        [self loadWebPageWithString:@"http://www.colorado.edu"];
-    }
+    
+
+        case 2:
+    
+        [self loadWebPageWithString:@"http://www.colorado.edu"];}
+    
+    
     
 }
-
 -(void)webViewDidStartLoad:(UIWebView *)webView
 {
     [spinner startAnimating];

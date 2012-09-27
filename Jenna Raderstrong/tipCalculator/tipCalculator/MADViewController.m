@@ -77,19 +77,19 @@ totalDuePerPerson.text=[currencyFormatter stringFromNumber:[NSNumber numberWithF
 /*-(void)textFieldDidEndEditing:(UITextField *)textField
 {
     [self updateTipTotals];
-}*/
+}
 -(void)alertView:(UIAlertView *)alertView didDismissWithButtonIndex:(NSInteger)buttonIndex
 {if(buttonIndex==1)//OK Button
     people.text=[NSString stringWithFormat:@"1"];
     [self updateTipTotals];
-}
+}*/
 - (IBAction)calculateButton:(id)sender {
     bool allFilled=NO;
     bool goodValues=NO;
     
     if([checkAmount.text length]>0 && [tipPercent.text length] > 0 && [people.text length] > 0)
     { allFilled=YES;}
-    if ( [checkAmount.text floatValue] && [tipPercent.text floatValue] > 0 && [people.text floatValue] > 0){
+    if ( [checkAmount.text floatValue] >0 && [tipPercent.text floatValue] > 0 && [people.text floatValue] > 0){
         goodValues=YES;}
     if (goodValues==YES && allFilled==YES){
         [self updateTipTotals];

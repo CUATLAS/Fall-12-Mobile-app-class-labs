@@ -15,6 +15,7 @@
 		989E67D31608CA95005EA4AB /* MADAppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 989E67D21608CA95005EA4AB /* MADAppDelegate.m */; };
 		989E67D61608CA95005EA4AB /* MADViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 989E67D51608CA95005EA4AB /* MADViewController.m */; };
 		989E67D91608CA95005EA4AB /* MADViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = 989E67D71608CA95005EA4AB /* MADViewController.xib */; };
+		98E93E911614ADD2004D8C1B /* images.png in Resources */ = {isa = PBXBuildFile; fileRef = 98E93E901614ADD2004D8C1B /* images.png */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -31,6 +32,7 @@
 		989E67D41608CA95005EA4AB /* MADViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = MADViewController.h; sourceTree = "<group>"; };
 		989E67D51608CA95005EA4AB /* MADViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = MADViewController.m; sourceTree = "<group>"; };
 		989E67D81608CA95005EA4AB /* en */ = {isa = PBXFileReference; lastKnownFileType = file.xib; name = en; path = en.lproj/MADViewController.xib; sourceTree = "<group>"; };
+		98E93E901614ADD2004D8C1B /* images.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = images.png; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -50,6 +52,7 @@
 		989E67B31608CA94005EA4AB = {
 			isa = PBXGroup;
 			children = (
+				98E93E901614ADD2004D8C1B /* images.png */,
 				989E67C81608CA95005EA4AB /* tipCalculator */,
 				989E67C11608CA95005EA4AB /* Frameworks */,
 				989E67BF1608CA95005EA4AB /* Products */,
@@ -152,6 +155,7 @@
 			files = (
 				989E67CD1608CA95005EA4AB /* InfoPlist.strings in Resources */,
 				989E67D91608CA95005EA4AB /* MADViewController.xib in Resources */,
+				98E93E911614ADD2004D8C1B /* images.png in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
