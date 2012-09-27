@@ -1,0 +1,299 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		333F3CCF16118A0400D44132 /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 333F3CCE16118A0400D44132 /* UIKit.framework */; };
+		333F3CD116118A0400D44132 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 333F3CD016118A0400D44132 /* Foundation.framework */; };
+		333F3CD316118A0400D44132 /* CoreGraphics.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 333F3CD216118A0400D44132 /* CoreGraphics.framework */; };
+		333F3CD916118A0400D44132 /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = 333F3CD716118A0400D44132 /* InfoPlist.strings */; };
+		333F3CDB16118A0400D44132 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 333F3CDA16118A0400D44132 /* main.m */; };
+		333F3CDF16118A0400D44132 /* MADAppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 333F3CDE16118A0400D44132 /* MADAppDelegate.m */; };
+		333F3CE216118A0400D44132 /* MADViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 333F3CE116118A0400D44132 /* MADViewController.m */; };
+		333F3CE516118A0400D44132 /* MADViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = 333F3CE316118A0400D44132 /* MADViewController.xib */; };
+		333F3CEE16118A3500D44132 /* metslogo300.png in Resources */ = {isa = PBXBuildFile; fileRef = 333F3CEB16118A3500D44132 /* metslogo300.png */; };
+		333F3CEF16118A3500D44132 /* yankees_mets_300.png in Resources */ = {isa = PBXBuildFile; fileRef = 333F3CEC16118A3500D44132 /* yankees_mets_300.png */; };
+		333F3CF016118A3500D44132 /* Yankees-logo-300x300.png in Resources */ = {isa = PBXBuildFile; fileRef = 333F3CED16118A3500D44132 /* Yankees-logo-300x300.png */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXFileReference section */
+		333F3CCA16118A0400D44132 /* HelloImage.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = HelloImage.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		333F3CCE16118A0400D44132 /* UIKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = UIKit.framework; path = System/Library/Frameworks/UIKit.framework; sourceTree = SDKROOT; };
+		333F3CD016118A0400D44132 /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = System/Library/Frameworks/Foundation.framework; sourceTree = SDKROOT; };
+		333F3CD216118A0400D44132 /* CoreGraphics.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreGraphics.framework; path = System/Library/Frameworks/CoreGraphics.framework; sourceTree = SDKROOT; };
+		333F3CD616118A0400D44132 /* HelloImage-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "HelloImage-Info.plist"; sourceTree = "<group>"; };
+		333F3CD816118A0400D44132 /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
+		333F3CDA16118A0400D44132 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		333F3CDC16118A0400D44132 /* HelloImage-Prefix.pch */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "HelloImage-Prefix.pch"; sourceTree = "<group>"; };
+		333F3CDD16118A0400D44132 /* MADAppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = MADAppDelegate.h; sourceTree = "<group>"; };
+		333F3CDE16118A0400D44132 /* MADAppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = MADAppDelegate.m; sourceTree = "<group>"; };
+		333F3CE016118A0400D44132 /* MADViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = MADViewController.h; sourceTree = "<group>"; };
+		333F3CE116118A0400D44132 /* MADViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = MADViewController.m; sourceTree = "<group>"; };
+		333F3CE416118A0400D44132 /* en */ = {isa = PBXFileReference; lastKnownFileType = file.xib; name = en; path = en.lproj/MADViewController.xib; sourceTree = "<group>"; };
+		333F3CEB16118A3500D44132 /* metslogo300.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = metslogo300.png; sourceTree = "<group>"; };
+		333F3CEC16118A3500D44132 /* yankees_mets_300.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = yankees_mets_300.png; sourceTree = "<group>"; };
+		333F3CED16118A3500D44132 /* Yankees-logo-300x300.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "Yankees-logo-300x300.png"; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		333F3CC716118A0300D44132 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				333F3CCF16118A0400D44132 /* UIKit.framework in Frameworks */,
+				333F3CD116118A0400D44132 /* Foundation.framework in Frameworks */,
+				333F3CD316118A0400D44132 /* CoreGraphics.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		333F3CBF16118A0300D44132 = {
+			isa = PBXGroup;
+			children = (
+				333F3CD416118A0400D44132 /* HelloImage */,
+				333F3CCD16118A0400D44132 /* Frameworks */,
+				333F3CCB16118A0400D44132 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		333F3CCB16118A0400D44132 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				333F3CCA16118A0400D44132 /* HelloImage.app */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		333F3CCD16118A0400D44132 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				333F3CCE16118A0400D44132 /* UIKit.framework */,
+				333F3CD016118A0400D44132 /* Foundation.framework */,
+				333F3CD216118A0400D44132 /* CoreGraphics.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		333F3CD416118A0400D44132 /* HelloImage */ = {
+			isa = PBXGroup;
+			children = (
+				333F3CDD16118A0400D44132 /* MADAppDelegate.h */,
+				333F3CDE16118A0400D44132 /* MADAppDelegate.m */,
+				333F3CE016118A0400D44132 /* MADViewController.h */,
+				333F3CE116118A0400D44132 /* MADViewController.m */,
+				333F3CE316118A0400D44132 /* MADViewController.xib */,
+				333F3CEB16118A3500D44132 /* metslogo300.png */,
+				333F3CEC16118A3500D44132 /* yankees_mets_300.png */,
+				333F3CED16118A3500D44132 /* Yankees-logo-300x300.png */,
+				333F3CD516118A0400D44132 /* Supporting Files */,
+			);
+			path = HelloImage;
+			sourceTree = "<group>";
+		};
+		333F3CD516118A0400D44132 /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				333F3CD616118A0400D44132 /* HelloImage-Info.plist */,
+				333F3CD716118A0400D44132 /* InfoPlist.strings */,
+				333F3CDA16118A0400D44132 /* main.m */,
+				333F3CDC16118A0400D44132 /* HelloImage-Prefix.pch */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		333F3CC916118A0300D44132 /* HelloImage */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 333F3CE816118A0400D44132 /* Build configuration list for PBXNativeTarget "HelloImage" */;
+			buildPhases = (
+				333F3CC616118A0300D44132 /* Sources */,
+				333F3CC716118A0300D44132 /* Frameworks */,
+				333F3CC816118A0300D44132 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = HelloImage;
+			productName = HelloImage;
+			productReference = 333F3CCA16118A0400D44132 /* HelloImage.app */;
+			productType = "com.apple.product-type.application";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		333F3CC116118A0300D44132 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				CLASSPREFIX = MAD;
+				LastUpgradeCheck = 0440;
+				ORGANIZATIONNAME = "Elise J Beall";
+			};
+			buildConfigurationList = 333F3CC416118A0300D44132 /* Build configuration list for PBXProject "HelloImage" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+			);
+			mainGroup = 333F3CBF16118A0300D44132;
+			productRefGroup = 333F3CCB16118A0400D44132 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				333F3CC916118A0300D44132 /* HelloImage */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		333F3CC816118A0300D44132 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				333F3CD916118A0400D44132 /* InfoPlist.strings in Resources */,
+				333F3CE516118A0400D44132 /* MADViewController.xib in Resources */,
+				333F3CEE16118A3500D44132 /* metslogo300.png in Resources */,
+				333F3CEF16118A3500D44132 /* yankees_mets_300.png in Resources */,
+				333F3CF016118A3500D44132 /* Yankees-logo-300x300.png in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		333F3CC616118A0300D44132 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				333F3CDB16118A0400D44132 /* main.m in Sources */,
+				333F3CDF16118A0400D44132 /* MADAppDelegate.m in Sources */,
+				333F3CE216118A0400D44132 /* MADViewController.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXVariantGroup section */
+		333F3CD716118A0400D44132 /* InfoPlist.strings */ = {
+			isa = PBXVariantGroup;
+			children = (
+				333F3CD816118A0400D44132 /* en */,
+			);
+			name = InfoPlist.strings;
+			sourceTree = "<group>";
+		};
+		333F3CE316118A0400D44132 /* MADViewController.xib */ = {
+			isa = PBXVariantGroup;
+			children = (
+				333F3CE416118A0400D44132 /* en */,
+			);
+			name = MADViewController.xib;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		333F3CE616118A0400D44132 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ARCHS = "$(ARCHS_STANDARD_32_BIT)";
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				GCC_VERSION = com.apple.compilers.llvm.clang.1_0;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 5.1;
+				SDKROOT = iphoneos;
+			};
+			name = Debug;
+		};
+		333F3CE716118A0400D44132 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ARCHS = "$(ARCHS_STANDARD_32_BIT)";
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_VERSION = com.apple.compilers.llvm.clang.1_0;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 5.1;
+				OTHER_CFLAGS = "-DNS_BLOCK_ASSERTIONS=1";
+				SDKROOT = iphoneos;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		333F3CE916118A0400D44132 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "HelloImage/HelloImage-Prefix.pch";
+				INFOPLIST_FILE = "HelloImage/HelloImage-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				WRAPPER_EXTENSION = app;
+			};
+			name = Debug;
+		};
+		333F3CEA16118A0400D44132 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "HelloImage/HelloImage-Prefix.pch";
+				INFOPLIST_FILE = "HelloImage/HelloImage-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				WRAPPER_EXTENSION = app;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		333F3CC416118A0300D44132 /* Build configuration list for PBXProject "HelloImage" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				333F3CE616118A0400D44132 /* Debug */,
+				333F3CE716118A0400D44132 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		333F3CE816118A0400D44132 /* Build configuration list for PBXNativeTarget "HelloImage" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				333F3CE916118A0400D44132 /* Debug */,
+				333F3CEA16118A0400D44132 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 333F3CC116118A0300D44132 /* Project object */;
+}
