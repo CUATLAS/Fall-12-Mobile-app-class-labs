@@ -1,0 +1,299 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		753B262A15E42D84004605C2 /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 753B262915E42D84004605C2 /* UIKit.framework */; };
+		753B262C15E42D84004605C2 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 753B262B15E42D84004605C2 /* Foundation.framework */; };
+		753B262E15E42D84004605C2 /* CoreGraphics.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 753B262D15E42D84004605C2 /* CoreGraphics.framework */; };
+		753B263415E42D84004605C2 /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = 753B263215E42D84004605C2 /* InfoPlist.strings */; };
+		753B263615E42D84004605C2 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 753B263515E42D84004605C2 /* main.m */; };
+		753B263A15E42D84004605C2 /* BIDAppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 753B263915E42D84004605C2 /* BIDAppDelegate.m */; };
+		753B263D15E42D84004605C2 /* BIDViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 753B263C15E42D84004605C2 /* BIDViewController.m */; };
+		753B264015E42D85004605C2 /* BIDViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = 753B263E15E42D85004605C2 /* BIDViewController.xib */; };
+		753B264915E42FD8004605C2 /* metslogo300.png in Resources */ = {isa = PBXBuildFile; fileRef = 753B264615E42FD8004605C2 /* metslogo300.png */; };
+		753B264A15E42FD8004605C2 /* yankees_mets_300.png in Resources */ = {isa = PBXBuildFile; fileRef = 753B264715E42FD8004605C2 /* yankees_mets_300.png */; };
+		753B264B15E42FD8004605C2 /* Yankees-logo-300x300.png in Resources */ = {isa = PBXBuildFile; fileRef = 753B264815E42FD8004605C2 /* Yankees-logo-300x300.png */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXFileReference section */
+		753B262515E42D84004605C2 /* HelloWorld3.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = HelloWorld3.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		753B262915E42D84004605C2 /* UIKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = UIKit.framework; path = System/Library/Frameworks/UIKit.framework; sourceTree = SDKROOT; };
+		753B262B15E42D84004605C2 /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = System/Library/Frameworks/Foundation.framework; sourceTree = SDKROOT; };
+		753B262D15E42D84004605C2 /* CoreGraphics.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreGraphics.framework; path = System/Library/Frameworks/CoreGraphics.framework; sourceTree = SDKROOT; };
+		753B263115E42D84004605C2 /* HelloWorld3-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "HelloWorld3-Info.plist"; sourceTree = "<group>"; };
+		753B263315E42D84004605C2 /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
+		753B263515E42D84004605C2 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		753B263715E42D84004605C2 /* HelloWorld3-Prefix.pch */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "HelloWorld3-Prefix.pch"; sourceTree = "<group>"; };
+		753B263815E42D84004605C2 /* BIDAppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = BIDAppDelegate.h; sourceTree = "<group>"; };
+		753B263915E42D84004605C2 /* BIDAppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = BIDAppDelegate.m; sourceTree = "<group>"; };
+		753B263B15E42D84004605C2 /* BIDViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = BIDViewController.h; sourceTree = "<group>"; };
+		753B263C15E42D84004605C2 /* BIDViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = BIDViewController.m; sourceTree = "<group>"; };
+		753B263F15E42D85004605C2 /* en */ = {isa = PBXFileReference; lastKnownFileType = file.xib; name = en; path = en.lproj/BIDViewController.xib; sourceTree = "<group>"; };
+		753B264615E42FD8004605C2 /* metslogo300.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = metslogo300.png; sourceTree = "<group>"; };
+		753B264715E42FD8004605C2 /* yankees_mets_300.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = yankees_mets_300.png; sourceTree = "<group>"; };
+		753B264815E42FD8004605C2 /* Yankees-logo-300x300.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "Yankees-logo-300x300.png"; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		753B262215E42D84004605C2 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				753B262A15E42D84004605C2 /* UIKit.framework in Frameworks */,
+				753B262C15E42D84004605C2 /* Foundation.framework in Frameworks */,
+				753B262E15E42D84004605C2 /* CoreGraphics.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		753B261A15E42D84004605C2 = {
+			isa = PBXGroup;
+			children = (
+				753B262F15E42D84004605C2 /* HelloWorld3 */,
+				753B262815E42D84004605C2 /* Frameworks */,
+				753B262615E42D84004605C2 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		753B262615E42D84004605C2 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				753B262515E42D84004605C2 /* HelloWorld3.app */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		753B262815E42D84004605C2 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				753B262915E42D84004605C2 /* UIKit.framework */,
+				753B262B15E42D84004605C2 /* Foundation.framework */,
+				753B262D15E42D84004605C2 /* CoreGraphics.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		753B262F15E42D84004605C2 /* HelloWorld3 */ = {
+			isa = PBXGroup;
+			children = (
+				753B263815E42D84004605C2 /* BIDAppDelegate.h */,
+				753B263915E42D84004605C2 /* BIDAppDelegate.m */,
+				753B263B15E42D84004605C2 /* BIDViewController.h */,
+				753B263C15E42D84004605C2 /* BIDViewController.m */,
+				753B263E15E42D85004605C2 /* BIDViewController.xib */,
+				753B263015E42D84004605C2 /* Supporting Files */,
+			);
+			path = HelloWorld3;
+			sourceTree = "<group>";
+		};
+		753B263015E42D84004605C2 /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				753B264615E42FD8004605C2 /* metslogo300.png */,
+				753B264715E42FD8004605C2 /* yankees_mets_300.png */,
+				753B264815E42FD8004605C2 /* Yankees-logo-300x300.png */,
+				753B263115E42D84004605C2 /* HelloWorld3-Info.plist */,
+				753B263215E42D84004605C2 /* InfoPlist.strings */,
+				753B263515E42D84004605C2 /* main.m */,
+				753B263715E42D84004605C2 /* HelloWorld3-Prefix.pch */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		753B262415E42D84004605C2 /* HelloWorld3 */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 753B264315E42D85004605C2 /* Build configuration list for PBXNativeTarget "HelloWorld3" */;
+			buildPhases = (
+				753B262115E42D84004605C2 /* Sources */,
+				753B262215E42D84004605C2 /* Frameworks */,
+				753B262315E42D84004605C2 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = HelloWorld3;
+			productName = HelloWorld3;
+			productReference = 753B262515E42D84004605C2 /* HelloWorld3.app */;
+			productType = "com.apple.product-type.application";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		753B261C15E42D84004605C2 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				CLASSPREFIX = BID;
+				LastUpgradeCheck = 0440;
+				ORGANIZATIONNAME = "Aileen Pierce";
+			};
+			buildConfigurationList = 753B261F15E42D84004605C2 /* Build configuration list for PBXProject "HelloWorld3" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+			);
+			mainGroup = 753B261A15E42D84004605C2;
+			productRefGroup = 753B262615E42D84004605C2 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				753B262415E42D84004605C2 /* HelloWorld3 */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		753B262315E42D84004605C2 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				753B263415E42D84004605C2 /* InfoPlist.strings in Resources */,
+				753B264015E42D85004605C2 /* BIDViewController.xib in Resources */,
+				753B264915E42FD8004605C2 /* metslogo300.png in Resources */,
+				753B264A15E42FD8004605C2 /* yankees_mets_300.png in Resources */,
+				753B264B15E42FD8004605C2 /* Yankees-logo-300x300.png in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		753B262115E42D84004605C2 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				753B263615E42D84004605C2 /* main.m in Sources */,
+				753B263A15E42D84004605C2 /* BIDAppDelegate.m in Sources */,
+				753B263D15E42D84004605C2 /* BIDViewController.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXVariantGroup section */
+		753B263215E42D84004605C2 /* InfoPlist.strings */ = {
+			isa = PBXVariantGroup;
+			children = (
+				753B263315E42D84004605C2 /* en */,
+			);
+			name = InfoPlist.strings;
+			sourceTree = "<group>";
+		};
+		753B263E15E42D85004605C2 /* BIDViewController.xib */ = {
+			isa = PBXVariantGroup;
+			children = (
+				753B263F15E42D85004605C2 /* en */,
+			);
+			name = BIDViewController.xib;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		753B264115E42D85004605C2 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ARCHS = "$(ARCHS_STANDARD_32_BIT)";
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				GCC_VERSION = com.apple.compilers.llvm.clang.1_0;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 5.1;
+				SDKROOT = iphoneos;
+			};
+			name = Debug;
+		};
+		753B264215E42D85004605C2 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ARCHS = "$(ARCHS_STANDARD_32_BIT)";
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_VERSION = com.apple.compilers.llvm.clang.1_0;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 5.1;
+				OTHER_CFLAGS = "-DNS_BLOCK_ASSERTIONS=1";
+				SDKROOT = iphoneos;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		753B264415E42D85004605C2 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "HelloWorld3/HelloWorld3-Prefix.pch";
+				INFOPLIST_FILE = "HelloWorld3/HelloWorld3-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				WRAPPER_EXTENSION = app;
+			};
+			name = Debug;
+		};
+		753B264515E42D85004605C2 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "HelloWorld3/HelloWorld3-Prefix.pch";
+				INFOPLIST_FILE = "HelloWorld3/HelloWorld3-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				WRAPPER_EXTENSION = app;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		753B261F15E42D84004605C2 /* Build configuration list for PBXProject "HelloWorld3" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				753B264115E42D85004605C2 /* Debug */,
+				753B264215E42D85004605C2 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		753B264315E42D85004605C2 /* Build configuration list for PBXNativeTarget "HelloWorld3" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				753B264415E42D85004605C2 /* Debug */,
+				753B264515E42D85004605C2 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 753B261C15E42D84004605C2 /* Project object */;
+}
