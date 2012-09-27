@@ -37,6 +37,12 @@
 - (void)applicationWillEnterForeground:(UIApplication *)application
 {
     // Called as part of the transition from the background to the inactive state; here you can undo many of the changes made on entering the background.
+    self.viewController.checkAmount.text=@"";
+    self.viewController.tipPercent.text=@"";
+    self.viewController.people.text=@"1";
+    self.viewController.tipDue.text=@"$0.00";
+    self.viewController.totalDue.text=@"0.00";
+    self.viewController.totalDuePerPerson.text=@"0.00";
 }
 
 - (void)applicationDidBecomeActive:(UIApplication *)application
