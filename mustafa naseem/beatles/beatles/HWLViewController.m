@@ -21,6 +21,7 @@
 
 - (void)viewDidLoad
 {
+    imageControl.selectedSegmentIndex = -1;
     [super viewDidLoad];
 	// Do any additional setup after loading the view, typically from a nib.
 }
@@ -29,8 +30,6 @@
 {
     [self setBeatlesImage:nil];
     [self setTitleLabel:nil];
-    [self setBeatlesImage:nil];
-    [self setBeatlesImage:nil];
     [self setImageControl:nil];
     [self setCapitalizedSwitch:nil];
     [self setFontSizeNumberLabel:nil];
@@ -43,15 +42,39 @@
     return (interfaceOrientation != UIInterfaceOrientationPortraitUpsideDown);
 }
 
-- (IBAction)changeImage:(UISegmentedControl *)sender {
-    if ([sender selectedSegmentIndex]==0) {
+-(void) updateImage{
+    if (imageControl.selectedSegmentIndex==0) {
         titleLabel.text=@"Young Beatles";
         beatlesImage.image=[UIImage imageNamed:@"beatles1.png"];
-    } else if ([ sender selectedSegmentIndex]==1) {
+    } else if (imageControl.selectedSegmentIndex==1) {
         titleLabel.text=@"Not as young Beatles";
         beatlesImage.image=[UIImage imageNamed:@"beatles2.png"];
     }
 }
+
+-(void) updateCaps{
+    if (capitalizedSwitch.on) {
+        titleLabel.text=[titleLabel.text uppercaseString];
+    } else {
+        titleLabel.text=[titleLabel.text lowercaseString];
+    }
+}
+
+//- (IBAction)changeImage:(UISegmentedControl *)sender {
+//    if ([sender selectedSegmentIndex]==0) {
+//        titleLabel.text=@"Young Beatles";
+//        beatlesImage.image=[UIImage imageNamed:@"beatles1.png"];
+//    } else if ([ sender selectedSegmentIndex]==1) {
+//        titleLabel.text=@"Not as young Beatles";
+//        beatlesImage.image=[UIImage imageNamed:@"beatles2.png"];
+//    }
+//}
+
+-(IBAction)changeImage:(UISegmentedControl *)sender {
+    [self updateImage];
+    [self updateCaps];
+}
+
 - (IBAction)updateFont:(UISwitch *)sender {
     if (capitalizedSwitch.on) {
         titleLabel.text=[titleLabel.text uppercaseString];
