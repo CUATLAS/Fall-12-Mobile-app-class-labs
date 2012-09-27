@@ -21,6 +21,7 @@
 
 - (void)viewDidLoad
 {
+    imageControl.selectedSegmentIndex = -1;
     [super viewDidLoad];
 	// Do any additional setup after loading the view, typically from a nib.
 }
@@ -39,6 +40,23 @@
 - (BOOL)shouldAutorotateToInterfaceOrientation:(UIInterfaceOrientation)interfaceOrientation
 {
     return (interfaceOrientation != UIInterfaceOrientationPortraitUpsideDown);
+}
+
+-(void)updateImage{
+    if(imageControl.selectedSegmentIndex==0){
+        titleLabel.text=@"Young Beatles";
+        beatlesImage.image=[UIImage imageNamed:@"beatles1.png"];
+    } else if (imageControl.selectedSegmentIndex==1){
+        titleLabel.text=@"Not as young Beatles";
+        beatlesImage.image=[UIImage imageNamed:@"beatles2.png"];
+    }
+}
+-(void)updateCaps{
+    if(capitalizedSwitch.on){
+        titleLabel.text=[titleLabel.text uppercaseString];
+    } else {
+        titleLabel.text=[titleLabel.text lowercaseString];
+    }
 }
 
 //Segment, which is similar to a button that changes the picture with what side fo the segment is touched
