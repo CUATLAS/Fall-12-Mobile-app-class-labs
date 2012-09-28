@@ -22,13 +22,13 @@
 		5650138816156D3200E1A7B3 /* UIKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = UIKit.framework; path = System/Library/Frameworks/UIKit.framework; sourceTree = SDKROOT; };
 		5650138A16156D3200E1A7B3 /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = System/Library/Frameworks/Foundation.framework; sourceTree = SDKROOT; };
 		5650138C16156D3200E1A7B3 /* CoreGraphics.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreGraphics.framework; path = System/Library/Frameworks/CoreGraphics.framework; sourceTree = SDKROOT; };
-		5650139016156D3200E1A7B3 /* Browser-Info.plist */ = {isa = PBXFileReference; path = "Browser-Info.plist"; sourceTree = "<group>"; };
+		5650139016156D3200E1A7B3 /* Browser-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "Browser-Info.plist"; sourceTree = "<group>"; };
 		5650139216156D3200E1A7B3 /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
 		5650139416156D3200E1A7B3 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
-		5650139616156D3200E1A7B3 /* Browser-Prefix.pch */ = {isa = PBXFileReference; path = "Browser-Prefix.pch"; sourceTree = "<group>"; };
-		5650139716156D3200E1A7B3 /* HWLAppDelegate.h */ = {isa = PBXFileReference; path = HWLAppDelegate.h; sourceTree = "<group>"; };
+		5650139616156D3200E1A7B3 /* Browser-Prefix.pch */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "Browser-Prefix.pch"; sourceTree = "<group>"; };
+		5650139716156D3200E1A7B3 /* HWLAppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = HWLAppDelegate.h; sourceTree = "<group>"; };
 		5650139816156D3200E1A7B3 /* HWLAppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = HWLAppDelegate.m; sourceTree = "<group>"; };
-		5650139A16156D3200E1A7B3 /* HWLViewController.h */ = {isa = PBXFileReference; path = HWLViewController.h; sourceTree = "<group>"; };
+		5650139A16156D3200E1A7B3 /* HWLViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = HWLViewController.h; sourceTree = "<group>"; };
 		5650139B16156D3200E1A7B3 /* HWLViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = HWLViewController.m; sourceTree = "<group>"; };
 		5650139E16156D3200E1A7B3 /* en */ = {isa = PBXFileReference; lastKnownFileType = file.xib; name = en; path = en.lproj/HWLViewController.xib; sourceTree = "<group>"; };
 /* End PBXFileReference section */
