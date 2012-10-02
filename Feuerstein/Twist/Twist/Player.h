@@ -12,6 +12,7 @@
 @interface Player : CCSprite {
     BOOL facingRight;
     BOOL isRunning;
+    BOOL inAir;
     BOOL glowIncreasing;
     BOOL displayingDust;
 }
