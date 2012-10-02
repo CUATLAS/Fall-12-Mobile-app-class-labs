@@ -5,7 +5,7 @@
 //  Created by Ben Leduc-Mills on 9/28/12.
 //  Copyright (c) 2012 Ben Leduc-Mills. All rights reserved.
 //
-//  Adapted (for the iPad and for left-handed players) from Jack McGrath
+//  Adapted (for the iPad and for left-handed players and with sound) from Jack McGrath
 //  http://www.technobuffalo.com/companies/apple/introduction-to-ios-development-programming-pong-part-1/
 //
 
@@ -90,7 +90,7 @@
 
 -(void) playPaddleSound {
     
-    NSString *path = [[NSBundle mainBundle] pathForResource:@"crunch"
+    NSString *path = [[NSBundle mainBundle] pathForResource:@"boing2"
                                                      ofType:@"wav"];
     SystemSoundID soundID;
     AudioServicesCreateSystemSoundID(
@@ -125,14 +125,8 @@
             frame.origin.x = CGRectGetMaxX(playerPaddle.frame);
             ball.frame = frame;
             ballVelocity.x = -ballVelocity.x;
-            
-            NSString *path = [[NSBundle mainBundle] pathForResource:@"boing2"
-                                                             ofType:@"wav"];
-            SystemSoundID soundID;
-            AudioServicesCreateSystemSoundID(
-                                             (__bridge CFURLRef)[NSURL fileURLWithPath:path], &soundID);
-            AudioServicesPlaySystemSound (soundID);
-            
+        
+           [self playPaddleSound];
             
             
         }
@@ -143,14 +137,9 @@
             //frame.origin.x = CGRectGetMaxX(computerPaddle.frame);
             ball.frame = frame;
             ballVelocity.x = -ballVelocity.x;
-            //paddleSound();
             
-            NSString *path = [[NSBundle mainBundle] pathForResource:@"boing2"
-                                                             ofType:@"wav"];
-            SystemSoundID soundID;
-            AudioServicesCreateSystemSoundID(
-                                             (__bridge CFURLRef)[NSURL fileURLWithPath:path], &soundID);
-            AudioServicesPlaySystemSound (soundID);
+            [self playPaddleSound];
+   
             
             
         }
