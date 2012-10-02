@@ -1,0 +1,284 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		5657F853161B3F4300E6C28C /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 5657F852161B3F4300E6C28C /* UIKit.framework */; };
+		5657F855161B3F4300E6C28C /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 5657F854161B3F4300E6C28C /* Foundation.framework */; };
+		5657F857161B3F4300E6C28C /* CoreGraphics.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 5657F856161B3F4300E6C28C /* CoreGraphics.framework */; };
+		5657F85D161B3F4300E6C28C /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = 5657F85B161B3F4300E6C28C /* InfoPlist.strings */; };
+		5657F85F161B3F4300E6C28C /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 5657F85E161B3F4300E6C28C /* main.m */; };
+		5657F863161B3F4300E6C28C /* HWLAppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 5657F862161B3F4300E6C28C /* HWLAppDelegate.m */; };
+		5657F866161B3F4300E6C28C /* HWLViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 5657F865161B3F4300E6C28C /* HWLViewController.m */; };
+		5657F869161B3F4300E6C28C /* HWLViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = 5657F867161B3F4300E6C28C /* HWLViewController.xib */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXFileReference section */
+		5657F84E161B3F4300E6C28C /* Mileage Calculator.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "Mileage Calculator.app"; sourceTree = BUILT_PRODUCTS_DIR; };
+		5657F852161B3F4300E6C28C /* UIKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = UIKit.framework; path = System/Library/Frameworks/UIKit.framework; sourceTree = SDKROOT; };
+		5657F854161B3F4300E6C28C /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = System/Library/Frameworks/Foundation.framework; sourceTree = SDKROOT; };
+		5657F856161B3F4300E6C28C /* CoreGraphics.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreGraphics.framework; path = System/Library/Frameworks/CoreGraphics.framework; sourceTree = SDKROOT; };
+		5657F85A161B3F4300E6C28C /* Mileage Calculator-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "Mileage Calculator-Info.plist"; sourceTree = "<group>"; };
+		5657F85C161B3F4300E6C28C /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
+		5657F85E161B3F4300E6C28C /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		5657F860161B3F4300E6C28C /* Mileage Calculator-Prefix.pch */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "Mileage Calculator-Prefix.pch"; sourceTree = "<group>"; };
+		5657F861161B3F4300E6C28C /* HWLAppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = HWLAppDelegate.h; sourceTree = "<group>"; };
+		5657F862161B3F4300E6C28C /* HWLAppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = HWLAppDelegate.m; sourceTree = "<group>"; };
+		5657F864161B3F4300E6C28C /* HWLViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = HWLViewController.h; sourceTree = "<group>"; };
+		5657F865161B3F4300E6C28C /* HWLViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = HWLViewController.m; sourceTree = "<group>"; };
+		5657F868161B3F4300E6C28C /* en */ = {isa = PBXFileReference; lastKnownFileType = file.xib; name = en; path = en.lproj/HWLViewController.xib; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		5657F84B161B3F4300E6C28C /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				5657F853161B3F4300E6C28C /* UIKit.framework in Frameworks */,
+				5657F855161B3F4300E6C28C /* Foundation.framework in Frameworks */,
+				5657F857161B3F4300E6C28C /* CoreGraphics.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		5657F843161B3F4300E6C28C = {
+			isa = PBXGroup;
+			children = (
+				5657F858161B3F4300E6C28C /* Mileage Calculator */,
+				5657F851161B3F4300E6C28C /* Frameworks */,
+				5657F84F161B3F4300E6C28C /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		5657F84F161B3F4300E6C28C /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				5657F84E161B3F4300E6C28C /* Mileage Calculator.app */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		5657F851161B3F4300E6C28C /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				5657F852161B3F4300E6C28C /* UIKit.framework */,
+				5657F854161B3F4300E6C28C /* Foundation.framework */,
+				5657F856161B3F4300E6C28C /* CoreGraphics.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		5657F858161B3F4300E6C28C /* Mileage Calculator */ = {
+			isa = PBXGroup;
+			children = (
+				5657F861161B3F4300E6C28C /* HWLAppDelegate.h */,
+				5657F862161B3F4300E6C28C /* HWLAppDelegate.m */,
+				5657F864161B3F4300E6C28C /* HWLViewController.h */,
+				5657F865161B3F4300E6C28C /* HWLViewController.m */,
+				5657F867161B3F4300E6C28C /* HWLViewController.xib */,
+				5657F859161B3F4300E6C28C /* Supporting Files */,
+			);
+			path = "Mileage Calculator";
+			sourceTree = "<group>";
+		};
+		5657F859161B3F4300E6C28C /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				5657F85A161B3F4300E6C28C /* Mileage Calculator-Info.plist */,
+				5657F85B161B3F4300E6C28C /* InfoPlist.strings */,
+				5657F85E161B3F4300E6C28C /* main.m */,
+				5657F860161B3F4300E6C28C /* Mileage Calculator-Prefix.pch */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		5657F84D161B3F4300E6C28C /* Mileage Calculator */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 5657F86C161B3F4300E6C28C /* Build configuration list for PBXNativeTarget "Mileage Calculator" */;
+			buildPhases = (
+				5657F84A161B3F4300E6C28C /* Sources */,
+				5657F84B161B3F4300E6C28C /* Frameworks */,
+				5657F84C161B3F4300E6C28C /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = "Mileage Calculator";
+			productName = "Mileage Calculator";
+			productReference = 5657F84E161B3F4300E6C28C /* Mileage Calculator.app */;
+			productType = "com.apple.product-type.application";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		5657F845161B3F4300E6C28C /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				CLASSPREFIX = HWL;
+				LastUpgradeCheck = 0430;
+			};
+			buildConfigurationList = 5657F848161B3F4300E6C28C /* Build configuration list for PBXProject "Mileage Calculator" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+			);
+			mainGroup = 5657F843161B3F4300E6C28C;
+			productRefGroup = 5657F84F161B3F4300E6C28C /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				5657F84D161B3F4300E6C28C /* Mileage Calculator */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		5657F84C161B3F4300E6C28C /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				5657F85D161B3F4300E6C28C /* InfoPlist.strings in Resources */,
+				5657F869161B3F4300E6C28C /* HWLViewController.xib in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		5657F84A161B3F4300E6C28C /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				5657F85F161B3F4300E6C28C /* main.m in Sources */,
+				5657F863161B3F4300E6C28C /* HWLAppDelegate.m in Sources */,
+				5657F866161B3F4300E6C28C /* HWLViewController.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXVariantGroup section */
+		5657F85B161B3F4300E6C28C /* InfoPlist.strings */ = {
+			isa = PBXVariantGroup;
+			children = (
+				5657F85C161B3F4300E6C28C /* en */,
+			);
+			name = InfoPlist.strings;
+			sourceTree = "<group>";
+		};
+		5657F867161B3F4300E6C28C /* HWLViewController.xib */ = {
+			isa = PBXVariantGroup;
+			children = (
+				5657F868161B3F4300E6C28C /* en */,
+			);
+			name = HWLViewController.xib;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		5657F86A161B3F4300E6C28C /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ARCHS = "$(ARCHS_STANDARD_32_BIT)";
+				CLANG_ENABLE_OBJC_ARC = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				GCC_VERSION = com.apple.compilers.llvm.clang.1_0;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 5.1;
+				SDKROOT = iphoneos;
+				TARGETED_DEVICE_FAMILY = 2;
+			};
+			name = Debug;
+		};
+		5657F86B161B3F4300E6C28C /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ARCHS = "$(ARCHS_STANDARD_32_BIT)";
+				CLANG_ENABLE_OBJC_ARC = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_VERSION = com.apple.compilers.llvm.clang.1_0;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 5.1;
+				OTHER_CFLAGS = "-DNS_BLOCK_ASSERTIONS=1";
+				SDKROOT = iphoneos;
+				TARGETED_DEVICE_FAMILY = 2;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		5657F86D161B3F4300E6C28C /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "Mileage Calculator/Mileage Calculator-Prefix.pch";
+				INFOPLIST_FILE = "Mileage Calculator/Mileage Calculator-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				WRAPPER_EXTENSION = app;
+			};
+			name = Debug;
+		};
+		5657F86E161B3F4300E6C28C /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "Mileage Calculator/Mileage Calculator-Prefix.pch";
+				INFOPLIST_FILE = "Mileage Calculator/Mileage Calculator-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				WRAPPER_EXTENSION = app;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		5657F848161B3F4300E6C28C /* Build configuration list for PBXProject "Mileage Calculator" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				5657F86A161B3F4300E6C28C /* Debug */,
+				5657F86B161B3F4300E6C28C /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		5657F86C161B3F4300E6C28C /* Build configuration list for PBXNativeTarget "Mileage Calculator" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				5657F86D161B3F4300E6C28C /* Debug */,
+				5657F86E161B3F4300E6C28C /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 5657F845161B3F4300E6C28C /* Project object */;
+}
