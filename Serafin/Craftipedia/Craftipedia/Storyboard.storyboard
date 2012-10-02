@@ -1,0 +1,124 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<document type="com.apple.InterfaceBuilder3.CocoaTouch.Storyboard.XIB" version="2.0" toolsVersion="2840" systemVersion="12C54" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" initialViewController="wv9-Xn-gYS">
+    <dependencies>
+        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="1926"/>
+    </dependencies>
+    <scenes>
+        <!--View Controller - Items-->
+        <scene sceneID="rDZ-Ch-k1a">
+            <objects>
+                <tableViewController title="Items" wantsFullScreenLayout="YES" id="wv9-Xn-gYS" customClass="SSViewController" sceneMemberID="viewController">
+                    <tableView key="view" opaque="NO" clipsSubviews="YES" clearsContextBeforeDrawing="NO" contentMode="scaleToFill" alwaysBounceVertical="YES" dataMode="prototypes" style="plain" rowHeight="44" sectionHeaderHeight="22" sectionFooterHeight="22" id="mTv-BY-OvF">
+                        <rect key="frame" x="0.0" y="0.0" width="320" height="480"/>
+                        <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                        <color key="backgroundColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
+                        <searchBar key="tableHeaderView" contentMode="redraw" barStyle="blackTranslucent" placeholder="Search by Item Name or ID" id="TN4-PD-ZYo">
+                            <rect key="frame" x="0.0" y="0.0" width="320" height="44"/>
+                            <autoresizingMask key="autoresizingMask" widthSizable="YES" flexibleMaxY="YES"/>
+                            <color key="tintColor" red="0.124108356" green="0.124108356" blue="0.124108356" alpha="1" colorSpace="calibratedRGB"/>
+                            <textInputTraits key="textInputTraits" autocorrectionType="no"/>
+                        </searchBar>
+                        <prototypes>
+                            <tableViewCell contentMode="scaleToFill" selectionStyle="blue" accessoryType="detailDisclosureButton" indentationWidth="10" reuseIdentifier="Cell" rowHeight="50" id="OPV-ls-vaC" customClass="CustomCell">
+                                <rect key="frame" x="0.0" y="66" width="320" height="50"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                <view key="contentView" opaque="NO" clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="center">
+                                    <rect key="frame" x="0.0" y="0.0" width="287" height="49"/>
+                                    <autoresizingMask key="autoresizingMask"/>
+                                    <subviews>
+                                        <label opaque="NO" clipsSubviews="YES" userInteractionEnabled="NO" contentMode="left" text="Item Name" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="QlM-ca-MIL">
+                                            <constraints>
+                                                <constraint firstAttribute="width" constant="200" id="9UJ-vb-lCX"/>
+                                            </constraints>
+                                            <fontDescription key="fontDescription" type="system" pointSize="17"/>
+                                            <color key="textColor" cocoaTouchSystemColor="darkTextColor"/>
+                                            <color key="highlightedColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
+                                        </label>
+                                        <label opaque="NO" clipsSubviews="YES" userInteractionEnabled="NO" contentMode="left" text="ID" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="LyA-uI-QZP">
+                                            <constraints>
+                                                <constraint firstAttribute="width" constant="122" id="yht-8K-OBZ"/>
+                                            </constraints>
+                                            <fontDescription key="fontDescription" type="italicSystem" pointSize="14"/>
+                                            <color key="textColor" red="0.75751528530000001" green="0.75751528530000001" blue="0.75751528530000001" alpha="1" colorSpace="calibratedRGB"/>
+                                            <color key="highlightedColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
+                                        </label>
+                                        <label opaque="NO" clipsSubviews="YES" userInteractionEnabled="NO" contentMode="left" text="ITEM ID:" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="S9v-jq-h6b">
+                                            <constraints>
+                                                <constraint firstAttribute="width" constant="63" id="IWw-km-Qm4"/>
+                                                <constraint firstAttribute="height" constant="21" id="OJ7-jq-8ID"/>
+                                            </constraints>
+                                            <fontDescription key="fontDescription" type="system" pointSize="14"/>
+                                            <color key="textColor" red="0.75751528530000001" green="0.75751528530000001" blue="0.75751528530000001" alpha="1" colorSpace="calibratedRGB"/>
+                                            <color key="highlightedColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
+                                        </label>
+                                        <imageView userInteractionEnabled="NO" contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="0Ns-JS-6EI">
+                                            <constraints>
+                                                <constraint firstAttribute="height" constant="39" id="JMc-ga-hOI"/>
+                                                <constraint firstAttribute="width" constant="39" id="mfI-zK-q0Q"/>
+                                            </constraints>
+                                        </imageView>
+                                    </subviews>
+                                    <color key="backgroundColor" white="0.0" alpha="0.0" colorSpace="calibratedWhite"/>
+                                </view>
+                                <constraints>
+                                    <constraint firstItem="LyA-uI-QZP" firstAttribute="leading" secondItem="OPV-ls-vaC" secondAttribute="leading" constant="136" id="6Tw-Q1-WhQ"/>
+                                    <constraint firstItem="QlM-ca-MIL" firstAttribute="top" secondItem="OPV-ls-vaC" secondAttribute="top" constant="2" id="7Xf-NE-lZz"/>
+                                    <constraint firstItem="S9v-jq-h6b" firstAttribute="leading" secondItem="QlM-ca-MIL" secondAttribute="leading" type="default" id="CLR-9v-CRc"/>
+                                    <constraint firstItem="0Ns-JS-6EI" firstAttribute="top" secondItem="OPV-ls-vaC" secondAttribute="top" constant="5" id="GfB-LM-bhW"/>
+                                    <constraint firstItem="LyA-uI-QZP" firstAttribute="baseline" secondItem="S9v-jq-h6b" secondAttribute="baseline" type="default" id="RZq-lH-hLV"/>
+                                    <constraint firstItem="0Ns-JS-6EI" firstAttribute="leading" secondItem="OPV-ls-vaC" secondAttribute="leading" constant="20" type="default" id="dj4-mz-uiF"/>
+                                    <constraint firstItem="QlM-ca-MIL" firstAttribute="leading" secondItem="OPV-ls-vaC" secondAttribute="leading" constant="77" id="gnu-Jv-qvV"/>
+                                    <constraint firstItem="S9v-jq-h6b" firstAttribute="top" secondItem="LyA-uI-QZP" secondAttribute="top" type="default" id="hC2-gL-Ujp"/>
+                                    <constraint firstItem="S9v-jq-h6b" firstAttribute="bottom" secondItem="0Ns-JS-6EI" secondAttribute="bottom" type="default" id="qEE-ft-kf2"/>
+                                </constraints>
+                                <connections>
+                                    <outlet property="itemIDLabel" destination="LyA-uI-QZP" id="0hP-x2-5QD"/>
+                                    <outlet property="itemImage" destination="0Ns-JS-6EI" id="og1-gu-Ufv"/>
+                                    <outlet property="itemNameLabel" destination="QlM-ca-MIL" id="YDH-90-mau"/>
+                                </connections>
+                            </tableViewCell>
+                        </prototypes>
+                        <connections>
+                            <outlet property="dataSource" destination="wv9-Xn-gYS" id="V3k-6J-b4Z"/>
+                            <outlet property="delegate" destination="wv9-Xn-gYS" id="hnZ-mR-Alw"/>
+                        </connections>
+                    </tableView>
+                    <nil key="simulatedStatusBarMetrics"/>
+                    <nil key="simulatedTopBarMetrics"/>
+                    <nil key="simulatedBottomBarMetrics"/>
+                    <simulatedOrientationMetrics key="simulatedOrientationMetrics"/>
+                    <simulatedScreenMetrics key="simulatedDestinationMetrics"/>
+                    <connections>
+                        <outlet property="itemSearch" destination="TN4-PD-ZYo" id="O4r-87-rPt"/>
+                    </connections>
+                </tableViewController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="gah-lK-C45" userLabel="First Responder" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="73" y="27"/>
+        </scene>
+    </scenes>
+    <classes>
+        <class className="CustomCell" superclassName="UITableViewCell">
+            <source key="sourceIdentifier" type="project" relativePath="./Classes/CustomCell.h"/>
+            <relationships>
+                <relationship kind="outlet" name="itemIDLabel" candidateClass="UILabel"/>
+                <relationship kind="outlet" name="itemImage" candidateClass="UIImageView"/>
+                <relationship kind="outlet" name="itemNameLabel" candidateClass="UILabel"/>
+            </relationships>
+        </class>
+        <class className="NSLayoutConstraint" superclassName="NSObject">
+            <source key="sourceIdentifier" type="project" relativePath="./Classes/NSLayoutConstraint.h"/>
+        </class>
+        <class className="SSViewController" superclassName="UITableViewController">
+            <source key="sourceIdentifier" type="project" relativePath="./Classes/SSViewController.h"/>
+            <relationships>
+                <relationship kind="outlet" name="itemSearch" candidateClass="UISearchBar"/>
+            </relationships>
+        </class>
+    </classes>
+    <simulatedMetricsContainer key="defaultSimulatedMetrics">
+        <simulatedStatusBarMetrics key="statusBar"/>
+        <simulatedOrientationMetrics key="orientation"/>
+        <simulatedScreenMetrics key="destination" type="retina4"/>
+    </simulatedMetricsContainer>
+</document>

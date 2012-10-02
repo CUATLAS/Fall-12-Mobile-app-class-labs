@@ -1,0 +1,328 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		44354B28161B399600A90E5F /* CustomCell.m in Sources */ = {isa = PBXBuildFile; fileRef = 44354B27161B399600A90E5F /* CustomCell.m */; };
+		445B1C42161A7C7E00A44E2E /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 445B1C41161A7C7E00A44E2E /* UIKit.framework */; };
+		445B1C44161A7C7E00A44E2E /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 445B1C43161A7C7E00A44E2E /* Foundation.framework */; };
+		445B1C46161A7C7E00A44E2E /* CoreGraphics.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 445B1C45161A7C7E00A44E2E /* CoreGraphics.framework */; };
+		445B1C4C161A7C7E00A44E2E /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = 445B1C4A161A7C7E00A44E2E /* InfoPlist.strings */; };
+		445B1C4E161A7C7E00A44E2E /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 445B1C4D161A7C7E00A44E2E /* main.m */; };
+		445B1C52161A7C7E00A44E2E /* SSAppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 445B1C51161A7C7E00A44E2E /* SSAppDelegate.m */; };
+		445B1C54161A7C7E00A44E2E /* Default.png in Resources */ = {isa = PBXBuildFile; fileRef = 445B1C53161A7C7E00A44E2E /* Default.png */; };
+		445B1C56161A7C7E00A44E2E /* Default@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 445B1C55161A7C7E00A44E2E /* Default@2x.png */; };
+		445B1C58161A7C7E00A44E2E /* Default-568h@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 445B1C57161A7C7E00A44E2E /* Default-568h@2x.png */; };
+		445B1C5B161A7C7E00A44E2E /* SSViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 445B1C5A161A7C7E00A44E2E /* SSViewController.m */; };
+		445B1C65161A7F3700A44E2E /* icon-hd.png in Resources */ = {isa = PBXBuildFile; fileRef = 445B1C64161A7F3700A44E2E /* icon-hd.png */; };
+		445B1C67161A7F7200A44E2E /* icon.png in Resources */ = {isa = PBXBuildFile; fileRef = 445B1C66161A7F7200A44E2E /* icon.png */; };
+		445B1C6A161A814E00A44E2E /* MCItem.m in Sources */ = {isa = PBXBuildFile; fileRef = 445B1C69161A814E00A44E2E /* MCItem.m */; };
+		445B1CB1161A9CC100A44E2E /* Storyboard.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 445B1CB0161A9CC100A44E2E /* Storyboard.storyboard */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXFileReference section */
+		44354B26161B399600A90E5F /* CustomCell.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = CustomCell.h; sourceTree = "<group>"; };
+		44354B27161B399600A90E5F /* CustomCell.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = CustomCell.m; sourceTree = "<group>"; };
+		445B1C3D161A7C7E00A44E2E /* Craftipedia.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Craftipedia.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		445B1C41161A7C7E00A44E2E /* UIKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = UIKit.framework; path = System/Library/Frameworks/UIKit.framework; sourceTree = SDKROOT; };
+		445B1C43161A7C7E00A44E2E /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = System/Library/Frameworks/Foundation.framework; sourceTree = SDKROOT; };
+		445B1C45161A7C7E00A44E2E /* CoreGraphics.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreGraphics.framework; path = System/Library/Frameworks/CoreGraphics.framework; sourceTree = SDKROOT; };
+		445B1C49161A7C7E00A44E2E /* Craftipedia-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "Craftipedia-Info.plist"; sourceTree = "<group>"; };
+		445B1C4B161A7C7E00A44E2E /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
+		445B1C4D161A7C7E00A44E2E /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		445B1C4F161A7C7E00A44E2E /* Craftipedia-Prefix.pch */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "Craftipedia-Prefix.pch"; sourceTree = "<group>"; };
+		445B1C50161A7C7E00A44E2E /* SSAppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = SSAppDelegate.h; sourceTree = "<group>"; };
+		445B1C51161A7C7E00A44E2E /* SSAppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = SSAppDelegate.m; sourceTree = "<group>"; };
+		445B1C53161A7C7E00A44E2E /* Default.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = Default.png; sourceTree = "<group>"; };
+		445B1C55161A7C7E00A44E2E /* Default@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "Default@2x.png"; sourceTree = "<group>"; };
+		445B1C57161A7C7E00A44E2E /* Default-568h@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "Default-568h@2x.png"; sourceTree = "<group>"; };
+		445B1C59161A7C7E00A44E2E /* SSViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = SSViewController.h; sourceTree = "<group>"; };
+		445B1C5A161A7C7E00A44E2E /* SSViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = SSViewController.m; sourceTree = "<group>"; };
+		445B1C64161A7F3700A44E2E /* icon-hd.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = "icon-hd.png"; path = "../icon-hd.png"; sourceTree = "<group>"; };
+		445B1C66161A7F7200A44E2E /* icon.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = icon.png; path = ../icon.png; sourceTree = "<group>"; };
+		445B1C68161A814E00A44E2E /* MCItem.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MCItem.h; sourceTree = "<group>"; };
+		445B1C69161A814E00A44E2E /* MCItem.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = MCItem.m; sourceTree = "<group>"; };
+		445B1CB0161A9CC100A44E2E /* Storyboard.storyboard */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.storyboard; path = Storyboard.storyboard; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		445B1C3A161A7C7E00A44E2E /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				445B1C42161A7C7E00A44E2E /* UIKit.framework in Frameworks */,
+				445B1C44161A7C7E00A44E2E /* Foundation.framework in Frameworks */,
+				445B1C46161A7C7E00A44E2E /* CoreGraphics.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		445B1C32161A7C7E00A44E2E = {
+			isa = PBXGroup;
+			children = (
+				445B1C47161A7C7E00A44E2E /* Craftipedia */,
+				445B1C40161A7C7E00A44E2E /* Frameworks */,
+				445B1C3E161A7C7E00A44E2E /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		445B1C3E161A7C7E00A44E2E /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				445B1C3D161A7C7E00A44E2E /* Craftipedia.app */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		445B1C40161A7C7E00A44E2E /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				445B1C41161A7C7E00A44E2E /* UIKit.framework */,
+				445B1C43161A7C7E00A44E2E /* Foundation.framework */,
+				445B1C45161A7C7E00A44E2E /* CoreGraphics.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		445B1C47161A7C7E00A44E2E /* Craftipedia */ = {
+			isa = PBXGroup;
+			children = (
+				445B1C68161A814E00A44E2E /* MCItem.h */,
+				445B1C69161A814E00A44E2E /* MCItem.m */,
+				445B1C50161A7C7E00A44E2E /* SSAppDelegate.h */,
+				445B1C51161A7C7E00A44E2E /* SSAppDelegate.m */,
+				445B1C59161A7C7E00A44E2E /* SSViewController.h */,
+				445B1C5A161A7C7E00A44E2E /* SSViewController.m */,
+				445B1C48161A7C7E00A44E2E /* Supporting Files */,
+				445B1CB0161A9CC100A44E2E /* Storyboard.storyboard */,
+				44354B26161B399600A90E5F /* CustomCell.h */,
+				44354B27161B399600A90E5F /* CustomCell.m */,
+			);
+			path = Craftipedia;
+			sourceTree = "<group>";
+		};
+		445B1C48161A7C7E00A44E2E /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				445B1C70161A873500A44E2E /* Images */,
+				445B1C49161A7C7E00A44E2E /* Craftipedia-Info.plist */,
+				445B1C4A161A7C7E00A44E2E /* InfoPlist.strings */,
+				445B1C4D161A7C7E00A44E2E /* main.m */,
+				445B1C4F161A7C7E00A44E2E /* Craftipedia-Prefix.pch */,
+				445B1C53161A7C7E00A44E2E /* Default.png */,
+				445B1C55161A7C7E00A44E2E /* Default@2x.png */,
+				445B1C57161A7C7E00A44E2E /* Default-568h@2x.png */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		445B1C6F161A871300A44E2E /* Icons */ = {
+			isa = PBXGroup;
+			children = (
+				445B1C66161A7F7200A44E2E /* icon.png */,
+				445B1C64161A7F3700A44E2E /* icon-hd.png */,
+			);
+			name = Icons;
+			sourceTree = "<group>";
+		};
+		445B1C70161A873500A44E2E /* Images */ = {
+			isa = PBXGroup;
+			children = (
+				445B1C6F161A871300A44E2E /* Icons */,
+			);
+			name = Images;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		445B1C3C161A7C7E00A44E2E /* Craftipedia */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 445B1C61161A7C7F00A44E2E /* Build configuration list for PBXNativeTarget "Craftipedia" */;
+			buildPhases = (
+				445B1C39161A7C7E00A44E2E /* Sources */,
+				445B1C3A161A7C7E00A44E2E /* Frameworks */,
+				445B1C3B161A7C7E00A44E2E /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = Craftipedia;
+			productName = Craftipedia;
+			productReference = 445B1C3D161A7C7E00A44E2E /* Craftipedia.app */;
+			productType = "com.apple.product-type.application";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		445B1C34161A7C7E00A44E2E /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				CLASSPREFIX = SS;
+				LastUpgradeCheck = 0450;
+				ORGANIZATIONNAME = "Scott Serafin";
+			};
+			buildConfigurationList = 445B1C37161A7C7E00A44E2E /* Build configuration list for PBXProject "Craftipedia" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+			);
+			mainGroup = 445B1C32161A7C7E00A44E2E;
+			productRefGroup = 445B1C3E161A7C7E00A44E2E /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				445B1C3C161A7C7E00A44E2E /* Craftipedia */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		445B1C3B161A7C7E00A44E2E /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				445B1C4C161A7C7E00A44E2E /* InfoPlist.strings in Resources */,
+				445B1C54161A7C7E00A44E2E /* Default.png in Resources */,
+				445B1C56161A7C7E00A44E2E /* Default@2x.png in Resources */,
+				445B1C58161A7C7E00A44E2E /* Default-568h@2x.png in Resources */,
+				445B1C65161A7F3700A44E2E /* icon-hd.png in Resources */,
+				445B1C67161A7F7200A44E2E /* icon.png in Resources */,
+				445B1CB1161A9CC100A44E2E /* Storyboard.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		445B1C39161A7C7E00A44E2E /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				445B1C4E161A7C7E00A44E2E /* main.m in Sources */,
+				445B1C52161A7C7E00A44E2E /* SSAppDelegate.m in Sources */,
+				445B1C5B161A7C7E00A44E2E /* SSViewController.m in Sources */,
+				445B1C6A161A814E00A44E2E /* MCItem.m in Sources */,
+				44354B28161B399600A90E5F /* CustomCell.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXVariantGroup section */
+		445B1C4A161A7C7E00A44E2E /* InfoPlist.strings */ = {
+			isa = PBXVariantGroup;
+			children = (
+				445B1C4B161A7C7E00A44E2E /* en */,
+			);
+			name = InfoPlist.strings;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		445B1C5F161A7C7F00A44E2E /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 6.0;
+				SDKROOT = iphoneos;
+			};
+			name = Debug;
+		};
+		445B1C60161A7C7F00A44E2E /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 6.0;
+				OTHER_CFLAGS = "-DNS_BLOCK_ASSERTIONS=1";
+				SDKROOT = iphoneos;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		445B1C62161A7C7F00A44E2E /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "Craftipedia/Craftipedia-Prefix.pch";
+				INFOPLIST_FILE = "Craftipedia/Craftipedia-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				WRAPPER_EXTENSION = app;
+			};
+			name = Debug;
+		};
+		445B1C63161A7C7F00A44E2E /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "Craftipedia/Craftipedia-Prefix.pch";
+				INFOPLIST_FILE = "Craftipedia/Craftipedia-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				WRAPPER_EXTENSION = app;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		445B1C37161A7C7E00A44E2E /* Build configuration list for PBXProject "Craftipedia" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				445B1C5F161A7C7F00A44E2E /* Debug */,
+				445B1C60161A7C7F00A44E2E /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		445B1C61161A7C7F00A44E2E /* Build configuration list for PBXNativeTarget "Craftipedia" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				445B1C62161A7C7F00A44E2E /* Debug */,
+				445B1C63161A7C7F00A44E2E /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 445B1C34161A7C7E00A44E2E /* Project object */;
+}
