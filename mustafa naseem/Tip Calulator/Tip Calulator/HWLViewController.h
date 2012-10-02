@@ -8,7 +8,7 @@
 
 #import <UIKit/UIKit.h>
 
-@interface HWLViewController : UIViewController <UITextViewDelegate, UIAlertViewDelegate >
+@interface HWLViewController : UIViewController <UITextFieldDelegate, UIAlertViewDelegate >
 @property (weak, nonatomic) IBOutlet UITextField *checkAmount;
 @property (weak, nonatomic) IBOutlet UITextField *tipPercent;
 @property (weak, nonatomic) IBOutlet UITextField *people;
