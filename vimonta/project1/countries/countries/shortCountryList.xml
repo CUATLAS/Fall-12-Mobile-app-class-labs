@@ -1,0 +1,27 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<Countries>
+<Country id="1">
+<name>Afghanistan</name>
+<Gdp>1000</Gdp>
+<Population>30419928</Population>
+<Aids>0.01</Aids>
+</Country>
+<Country id="2">
+<name>Belize</name>
+<Gdp>8300</Gdp>
+<Population>327719</Population>
+<Aids>2.3</Aids>
+</Country>
+<Country id="3">
+<name>Denmark</name>
+<Gdp>40200</Gdp>
+<Population>5543453</Population>
+<Aids>0.2</Aids>
+</Country>
+<Country id="4">
+<name>United States</name>
+<Gdp>48100</Gdp>
+<Population>313847465</Population>
+<Aids>0.6</Aids>
+</Country>
+</Countries>

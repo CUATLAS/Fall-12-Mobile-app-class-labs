@@ -1,0 +1,333 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<Countries>
+<Country id="1">
+<name>Afghanistan</name>
+<Gdp>1000</Gdp>
+<Population>30419928</Population>
+<Aids>0.1</Aids>
+</Country>
+<Country id="2">
+<name>Albania</name>
+<Gdp>7800</Gdp>
+<Population>3002859</Population>
+<Aids>NA</Aids>
+</Country>
+<Country id="3">
+<name>Belize</name>
+<Gdp>8300</Gdp>
+<Population>327719</Population>
+<Aids>2.3</Aids>
+</Country>
+<Country id="4">
+<name>Bolivia</name>
+<Gdp>4800</Gdp>
+<Population>10290003</Population>
+<Aids>0.2</Aids>
+</Country>
+<Country id="5">
+<name>Cameroon</name>
+<Gdp>2300</Gdp>
+<Population>20129878</Population>
+<Aids>5.3</Aids>
+</Country>
+<Country id="6">
+<name>China</name>
+<Gdp>8400</Gdp>
+<Population>1343239923</Population>
+<Aids>0.1</Aids>
+</Country>
+<Country id="7">
+<name>Denmark</name>
+<Gdp>40200</Gdp>
+<Population>5543453</Population>
+<Aids>0.2</Aids>
+</Country>
+<Country id="8">
+<name>Dominican Republic</name>
+<Gdp>9300</Gdp>
+<Population>10088598</Population>
+<Aids>0.9</Aids>
+</Country>
+<Country id="9">
+<name>Egypt</name>
+<Gdp>6500</Gdp>
+<Population>83688164</Population>
+<Aids>0.1</Aids>
+</Country>
+<Country id="10">
+<name>Ethiopia</name>
+<Gdp>1100</Gdp>
+<Population>93815992</Population>
+<Aids>NA</Aids>
+</Country>
+<Country id="11">
+<name>Finland</name>
+<Gdp>38300</Gdp>
+<Population>5262930</Population>
+<Aids>0.1</Aids>
+</Country>
+<Country id="12">
+<name>France</name>
+<Gdp>35000</Gdp>
+<Population>65630692</Population>
+<Aids>0.4</Aids>
+</Country>
+<Country id="13">
+<name>Germany</name>
+<Gdp>37500</Gdp>
+<Population>81305856</Population>
+<Aids>0.1</Aids>
+</Country>
+<Country id="14">
+<name>Ghana</name>
+<Gdp>3100</Gdp>
+<Population>25241998</Population>
+<Aids>1.8</Aids>
+</Country>
+<Country id="15">
+<name>Haiti</name>
+<Gdp>1200</Gdp>
+<Population>9801664</Population>
+<Aids>1.9</Aids>
+</Country>
+<Country id="16">
+<name>Hungary</name>
+<Gdp>19600</Gdp>
+<Population>9958453</Population>
+<Aids>0.1</Aids>
+</Country>
+<Country id="17">
+<name>Iceland</name>
+<Gdp>38000</Gdp>
+<Population>313183</Population>
+<Aids>0.3</Aids>
+</Country>
+<Country id="18">
+<name>Iraq</name>
+<Gdp>3900</Gdp>
+<Population>31129225</Population>
+<Aids>0.1</Aids>
+</Country>
+<Country id="19">
+<name>Japan</name>
+<Gdp>34300</Gdp>
+<Population>127368088</Population>
+<Aids>0.1</Aids>
+</Country>
+<Country id="20">
+<name>Jordan</name>
+<Gdp>5900</Gdp>
+<Population>6508887</Population>
+<Aids>0.1</Aids>
+</Country>
+<Country id="21">
+<name>Kazakhstan</name>
+<Gdp>13000</Gdp>
+<Population>17522010</Population>
+<Aids>0.1</Aids>
+</Country>
+<Country id="22">
+<name>Kenya</name>
+<Gdp>1700</Gdp>
+<Population>43013341</Population>
+<Aids>6.3</Aids>
+</Country>
+<Country id="23">
+<name>Libya</name>
+<Gdp>14100</Gdp>
+<Population>6733620</Population>
+<Aids>0.3</Aids>
+</Country>
+<Country id="24">
+<name>Luxembourg</name>
+<Gdp>84700</Gdp>
+<Population>509074</Population>
+<Aids>0.3</Aids>
+</Country>
+<Country id="25">
+<name>Mali</name>
+<Gdp>1300</Gdp>
+<Population>14533511</Population>
+<Aids>1.0</Aids>
+</Country>
+<Country id="26">
+<name>Mexico</name>
+<Gdp>15100</Gdp>
+<Population>114975406</Population>
+<Aids>0.3</Aids>
+</Country>
+<Country id="27">
+<name>Nepal</name>
+<Gdp>1300</Gdp>
+<Population>29890686</Population>
+<Aids>0.4</Aids>
+</Country>
+<Country id="28">
+<name>Norway</name>
+<Gdp>53000</Gdp>
+<Population>4707270</Population>
+<Aids>0.1</Aids>
+</Country>
+<Country id="29">
+<name>Oman</name>
+<Gdp>26200</Gdp>
+<Population>3090150</Population>
+<Aids>0.1</Aids>
+</Country>
+<Country id="30">
+<name>Panama</name>
+<Gdp>13600</Gdp>
+<Population>3510045</Population>
+<Aids>0.9</Aids>
+</Country>
+<Country id="31">
+<name>Portugal</name>
+<Gdp>23200</Gdp>
+<Population>10781459</Population>
+<Aids>0.6</Aids>
+</Country>
+<Country id="32">
+<name>Qatar</name>
+<Gdp>102700</Gdp>
+<Population>1951591</Population>
+<Aids>0.1</Aids>
+</Country>
+<Country id="33">
+<name>Romania</name>
+<Gdp>12300</Gdp>
+<Population>21848504</Population>
+<Aids>0.1</Aids>
+</Country>
+<Country id="34">
+<name>Russia</name>
+<Gdp>16700</Gdp>
+<Population>138082178</Population>
+<Aids>1.0</Aids>
+</Country>
+<Country id="35">
+<name>Rwanda</name>
+<Gdp>1300</Gdp>
+<Population>11689696</Population>
+<Aids>2.9</Aids>
+</Country>
+<Country id="36">
+<name>Singapore</name>
+<Gdp>59900</Gdp>
+<Population>5353494</Population>
+<Aids>0.1</Aids>
+</Country>
+<Country id="37">
+<name>Somalia</name>
+<Gdp>600</Gdp>
+<Population>10085638</Population>
+<Aids>0.7</Aids>
+</Country>
+<Country id="38">
+<name>South Africa</name>
+<Gdp>11000</Gdp>
+<Population>48810427</Population>
+<Aids>17.8</Aids>
+</Country>
+<Country id="39">
+<name>Spain</name>
+<Gdp>30600</Gdp>
+<Population>47042984</Population>
+<Aids>0.4</Aids>
+</Country>
+<Country id="40">
+<name>Sweden</name>
+<Gdp>40600</Gdp>
+<Population>9103788</Population>
+<Aids>0.1</Aids>
+</Country>
+<Country id="41">
+<name>Switzerland</name>
+<Gdp>43400</Gdp>
+<Population>7655628</Population>
+<Aids>0.4</Aids>
+</Country>
+<Country id="42">
+<name>Tanzania</name>
+<Gdp>1500</Gdp>
+<Population>43601796</Population>
+<Aids>5.6</Aids>
+</Country>
+<Country id="43">
+<name>Thailand</name>
+<Gdp>9700</Gdp>
+<Population>67091089</Population>
+<Aids>1.3</Aids>
+</Country>
+<Country id="44">
+<name>Tunisia</name>
+<Gdp>9500</Gdp>
+<Population>10732900</Population>
+<Aids>0.1</Aids>
+</Country>
+<Country id="45">
+<name>Turkey</name>
+<Gdp>14600</Gdp>
+<Population>79749461</Population>
+<Aids>0.1</Aids>
+</Country>
+<Country id="46">
+<name>Uganda</name>
+<Gdp>1300</Gdp>
+<Population>35873253</Population>
+<Aids>6.5</Aids>
+</Country>
+<Country id="47">
+<name>United Arab Emirates</name>
+<Gdp>48500</Gdp>
+<Population>5314317</Population>
+<Aids>0.2</Aids>
+</Country>
+<Country id="48">
+<name>United Kingdom</name>
+<Gdp>35900</Gdp>
+<Population>63047162</Population>
+<Aids>0.2</Aids>
+</Country>
+<Country id="49">
+<name>United States</name>
+<Gdp>48100</Gdp>
+<Population>313847465</Population>
+<Aids>0.6</Aids>
+</Country>
+<Country id="50">
+<name>Venezuela</name>
+<Gdp>12400</Gdp>
+<Population>28047938</Population>
+<Aids>NA</Aids>
+</Country>
+<Country id="51">
+<name>Vietnam</name>
+<Gdp>3300</Gdp>
+<Population>91519289</Population>
+<Aids>0.4</Aids>
+</Country>
+<Country id="52">
+<name>Western Sahara</name>
+<Gdp>2500</Gdp>
+<Population>522928</Population>
+<Aids>NA</Aids>
+</Country>
+<Country id="53">
+<name>Yemen</name>
+<Gdp>2500</Gdp>
+<Population>24771809</Population>
+<Aids>0.1</Aids>
+</Country>
+<Country id="54">
+<name>Zambia</name>
+<Gdp>1600</Gdp>
+<Population>14309466</Population>
+<Aids>13.5</Aids>
+</Country>
+<Country id="55">
+<name>Zimbabwe</name>
+<Gdp>500</Gdp>
+<Population>12619600</Population>
+<Aids>14.3</Aids>
+</Country>
+</Countries>

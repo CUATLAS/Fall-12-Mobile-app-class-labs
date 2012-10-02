@@ -1,0 +1,353 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		38A654341611243D003FC0E4 /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 38A654331611243D003FC0E4 /* UIKit.framework */; };
+		38A654361611243D003FC0E4 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 38A654351611243D003FC0E4 /* Foundation.framework */; };
+		38A654381611243D003FC0E4 /* CoreGraphics.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 38A654371611243D003FC0E4 /* CoreGraphics.framework */; };
+		38A6543E1611243D003FC0E4 /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = 38A6543C1611243D003FC0E4 /* InfoPlist.strings */; };
+		38A654401611243D003FC0E4 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 38A6543F1611243D003FC0E4 /* main.m */; };
+		38A654441611243D003FC0E4 /* MADAppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 38A654431611243D003FC0E4 /* MADAppDelegate.m */; };
+		38A654471611243D003FC0E4 /* MADMasterViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 38A654461611243D003FC0E4 /* MADMasterViewController.m */; };
+		38A6544A1611243E003FC0E4 /* MADDetailViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 38A654491611243E003FC0E4 /* MADDetailViewController.m */; };
+		38A6544D1611243E003FC0E4 /* MADMasterViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = 38A6544B1611243E003FC0E4 /* MADMasterViewController.xib */; };
+		38A654501611243E003FC0E4 /* MADDetailViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = 38A6544E1611243E003FC0E4 /* MADDetailViewController.xib */; };
+		38A65459161125EE003FC0E4 /* MADHomeViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 38A65457161125EE003FC0E4 /* MADHomeViewController.m */; };
+		38A6545A161125EE003FC0E4 /* MADHomeViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = 38A65458161125EE003FC0E4 /* MADHomeViewController.xib */; };
+		38A6545E1611270C003FC0E4 /* MADCountryList.m in Sources */ = {isa = PBXBuildFile; fileRef = 38A6545D1611270C003FC0E4 /* MADCountryList.m */; };
+		38A6546016112767003FC0E4 /* shortCountryList.xml in Resources */ = {isa = PBXBuildFile; fileRef = 38A6545F16112767003FC0E4 /* shortCountryList.xml */; };
+		38A6546316112874003FC0E4 /* MADParser.m in Sources */ = {isa = PBXBuildFile; fileRef = 38A6546216112874003FC0E4 /* MADParser.m */; };
+		38A6548F161267D3003FC0E4 /* MADStoredData.m in Sources */ = {isa = PBXBuildFile; fileRef = 38A6548E161267D3003FC0E4 /* MADStoredData.m */; };
+		38A654991612A4DD003FC0E4 /* earth.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 38A654981612A4DD003FC0E4 /* earth.jpg */; };
+		38A6549B161366B1003FC0E4 /* earthIconSmall.png in Resources */ = {isa = PBXBuildFile; fileRef = 38A6549A161366B1003FC0E4 /* earthIconSmall.png */; };
+		38A6549D161366B6003FC0E4 /* earthIconLarge.png in Resources */ = {isa = PBXBuildFile; fileRef = 38A6549C161366B6003FC0E4 /* earthIconLarge.png */; };
+		38A6549F16138770003FC0E4 /* longCountryList.xml in Resources */ = {isa = PBXBuildFile; fileRef = 38A6549E16138770003FC0E4 /* longCountryList.xml */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXFileReference section */
+		38A6542F1611243D003FC0E4 /* countries.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = countries.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		38A654331611243D003FC0E4 /* UIKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = UIKit.framework; path = System/Library/Frameworks/UIKit.framework; sourceTree = SDKROOT; };
+		38A654351611243D003FC0E4 /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = System/Library/Frameworks/Foundation.framework; sourceTree = SDKROOT; };
+		38A654371611243D003FC0E4 /* CoreGraphics.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreGraphics.framework; path = System/Library/Frameworks/CoreGraphics.framework; sourceTree = SDKROOT; };
+		38A6543B1611243D003FC0E4 /* countries-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "countries-Info.plist"; sourceTree = "<group>"; };
+		38A6543D1611243D003FC0E4 /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
+		38A6543F1611243D003FC0E4 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		38A654411611243D003FC0E4 /* countries-Prefix.pch */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "countries-Prefix.pch"; sourceTree = "<group>"; };
+		38A654421611243D003FC0E4 /* MADAppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = MADAppDelegate.h; sourceTree = "<group>"; };
+		38A654431611243D003FC0E4 /* MADAppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = MADAppDelegate.m; sourceTree = "<group>"; };
+		38A654451611243D003FC0E4 /* MADMasterViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = MADMasterViewController.h; sourceTree = "<group>"; };
+		38A654461611243D003FC0E4 /* MADMasterViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = MADMasterViewController.m; sourceTree = "<group>"; };
+		38A654481611243D003FC0E4 /* MADDetailViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = MADDetailViewController.h; sourceTree = "<group>"; };
+		38A654491611243E003FC0E4 /* MADDetailViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = MADDetailViewController.m; sourceTree = "<group>"; };
+		38A6544C1611243E003FC0E4 /* en */ = {isa = PBXFileReference; lastKnownFileType = file.xib; name = en; path = en.lproj/MADMasterViewController.xib; sourceTree = "<group>"; };
+		38A6544F1611243E003FC0E4 /* en */ = {isa = PBXFileReference; lastKnownFileType = file.xib; name = en; path = en.lproj/MADDetailViewController.xib; sourceTree = "<group>"; };
+		38A65456161125EE003FC0E4 /* MADHomeViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MADHomeViewController.h; sourceTree = "<group>"; };
+		38A65457161125EE003FC0E4 /* MADHomeViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = MADHomeViewController.m; sourceTree = "<group>"; };
+		38A65458161125EE003FC0E4 /* MADHomeViewController.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = MADHomeViewController.xib; sourceTree = "<group>"; };
+		38A6545C1611270C003FC0E4 /* MADCountryList.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MADCountryList.h; sourceTree = "<group>"; };
+		38A6545D1611270C003FC0E4 /* MADCountryList.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = MADCountryList.m; sourceTree = "<group>"; };
+		38A6545F16112767003FC0E4 /* shortCountryList.xml */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.xml; path = shortCountryList.xml; sourceTree = "<group>"; };
+		38A6546116112874003FC0E4 /* MADParser.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MADParser.h; sourceTree = "<group>"; };
+		38A6546216112874003FC0E4 /* MADParser.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = MADParser.m; sourceTree = "<group>"; };
+		38A6548D161267D3003FC0E4 /* MADStoredData.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MADStoredData.h; sourceTree = "<group>"; };
+		38A6548E161267D3003FC0E4 /* MADStoredData.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = MADStoredData.m; sourceTree = "<group>"; };
+		38A654981612A4DD003FC0E4 /* earth.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = earth.jpg; sourceTree = "<group>"; };
+		38A6549A161366B1003FC0E4 /* earthIconSmall.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = earthIconSmall.png; path = ../earthIconSmall.png; sourceTree = "<group>"; };
+		38A6549C161366B6003FC0E4 /* earthIconLarge.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = earthIconLarge.png; path = ../earthIconLarge.png; sourceTree = "<group>"; };
+		38A6549E16138770003FC0E4 /* longCountryList.xml */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.xml; path = longCountryList.xml; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		38A6542C1611243D003FC0E4 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				38A654341611243D003FC0E4 /* UIKit.framework in Frameworks */,
+				38A654361611243D003FC0E4 /* Foundation.framework in Frameworks */,
+				38A654381611243D003FC0E4 /* CoreGraphics.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		38A654241611243D003FC0E4 = {
+			isa = PBXGroup;
+			children = (
+				38A654391611243D003FC0E4 /* countries */,
+				38A654321611243D003FC0E4 /* Frameworks */,
+				38A654301611243D003FC0E4 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		38A654301611243D003FC0E4 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				38A6542F1611243D003FC0E4 /* countries.app */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		38A654321611243D003FC0E4 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				38A654331611243D003FC0E4 /* UIKit.framework */,
+				38A654351611243D003FC0E4 /* Foundation.framework */,
+				38A654371611243D003FC0E4 /* CoreGraphics.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		38A654391611243D003FC0E4 /* countries */ = {
+			isa = PBXGroup;
+			children = (
+				38A654421611243D003FC0E4 /* MADAppDelegate.h */,
+				38A654431611243D003FC0E4 /* MADAppDelegate.m */,
+				38A6546116112874003FC0E4 /* MADParser.h */,
+				38A6546216112874003FC0E4 /* MADParser.m */,
+				38A6545C1611270C003FC0E4 /* MADCountryList.h */,
+				38A6545D1611270C003FC0E4 /* MADCountryList.m */,
+				38A65456161125EE003FC0E4 /* MADHomeViewController.h */,
+				38A65457161125EE003FC0E4 /* MADHomeViewController.m */,
+				38A65458161125EE003FC0E4 /* MADHomeViewController.xib */,
+				38A6548D161267D3003FC0E4 /* MADStoredData.h */,
+				38A6548E161267D3003FC0E4 /* MADStoredData.m */,
+				38A654451611243D003FC0E4 /* MADMasterViewController.h */,
+				38A654461611243D003FC0E4 /* MADMasterViewController.m */,
+				38A654481611243D003FC0E4 /* MADDetailViewController.h */,
+				38A654491611243E003FC0E4 /* MADDetailViewController.m */,
+				38A6544B1611243E003FC0E4 /* MADMasterViewController.xib */,
+				38A6544E1611243E003FC0E4 /* MADDetailViewController.xib */,
+				38A6543A1611243D003FC0E4 /* Supporting Files */,
+			);
+			path = countries;
+			sourceTree = "<group>";
+		};
+		38A6543A1611243D003FC0E4 /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				38A6549C161366B6003FC0E4 /* earthIconLarge.png */,
+				38A6549A161366B1003FC0E4 /* earthIconSmall.png */,
+				38A654981612A4DD003FC0E4 /* earth.jpg */,
+				38A6549E16138770003FC0E4 /* longCountryList.xml */,
+				38A6545F16112767003FC0E4 /* shortCountryList.xml */,
+				38A6543B1611243D003FC0E4 /* countries-Info.plist */,
+				38A6543C1611243D003FC0E4 /* InfoPlist.strings */,
+				38A6543F1611243D003FC0E4 /* main.m */,
+				38A654411611243D003FC0E4 /* countries-Prefix.pch */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		38A6542E1611243D003FC0E4 /* countries */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 38A654531611243E003FC0E4 /* Build configuration list for PBXNativeTarget "countries" */;
+			buildPhases = (
+				38A6542B1611243D003FC0E4 /* Sources */,
+				38A6542C1611243D003FC0E4 /* Frameworks */,
+				38A6542D1611243D003FC0E4 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = countries;
+			productName = countries;
+			productReference = 38A6542F1611243D003FC0E4 /* countries.app */;
+			productType = "com.apple.product-type.application";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		38A654261611243D003FC0E4 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				CLASSPREFIX = MAD;
+				LastUpgradeCheck = 0440;
+				ORGANIZATIONNAME = "Aaron Vimont";
+			};
+			buildConfigurationList = 38A654291611243D003FC0E4 /* Build configuration list for PBXProject "countries" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+			);
+			mainGroup = 38A654241611243D003FC0E4;
+			productRefGroup = 38A654301611243D003FC0E4 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				38A6542E1611243D003FC0E4 /* countries */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		38A6542D1611243D003FC0E4 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				38A6543E1611243D003FC0E4 /* InfoPlist.strings in Resources */,
+				38A6544D1611243E003FC0E4 /* MADMasterViewController.xib in Resources */,
+				38A654501611243E003FC0E4 /* MADDetailViewController.xib in Resources */,
+				38A6545A161125EE003FC0E4 /* MADHomeViewController.xib in Resources */,
+				38A6546016112767003FC0E4 /* shortCountryList.xml in Resources */,
+				38A654991612A4DD003FC0E4 /* earth.jpg in Resources */,
+				38A6549B161366B1003FC0E4 /* earthIconSmall.png in Resources */,
+				38A6549D161366B6003FC0E4 /* earthIconLarge.png in Resources */,
+				38A6549F16138770003FC0E4 /* longCountryList.xml in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		38A6542B1611243D003FC0E4 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				38A654401611243D003FC0E4 /* main.m in Sources */,
+				38A654441611243D003FC0E4 /* MADAppDelegate.m in Sources */,
+				38A654471611243D003FC0E4 /* MADMasterViewController.m in Sources */,
+				38A6544A1611243E003FC0E4 /* MADDetailViewController.m in Sources */,
+				38A65459161125EE003FC0E4 /* MADHomeViewController.m in Sources */,
+				38A6545E1611270C003FC0E4 /* MADCountryList.m in Sources */,
+				38A6546316112874003FC0E4 /* MADParser.m in Sources */,
+				38A6548F161267D3003FC0E4 /* MADStoredData.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXVariantGroup section */
+		38A6543C1611243D003FC0E4 /* InfoPlist.strings */ = {
+			isa = PBXVariantGroup;
+			children = (
+				38A6543D1611243D003FC0E4 /* en */,
+			);
+			name = InfoPlist.strings;
+			sourceTree = "<group>";
+		};
+		38A6544B1611243E003FC0E4 /* MADMasterViewController.xib */ = {
+			isa = PBXVariantGroup;
+			children = (
+				38A6544C1611243E003FC0E4 /* en */,
+			);
+			name = MADMasterViewController.xib;
+			sourceTree = "<group>";
+		};
+		38A6544E1611243E003FC0E4 /* MADDetailViewController.xib */ = {
+			isa = PBXVariantGroup;
+			children = (
+				38A6544F1611243E003FC0E4 /* en */,
+			);
+			name = MADDetailViewController.xib;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		38A654511611243E003FC0E4 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ARCHS = "$(ARCHS_STANDARD_32_BIT)";
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				GCC_VERSION = com.apple.compilers.llvm.clang.1_0;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 5.1;
+				SDKROOT = iphoneos;
+			};
+			name = Debug;
+		};
+		38A654521611243E003FC0E4 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ARCHS = "$(ARCHS_STANDARD_32_BIT)";
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_VERSION = com.apple.compilers.llvm.clang.1_0;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 5.1;
+				OTHER_CFLAGS = "-DNS_BLOCK_ASSERTIONS=1";
+				SDKROOT = iphoneos;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		38A654541611243E003FC0E4 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "countries/countries-Prefix.pch";
+				INFOPLIST_FILE = "countries/countries-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				WRAPPER_EXTENSION = app;
+			};
+			name = Debug;
+		};
+		38A654551611243E003FC0E4 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "countries/countries-Prefix.pch";
+				INFOPLIST_FILE = "countries/countries-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				WRAPPER_EXTENSION = app;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		38A654291611243D003FC0E4 /* Build configuration list for PBXProject "countries" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				38A654511611243E003FC0E4 /* Debug */,
+				38A654521611243E003FC0E4 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		38A654531611243E003FC0E4 /* Build configuration list for PBXNativeTarget "countries" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				38A654541611243E003FC0E4 /* Debug */,
+				38A654551611243E003FC0E4 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 38A654261611243D003FC0E4 /* Project object */;
+}
