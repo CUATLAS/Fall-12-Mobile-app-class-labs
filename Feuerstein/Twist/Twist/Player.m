@@ -35,6 +35,7 @@
     {
         facingRight = YES;
         isRunning = NO;
+        inAir = NO;
         glowIncreasing = NO;
         displayingDust = NO;
         
@@ -313,6 +314,10 @@
     {
         [GameData sharedGameData].canFlipGravity = NO;
     }
+    else
+    {
+        inAir = NO;
+    }
     
     // Set rotation based on gravity
     if ([GameData sharedGameData].twistButtonPressed)
@@ -373,7 +378,7 @@
     // Friction to not stop player immediately
     self.velocity = ccp(self.velocity.x * 0.9, self.velocity.y);
     
-    // Jump
+    // #### Jump ####
     CGPoint jumpForce;
     if ([GameData sharedGameData].twistButtonPressed)
         jumpForce = ccp(0.0, -JUMPFORCECONST);
@@ -388,6 +393,8 @@
         if (self.jump && self.onGround)
         {
             self.velocity = ccpAdd(self.velocity, jumpForce);
+            self.onGround = NO;
+            inAir = YES;
         }
         else if (!self.jump && self.velocity.y > minJumpHeight)
         {
@@ -401,6 +408,8 @@
         if (self.jump && self.onGround)
         {
             self.velocity = ccpAdd(self.velocity, jumpForce);
+            self.onGround = NO;
+            inAir = YES;
         }
         else if (!self.jump && self.velocity.y < -minJumpHeight)
         {
@@ -434,7 +443,7 @@
     }
     
     // Stopped running
-    if ((!self.moveLeft && !self.moveRight) || !self.onGround)
+    if ((!self.moveLeft && !self.moveRight) || self.jump || inAir)
     {
         [self stopAction:self.runAction];
         isRunning = NO;
