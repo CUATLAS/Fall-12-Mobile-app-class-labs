@@ -14,9 +14,11 @@
 
 @implementation MADViewController
 @synthesize picture;
-@synthesize titleHeader;
 @synthesize color1;
 @synthesize color2;
+
+@synthesize titleHeader;
+
 
 - (void)viewDidLoad
 {
@@ -26,10 +28,11 @@
 
 - (void)viewDidUnload
 {
-    [self setColor1:nil];
-    [self setColor2:nil];
     [self setTitleHeader:nil];
     [self setPicture:nil];
+
+    [self setColor1:nil];
+    [self setColor2:nil];
     [super viewDidUnload];
     // Release any retained subviews of the main view.
 }

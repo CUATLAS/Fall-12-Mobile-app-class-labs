@@ -11,11 +11,13 @@
 @interface MADViewController : UIViewController 
 - (IBAction)chooseColor:(UIButton *)sender;
 
-@property (weak, nonatomic) IBOutlet UITextField *color1;
-@property (weak, nonatomic) IBOutlet UITextField *color2;
+
 - (IBAction)mixButton:(UIButton *)sender;
 @property (weak, nonatomic) IBOutlet UILabel *titleHeader;
 - (IBAction)tryAgain:(UIButton *)sender;
 @property (weak, nonatomic) IBOutlet UIImageView *picture;
+@property (weak, nonatomic) IBOutlet UILabel *color1;
+@property (weak, nonatomic) IBOutlet UILabel *color2;
+
 
 @end
