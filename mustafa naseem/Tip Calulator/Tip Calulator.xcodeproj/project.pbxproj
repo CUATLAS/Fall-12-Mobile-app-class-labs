@@ -15,6 +15,8 @@
 		5601D3B41614382C001F1085 /* HWLAppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 5601D3B31614382C001F1085 /* HWLAppDelegate.m */; };
 		5601D3B71614382C001F1085 /* HWLViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 5601D3B61614382C001F1085 /* HWLViewController.m */; };
 		5601D3BA1614382C001F1085 /* HWLViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = 5601D3B81614382C001F1085 /* HWLViewController.xib */; };
+		56FECFCC161BFB52001BC114 /* calculator_icon.png in Resources */ = {isa = PBXBuildFile; fileRef = 56FECFCB161BFB52001BC114 /* calculator_icon.png */; };
+		56FECFCF161BFB58001BC114 /* calculator_icon@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 56FECFCE161BFB58001BC114 /* calculator_icon@2x.png */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -31,6 +33,8 @@
 		5601D3B51614382C001F1085 /* HWLViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = HWLViewController.h; sourceTree = "<group>"; };
 		5601D3B61614382C001F1085 /* HWLViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = HWLViewController.m; sourceTree = "<group>"; };
 		5601D3B91614382C001F1085 /* en */ = {isa = PBXFileReference; lastKnownFileType = file.xib; name = en; path = en.lproj/HWLViewController.xib; sourceTree = "<group>"; };
+		56FECFCB161BFB52001BC114 /* calculator_icon.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = calculator_icon.png; path = ../calculator_icon.png; sourceTree = "<group>"; };
+		56FECFCE161BFB58001BC114 /* calculator_icon@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = "calculator_icon@2x.png"; path = "../calculator_icon@2x.png"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -92,6 +96,8 @@
 			children = (
 				5601D3AB1614382B001F1085 /* Tip Calulator-Info.plist */,
 				5601D3AC1614382C001F1085 /* InfoPlist.strings */,
+				56FECFCE161BFB58001BC114 /* calculator_icon@2x.png */,
+				56FECFCB161BFB52001BC114 /* calculator_icon.png */,
 				5601D3AF1614382C001F1085 /* main.m */,
 				5601D3B11614382C001F1085 /* Tip Calulator-Prefix.pch */,
 			);
@@ -151,6 +157,8 @@
 			files = (
 				5601D3AE1614382C001F1085 /* InfoPlist.strings in Resources */,
 				5601D3BA1614382C001F1085 /* HWLViewController.xib in Resources */,
+				56FECFCC161BFB52001BC114 /* calculator_icon.png in Resources */,
+				56FECFCF161BFB58001BC114 /* calculator_icon@2x.png in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -275,6 +283,7 @@
 				5601D3BF1614382C001F1085 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};
