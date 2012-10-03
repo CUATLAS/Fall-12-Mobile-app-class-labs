@@ -76,11 +76,18 @@
     }
     
     NSNumberFormatter *mileageFormatter=[[NSNumberFormatter alloc]init];
-    [mileageFormatter setNumberStyle:NSNumberFormatterNoStyle];
+    [mileageFormatter setNumberStyle:NSNumberFormatterDecimalStyle];
     //update the labels 
     //StringFromNumber: generates strings
     milesPerGallon.text=[mileageFormatter stringFromNumber:[NSNumber numberWithFloat:mileagePerGallon]];
     
+    NSString *message = [[NSString alloc] initWithFormat: milesPerGallon.text, @"Hello, %@"];
+    milesPerGallon.text=message;
+}
+
+- (IBAction)textFieldDoneEditing:(UITextField *)sender {[sender resignFirstResponder];
+    NSString *message = [[NSString alloc] initWithFormat:@"Hello, %@", milesPerGallon.text];
+    milesPerGallon.text=message;
 }
 
 -(void)textFieldDidEndEditing: (UITextField *) textField
@@ -96,6 +103,8 @@ didDismissWithButtonIndex:(NSInteger)buttonIndex
         [self updateMilesPerGallon];    
     }
 }
+
+
 
 
 @end
