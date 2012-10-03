@@ -15,6 +15,8 @@
 		5657F863161B3F4300E6C28C /* HWLAppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 5657F862161B3F4300E6C28C /* HWLAppDelegate.m */; };
 		5657F866161B3F4300E6C28C /* HWLViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 5657F865161B3F4300E6C28C /* HWLViewController.m */; };
 		5657F869161B3F4300E6C28C /* HWLViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = 5657F867161B3F4300E6C28C /* HWLViewController.xib */; };
+		56A88C35161BF35900D6F1A7 /* icon.png in Resources */ = {isa = PBXBuildFile; fileRef = 56A88C34161BF35900D6F1A7 /* icon.png */; };
+		56A88C38161BF36D00D6F1A7 /* icon1.png in Resources */ = {isa = PBXBuildFile; fileRef = 56A88C37161BF36D00D6F1A7 /* icon1.png */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -31,6 +33,8 @@
 		5657F864161B3F4300E6C28C /* HWLViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = HWLViewController.h; sourceTree = "<group>"; };
 		5657F865161B3F4300E6C28C /* HWLViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = HWLViewController.m; sourceTree = "<group>"; };
 		5657F868161B3F4300E6C28C /* en */ = {isa = PBXFileReference; lastKnownFileType = file.xib; name = en; path = en.lproj/HWLViewController.xib; sourceTree = "<group>"; };
+		56A88C34161BF35900D6F1A7 /* icon.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = icon.png; path = ../icon.png; sourceTree = "<group>"; };
+		56A88C37161BF36D00D6F1A7 /* icon1.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = icon1.png; path = ../icon1.png; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -92,6 +96,8 @@
 			children = (
 				5657F85A161B3F4300E6C28C /* Mileage Calculator-Info.plist */,
 				5657F85B161B3F4300E6C28C /* InfoPlist.strings */,
+				56A88C37161BF36D00D6F1A7 /* icon1.png */,
+				56A88C34161BF35900D6F1A7 /* icon.png */,
 				5657F85E161B3F4300E6C28C /* main.m */,
 				5657F860161B3F4300E6C28C /* Mileage Calculator-Prefix.pch */,
 			);
@@ -151,6 +157,8 @@
 			files = (
 				5657F85D161B3F4300E6C28C /* InfoPlist.strings in Resources */,
 				5657F869161B3F4300E6C28C /* HWLViewController.xib in Resources */,
+				56A88C35161BF35900D6F1A7 /* icon.png in Resources */,
+				56A88C38161BF36D00D6F1A7 /* icon1.png in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -277,6 +285,7 @@
 				5657F86E161B3F4300E6C28C /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};
