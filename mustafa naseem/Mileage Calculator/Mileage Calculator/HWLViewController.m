@@ -54,4 +54,48 @@
     return YES;
 }
 
+-(void)updateMilesPerGallon
+{
+    //get the values from the text fields
+    //floatvalue returns a float, intValue retunrs an intiger
+    float totalFuel=[gallonsFilled.text floatValue];
+    float oldMileage=[initialMileage.text floatValue];
+    float newMileage=[currentMileage.text floatValue];
+    float mileagePerGallon=0;
+    
+    float totalMileage=newMileage-oldMileage;
+    //handles divide by 0 
+    if (totalFuel>0)
+    {
+       mileagePerGallon=totalMileage/totalFuel; 
+    }
+    else {
+        UIAlertView *alertView= [[UIAlertView alloc]
+        initWithTitle:@"Warning" message:@"The Gallons Filled Field Cannot be Zero" delegate:self cancelButtonTitle:@"cancel" otherButtonTitles:@"OK", nil];
+        [alertView show];
+    }
+    
+    NSNumberFormatter *mileageFormatter=[[NSNumberFormatter alloc]init];
+    [mileageFormatter setNumberStyle:NSNumberFormatterNoStyle];
+    //update the labels 
+    //StringFromNumber: generates strings
+    milesPerGallon.text=[mileageFormatter stringFromNumber:[NSNumber numberWithFloat:mileagePerGallon]];
+    
+}
+
+-(void)textFieldDidEndEditing: (UITextField *) textField
+{
+    [self updateMilesPerGallon];
+}
+
+-(void)alertView: (UIAlertView *)alertView
+didDismissWithButtonIndex:(NSInteger)buttonIndex
+{   
+    if (buttonIndex==1) {
+        gallonsFilled.text=[NSString stringWithFormat:@"1"];
+        [self updateMilesPerGallon];    
+    }
+}
+
+
 @end
