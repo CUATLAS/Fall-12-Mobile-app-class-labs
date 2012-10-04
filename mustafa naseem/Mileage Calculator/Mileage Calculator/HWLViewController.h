@@ -15,5 +15,6 @@
 @property (weak, nonatomic) IBOutlet UITextField *gallonsFilled;
 @property (weak, nonatomic) IBOutlet UILabel *dollarsPerMile;
 @property (weak, nonatomic) IBOutlet UILabel *milesPerGallon;
-- (IBAction)textFieldDoneEditing:(UITextField *)sender;
+@property (weak, nonatomic) IBOutlet UIImageView *smileyImage;
+@property (weak, nonatomic) IBOutlet UILabel *imageLabel;
 @end

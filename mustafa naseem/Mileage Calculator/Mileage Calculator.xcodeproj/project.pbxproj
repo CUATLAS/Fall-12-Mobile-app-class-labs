@@ -7,6 +7,8 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		563C67B9161D36DA006EA57A /* sad-smiley.png in Resources */ = {isa = PBXBuildFile; fileRef = 563C67B7161D36DA006EA57A /* sad-smiley.png */; };
+		563C67BA161D36DA006EA57A /* Smile.png in Resources */ = {isa = PBXBuildFile; fileRef = 563C67B8161D36DA006EA57A /* Smile.png */; };
 		5657F853161B3F4300E6C28C /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 5657F852161B3F4300E6C28C /* UIKit.framework */; };
 		5657F855161B3F4300E6C28C /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 5657F854161B3F4300E6C28C /* Foundation.framework */; };
 		5657F857161B3F4300E6C28C /* CoreGraphics.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 5657F856161B3F4300E6C28C /* CoreGraphics.framework */; };
@@ -20,6 +22,8 @@
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		563C67B7161D36DA006EA57A /* sad-smiley.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "sad-smiley.png"; sourceTree = "<group>"; };
+		563C67B8161D36DA006EA57A /* Smile.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = Smile.png; sourceTree = "<group>"; };
 		5657F84E161B3F4300E6C28C /* Mileage Calculator.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "Mileage Calculator.app"; sourceTree = BUILT_PRODUCTS_DIR; };
 		5657F852161B3F4300E6C28C /* UIKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = UIKit.framework; path = System/Library/Frameworks/UIKit.framework; sourceTree = SDKROOT; };
 		5657F854161B3F4300E6C28C /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = System/Library/Frameworks/Foundation.framework; sourceTree = SDKROOT; };
@@ -97,6 +101,8 @@
 				5657F85A161B3F4300E6C28C /* Mileage Calculator-Info.plist */,
 				5657F85B161B3F4300E6C28C /* InfoPlist.strings */,
 				56A88C37161BF36D00D6F1A7 /* icon1.png */,
+				563C67B7161D36DA006EA57A /* sad-smiley.png */,
+				563C67B8161D36DA006EA57A /* Smile.png */,
 				56A88C34161BF35900D6F1A7 /* icon.png */,
 				5657F85E161B3F4300E6C28C /* main.m */,
 				5657F860161B3F4300E6C28C /* Mileage Calculator-Prefix.pch */,
@@ -159,6 +165,8 @@
 				5657F869161B3F4300E6C28C /* HWLViewController.xib in Resources */,
 				56A88C35161BF35900D6F1A7 /* icon.png in Resources */,
 				56A88C38161BF36D00D6F1A7 /* icon1.png in Resources */,
+				563C67B9161D36DA006EA57A /* sad-smiley.png in Resources */,
+				563C67BA161D36DA006EA57A /* Smile.png in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
