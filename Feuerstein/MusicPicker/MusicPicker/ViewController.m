@@ -30,7 +30,7 @@
     
     outputLabel.text = @"Pick a genre and year";
     
-    genres = [[NSMutableArray alloc] initWithObjects:
+    genres = [[NSArray alloc] initWithObjects:
               @"Alternative",
               @"Blues",
               @"Country",
@@ -38,7 +38,7 @@
               @"Hip Hop",
               @"Jazz",
               @"R&B", nil];
-    years = [[NSMutableArray alloc] initWithObjects:
+    years = [[NSArray alloc] initWithObjects:
              @"1950",
              @"1960",
              @"1970",
