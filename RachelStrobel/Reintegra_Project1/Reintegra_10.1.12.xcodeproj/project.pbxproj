@@ -1,0 +1,340 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		CC2CB694161B414100ADC565 /* 0.jpg in Resources */ = {isa = PBXBuildFile; fileRef = CC2CB68E161B414100ADC565 /* 0.jpg */; };
+		CC2CB696161B414100ADC565 /* 2.jpg in Resources */ = {isa = PBXBuildFile; fileRef = CC2CB690161B414100ADC565 /* 2.jpg */; };
+		CC2CB697161B414100ADC565 /* 3.jpg in Resources */ = {isa = PBXBuildFile; fileRef = CC2CB691161B414100ADC565 /* 3.jpg */; };
+		CC2CB698161B414100ADC565 /* 4.jpg in Resources */ = {isa = PBXBuildFile; fileRef = CC2CB692161B414100ADC565 /* 4.jpg */; };
+		CC791D1C161CD0AC00D02F60 /* 1.jpg in Resources */ = {isa = PBXBuildFile; fileRef = CC791D1B161CD0AC00D02F60 /* 1.jpg */; };
+		CCB13D3A161A2D23006C3B63 /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = CCB13D39161A2D23006C3B63 /* UIKit.framework */; };
+		CCB13D3C161A2D23006C3B63 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = CCB13D3B161A2D23006C3B63 /* Foundation.framework */; };
+		CCB13D3E161A2D23006C3B63 /* CoreGraphics.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = CCB13D3D161A2D23006C3B63 /* CoreGraphics.framework */; };
+		CCB13D44161A2D23006C3B63 /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = CCB13D42161A2D23006C3B63 /* InfoPlist.strings */; };
+		CCB13D46161A2D23006C3B63 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = CCB13D45161A2D23006C3B63 /* main.m */; };
+		CCB13D4A161A2D23006C3B63 /* MADAppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = CCB13D49161A2D23006C3B63 /* MADAppDelegate.m */; };
+		CCB13D4D161A2D23006C3B63 /* MADViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = CCB13D4C161A2D23006C3B63 /* MADViewController.m */; };
+		CCB13D50161A2D23006C3B63 /* MADViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = CCB13D4E161A2D23006C3B63 /* MADViewController.xib */; };
+		CCB13D65161A2D90006C3B63 /* Reintegra_57.png in Resources */ = {isa = PBXBuildFile; fileRef = CCB13D63161A2D90006C3B63 /* Reintegra_57.png */; };
+		CCB13D66161A2D90006C3B63 /* Reintegra_114.png in Resources */ = {isa = PBXBuildFile; fileRef = CCB13D64161A2D90006C3B63 /* Reintegra_114.png */; };
+		CCB13D68161A2D97006C3B63 /* Reintegra_57.png in Resources */ = {isa = PBXBuildFile; fileRef = CCB13D67161A2D97006C3B63 /* Reintegra_57.png */; };
+		CCB13D6A161A2DA6006C3B63 /* Reintegra_114.png in Resources */ = {isa = PBXBuildFile; fileRef = CCB13D69161A2DA6006C3B63 /* Reintegra_114.png */; };
+		CCB20F8A161D3C3800962579 /* 6.jpg in Resources */ = {isa = PBXBuildFile; fileRef = CCB20F89161D3C3800962579 /* 6.jpg */; };
+		CCB20F8C161D3C4C00962579 /* 5.jpg in Resources */ = {isa = PBXBuildFile; fileRef = CCB20F8B161D3C4C00962579 /* 5.jpg */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXFileReference section */
+		CC2CB68E161B414100ADC565 /* 0.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = 0.jpg; sourceTree = "<group>"; };
+		CC2CB690161B414100ADC565 /* 2.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = 2.jpg; sourceTree = "<group>"; };
+		CC2CB691161B414100ADC565 /* 3.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = 3.jpg; sourceTree = "<group>"; };
+		CC2CB692161B414100ADC565 /* 4.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = 4.jpg; sourceTree = "<group>"; };
+		CC791D1B161CD0AC00D02F60 /* 1.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = 1.jpg; sourceTree = "<group>"; };
+		CCB13D35161A2D23006C3B63 /* Reintegra_10.1.12.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Reintegra_10.1.12.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		CCB13D39161A2D23006C3B63 /* UIKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = UIKit.framework; path = System/Library/Frameworks/UIKit.framework; sourceTree = SDKROOT; };
+		CCB13D3B161A2D23006C3B63 /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = System/Library/Frameworks/Foundation.framework; sourceTree = SDKROOT; };
+		CCB13D3D161A2D23006C3B63 /* CoreGraphics.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreGraphics.framework; path = System/Library/Frameworks/CoreGraphics.framework; sourceTree = SDKROOT; };
+		CCB13D41161A2D23006C3B63 /* Reintegra_10.1.12-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "Reintegra_10.1.12-Info.plist"; sourceTree = "<group>"; };
+		CCB13D43161A2D23006C3B63 /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
+		CCB13D45161A2D23006C3B63 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		CCB13D47161A2D23006C3B63 /* Reintegra_10.1.12-Prefix.pch */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "Reintegra_10.1.12-Prefix.pch"; sourceTree = "<group>"; };
+		CCB13D48161A2D23006C3B63 /* MADAppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = MADAppDelegate.h; sourceTree = "<group>"; };
+		CCB13D49161A2D23006C3B63 /* MADAppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = MADAppDelegate.m; sourceTree = "<group>"; };
+		CCB13D4B161A2D23006C3B63 /* MADViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = MADViewController.h; sourceTree = "<group>"; };
+		CCB13D4C161A2D23006C3B63 /* MADViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = MADViewController.m; sourceTree = "<group>"; };
+		CCB13D4F161A2D23006C3B63 /* en */ = {isa = PBXFileReference; lastKnownFileType = file.xib; name = en; path = en.lproj/MADViewController.xib; sourceTree = "<group>"; };
+		CCB13D63161A2D90006C3B63 /* Reintegra_57.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = Reintegra_57.png; sourceTree = "<group>"; };
+		CCB13D64161A2D90006C3B63 /* Reintegra_114.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = Reintegra_114.png; sourceTree = "<group>"; };
+		CCB13D67161A2D97006C3B63 /* Reintegra_57.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = Reintegra_57.png; sourceTree = "<group>"; };
+		CCB13D69161A2DA6006C3B63 /* Reintegra_114.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = Reintegra_114.png; sourceTree = "<group>"; };
+		CCB20F89161D3C3800962579 /* 6.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = 6.jpg; sourceTree = "<group>"; };
+		CCB20F8B161D3C4C00962579 /* 5.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = 5.jpg; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		CCB13D32161A2D23006C3B63 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				CCB13D3A161A2D23006C3B63 /* UIKit.framework in Frameworks */,
+				CCB13D3C161A2D23006C3B63 /* Foundation.framework in Frameworks */,
+				CCB13D3E161A2D23006C3B63 /* CoreGraphics.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		CC2CB68D161B414100ADC565 /* reintegraApp_10.2.12 */ = {
+			isa = PBXGroup;
+			children = (
+				CCB20F8B161D3C4C00962579 /* 5.jpg */,
+				CCB20F89161D3C3800962579 /* 6.jpg */,
+				CC791D1B161CD0AC00D02F60 /* 1.jpg */,
+				CC2CB68E161B414100ADC565 /* 0.jpg */,
+				CC2CB690161B414100ADC565 /* 2.jpg */,
+				CC2CB691161B414100ADC565 /* 3.jpg */,
+				CC2CB692161B414100ADC565 /* 4.jpg */,
+			);
+			path = reintegraApp_10.2.12;
+			sourceTree = "<group>";
+		};
+		CCB13D2A161A2D23006C3B63 = {
+			isa = PBXGroup;
+			children = (
+				CCB13D69161A2DA6006C3B63 /* Reintegra_114.png */,
+				CCB13D67161A2D97006C3B63 /* Reintegra_57.png */,
+				CCB13D3F161A2D23006C3B63 /* Reintegra_10.1.12 */,
+				CCB13D38161A2D23006C3B63 /* Frameworks */,
+				CCB13D36161A2D23006C3B63 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		CCB13D36161A2D23006C3B63 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				CCB13D35161A2D23006C3B63 /* Reintegra_10.1.12.app */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		CCB13D38161A2D23006C3B63 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				CCB13D39161A2D23006C3B63 /* UIKit.framework */,
+				CCB13D3B161A2D23006C3B63 /* Foundation.framework */,
+				CCB13D3D161A2D23006C3B63 /* CoreGraphics.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		CCB13D3F161A2D23006C3B63 /* Reintegra_10.1.12 */ = {
+			isa = PBXGroup;
+			children = (
+				CCB13D48161A2D23006C3B63 /* MADAppDelegate.h */,
+				CCB13D49161A2D23006C3B63 /* MADAppDelegate.m */,
+				CCB13D4B161A2D23006C3B63 /* MADViewController.h */,
+				CCB13D4C161A2D23006C3B63 /* MADViewController.m */,
+				CCB13D4E161A2D23006C3B63 /* MADViewController.xib */,
+				CCB13D40161A2D23006C3B63 /* Supporting Files */,
+			);
+			path = Reintegra_10.1.12;
+			sourceTree = "<group>";
+		};
+		CCB13D40161A2D23006C3B63 /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				CC2CB68D161B414100ADC565 /* reintegraApp_10.2.12 */,
+				CCB13D63161A2D90006C3B63 /* Reintegra_57.png */,
+				CCB13D64161A2D90006C3B63 /* Reintegra_114.png */,
+				CCB13D41161A2D23006C3B63 /* Reintegra_10.1.12-Info.plist */,
+				CCB13D42161A2D23006C3B63 /* InfoPlist.strings */,
+				CCB13D45161A2D23006C3B63 /* main.m */,
+				CCB13D47161A2D23006C3B63 /* Reintegra_10.1.12-Prefix.pch */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		CCB13D34161A2D23006C3B63 /* Reintegra_10.1.12 */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = CCB13D53161A2D23006C3B63 /* Build configuration list for PBXNativeTarget "Reintegra_10.1.12" */;
+			buildPhases = (
+				CCB13D31161A2D23006C3B63 /* Sources */,
+				CCB13D32161A2D23006C3B63 /* Frameworks */,
+				CCB13D33161A2D23006C3B63 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = Reintegra_10.1.12;
+			productName = Reintegra_10.1.12;
+			productReference = CCB13D35161A2D23006C3B63 /* Reintegra_10.1.12.app */;
+			productType = "com.apple.product-type.application";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		CCB13D2C161A2D23006C3B63 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				CLASSPREFIX = MAD;
+				LastUpgradeCheck = 0440;
+				ORGANIZATIONNAME = "Rachel Strobel";
+			};
+			buildConfigurationList = CCB13D2F161A2D23006C3B63 /* Build configuration list for PBXProject "Reintegra_10.1.12" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+			);
+			mainGroup = CCB13D2A161A2D23006C3B63;
+			productRefGroup = CCB13D36161A2D23006C3B63 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				CCB13D34161A2D23006C3B63 /* Reintegra_10.1.12 */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		CCB13D33161A2D23006C3B63 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				CCB13D44161A2D23006C3B63 /* InfoPlist.strings in Resources */,
+				CCB13D50161A2D23006C3B63 /* MADViewController.xib in Resources */,
+				CCB13D65161A2D90006C3B63 /* Reintegra_57.png in Resources */,
+				CCB13D66161A2D90006C3B63 /* Reintegra_114.png in Resources */,
+				CCB13D68161A2D97006C3B63 /* Reintegra_57.png in Resources */,
+				CCB13D6A161A2DA6006C3B63 /* Reintegra_114.png in Resources */,
+				CC2CB694161B414100ADC565 /* 0.jpg in Resources */,
+				CC2CB696161B414100ADC565 /* 2.jpg in Resources */,
+				CC2CB697161B414100ADC565 /* 3.jpg in Resources */,
+				CC2CB698161B414100ADC565 /* 4.jpg in Resources */,
+				CC791D1C161CD0AC00D02F60 /* 1.jpg in Resources */,
+				CCB20F8A161D3C3800962579 /* 6.jpg in Resources */,
+				CCB20F8C161D3C4C00962579 /* 5.jpg in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		CCB13D31161A2D23006C3B63 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				CCB13D46161A2D23006C3B63 /* main.m in Sources */,
+				CCB13D4A161A2D23006C3B63 /* MADAppDelegate.m in Sources */,
+				CCB13D4D161A2D23006C3B63 /* MADViewController.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXVariantGroup section */
+		CCB13D42161A2D23006C3B63 /* InfoPlist.strings */ = {
+			isa = PBXVariantGroup;
+			children = (
+				CCB13D43161A2D23006C3B63 /* en */,
+			);
+			name = InfoPlist.strings;
+			sourceTree = "<group>";
+		};
+		CCB13D4E161A2D23006C3B63 /* MADViewController.xib */ = {
+			isa = PBXVariantGroup;
+			children = (
+				CCB13D4F161A2D23006C3B63 /* en */,
+			);
+			name = MADViewController.xib;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		CCB13D51161A2D23006C3B63 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ARCHS = "$(ARCHS_STANDARD_32_BIT)";
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				GCC_VERSION = com.apple.compilers.llvm.clang.1_0;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 5.1;
+				SDKROOT = iphoneos;
+			};
+			name = Debug;
+		};
+		CCB13D52161A2D23006C3B63 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ARCHS = "$(ARCHS_STANDARD_32_BIT)";
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_VERSION = com.apple.compilers.llvm.clang.1_0;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 5.1;
+				OTHER_CFLAGS = "-DNS_BLOCK_ASSERTIONS=1";
+				SDKROOT = iphoneos;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		CCB13D54161A2D23006C3B63 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "Reintegra_10.1.12/Reintegra_10.1.12-Prefix.pch";
+				INFOPLIST_FILE = "Reintegra_10.1.12/Reintegra_10.1.12-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				WRAPPER_EXTENSION = app;
+			};
+			name = Debug;
+		};
+		CCB13D55161A2D23006C3B63 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "Reintegra_10.1.12/Reintegra_10.1.12-Prefix.pch";
+				INFOPLIST_FILE = "Reintegra_10.1.12/Reintegra_10.1.12-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				WRAPPER_EXTENSION = app;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		CCB13D2F161A2D23006C3B63 /* Build configuration list for PBXProject "Reintegra_10.1.12" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				CCB13D51161A2D23006C3B63 /* Debug */,
+				CCB13D52161A2D23006C3B63 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		CCB13D53161A2D23006C3B63 /* Build configuration list for PBXNativeTarget "Reintegra_10.1.12" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				CCB13D54161A2D23006C3B63 /* Debug */,
+				CCB13D55161A2D23006C3B63 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = CCB13D2C161A2D23006C3B63 /* Project object */;
+}
