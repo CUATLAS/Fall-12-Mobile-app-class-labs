@@ -17,4 +17,5 @@
 @property (weak, nonatomic) IBOutlet UILabel *milesPerGallon;
 @property (weak, nonatomic) IBOutlet UIImageView *smileyImage;
 @property (weak, nonatomic) IBOutlet UILabel *imageLabel;
+@property (weak, nonatomic) IBOutlet UIImageView *landscapeImage;
 @end

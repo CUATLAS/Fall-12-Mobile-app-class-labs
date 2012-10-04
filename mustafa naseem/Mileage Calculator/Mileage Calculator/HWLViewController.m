@@ -21,6 +21,7 @@
 @synthesize milesPerGallon;
 @synthesize smileyImage;
 @synthesize imageLabel;
+@synthesize landscapeImage;
 
 
 - (void)viewDidLoad
@@ -43,6 +44,7 @@
     [self setCurrentMileage:nil];
     [self setImageLabel:nil];
     [self setSmileyImage:nil];
+    [self setLandscapeImage:nil];
     [super viewDidUnload];
     // Release any retained subviews of the main view.
 }
@@ -67,11 +69,19 @@
     float newMileage=[currentMileage.text floatValue];
     float totalCost=[cost.text floatValue];
     
+    
     float mileagePerGallon=0;
     float costPerMile=0;
     
+    if (newMileage<oldMileage)
+    { UIAlertView *alertView= [[UIAlertView alloc]
+                               initWithTitle:@"Warning" message:@"Current Mileage has to be greater than Initial Mileage" delegate:self cancelButtonTitle:@"cancel" otherButtonTitles:@"OK", nil];
+        [alertView show];
+    }
+    
     float totalMileage=newMileage-oldMileage;
     //handles divide by 0 
+    
     if (totalFuel>0)
     {
        mileagePerGallon=totalMileage/totalFuel; 
@@ -115,7 +125,7 @@
     mileagePerGallon=totalMileage/totalFuel;
     
     if (mileagePerGallon<25) {
-        imageLabel.text=@"We're sorry, your mileage is less than the national average";
+        imageLabel.text=@"Sadly, your mileage is less than the national average";
         smileyImage.image=[UIImage imageNamed:@"sad-smiley.png"];
     } else if (mileagePerGallon>25) {
         imageLabel.text=@"Congratulations, your mileage is better than the national average!";
@@ -138,6 +148,17 @@ didDismissWithButtonIndex:(NSInteger)buttonIndex
     }
 }
 
-
+- (void)willAnimateRotationToInterfaceOrientation:(UIInterfaceOrientation)
+                    InterfaceOrientation duration: (NSTimeInterval)duration {
+    
+    if (UIInterfaceOrientationIsLandscape(InterfaceOrientation)) {
+        smileyImage.frame = CGRectMake(694, 103, 300, 300);
+        imageLabel.frame  = CGRectMake(694, 413, 300, 100);
+        imageLabel.numberOfLines = 2;
+        imageLabel.font = [UIFont boldSystemFontOfSize:18.0];
+        landscapeImage.image=[UIImage imageNamed:@"go_green.png"];
+        landscapeImage.frame = CGRectMake(100,520,800,240);
+    }
+}
 
 @end
