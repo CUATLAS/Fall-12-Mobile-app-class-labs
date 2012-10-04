@@ -24,8 +24,6 @@
 		98BD784E1618C43C0057BBF3 /* Purple.jpeg in Resources */ = {isa = PBXBuildFile; fileRef = 98BD78481618C43C0057BBF3 /* Purple.jpeg */; };
 		98BD784F1618C43C0057BBF3 /* red.png in Resources */ = {isa = PBXBuildFile; fileRef = 98BD78491618C43C0057BBF3 /* red.png */; };
 		98BD78501618C43C0057BBF3 /* yellow.png in Resources */ = {isa = PBXBuildFile; fileRef = 98BD784A1618C43C0057BBF3 /* yellow.png */; };
-		98D250DD161D4B6B0093BD5F /* ugh1.png in Resources */ = {isa = PBXBuildFile; fileRef = 98D250DB161D4B6B0093BD5F /* ugh1.png */; };
-		98D250DE161D4B6B0093BD5F /* ugh.png in Resources */ = {isa = PBXBuildFile; fileRef = 98D250DC161D4B6B0093BD5F /* ugh.png */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -51,8 +49,6 @@
 		98BD78481618C43C0057BBF3 /* Purple.jpeg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = Purple.jpeg; sourceTree = "<group>"; };
 		98BD78491618C43C0057BBF3 /* red.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = red.png; sourceTree = "<group>"; };
 		98BD784A1618C43C0057BBF3 /* yellow.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = yellow.png; sourceTree = "<group>"; };
-		98D250DB161D4B6B0093BD5F /* ugh1.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = ugh1.png; sourceTree = "<group>"; };
-		98D250DC161D4B6B0093BD5F /* ugh.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = ugh.png; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -119,8 +115,6 @@
 				98BD78461618C43C0057BBF3 /* green.jpeg */,
 				98BD78471618C43C0057BBF3 /* orange.jpeg */,
 				98BD78481618C43C0057BBF3 /* Purple.jpeg */,
-				98D250DB161D4B6B0093BD5F /* ugh1.png */,
-				98D250DC161D4B6B0093BD5F /* ugh.png */,
 				98BD78491618C43C0057BBF3 /* red.png */,
 				98BD784A1618C43C0057BBF3 /* yellow.png */,
 				98BD78301618C2610057BBF3 /* ColorMixer-Info.plist */,
@@ -194,8 +188,6 @@
 				982BBD03161B44330019F591 /* lightgreen.jpeg in Resources */,
 				982BBD04161B44330019F591 /* bluegreen.gif in Resources */,
 				986D8D3C161D454600406405 /* MADViewController.xib in Resources */,
-				98D250DD161D4B6B0093BD5F /* ugh1.png in Resources */,
-				98D250DE161D4B6B0093BD5F /* ugh.png in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
