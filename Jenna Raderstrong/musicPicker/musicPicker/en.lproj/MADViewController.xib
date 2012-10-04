@@ -38,8 +38,8 @@
 				<array class="NSMutableArray" key="NSSubviews">
 					<object class="IBUILabel" id="721674509">
 						<reference key="NSNextResponder" ref="774585933"/>
-						<int key="NSvFlags">292</int>
-						<string key="NSFrame">{{58, 340}, {205, 71}}</string>
+						<int key="NSvFlags">317</int>
+						<string key="NSFrame">{{58, 374}, {205, 71}}</string>
 						<reference key="NSSuperview" ref="774585933"/>
 						<reference key="NSWindow"/>
 						<string key="NSReuseIdentifierKey">_NS:9</string>
@@ -68,7 +68,7 @@
 					</object>
 					<object class="IBUIPickerView" id="1021561982">
 						<reference key="NSNextResponder" ref="774585933"/>
-						<int key="NSvFlags">290</int>
+						<int key="NSvFlags">298</int>
 						<string key="NSFrame">{{0, 89}, {320, 216}}</string>
 						<reference key="NSSuperview" ref="774585933"/>
 						<reference key="NSWindow"/>
@@ -78,8 +78,8 @@
 					</object>
 					<object class="IBUILabel" id="281808551">
 						<reference key="NSNextResponder" ref="774585933"/>
-						<int key="NSvFlags">292</int>
-						<string key="NSFrame">{{124, 32}, {98, 21}}</string>
+						<int key="NSvFlags">317</int>
+						<string key="NSFrame">{{111, 20}, {98, 21}}</string>
 						<reference key="NSSuperview" ref="774585933"/>
 						<reference key="NSWindow"/>
 						<string key="NSReuseIdentifierKey">_NS:9</string>
@@ -175,8 +175,8 @@
 						<int key="objectID">6</int>
 						<reference key="object" ref="774585933"/>
 						<array class="NSMutableArray" key="children">
-							<reference ref="281808551"/>
 							<reference ref="1021561982"/>
+							<reference ref="281808551"/>
 							<reference ref="721674509"/>
 						</array>
 						<reference key="parent" ref="0"/>
