@@ -51,6 +51,9 @@
 // Helper method to update label string
 -(void)updateLabelWithGenre:(NSString *)genre year:(NSString *)year
 {
+    year = [years objectAtIndex:[musicPicker selectedRowInComponent:1]];
+    genre = [genres objectAtIndex:[musicPicker selectedRowInComponent:0]];
+    
     if (year == nil || genre == nil)
         return;
     
