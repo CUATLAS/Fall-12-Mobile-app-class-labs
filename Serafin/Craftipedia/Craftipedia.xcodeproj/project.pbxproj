@@ -8,6 +8,11 @@
 
 /* Begin PBXBuildFile section */
 		44354B28161B399600A90E5F /* CustomCell.m in Sources */ = {isa = PBXBuildFile; fileRef = 44354B27161B399600A90E5F /* CustomCell.m */; };
+		444D2461161D4D3A004392C0 /* wood-oak.png in Resources */ = {isa = PBXBuildFile; fileRef = 444D245C161D4D3A004392C0 /* wood-oak.png */; };
+		444D2462161D4D3A004392C0 /* coal.png in Resources */ = {isa = PBXBuildFile; fileRef = 444D245D161D4D3A004392C0 /* coal.png */; };
+		444D2463161D4D3A004392C0 /* glass.png in Resources */ = {isa = PBXBuildFile; fileRef = 444D245E161D4D3A004392C0 /* glass.png */; };
+		444D2464161D4D3A004392C0 /* sand.png in Resources */ = {isa = PBXBuildFile; fileRef = 444D245F161D4D3A004392C0 /* sand.png */; };
+		444D2465161D4D3A004392C0 /* bedrock.png in Resources */ = {isa = PBXBuildFile; fileRef = 444D2460161D4D3A004392C0 /* bedrock.png */; };
 		445B1C42161A7C7E00A44E2E /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 445B1C41161A7C7E00A44E2E /* UIKit.framework */; };
 		445B1C44161A7C7E00A44E2E /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 445B1C43161A7C7E00A44E2E /* Foundation.framework */; };
 		445B1C46161A7C7E00A44E2E /* CoreGraphics.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 445B1C45161A7C7E00A44E2E /* CoreGraphics.framework */; };
@@ -22,11 +27,22 @@
 		445B1C67161A7F7200A44E2E /* icon.png in Resources */ = {isa = PBXBuildFile; fileRef = 445B1C66161A7F7200A44E2E /* icon.png */; };
 		445B1C6A161A814E00A44E2E /* MCItem.m in Sources */ = {isa = PBXBuildFile; fileRef = 445B1C69161A814E00A44E2E /* MCItem.m */; };
 		445B1CB1161A9CC100A44E2E /* Storyboard.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 445B1CB0161A9CC100A44E2E /* Storyboard.storyboard */; };
+		449F5A76161B749200C5B485 /* wool-red.png in Resources */ = {isa = PBXBuildFile; fileRef = 449F5A75161B749200C5B485 /* wool-red.png */; };
+		449F5A79161B74E400C5B485 /* wool-white.png in Resources */ = {isa = PBXBuildFile; fileRef = 449F5A78161B74E400C5B485 /* wool-white.png */; };
+		449F5A7B161B74FA00C5B485 /* stone.png in Resources */ = {isa = PBXBuildFile; fileRef = 449F5A7A161B74FA00C5B485 /* stone.png */; };
+		449F5A7F161B75B000C5B485 /* dirt.png in Resources */ = {isa = PBXBuildFile; fileRef = 449F5A7E161B75B000C5B485 /* dirt.png */; };
+		449F5A81161B75E700C5B485 /* grass.png in Resources */ = {isa = PBXBuildFile; fileRef = 449F5A80161B75E700C5B485 /* grass.png */; };
+		449F5A83161B775400C5B485 /* obsidian.png in Resources */ = {isa = PBXBuildFile; fileRef = 449F5A82161B775400C5B485 /* obsidian.png */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
 		44354B26161B399600A90E5F /* CustomCell.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = CustomCell.h; sourceTree = "<group>"; };
 		44354B27161B399600A90E5F /* CustomCell.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = CustomCell.m; sourceTree = "<group>"; };
+		444D245C161D4D3A004392C0 /* wood-oak.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "wood-oak.png"; sourceTree = "<group>"; };
+		444D245D161D4D3A004392C0 /* coal.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = coal.png; sourceTree = "<group>"; };
+		444D245E161D4D3A004392C0 /* glass.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = glass.png; sourceTree = "<group>"; };
+		444D245F161D4D3A004392C0 /* sand.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = sand.png; sourceTree = "<group>"; };
+		444D2460161D4D3A004392C0 /* bedrock.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = bedrock.png; sourceTree = "<group>"; };
 		445B1C3D161A7C7E00A44E2E /* Craftipedia.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Craftipedia.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		445B1C41161A7C7E00A44E2E /* UIKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = UIKit.framework; path = System/Library/Frameworks/UIKit.framework; sourceTree = SDKROOT; };
 		445B1C43161A7C7E00A44E2E /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = System/Library/Frameworks/Foundation.framework; sourceTree = SDKROOT; };
@@ -47,6 +63,12 @@
 		445B1C68161A814E00A44E2E /* MCItem.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MCItem.h; sourceTree = "<group>"; };
 		445B1C69161A814E00A44E2E /* MCItem.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = MCItem.m; sourceTree = "<group>"; };
 		445B1CB0161A9CC100A44E2E /* Storyboard.storyboard */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.storyboard; path = Storyboard.storyboard; sourceTree = "<group>"; };
+		449F5A75161B749200C5B485 /* wool-red.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "wool-red.png"; sourceTree = "<group>"; };
+		449F5A78161B74E400C5B485 /* wool-white.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "wool-white.png"; sourceTree = "<group>"; };
+		449F5A7A161B74FA00C5B485 /* stone.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = stone.png; sourceTree = "<group>"; };
+		449F5A7E161B75B000C5B485 /* dirt.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = dirt.png; sourceTree = "<group>"; };
+		449F5A80161B75E700C5B485 /* grass.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = grass.png; sourceTree = "<group>"; };
+		449F5A82161B775400C5B485 /* obsidian.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = obsidian.png; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -63,6 +85,24 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		4428FFCD161B6D4C00B8F945 /* Items */ = {
+			isa = PBXGroup;
+			children = (
+				444D245C161D4D3A004392C0 /* wood-oak.png */,
+				444D245D161D4D3A004392C0 /* coal.png */,
+				444D245E161D4D3A004392C0 /* glass.png */,
+				444D245F161D4D3A004392C0 /* sand.png */,
+				444D2460161D4D3A004392C0 /* bedrock.png */,
+				449F5A80161B75E700C5B485 /* grass.png */,
+				449F5A82161B775400C5B485 /* obsidian.png */,
+				449F5A7E161B75B000C5B485 /* dirt.png */,
+				449F5A7A161B74FA00C5B485 /* stone.png */,
+				449F5A78161B74E400C5B485 /* wool-white.png */,
+				449F5A75161B749200C5B485 /* wool-red.png */,
+			);
+			name = Items;
+			sourceTree = "<group>";
+		};
 		445B1C32161A7C7E00A44E2E = {
 			isa = PBXGroup;
 			children = (
@@ -134,6 +174,7 @@
 		445B1C70161A873500A44E2E /* Images */ = {
 			isa = PBXGroup;
 			children = (
+				4428FFCD161B6D4C00B8F945 /* Items */,
 				445B1C6F161A871300A44E2E /* Icons */,
 			);
 			name = Images;
@@ -198,6 +239,17 @@
 				445B1C65161A7F3700A44E2E /* icon-hd.png in Resources */,
 				445B1C67161A7F7200A44E2E /* icon.png in Resources */,
 				445B1CB1161A9CC100A44E2E /* Storyboard.storyboard in Resources */,
+				449F5A76161B749200C5B485 /* wool-red.png in Resources */,
+				449F5A79161B74E400C5B485 /* wool-white.png in Resources */,
+				449F5A7B161B74FA00C5B485 /* stone.png in Resources */,
+				449F5A7F161B75B000C5B485 /* dirt.png in Resources */,
+				449F5A81161B75E700C5B485 /* grass.png in Resources */,
+				449F5A83161B775400C5B485 /* obsidian.png in Resources */,
+				444D2461161D4D3A004392C0 /* wood-oak.png in Resources */,
+				444D2462161D4D3A004392C0 /* coal.png in Resources */,
+				444D2463161D4D3A004392C0 /* glass.png in Resources */,
+				444D2464161D4D3A004392C0 /* sand.png in Resources */,
+				444D2465161D4D3A004392C0 /* bedrock.png in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -285,6 +337,7 @@
 				GCC_PRECOMPILE_PREFIX_HEADER = YES;
 				GCC_PREFIX_HEADER = "Craftipedia/Craftipedia-Prefix.pch";
 				INFOPLIST_FILE = "Craftipedia/Craftipedia-Info.plist";
+				IPHONEOS_DEPLOYMENT_TARGET = 5.0;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				WRAPPER_EXTENSION = app;
 			};
@@ -296,6 +349,7 @@
 				GCC_PRECOMPILE_PREFIX_HEADER = YES;
 				GCC_PREFIX_HEADER = "Craftipedia/Craftipedia-Prefix.pch";
 				INFOPLIST_FILE = "Craftipedia/Craftipedia-Info.plist";
+				IPHONEOS_DEPLOYMENT_TARGET = 5.0;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				WRAPPER_EXTENSION = app;
 			};

@@ -17,6 +17,8 @@
 @synthesize isFiltered;
 @synthesize itemSearch;
 
+
+// Initiate the Table View
 - (id)initWithStyle:(UITableViewStyle)style
 {
     if (self = [super initWithStyle:style]) {
@@ -35,11 +37,22 @@
     
 	// Create our table with info
     allTableData = [[NSMutableArray alloc]initWithObjects:
+                    [[MCItem alloc] initWithitemName:@"Bedrock" itemID:@"7" itemDescription:@"This is a description of bedrock" itemImage:@"bedrock.png"],
+                    [[MCItem alloc] initWithitemName:@"Coal" itemID:@"263" itemDescription:@"This is a description of coal" itemImage:@"coal.png"],
+                    [[MCItem alloc] initWithitemName:@"Dirt" itemID:@"3" itemDescription:@"This is a description of dirt" itemImage:@"dirt.png"],
+                    [[MCItem alloc] initWithitemName:@"Glass" itemID:@"20" itemDescription:@"This is a description of glass" itemImage:@"glass.png"],
+                    [[MCItem alloc] initWithitemName:@"Grass" itemID:@"2" itemDescription:@"This is a description of grass" itemImage:@"grass.png"],
+                    [[MCItem alloc] initWithitemName:@"Obsidian" itemID:@"49" itemDescription:@"This is a description of obsidian" itemImage:@"obsidian.png"],
+                    [[MCItem alloc] initWithitemName:@"Sand" itemID:@"12" itemDescription:@"This is a description of sand" itemImage:@"sand.png"],
                     [[MCItem alloc] initWithitemName:@"Stone" itemID:@"1" itemDescription:@"This is a description of stone" itemImage:@"stone.png"],
-                    [[MCItem alloc] initWithitemName:@"Wool (Red)" itemID:@"35:14" itemDescription:@"This woold is red!" itemImage:@"redwool.png"]
-                     , nil ];
+                    [[MCItem alloc] initWithitemName:@"Wood (Oak)" itemID:@"17" itemDescription:@"This is a description of oak wood" itemImage:@"wood-oak.png"],
+                    [[MCItem alloc] initWithitemName:@"Wool (Red)" itemID:@"35:14" itemDescription:@"This woold is red!" itemImage:@"wool-red.png"],
+                    nil ];
 
 }
+
+
+
 
 - (void)didReceiveMemoryWarning
 {
@@ -47,7 +60,7 @@
     // Dispose of any resources that can be recreated.
 }
 
-// Count how many different sections we want to have, Alphabet and stuff
+// One Section with data in it
 - (NSInteger) numberOfSectionsInTableView:(UITableView *)tableView
 {
     return 1;
@@ -66,6 +79,12 @@
     return rowCount;
 }
 
+// Specify the cell height
+- (CGFloat)tableView:(UITableView *)tableView heightForRowAtIndexPath:(NSIndexPath *)indexPath {
+    
+    return 50;
+}
+
 // FILL THE TABLE WITH DATA FROM OUR MUTABLE ARRAY
 - (UITableViewCell *) tableView:(UITableView *)tableView cellForRowAtIndexPath:(NSIndexPath *)indexPath
 {
@@ -81,8 +100,9 @@
     
     cell.itemNameLabel.text = mcitem.itemName;  // Put the item name in the name label
     cell.itemIDLabel.text = mcitem.itemID;      // Put the item id# in the name label
+    [[cell imageView] setImage:[UIImage imageNamed:mcitem.itemImage]];  // Put the item image in the image spot
     
-    return cell;
+    return cell;    // Output this data
 }
 
 // HANDLE SEARCHES FOR UITABLEVIEW

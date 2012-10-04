@@ -28,52 +28,42 @@
                                     <subviews>
                                         <label opaque="NO" clipsSubviews="YES" userInteractionEnabled="NO" contentMode="left" text="Item Name" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="QlM-ca-MIL">
                                             <constraints>
+                                                <constraint firstAttribute="height" constant="21" id="5hk-O1-Qef"/>
                                                 <constraint firstAttribute="width" constant="200" id="9UJ-vb-lCX"/>
                                             </constraints>
-                                            <fontDescription key="fontDescription" type="system" pointSize="17"/>
+                                            <fontDescription key="fontDescription" type="system" pointSize="20"/>
                                             <color key="textColor" cocoaTouchSystemColor="darkTextColor"/>
                                             <color key="highlightedColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
                                         </label>
                                         <label opaque="NO" clipsSubviews="YES" userInteractionEnabled="NO" contentMode="left" text="ID" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="LyA-uI-QZP">
                                             <constraints>
+                                                <constraint firstAttribute="height" constant="21" id="ESC-dS-hmU"/>
                                                 <constraint firstAttribute="width" constant="122" id="yht-8K-OBZ"/>
                                             </constraints>
                                             <fontDescription key="fontDescription" type="italicSystem" pointSize="14"/>
                                             <color key="textColor" red="0.75751528530000001" green="0.75751528530000001" blue="0.75751528530000001" alpha="1" colorSpace="calibratedRGB"/>
                                             <color key="highlightedColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
                                         </label>
-                                        <label opaque="NO" clipsSubviews="YES" userInteractionEnabled="NO" contentMode="left" text="ITEM ID:" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="S9v-jq-h6b">
+                                        <imageView userInteractionEnabled="NO" contentMode="scaleAspectFill" translatesAutoresizingMaskIntoConstraints="NO" id="7fG-fS-SOE">
                                             <constraints>
-                                                <constraint firstAttribute="width" constant="63" id="IWw-km-Qm4"/>
-                                                <constraint firstAttribute="height" constant="21" id="OJ7-jq-8ID"/>
-                                            </constraints>
-                                            <fontDescription key="fontDescription" type="system" pointSize="14"/>
-                                            <color key="textColor" red="0.75751528530000001" green="0.75751528530000001" blue="0.75751528530000001" alpha="1" colorSpace="calibratedRGB"/>
-                                            <color key="highlightedColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
-                                        </label>
-                                        <imageView userInteractionEnabled="NO" contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="0Ns-JS-6EI">
-                                            <constraints>
-                                                <constraint firstAttribute="height" constant="39" id="JMc-ga-hOI"/>
-                                                <constraint firstAttribute="width" constant="39" id="mfI-zK-q0Q"/>
+                                                <constraint firstAttribute="width" constant="40" id="29y-BM-0Xy"/>
+                                                <constraint firstAttribute="height" constant="40" id="Foh-D6-TSg"/>
                                             </constraints>
                                         </imageView>
                                     </subviews>
                                     <color key="backgroundColor" white="0.0" alpha="0.0" colorSpace="calibratedWhite"/>
                                 </view>
                                 <constraints>
-                                    <constraint firstItem="LyA-uI-QZP" firstAttribute="leading" secondItem="OPV-ls-vaC" secondAttribute="leading" constant="136" id="6Tw-Q1-WhQ"/>
-                                    <constraint firstItem="QlM-ca-MIL" firstAttribute="top" secondItem="OPV-ls-vaC" secondAttribute="top" constant="2" id="7Xf-NE-lZz"/>
-                                    <constraint firstItem="S9v-jq-h6b" firstAttribute="leading" secondItem="QlM-ca-MIL" secondAttribute="leading" type="default" id="CLR-9v-CRc"/>
-                                    <constraint firstItem="0Ns-JS-6EI" firstAttribute="top" secondItem="OPV-ls-vaC" secondAttribute="top" constant="5" id="GfB-LM-bhW"/>
-                                    <constraint firstItem="LyA-uI-QZP" firstAttribute="baseline" secondItem="S9v-jq-h6b" secondAttribute="baseline" type="default" id="RZq-lH-hLV"/>
-                                    <constraint firstItem="0Ns-JS-6EI" firstAttribute="leading" secondItem="OPV-ls-vaC" secondAttribute="leading" constant="20" type="default" id="dj4-mz-uiF"/>
-                                    <constraint firstItem="QlM-ca-MIL" firstAttribute="leading" secondItem="OPV-ls-vaC" secondAttribute="leading" constant="77" id="gnu-Jv-qvV"/>
-                                    <constraint firstItem="S9v-jq-h6b" firstAttribute="top" secondItem="LyA-uI-QZP" secondAttribute="top" type="default" id="hC2-gL-Ujp"/>
-                                    <constraint firstItem="S9v-jq-h6b" firstAttribute="bottom" secondItem="0Ns-JS-6EI" secondAttribute="bottom" type="default" id="qEE-ft-kf2"/>
+                                    <constraint firstAttribute="bottom" secondItem="LyA-uI-QZP" secondAttribute="bottom" constant="4" id="0KZ-8Y-Jpb"/>
+                                    <constraint firstItem="7fG-fS-SOE" firstAttribute="top" secondItem="OPV-ls-vaC" secondAttribute="top" constant="4" id="GPg-Yq-pwT"/>
+                                    <constraint firstItem="QlM-ca-MIL" firstAttribute="top" secondItem="OPV-ls-vaC" secondAttribute="top" constant="6" id="H2b-wp-ANk"/>
+                                    <constraint firstItem="7fG-fS-SOE" firstAttribute="leading" secondItem="OPV-ls-vaC" secondAttribute="leading" constant="12" id="cZX-9t-EFO"/>
+                                    <constraint firstItem="QlM-ca-MIL" firstAttribute="leading" secondItem="OPV-ls-vaC" secondAttribute="leading" constant="68" id="k0v-fR-jdQ"/>
+                                    <constraint firstItem="LyA-uI-QZP" firstAttribute="leading" secondItem="OPV-ls-vaC" secondAttribute="leading" constant="67" id="pLy-Gl-mOu"/>
                                 </constraints>
                                 <connections>
                                     <outlet property="itemIDLabel" destination="LyA-uI-QZP" id="0hP-x2-5QD"/>
-                                    <outlet property="itemImage" destination="0Ns-JS-6EI" id="og1-gu-Ufv"/>
+                                    <outlet property="itemImage" destination="7fG-fS-SOE" id="5Xq-VO-xnU"/>
                                     <outlet property="itemNameLabel" destination="QlM-ca-MIL" id="YDH-90-mau"/>
                                 </connections>
                             </tableViewCell>
@@ -97,25 +87,6 @@
             <point key="canvasLocation" x="73" y="27"/>
         </scene>
     </scenes>
-    <classes>
-        <class className="CustomCell" superclassName="UITableViewCell">
-            <source key="sourceIdentifier" type="project" relativePath="./Classes/CustomCell.h"/>
-            <relationships>
-                <relationship kind="outlet" name="itemIDLabel" candidateClass="UILabel"/>
-                <relationship kind="outlet" name="itemImage" candidateClass="UIImageView"/>
-                <relationship kind="outlet" name="itemNameLabel" candidateClass="UILabel"/>
-            </relationships>
-        </class>
-        <class className="NSLayoutConstraint" superclassName="NSObject">
-            <source key="sourceIdentifier" type="project" relativePath="./Classes/NSLayoutConstraint.h"/>
-        </class>
-        <class className="SSViewController" superclassName="UITableViewController">
-            <source key="sourceIdentifier" type="project" relativePath="./Classes/SSViewController.h"/>
-            <relationships>
-                <relationship kind="outlet" name="itemSearch" candidateClass="UISearchBar"/>
-            </relationships>
-        </class>
-    </classes>
     <simulatedMetricsContainer key="defaultSimulatedMetrics">
         <simulatedStatusBarMetrics key="statusBar"/>
         <simulatedOrientationMetrics key="orientation"/>

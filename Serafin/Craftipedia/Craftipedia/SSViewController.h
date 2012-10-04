@@ -13,7 +13,7 @@
 @property (strong, nonatomic) NSMutableArray* allTableData;         // Create an array that can be used to show all data
 @property (strong, nonatomic) NSMutableArray* filteredTableData;    // Create an array that can be used to show filtered data
 @property (nonatomic, assign) bool isFiltered;                      // Create a bool to mark if the data is being filtered or no
-@property (weak, nonatomic) IBOutlet UISearchBar *itemSearch;
+@property (weak, nonatomic) IBOutlet UISearchBar *itemSearch;       // Add our search bar so that we can use it
 
 
 

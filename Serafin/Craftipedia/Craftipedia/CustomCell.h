@@ -1,5 +1,5 @@
 //
-//  CustomCell Is used to create/format the table view custom cells
+//  CustomCell Is used to create/format the table view custom cells so that we don't have to use a built in apple style for the cell view
 //  Craftipedia
 //
 //  Created by Scott Serafin on 10/2/12.
