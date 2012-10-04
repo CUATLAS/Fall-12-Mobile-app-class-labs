@@ -17,6 +17,7 @@
 @synthesize color1;
 @synthesize color2;
 
+
 @synthesize titleHeader;
 
 

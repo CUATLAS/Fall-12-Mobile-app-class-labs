@@ -12,6 +12,7 @@
 		982BBD04161B44330019F591 /* bluegreen.gif in Resources */ = {isa = PBXBuildFile; fileRef = 982BBD01161B44330019F591 /* bluegreen.gif */; };
 		986D8D37161D445000406405 /* HGTV_Color-Wheel-Full_s4x3_lg.png in Resources */ = {isa = PBXBuildFile; fileRef = 986D8D36161D445000406405 /* HGTV_Color-Wheel-Full_s4x3_lg.png */; };
 		986D8D3A161D44A100406405 /* hotr-Wheel-Full_s4x3_lg copy.png in Resources */ = {isa = PBXBuildFile; fileRef = 986D8D39161D44A100406405 /* hotr-Wheel-Full_s4x3_lg copy.png */; };
+		986D8D3C161D454600406405 /* MADViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = 986D8D3B161D454600406405 /* MADViewController.xib */; };
 		98BD78291618C2610057BBF3 /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 98BD78281618C2610057BBF3 /* UIKit.framework */; };
 		98BD782B1618C2610057BBF3 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 98BD782A1618C2610057BBF3 /* Foundation.framework */; };
 		98BD782D1618C2610057BBF3 /* CoreGraphics.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 98BD782C1618C2610057BBF3 /* CoreGraphics.framework */; };
@@ -19,7 +20,6 @@
 		98BD78351618C2610057BBF3 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 98BD78341618C2610057BBF3 /* main.m */; };
 		98BD78391618C2610057BBF3 /* MADAppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 98BD78381618C2610057BBF3 /* MADAppDelegate.m */; };
 		98BD783C1618C2610057BBF3 /* MADViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 98BD783B1618C2610057BBF3 /* MADViewController.m */; };
-		98BD783F1618C2610057BBF3 /* MADViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = 98BD783D1618C2610057BBF3 /* MADViewController.xib */; };
 		98BD784B1618C43C0057BBF3 /* blue.png in Resources */ = {isa = PBXBuildFile; fileRef = 98BD78451618C43C0057BBF3 /* blue.png */; };
 		98BD784C1618C43C0057BBF3 /* green.jpeg in Resources */ = {isa = PBXBuildFile; fileRef = 98BD78461618C43C0057BBF3 /* green.jpeg */; };
 		98BD784D1618C43C0057BBF3 /* orange.jpeg in Resources */ = {isa = PBXBuildFile; fileRef = 98BD78471618C43C0057BBF3 /* orange.jpeg */; };
@@ -34,6 +34,7 @@
 		982BBD01161B44330019F591 /* bluegreen.gif */ = {isa = PBXFileReference; lastKnownFileType = image.gif; path = bluegreen.gif; sourceTree = "<group>"; };
 		986D8D36161D445000406405 /* HGTV_Color-Wheel-Full_s4x3_lg.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "HGTV_Color-Wheel-Full_s4x3_lg.png"; sourceTree = "<group>"; };
 		986D8D39161D44A100406405 /* hotr-Wheel-Full_s4x3_lg copy.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "hotr-Wheel-Full_s4x3_lg copy.png"; sourceTree = "<group>"; };
+		986D8D3B161D454600406405 /* MADViewController.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = MADViewController.xib; sourceTree = "<group>"; };
 		98BD78241618C2610057BBF3 /* ColorMixer.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = ColorMixer.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		98BD78281618C2610057BBF3 /* UIKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = UIKit.framework; path = System/Library/Frameworks/UIKit.framework; sourceTree = SDKROOT; };
 		98BD782A1618C2610057BBF3 /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = System/Library/Frameworks/Foundation.framework; sourceTree = SDKROOT; };
@@ -46,7 +47,6 @@
 		98BD78381618C2610057BBF3 /* MADAppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = MADAppDelegate.m; sourceTree = "<group>"; };
 		98BD783A1618C2610057BBF3 /* MADViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = MADViewController.h; sourceTree = "<group>"; };
 		98BD783B1618C2610057BBF3 /* MADViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = MADViewController.m; sourceTree = "<group>"; };
-		98BD783E1618C2610057BBF3 /* en */ = {isa = PBXFileReference; lastKnownFileType = file.xib; name = en; path = en.lproj/MADViewController.xib; sourceTree = "<group>"; };
 		98BD78451618C43C0057BBF3 /* blue.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = blue.png; sourceTree = "<group>"; };
 		98BD78461618C43C0057BBF3 /* green.jpeg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = green.jpeg; sourceTree = "<group>"; };
 		98BD78471618C43C0057BBF3 /* orange.jpeg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = orange.jpeg; sourceTree = "<group>"; };
@@ -105,7 +105,7 @@
 				98BD78381618C2610057BBF3 /* MADAppDelegate.m */,
 				98BD783A1618C2610057BBF3 /* MADViewController.h */,
 				98BD783B1618C2610057BBF3 /* MADViewController.m */,
-				98BD783D1618C2610057BBF3 /* MADViewController.xib */,
+				986D8D3B161D454600406405 /* MADViewController.xib */,
 				98BD782F1618C2610057BBF3 /* Supporting Files */,
 			);
 			path = ColorMixer;
@@ -184,7 +184,6 @@
 			buildActionMask = 2147483647;
 			files = (
 				98BD78331618C2610057BBF3 /* InfoPlist.strings in Resources */,
-				98BD783F1618C2610057BBF3 /* MADViewController.xib in Resources */,
 				98BD784B1618C43C0057BBF3 /* blue.png in Resources */,
 				98BD784C1618C43C0057BBF3 /* green.jpeg in Resources */,
 				98BD784D1618C43C0057BBF3 /* orange.jpeg in Resources */,
@@ -196,6 +195,7 @@
 				982BBD04161B44330019F591 /* bluegreen.gif in Resources */,
 				986D8D37161D445000406405 /* HGTV_Color-Wheel-Full_s4x3_lg.png in Resources */,
 				986D8D3A161D44A100406405 /* hotr-Wheel-Full_s4x3_lg copy.png in Resources */,
+				986D8D3C161D454600406405 /* MADViewController.xib in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -221,14 +221,6 @@
 				98BD78321618C2610057BBF3 /* en */,
 			);
 			name = InfoPlist.strings;
-			sourceTree = "<group>";
-		};
-		98BD783D1618C2610057BBF3 /* MADViewController.xib */ = {
-			isa = PBXVariantGroup;
-			children = (
-				98BD783E1618C2610057BBF3 /* en */,
-			);
-			name = MADViewController.xib;
 			sourceTree = "<group>";
 		};
 /* End PBXVariantGroup section */
