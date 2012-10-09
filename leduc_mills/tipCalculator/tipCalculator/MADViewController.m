@@ -79,6 +79,7 @@
     }
     NSNumberFormatter *currencyFormatter=[[NSNumberFormatter alloc]init];
     [currencyFormatter setNumberStyle:NSNumberFormatterCurrencyStyle];
+    //[currencyFormatter setNumberStyle:NSNumberFormatterDecimalStyle];
     
     tipDue.text=[currencyFormatter stringFromNumber:[NSNumber numberWithFloat:tip]];
     totalDue.text=[currencyFormatter stringFromNumber:[NSNumber numberWithFloat:total]];
