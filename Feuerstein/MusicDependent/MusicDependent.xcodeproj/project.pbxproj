@@ -1,0 +1,286 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		0606FD15162463EA00489BD1 /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 0606FD14162463EA00489BD1 /* UIKit.framework */; };
+		0606FD17162463EA00489BD1 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 0606FD16162463EA00489BD1 /* Foundation.framework */; };
+		0606FD19162463EA00489BD1 /* CoreGraphics.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 0606FD18162463EA00489BD1 /* CoreGraphics.framework */; };
+		0606FD1F162463EA00489BD1 /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = 0606FD1D162463EA00489BD1 /* InfoPlist.strings */; };
+		0606FD21162463EA00489BD1 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 0606FD20162463EA00489BD1 /* main.m */; };
+		0606FD25162463EB00489BD1 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 0606FD24162463EB00489BD1 /* AppDelegate.m */; };
+		0606FD28162463EB00489BD1 /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 0606FD27162463EB00489BD1 /* ViewController.m */; };
+		0606FD2B162463ED00489BD1 /* ViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = 0606FD29162463ED00489BD1 /* ViewController.xib */; };
+		A1C5F75316247C55000009ED /* artistalbums.plist in Resources */ = {isa = PBXBuildFile; fileRef = A1C5F75216247C55000009ED /* artistalbums.plist */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXFileReference section */
+		0606FD10162463EA00489BD1 /* MusicDependent.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = MusicDependent.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		0606FD14162463EA00489BD1 /* UIKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = UIKit.framework; path = System/Library/Frameworks/UIKit.framework; sourceTree = SDKROOT; };
+		0606FD16162463EA00489BD1 /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = System/Library/Frameworks/Foundation.framework; sourceTree = SDKROOT; };
+		0606FD18162463EA00489BD1 /* CoreGraphics.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreGraphics.framework; path = System/Library/Frameworks/CoreGraphics.framework; sourceTree = SDKROOT; };
+		0606FD1C162463EA00489BD1 /* MusicDependent-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "MusicDependent-Info.plist"; sourceTree = "<group>"; };
+		0606FD1E162463EA00489BD1 /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
+		0606FD20162463EA00489BD1 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		0606FD22162463EB00489BD1 /* MusicDependent-Prefix.pch */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "MusicDependent-Prefix.pch"; sourceTree = "<group>"; };
+		0606FD23162463EB00489BD1 /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
+		0606FD24162463EB00489BD1 /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
+		0606FD26162463EB00489BD1 /* ViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ViewController.h; sourceTree = "<group>"; };
+		0606FD27162463EB00489BD1 /* ViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ViewController.m; sourceTree = "<group>"; };
+		0606FD2A162463ED00489BD1 /* en */ = {isa = PBXFileReference; lastKnownFileType = file.xib; name = en; path = en.lproj/ViewController.xib; sourceTree = "<group>"; };
+		A1C5F75216247C55000009ED /* artistalbums.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; path = artistalbums.plist; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		0606FD0D162463EA00489BD1 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				0606FD15162463EA00489BD1 /* UIKit.framework in Frameworks */,
+				0606FD17162463EA00489BD1 /* Foundation.framework in Frameworks */,
+				0606FD19162463EA00489BD1 /* CoreGraphics.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		0606FD05162463EA00489BD1 = {
+			isa = PBXGroup;
+			children = (
+				0606FD1A162463EA00489BD1 /* MusicDependent */,
+				0606FD13162463EA00489BD1 /* Frameworks */,
+				0606FD11162463EA00489BD1 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		0606FD11162463EA00489BD1 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				0606FD10162463EA00489BD1 /* MusicDependent.app */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		0606FD13162463EA00489BD1 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				0606FD14162463EA00489BD1 /* UIKit.framework */,
+				0606FD16162463EA00489BD1 /* Foundation.framework */,
+				0606FD18162463EA00489BD1 /* CoreGraphics.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		0606FD1A162463EA00489BD1 /* MusicDependent */ = {
+			isa = PBXGroup;
+			children = (
+				0606FD23162463EB00489BD1 /* AppDelegate.h */,
+				0606FD24162463EB00489BD1 /* AppDelegate.m */,
+				0606FD26162463EB00489BD1 /* ViewController.h */,
+				0606FD27162463EB00489BD1 /* ViewController.m */,
+				0606FD29162463ED00489BD1 /* ViewController.xib */,
+				0606FD1B162463EA00489BD1 /* Supporting Files */,
+			);
+			path = MusicDependent;
+			sourceTree = "<group>";
+		};
+		0606FD1B162463EA00489BD1 /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				A1C5F75216247C55000009ED /* artistalbums.plist */,
+				0606FD1C162463EA00489BD1 /* MusicDependent-Info.plist */,
+				0606FD1D162463EA00489BD1 /* InfoPlist.strings */,
+				0606FD20162463EA00489BD1 /* main.m */,
+				0606FD22162463EB00489BD1 /* MusicDependent-Prefix.pch */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		0606FD0F162463EA00489BD1 /* MusicDependent */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 0606FD2E162463ED00489BD1 /* Build configuration list for PBXNativeTarget "MusicDependent" */;
+			buildPhases = (
+				0606FD0C162463EA00489BD1 /* Sources */,
+				0606FD0D162463EA00489BD1 /* Frameworks */,
+				0606FD0E162463EA00489BD1 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = MusicDependent;
+			productName = MusicDependent;
+			productReference = 0606FD10162463EA00489BD1 /* MusicDependent.app */;
+			productType = "com.apple.product-type.application";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		0606FD07162463EA00489BD1 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 0420;
+			};
+			buildConfigurationList = 0606FD0A162463EA00489BD1 /* Build configuration list for PBXProject "MusicDependent" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+			);
+			mainGroup = 0606FD05162463EA00489BD1;
+			productRefGroup = 0606FD11162463EA00489BD1 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				0606FD0F162463EA00489BD1 /* MusicDependent */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		0606FD0E162463EA00489BD1 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				0606FD1F162463EA00489BD1 /* InfoPlist.strings in Resources */,
+				0606FD2B162463ED00489BD1 /* ViewController.xib in Resources */,
+				A1C5F75316247C55000009ED /* artistalbums.plist in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		0606FD0C162463EA00489BD1 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				0606FD21162463EA00489BD1 /* main.m in Sources */,
+				0606FD25162463EB00489BD1 /* AppDelegate.m in Sources */,
+				0606FD28162463EB00489BD1 /* ViewController.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXVariantGroup section */
+		0606FD1D162463EA00489BD1 /* InfoPlist.strings */ = {
+			isa = PBXVariantGroup;
+			children = (
+				0606FD1E162463EA00489BD1 /* en */,
+			);
+			name = InfoPlist.strings;
+			sourceTree = "<group>";
+		};
+		0606FD29162463ED00489BD1 /* ViewController.xib */ = {
+			isa = PBXVariantGroup;
+			children = (
+				0606FD2A162463ED00489BD1 /* en */,
+			);
+			name = ViewController.xib;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		0606FD2C162463ED00489BD1 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ARCHS = "$(ARCHS_STANDARD_32_BIT)";
+				CLANG_ENABLE_OBJC_ARC = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				GCC_VERSION = com.apple.compilers.llvm.clang.1_0;
+				GCC_WARN_ABOUT_MISSING_PROTOTYPES = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 5.0;
+				SDKROOT = iphoneos;
+			};
+			name = Debug;
+		};
+		0606FD2D162463ED00489BD1 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ARCHS = "$(ARCHS_STANDARD_32_BIT)";
+				CLANG_ENABLE_OBJC_ARC = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_VERSION = com.apple.compilers.llvm.clang.1_0;
+				GCC_WARN_ABOUT_MISSING_PROTOTYPES = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 5.0;
+				OTHER_CFLAGS = "-DNS_BLOCK_ASSERTIONS=1";
+				SDKROOT = iphoneos;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		0606FD2F162463ED00489BD1 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "MusicDependent/MusicDependent-Prefix.pch";
+				INFOPLIST_FILE = "MusicDependent/MusicDependent-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				WRAPPER_EXTENSION = app;
+			};
+			name = Debug;
+		};
+		0606FD30162463ED00489BD1 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "MusicDependent/MusicDependent-Prefix.pch";
+				INFOPLIST_FILE = "MusicDependent/MusicDependent-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				WRAPPER_EXTENSION = app;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		0606FD0A162463EA00489BD1 /* Build configuration list for PBXProject "MusicDependent" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				0606FD2C162463ED00489BD1 /* Debug */,
+				0606FD2D162463ED00489BD1 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		0606FD2E162463ED00489BD1 /* Build configuration list for PBXNativeTarget "MusicDependent" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				0606FD2F162463ED00489BD1 /* Debug */,
+				0606FD30162463ED00489BD1 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 0606FD07162463EA00489BD1 /* Project object */;
+}
