@@ -1,0 +1,288 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		56B09F201626AF2D00CB3C85 /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 56B09F1F1626AF2D00CB3C85 /* UIKit.framework */; };
+		56B09F221626AF2D00CB3C85 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 56B09F211626AF2D00CB3C85 /* Foundation.framework */; };
+		56B09F241626AF2D00CB3C85 /* CoreGraphics.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 56B09F231626AF2D00CB3C85 /* CoreGraphics.framework */; };
+		56B09F2A1626AF2D00CB3C85 /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = 56B09F281626AF2D00CB3C85 /* InfoPlist.strings */; };
+		56B09F2C1626AF2D00CB3C85 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 56B09F2B1626AF2D00CB3C85 /* main.m */; };
+		56B09F301626AF2D00CB3C85 /* HWLAppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 56B09F2F1626AF2D00CB3C85 /* HWLAppDelegate.m */; };
+		56B09F331626AF2D00CB3C85 /* HWLViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 56B09F321626AF2D00CB3C85 /* HWLViewController.m */; };
+		56B09F361626AF2D00CB3C85 /* HWLViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = 56B09F341626AF2D00CB3C85 /* HWLViewController.xib */; };
+		56B09F3D1626AFC100CB3C85 /* artistalbums.plist in Resources */ = {isa = PBXBuildFile; fileRef = 56B09F3C1626AFC100CB3C85 /* artistalbums.plist */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXFileReference section */
+		56B09F1B1626AF2D00CB3C85 /* MusicDependent.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = MusicDependent.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		56B09F1F1626AF2D00CB3C85 /* UIKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = UIKit.framework; path = System/Library/Frameworks/UIKit.framework; sourceTree = SDKROOT; };
+		56B09F211626AF2D00CB3C85 /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = System/Library/Frameworks/Foundation.framework; sourceTree = SDKROOT; };
+		56B09F231626AF2D00CB3C85 /* CoreGraphics.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreGraphics.framework; path = System/Library/Frameworks/CoreGraphics.framework; sourceTree = SDKROOT; };
+		56B09F271626AF2D00CB3C85 /* MusicDependent-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "MusicDependent-Info.plist"; sourceTree = "<group>"; };
+		56B09F291626AF2D00CB3C85 /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
+		56B09F2B1626AF2D00CB3C85 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		56B09F2D1626AF2D00CB3C85 /* MusicDependent-Prefix.pch */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "MusicDependent-Prefix.pch"; sourceTree = "<group>"; };
+		56B09F2E1626AF2D00CB3C85 /* HWLAppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = HWLAppDelegate.h; sourceTree = "<group>"; };
+		56B09F2F1626AF2D00CB3C85 /* HWLAppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = HWLAppDelegate.m; sourceTree = "<group>"; };
+		56B09F311626AF2D00CB3C85 /* HWLViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = HWLViewController.h; sourceTree = "<group>"; };
+		56B09F321626AF2D00CB3C85 /* HWLViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = HWLViewController.m; sourceTree = "<group>"; };
+		56B09F351626AF2D00CB3C85 /* en */ = {isa = PBXFileReference; lastKnownFileType = file.xib; name = en; path = en.lproj/HWLViewController.xib; sourceTree = "<group>"; };
+		56B09F3C1626AFC100CB3C85 /* artistalbums.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; path = artistalbums.plist; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		56B09F181626AF2D00CB3C85 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				56B09F201626AF2D00CB3C85 /* UIKit.framework in Frameworks */,
+				56B09F221626AF2D00CB3C85 /* Foundation.framework in Frameworks */,
+				56B09F241626AF2D00CB3C85 /* CoreGraphics.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		56B09F101626AF2D00CB3C85 = {
+			isa = PBXGroup;
+			children = (
+				56B09F251626AF2D00CB3C85 /* MusicDependent */,
+				56B09F1E1626AF2D00CB3C85 /* Frameworks */,
+				56B09F1C1626AF2D00CB3C85 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		56B09F1C1626AF2D00CB3C85 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				56B09F1B1626AF2D00CB3C85 /* MusicDependent.app */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		56B09F1E1626AF2D00CB3C85 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				56B09F1F1626AF2D00CB3C85 /* UIKit.framework */,
+				56B09F211626AF2D00CB3C85 /* Foundation.framework */,
+				56B09F231626AF2D00CB3C85 /* CoreGraphics.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		56B09F251626AF2D00CB3C85 /* MusicDependent */ = {
+			isa = PBXGroup;
+			children = (
+				56B09F2E1626AF2D00CB3C85 /* HWLAppDelegate.h */,
+				56B09F2F1626AF2D00CB3C85 /* HWLAppDelegate.m */,
+				56B09F311626AF2D00CB3C85 /* HWLViewController.h */,
+				56B09F321626AF2D00CB3C85 /* HWLViewController.m */,
+				56B09F341626AF2D00CB3C85 /* HWLViewController.xib */,
+				56B09F261626AF2D00CB3C85 /* Supporting Files */,
+			);
+			path = MusicDependent;
+			sourceTree = "<group>";
+		};
+		56B09F261626AF2D00CB3C85 /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				56B09F271626AF2D00CB3C85 /* MusicDependent-Info.plist */,
+				56B09F281626AF2D00CB3C85 /* InfoPlist.strings */,
+				56B09F3C1626AFC100CB3C85 /* artistalbums.plist */,
+				56B09F2B1626AF2D00CB3C85 /* main.m */,
+				56B09F2D1626AF2D00CB3C85 /* MusicDependent-Prefix.pch */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		56B09F1A1626AF2D00CB3C85 /* MusicDependent */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 56B09F391626AF2D00CB3C85 /* Build configuration list for PBXNativeTarget "MusicDependent" */;
+			buildPhases = (
+				56B09F171626AF2D00CB3C85 /* Sources */,
+				56B09F181626AF2D00CB3C85 /* Frameworks */,
+				56B09F191626AF2D00CB3C85 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = MusicDependent;
+			productName = MusicDependent;
+			productReference = 56B09F1B1626AF2D00CB3C85 /* MusicDependent.app */;
+			productType = "com.apple.product-type.application";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		56B09F121626AF2D00CB3C85 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				CLASSPREFIX = HWL;
+				LastUpgradeCheck = 0430;
+			};
+			buildConfigurationList = 56B09F151626AF2D00CB3C85 /* Build configuration list for PBXProject "MusicDependent" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+			);
+			mainGroup = 56B09F101626AF2D00CB3C85;
+			productRefGroup = 56B09F1C1626AF2D00CB3C85 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				56B09F1A1626AF2D00CB3C85 /* MusicDependent */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		56B09F191626AF2D00CB3C85 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				56B09F2A1626AF2D00CB3C85 /* InfoPlist.strings in Resources */,
+				56B09F361626AF2D00CB3C85 /* HWLViewController.xib in Resources */,
+				56B09F3D1626AFC100CB3C85 /* artistalbums.plist in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		56B09F171626AF2D00CB3C85 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				56B09F2C1626AF2D00CB3C85 /* main.m in Sources */,
+				56B09F301626AF2D00CB3C85 /* HWLAppDelegate.m in Sources */,
+				56B09F331626AF2D00CB3C85 /* HWLViewController.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXVariantGroup section */
+		56B09F281626AF2D00CB3C85 /* InfoPlist.strings */ = {
+			isa = PBXVariantGroup;
+			children = (
+				56B09F291626AF2D00CB3C85 /* en */,
+			);
+			name = InfoPlist.strings;
+			sourceTree = "<group>";
+		};
+		56B09F341626AF2D00CB3C85 /* HWLViewController.xib */ = {
+			isa = PBXVariantGroup;
+			children = (
+				56B09F351626AF2D00CB3C85 /* en */,
+			);
+			name = HWLViewController.xib;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		56B09F371626AF2D00CB3C85 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ARCHS = "$(ARCHS_STANDARD_32_BIT)";
+				CLANG_ENABLE_OBJC_ARC = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				GCC_VERSION = com.apple.compilers.llvm.clang.1_0;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 5.1;
+				SDKROOT = iphoneos;
+				TARGETED_DEVICE_FAMILY = 2;
+			};
+			name = Debug;
+		};
+		56B09F381626AF2D00CB3C85 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ARCHS = "$(ARCHS_STANDARD_32_BIT)";
+				CLANG_ENABLE_OBJC_ARC = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_VERSION = com.apple.compilers.llvm.clang.1_0;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 5.1;
+				OTHER_CFLAGS = "-DNS_BLOCK_ASSERTIONS=1";
+				SDKROOT = iphoneos;
+				TARGETED_DEVICE_FAMILY = 2;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		56B09F3A1626AF2D00CB3C85 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "MusicDependent/MusicDependent-Prefix.pch";
+				INFOPLIST_FILE = "MusicDependent/MusicDependent-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				WRAPPER_EXTENSION = app;
+			};
+			name = Debug;
+		};
+		56B09F3B1626AF2D00CB3C85 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "MusicDependent/MusicDependent-Prefix.pch";
+				INFOPLIST_FILE = "MusicDependent/MusicDependent-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				WRAPPER_EXTENSION = app;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		56B09F151626AF2D00CB3C85 /* Build configuration list for PBXProject "MusicDependent" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				56B09F371626AF2D00CB3C85 /* Debug */,
+				56B09F381626AF2D00CB3C85 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		56B09F391626AF2D00CB3C85 /* Build configuration list for PBXNativeTarget "MusicDependent" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				56B09F3A1626AF2D00CB3C85 /* Debug */,
+				56B09F3B1626AF2D00CB3C85 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 56B09F121626AF2D00CB3C85 /* Project object */;
+}
