@@ -20,7 +20,7 @@
 - (void)viewDidLoad
 {
     [super viewDidLoad];
-    pictureCount = 0;
+    pictureCount=0;
 	// Do any additional setup after loading the view, typically from a nib.
 }
 
@@ -37,6 +37,9 @@
     return (interfaceOrientation != UIInterfaceOrientationPortraitUpsideDown);
 }
 
+-(void) viewWillAppear:(BOOL)animated{
+
+}
 
 //all images were taken from Fundacion Reintegra A.C.'s Facebook Page and modified in photoshop at: https://www.facebook.com/FundacionReintegraAC?fref=ts
 
