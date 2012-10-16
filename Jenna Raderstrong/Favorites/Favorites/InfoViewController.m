@@ -51,8 +51,9 @@
 
 - (BOOL)shouldAutorotateToInterfaceOrientation:(UIInterfaceOrientation)interfaceOrientation
 {
-    return (interfaceOrientation == UIInterfaceOrientationPortrait);
+    return (interfaceOrientation != UIInterfaceOrientationPortraitUpsideDown);
 }
+
 
 - (IBAction)doneButtonTapped:(UIBarButtonItem *)sender {
    
@@ -70,7 +71,6 @@
 - (void)touchesEnded:(NSSet *)touches
 		   withEvent:(UIEvent *)event
 {
-	NSLog(@"User touched");
 	UITouch *touch = [touches anyObject];
 	if ([userQuote isFirstResponder] && [touch view] != userQuote) {
 		NSLog(@"The textView is currently being edited, and the user touched outside the text view");
