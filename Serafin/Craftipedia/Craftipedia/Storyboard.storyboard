@@ -1,5 +1,5 @@
 <?xml version="1.0" encoding="UTF-8" standalone="no"?>
-<document type="com.apple.InterfaceBuilder3.CocoaTouch.Storyboard.XIB" version="2.0" toolsVersion="2843" systemVersion="12C54" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" initialViewController="wv9-Xn-gYS">
+<document type="com.apple.InterfaceBuilder3.CocoaTouch.Storyboard.XIB" version="2.0" toolsVersion="2843" systemVersion="12C60" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" initialViewController="wv9-Xn-gYS">
     <dependencies>
         <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="1929"/>
     </dependencies>
@@ -30,24 +30,41 @@
                                     <rect key="frame" x="0.0" y="0.0" width="287" height="49"/>
                                     <autoresizingMask key="autoresizingMask"/>
                                     <subviews>
-                                        <label opaque="NO" clipsSubviews="YES" userInteractionEnabled="NO" contentMode="left" text="Item Name" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" id="QlM-ca-MIL">
-                                            <rect key="frame" x="68" y="6" width="200" height="21"/>
+                                        <label opaque="NO" clipsSubviews="YES" userInteractionEnabled="NO" contentMode="left" text="Item Name" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="QlM-ca-MIL">
+                                            <constraints>
+                                                <constraint firstAttribute="height" constant="21" id="Kfq-QZ-eo7"/>
+                                                <constraint firstAttribute="width" constant="200" id="fRL-r6-Yew"/>
+                                            </constraints>
                                             <fontDescription key="fontDescription" type="system" pointSize="20"/>
                                             <color key="textColor" cocoaTouchSystemColor="darkTextColor"/>
                                             <color key="highlightedColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
                                         </label>
-                                        <label opaque="NO" clipsSubviews="YES" userInteractionEnabled="NO" contentMode="left" text="ID" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" id="LyA-uI-QZP">
-                                            <rect key="frame" x="67" y="25" width="122" height="21"/>
+                                        <label opaque="NO" clipsSubviews="YES" userInteractionEnabled="NO" contentMode="left" text="ID" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="LyA-uI-QZP">
+                                            <constraints>
+                                                <constraint firstAttribute="height" constant="21" id="MGK-ZP-vYe"/>
+                                                <constraint firstAttribute="width" constant="122" id="P7X-dh-BAV"/>
+                                            </constraints>
                                             <fontDescription key="fontDescription" type="italicSystem" pointSize="14"/>
                                             <color key="textColor" red="0.75751528530000001" green="0.75751528530000001" blue="0.75751528530000001" alpha="1" colorSpace="calibratedRGB"/>
                                             <color key="highlightedColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
                                         </label>
-                                        <imageView userInteractionEnabled="NO" contentMode="scaleAspectFill" id="7fG-fS-SOE">
-                                            <rect key="frame" x="12" y="4" width="40" height="40"/>
+                                        <imageView userInteractionEnabled="NO" contentMode="scaleAspectFill" translatesAutoresizingMaskIntoConstraints="NO" id="7fG-fS-SOE">
+                                            <constraints>
+                                                <constraint firstAttribute="height" constant="40" id="Q9C-NO-RFB"/>
+                                                <constraint firstAttribute="width" constant="40" id="SrD-se-EKf"/>
+                                            </constraints>
                                         </imageView>
                                     </subviews>
                                     <color key="backgroundColor" white="0.0" alpha="0.0" colorSpace="calibratedWhite"/>
                                 </view>
+                                <constraints>
+                                    <constraint firstAttribute="bottom" secondItem="LyA-uI-QZP" secondAttribute="bottom" constant="4" id="9zp-xF-kqo"/>
+                                    <constraint firstItem="7fG-fS-SOE" firstAttribute="top" secondItem="OPV-ls-vaC" secondAttribute="top" constant="4" id="BFd-jY-WC1"/>
+                                    <constraint firstItem="7fG-fS-SOE" firstAttribute="leading" secondItem="OPV-ls-vaC" secondAttribute="leading" constant="12" id="L84-a3-Hh4"/>
+                                    <constraint firstItem="QlM-ca-MIL" firstAttribute="top" secondItem="OPV-ls-vaC" secondAttribute="top" constant="6" id="OX7-WI-tv5"/>
+                                    <constraint firstItem="LyA-uI-QZP" firstAttribute="leading" secondItem="OPV-ls-vaC" secondAttribute="leading" constant="67" id="QqW-AN-GJk"/>
+                                    <constraint firstItem="QlM-ca-MIL" firstAttribute="leading" secondItem="OPV-ls-vaC" secondAttribute="leading" constant="68" id="bFK-6w-rKH"/>
+                                </constraints>
                                 <connections>
                                     <outlet property="itemIDLabel" destination="LyA-uI-QZP" id="0hP-x2-5QD"/>
                                     <outlet property="itemImage" destination="7fG-fS-SOE" id="5Xq-VO-xnU"/>
@@ -74,22 +91,6 @@
             <point key="canvasLocation" x="73" y="27"/>
         </scene>
     </scenes>
-    <classes>
-        <class className="CustomCell" superclassName="UITableViewCell">
-            <source key="sourceIdentifier" type="project" relativePath="./Classes/CustomCell.h"/>
-            <relationships>
-                <relationship kind="outlet" name="itemIDLabel" candidateClass="UILabel"/>
-                <relationship kind="outlet" name="itemImage" candidateClass="UIImageView"/>
-                <relationship kind="outlet" name="itemNameLabel" candidateClass="UILabel"/>
-            </relationships>
-        </class>
-        <class className="SSViewController" superclassName="UITableViewController">
-            <source key="sourceIdentifier" type="project" relativePath="./Classes/SSViewController.h"/>
-            <relationships>
-                <relationship kind="outlet" name="itemSearch" candidateClass="UISearchBar"/>
-            </relationships>
-        </class>
-    </classes>
     <simulatedMetricsContainer key="defaultSimulatedMetrics">
         <simulatedStatusBarMetrics key="statusBar"/>
         <simulatedOrientationMetrics key="orientation"/>
