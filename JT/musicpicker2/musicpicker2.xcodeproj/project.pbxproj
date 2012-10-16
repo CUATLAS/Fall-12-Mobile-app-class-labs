@@ -1,0 +1,282 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		AF49EEB5161DE43E00DF5F07 /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = AF49EEB4161DE43E00DF5F07 /* UIKit.framework */; };
+		AF49EEB7161DE43E00DF5F07 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = AF49EEB6161DE43E00DF5F07 /* Foundation.framework */; };
+		AF49EEB9161DE43E00DF5F07 /* CoreGraphics.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = AF49EEB8161DE43E00DF5F07 /* CoreGraphics.framework */; };
+		AF49EEBF161DE43E00DF5F07 /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = AF49EEBD161DE43E00DF5F07 /* InfoPlist.strings */; };
+		AF49EEC1161DE43E00DF5F07 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = AF49EEC0161DE43E00DF5F07 /* main.m */; };
+		AF49EEC5161DE43E00DF5F07 /* MADAppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = AF49EEC4161DE43E00DF5F07 /* MADAppDelegate.m */; };
+		AF49EEC8161DE43E00DF5F07 /* MADViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = AF49EEC7161DE43E00DF5F07 /* MADViewController.m */; };
+		AF49EECB161DE43E00DF5F07 /* MADViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = AF49EEC9161DE43E00DF5F07 /* MADViewController.xib */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXFileReference section */
+		AF49EEB0161DE43E00DF5F07 /* musicpicker2.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = musicpicker2.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		AF49EEB4161DE43E00DF5F07 /* UIKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = UIKit.framework; path = System/Library/Frameworks/UIKit.framework; sourceTree = SDKROOT; };
+		AF49EEB6161DE43E00DF5F07 /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = System/Library/Frameworks/Foundation.framework; sourceTree = SDKROOT; };
+		AF49EEB8161DE43E00DF5F07 /* CoreGraphics.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreGraphics.framework; path = System/Library/Frameworks/CoreGraphics.framework; sourceTree = SDKROOT; };
+		AF49EEBC161DE43E00DF5F07 /* musicpicker2-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "musicpicker2-Info.plist"; sourceTree = "<group>"; };
+		AF49EEBE161DE43E00DF5F07 /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
+		AF49EEC0161DE43E00DF5F07 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		AF49EEC2161DE43E00DF5F07 /* musicpicker2-Prefix.pch */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "musicpicker2-Prefix.pch"; sourceTree = "<group>"; };
+		AF49EEC3161DE43E00DF5F07 /* MADAppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = MADAppDelegate.h; sourceTree = "<group>"; };
+		AF49EEC4161DE43E00DF5F07 /* MADAppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = MADAppDelegate.m; sourceTree = "<group>"; };
+		AF49EEC6161DE43E00DF5F07 /* MADViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = MADViewController.h; sourceTree = "<group>"; };
+		AF49EEC7161DE43E00DF5F07 /* MADViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = MADViewController.m; sourceTree = "<group>"; };
+		AF49EECA161DE43E00DF5F07 /* en */ = {isa = PBXFileReference; lastKnownFileType = file.xib; name = en; path = en.lproj/MADViewController.xib; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		AF49EEAD161DE43E00DF5F07 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				AF49EEB5161DE43E00DF5F07 /* UIKit.framework in Frameworks */,
+				AF49EEB7161DE43E00DF5F07 /* Foundation.framework in Frameworks */,
+				AF49EEB9161DE43E00DF5F07 /* CoreGraphics.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		AF49EEA5161DE43E00DF5F07 = {
+			isa = PBXGroup;
+			children = (
+				AF49EEBA161DE43E00DF5F07 /* musicpicker2 */,
+				AF49EEB3161DE43E00DF5F07 /* Frameworks */,
+				AF49EEB1161DE43E00DF5F07 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		AF49EEB1161DE43E00DF5F07 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				AF49EEB0161DE43E00DF5F07 /* musicpicker2.app */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		AF49EEB3161DE43E00DF5F07 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				AF49EEB4161DE43E00DF5F07 /* UIKit.framework */,
+				AF49EEB6161DE43E00DF5F07 /* Foundation.framework */,
+				AF49EEB8161DE43E00DF5F07 /* CoreGraphics.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		AF49EEBA161DE43E00DF5F07 /* musicpicker2 */ = {
+			isa = PBXGroup;
+			children = (
+				AF49EEC3161DE43E00DF5F07 /* MADAppDelegate.h */,
+				AF49EEC4161DE43E00DF5F07 /* MADAppDelegate.m */,
+				AF49EEC6161DE43E00DF5F07 /* MADViewController.h */,
+				AF49EEC7161DE43E00DF5F07 /* MADViewController.m */,
+				AF49EEC9161DE43E00DF5F07 /* MADViewController.xib */,
+				AF49EEBB161DE43E00DF5F07 /* Supporting Files */,
+			);
+			path = musicpicker2;
+			sourceTree = "<group>";
+		};
+		AF49EEBB161DE43E00DF5F07 /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				AF49EEBC161DE43E00DF5F07 /* musicpicker2-Info.plist */,
+				AF49EEBD161DE43E00DF5F07 /* InfoPlist.strings */,
+				AF49EEC0161DE43E00DF5F07 /* main.m */,
+				AF49EEC2161DE43E00DF5F07 /* musicpicker2-Prefix.pch */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		AF49EEAF161DE43E00DF5F07 /* musicpicker2 */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = AF49EECE161DE43E00DF5F07 /* Build configuration list for PBXNativeTarget "musicpicker2" */;
+			buildPhases = (
+				AF49EEAC161DE43E00DF5F07 /* Sources */,
+				AF49EEAD161DE43E00DF5F07 /* Frameworks */,
+				AF49EEAE161DE43E00DF5F07 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = musicpicker2;
+			productName = musicpicker2;
+			productReference = AF49EEB0161DE43E00DF5F07 /* musicpicker2.app */;
+			productType = "com.apple.product-type.application";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		AF49EEA7161DE43E00DF5F07 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				CLASSPREFIX = MAD;
+				LastUpgradeCheck = 0430;
+			};
+			buildConfigurationList = AF49EEAA161DE43E00DF5F07 /* Build configuration list for PBXProject "musicpicker2" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+			);
+			mainGroup = AF49EEA5161DE43E00DF5F07;
+			productRefGroup = AF49EEB1161DE43E00DF5F07 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				AF49EEAF161DE43E00DF5F07 /* musicpicker2 */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		AF49EEAE161DE43E00DF5F07 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				AF49EEBF161DE43E00DF5F07 /* InfoPlist.strings in Resources */,
+				AF49EECB161DE43E00DF5F07 /* MADViewController.xib in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		AF49EEAC161DE43E00DF5F07 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				AF49EEC1161DE43E00DF5F07 /* main.m in Sources */,
+				AF49EEC5161DE43E00DF5F07 /* MADAppDelegate.m in Sources */,
+				AF49EEC8161DE43E00DF5F07 /* MADViewController.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXVariantGroup section */
+		AF49EEBD161DE43E00DF5F07 /* InfoPlist.strings */ = {
+			isa = PBXVariantGroup;
+			children = (
+				AF49EEBE161DE43E00DF5F07 /* en */,
+			);
+			name = InfoPlist.strings;
+			sourceTree = "<group>";
+		};
+		AF49EEC9161DE43E00DF5F07 /* MADViewController.xib */ = {
+			isa = PBXVariantGroup;
+			children = (
+				AF49EECA161DE43E00DF5F07 /* en */,
+			);
+			name = MADViewController.xib;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		AF49EECC161DE43E00DF5F07 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ARCHS = "$(ARCHS_STANDARD_32_BIT)";
+				CLANG_ENABLE_OBJC_ARC = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				GCC_VERSION = com.apple.compilers.llvm.clang.1_0;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 5.1;
+				SDKROOT = iphoneos;
+			};
+			name = Debug;
+		};
+		AF49EECD161DE43E00DF5F07 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ARCHS = "$(ARCHS_STANDARD_32_BIT)";
+				CLANG_ENABLE_OBJC_ARC = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_VERSION = com.apple.compilers.llvm.clang.1_0;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 5.1;
+				OTHER_CFLAGS = "-DNS_BLOCK_ASSERTIONS=1";
+				SDKROOT = iphoneos;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		AF49EECF161DE43E00DF5F07 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "musicpicker2/musicpicker2-Prefix.pch";
+				INFOPLIST_FILE = "musicpicker2/musicpicker2-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				WRAPPER_EXTENSION = app;
+			};
+			name = Debug;
+		};
+		AF49EED0161DE43E00DF5F07 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "musicpicker2/musicpicker2-Prefix.pch";
+				INFOPLIST_FILE = "musicpicker2/musicpicker2-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				WRAPPER_EXTENSION = app;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		AF49EEAA161DE43E00DF5F07 /* Build configuration list for PBXProject "musicpicker2" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				AF49EECC161DE43E00DF5F07 /* Debug */,
+				AF49EECD161DE43E00DF5F07 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		AF49EECE161DE43E00DF5F07 /* Build configuration list for PBXNativeTarget "musicpicker2" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				AF49EECF161DE43E00DF5F07 /* Debug */,
+				AF49EED0161DE43E00DF5F07 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = AF49EEA7161DE43E00DF5F07 /* Project object */;
+}
