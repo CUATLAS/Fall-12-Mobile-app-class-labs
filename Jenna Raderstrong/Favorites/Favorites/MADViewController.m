@@ -17,6 +17,15 @@
 @synthesize wordLabel;
 @synthesize quoteText;
 
+-(void)viewWillAppear:(BOOL)animated{
+    [super viewWillAppear:YES];
+    wordLabel.text=user.word;
+    quoteText.text=user.quote;
+    
+    
+}
+
+
 - (void)viewDidLoad
 {
     [super viewDidLoad];
@@ -39,17 +48,15 @@
 }
 
 - (IBAction)infoButtonTapped:(UIBarButtonItem *)sender {
-    NSLog(@"Info button tapped");
+
     //initialize view controller
     InfoViewController *infoViewController=[[InfoViewController alloc]init];
-    //set transition style to flip horizontal transition    infoViewController.modalTransitionStyle=UIModalTransitionStyleFlipHorizontal;
+   infoViewController.modalTransitionStyle=UIModalTransitionStyleFlipHorizontal;
+    infoViewController.userInfo=user;
     //present the infoViewController
     [self presentViewController:infoViewController animated:YES completion:NULL]; 
 }
 
--(void)viewWillAppear:(BOOL)animated{
-    [super viewWillAppear:YES];
-    wordLabel.text=user.word;
-    quoteText.text=user.quote;}
+
 
 @end

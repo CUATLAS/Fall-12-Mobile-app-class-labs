@@ -17,6 +17,11 @@
 @synthesize userQuote;
 @synthesize userInfo;
 
+-(void)viewWillAppear:(BOOL)animated{
+    [super viewWillAppear:YES];
+    userWord.text=userInfo.word;
+    userQuote.text=userInfo.quote;}
+
 - (id)initWithNibName:(NSString *)nibNameOrNil bundle:(NSBundle *)nibBundleOrNil
 {
     self = [super initWithNibName:nibNameOrNil bundle:nibBundleOrNil];
@@ -38,6 +43,7 @@
 {
     [self setUserWord:nil];
     [self setUserQuote:nil];
+    userInfo:nil;
     [super viewDidUnload];
     // Release any retained subviews of the main view.
     // e.g. self.myOutlet = nil;
@@ -50,10 +56,9 @@
 
 - (IBAction)doneButtonTapped:(UIBarButtonItem *)sender {
    
-        //dismisses the info view and flips back to the favorites view
-        [self dismissViewControllerAnimated:YES completion:NULL];
     userInfo.word=userWord.text;
-      userInfo.quote=userQuote.text; 
+      userInfo.quote=userQuote.text;
+       [self dismissViewControllerAnimated:YES completion:NULL];
     }
 
 -(BOOL)textFieldShouldReturn:(UITextField *)textField{
@@ -61,8 +66,7 @@
 	return YES;
 }
 
-//dismisses keyboard when the user touches outside the textview
-// from http://iphonedevelopertips.com/cocoa/how-to-dismiss-the-keyboard-when-using-a-uitextview.html
+
 - (void)touchesEnded:(NSSet *)touches
 		   withEvent:(UIEvent *)event
 {
@@ -74,10 +78,7 @@
 	}
 }
 
--(void)viewWillAppear:(BOOL)animated{
-    [super viewWillAppear:YES];
-    userWord.text=userInfo.word;
-    userQuote.text=userInfo.quote;}
+
 
 @end
 
