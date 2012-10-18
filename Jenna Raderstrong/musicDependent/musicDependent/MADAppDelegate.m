@@ -40,8 +40,11 @@
 
 - (void)applicationWillEnterForeground:(UIApplication *)application
 {
+    NSString *selectedArtist=[self.viewController.artists objectAtIndex:0];
+    NSArray *array= [self.viewController.artistAlbums objectForKey:selectedArtist];//get the albums for the selected artist
+    self.viewController.albums=array;
+  
   [self.viewController.musicPicker selectRow:0 inComponent:artistComponent animated:YES]; //set the right component back to 0
-    [self.viewController.musicPicker reloadComponent:artistComponent];
     
     [self.viewController.musicPicker selectRow:0 inComponent:albumComponent animated:YES]; //set the right component back to 0
    [self.viewController.musicPicker reloadComponent:albumComponent];
