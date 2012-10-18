@@ -1,0 +1,319 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		98D0B313163054C2002B4501 /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 98D0B312163054C2002B4501 /* UIKit.framework */; };
+		98D0B315163054C2002B4501 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 98D0B314163054C2002B4501 /* Foundation.framework */; };
+		98D0B317163054C2002B4501 /* CoreGraphics.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 98D0B316163054C2002B4501 /* CoreGraphics.framework */; };
+		98D0B31D163054C2002B4501 /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = 98D0B31B163054C2002B4501 /* InfoPlist.strings */; };
+		98D0B31F163054C2002B4501 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 98D0B31E163054C2002B4501 /* main.m */; };
+		98D0B323163054C2002B4501 /* MADAppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 98D0B322163054C2002B4501 /* MADAppDelegate.m */; };
+		98D0B32A16305554002B4501 /* TabBarController.xib in Resources */ = {isa = PBXBuildFile; fileRef = 98D0B32916305554002B4501 /* TabBarController.xib */; };
+		98D0B32C16305678002B4501 /* news.jpeg in Resources */ = {isa = PBXBuildFile; fileRef = 98D0B32B16305678002B4501 /* news.jpeg */; };
+		98D0B33016305CAD002B4501 /* MADFirstViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 98D0B32E16305CAD002B4501 /* MADFirstViewController.m */; };
+		98D0B33116305CAD002B4501 /* MADFirstViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = 98D0B32F16305CAD002B4501 /* MADFirstViewController.xib */; };
+		98D0B33516305CC8002B4501 /* MADSecondViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 98D0B33316305CC8002B4501 /* MADSecondViewController.m */; };
+		98D0B33616305CC8002B4501 /* MADSecondViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = 98D0B33416305CC8002B4501 /* MADSecondViewController.xib */; };
+		98D0B33A163065CA002B4501 /* MADThirdViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 98D0B338163065CA002B4501 /* MADThirdViewController.m */; };
+		98D0B33B163065CA002B4501 /* MADThirdViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = 98D0B339163065CA002B4501 /* MADThirdViewController.xib */; };
+		98D0B33F163067DA002B4501 /* MADFourthViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 98D0B33D163067DA002B4501 /* MADFourthViewController.m */; };
+		98D0B340163067DA002B4501 /* MADFourthViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = 98D0B33E163067DA002B4501 /* MADFourthViewController.xib */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXFileReference section */
+		98D0B30E163054C2002B4501 /* Boulder_News.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Boulder_News.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		98D0B312163054C2002B4501 /* UIKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = UIKit.framework; path = System/Library/Frameworks/UIKit.framework; sourceTree = SDKROOT; };
+		98D0B314163054C2002B4501 /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = System/Library/Frameworks/Foundation.framework; sourceTree = SDKROOT; };
+		98D0B316163054C2002B4501 /* CoreGraphics.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreGraphics.framework; path = System/Library/Frameworks/CoreGraphics.framework; sourceTree = SDKROOT; };
+		98D0B31A163054C2002B4501 /* Boulder_News-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "Boulder_News-Info.plist"; sourceTree = "<group>"; };
+		98D0B31C163054C2002B4501 /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
+		98D0B31E163054C2002B4501 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		98D0B320163054C2002B4501 /* Boulder_News-Prefix.pch */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "Boulder_News-Prefix.pch"; sourceTree = "<group>"; };
+		98D0B321163054C2002B4501 /* MADAppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = MADAppDelegate.h; sourceTree = "<group>"; };
+		98D0B322163054C2002B4501 /* MADAppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = MADAppDelegate.m; sourceTree = "<group>"; };
+		98D0B32916305554002B4501 /* TabBarController.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; name = TabBarController.xib; path = ../TabBarController.xib; sourceTree = "<group>"; };
+		98D0B32B16305678002B4501 /* news.jpeg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = news.jpeg; sourceTree = "<group>"; };
+		98D0B32D16305CAD002B4501 /* MADFirstViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MADFirstViewController.h; sourceTree = "<group>"; };
+		98D0B32E16305CAD002B4501 /* MADFirstViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = MADFirstViewController.m; sourceTree = "<group>"; };
+		98D0B32F16305CAD002B4501 /* MADFirstViewController.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = MADFirstViewController.xib; sourceTree = "<group>"; };
+		98D0B33216305CC8002B4501 /* MADSecondViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MADSecondViewController.h; sourceTree = "<group>"; };
+		98D0B33316305CC8002B4501 /* MADSecondViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = MADSecondViewController.m; sourceTree = "<group>"; };
+		98D0B33416305CC8002B4501 /* MADSecondViewController.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = MADSecondViewController.xib; sourceTree = "<group>"; };
+		98D0B337163065CA002B4501 /* MADThirdViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MADThirdViewController.h; sourceTree = "<group>"; };
+		98D0B338163065CA002B4501 /* MADThirdViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = MADThirdViewController.m; sourceTree = "<group>"; };
+		98D0B339163065CA002B4501 /* MADThirdViewController.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = MADThirdViewController.xib; sourceTree = "<group>"; };
+		98D0B33C163067DA002B4501 /* MADFourthViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MADFourthViewController.h; sourceTree = "<group>"; };
+		98D0B33D163067DA002B4501 /* MADFourthViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = MADFourthViewController.m; sourceTree = "<group>"; };
+		98D0B33E163067DA002B4501 /* MADFourthViewController.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = MADFourthViewController.xib; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		98D0B30B163054C2002B4501 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				98D0B313163054C2002B4501 /* UIKit.framework in Frameworks */,
+				98D0B315163054C2002B4501 /* Foundation.framework in Frameworks */,
+				98D0B317163054C2002B4501 /* CoreGraphics.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		98D0B303163054C2002B4501 = {
+			isa = PBXGroup;
+			children = (
+				98D0B318163054C2002B4501 /* Boulder_News */,
+				98D0B311163054C2002B4501 /* Frameworks */,
+				98D0B30F163054C2002B4501 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		98D0B30F163054C2002B4501 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				98D0B30E163054C2002B4501 /* Boulder_News.app */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		98D0B311163054C2002B4501 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				98D0B312163054C2002B4501 /* UIKit.framework */,
+				98D0B314163054C2002B4501 /* Foundation.framework */,
+				98D0B316163054C2002B4501 /* CoreGraphics.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		98D0B318163054C2002B4501 /* Boulder_News */ = {
+			isa = PBXGroup;
+			children = (
+				98D0B321163054C2002B4501 /* MADAppDelegate.h */,
+				98D0B322163054C2002B4501 /* MADAppDelegate.m */,
+				98D0B32916305554002B4501 /* TabBarController.xib */,
+				98D0B33C163067DA002B4501 /* MADFourthViewController.h */,
+				98D0B33D163067DA002B4501 /* MADFourthViewController.m */,
+				98D0B33E163067DA002B4501 /* MADFourthViewController.xib */,
+				98D0B337163065CA002B4501 /* MADThirdViewController.h */,
+				98D0B338163065CA002B4501 /* MADThirdViewController.m */,
+				98D0B339163065CA002B4501 /* MADThirdViewController.xib */,
+				98D0B32D16305CAD002B4501 /* MADFirstViewController.h */,
+				98D0B32E16305CAD002B4501 /* MADFirstViewController.m */,
+				98D0B32F16305CAD002B4501 /* MADFirstViewController.xib */,
+				98D0B33216305CC8002B4501 /* MADSecondViewController.h */,
+				98D0B33316305CC8002B4501 /* MADSecondViewController.m */,
+				98D0B33416305CC8002B4501 /* MADSecondViewController.xib */,
+				98D0B319163054C2002B4501 /* Supporting Files */,
+			);
+			path = Boulder_News;
+			sourceTree = "<group>";
+		};
+		98D0B319163054C2002B4501 /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				98D0B32B16305678002B4501 /* news.jpeg */,
+				98D0B31A163054C2002B4501 /* Boulder_News-Info.plist */,
+				98D0B31B163054C2002B4501 /* InfoPlist.strings */,
+				98D0B31E163054C2002B4501 /* main.m */,
+				98D0B320163054C2002B4501 /* Boulder_News-Prefix.pch */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		98D0B30D163054C2002B4501 /* Boulder_News */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 98D0B326163054C2002B4501 /* Build configuration list for PBXNativeTarget "Boulder_News" */;
+			buildPhases = (
+				98D0B30A163054C2002B4501 /* Sources */,
+				98D0B30B163054C2002B4501 /* Frameworks */,
+				98D0B30C163054C2002B4501 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = Boulder_News;
+			productName = Boulder_News;
+			productReference = 98D0B30E163054C2002B4501 /* Boulder_News.app */;
+			productType = "com.apple.product-type.application";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		98D0B305163054C2002B4501 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				CLASSPREFIX = MAD;
+				LastUpgradeCheck = 0440;
+				ORGANIZATIONNAME = "Jenna Raderstrong";
+			};
+			buildConfigurationList = 98D0B308163054C2002B4501 /* Build configuration list for PBXProject "Boulder_News" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+			);
+			mainGroup = 98D0B303163054C2002B4501;
+			productRefGroup = 98D0B30F163054C2002B4501 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				98D0B30D163054C2002B4501 /* Boulder_News */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		98D0B30C163054C2002B4501 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				98D0B31D163054C2002B4501 /* InfoPlist.strings in Resources */,
+				98D0B32A16305554002B4501 /* TabBarController.xib in Resources */,
+				98D0B32C16305678002B4501 /* news.jpeg in Resources */,
+				98D0B33116305CAD002B4501 /* MADFirstViewController.xib in Resources */,
+				98D0B33616305CC8002B4501 /* MADSecondViewController.xib in Resources */,
+				98D0B33B163065CA002B4501 /* MADThirdViewController.xib in Resources */,
+				98D0B340163067DA002B4501 /* MADFourthViewController.xib in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		98D0B30A163054C2002B4501 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				98D0B31F163054C2002B4501 /* main.m in Sources */,
+				98D0B323163054C2002B4501 /* MADAppDelegate.m in Sources */,
+				98D0B33016305CAD002B4501 /* MADFirstViewController.m in Sources */,
+				98D0B33516305CC8002B4501 /* MADSecondViewController.m in Sources */,
+				98D0B33A163065CA002B4501 /* MADThirdViewController.m in Sources */,
+				98D0B33F163067DA002B4501 /* MADFourthViewController.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXVariantGroup section */
+		98D0B31B163054C2002B4501 /* InfoPlist.strings */ = {
+			isa = PBXVariantGroup;
+			children = (
+				98D0B31C163054C2002B4501 /* en */,
+			);
+			name = InfoPlist.strings;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		98D0B324163054C2002B4501 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ARCHS = "$(ARCHS_STANDARD_32_BIT)";
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				GCC_VERSION = com.apple.compilers.llvm.clang.1_0;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 5.1;
+				SDKROOT = iphoneos;
+				TARGETED_DEVICE_FAMILY = 2;
+			};
+			name = Debug;
+		};
+		98D0B325163054C2002B4501 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ARCHS = "$(ARCHS_STANDARD_32_BIT)";
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_VERSION = com.apple.compilers.llvm.clang.1_0;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 5.1;
+				OTHER_CFLAGS = "-DNS_BLOCK_ASSERTIONS=1";
+				SDKROOT = iphoneos;
+				TARGETED_DEVICE_FAMILY = 2;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		98D0B327163054C2002B4501 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "Boulder_News/Boulder_News-Prefix.pch";
+				INFOPLIST_FILE = "Boulder_News/Boulder_News-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				WRAPPER_EXTENSION = app;
+			};
+			name = Debug;
+		};
+		98D0B328163054C2002B4501 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "Boulder_News/Boulder_News-Prefix.pch";
+				INFOPLIST_FILE = "Boulder_News/Boulder_News-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				WRAPPER_EXTENSION = app;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		98D0B308163054C2002B4501 /* Build configuration list for PBXProject "Boulder_News" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				98D0B324163054C2002B4501 /* Debug */,
+				98D0B325163054C2002B4501 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		98D0B326163054C2002B4501 /* Build configuration list for PBXNativeTarget "Boulder_News" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				98D0B327163054C2002B4501 /* Debug */,
+				98D0B328163054C2002B4501 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 98D0B305163054C2002B4501 /* Project object */;
+}

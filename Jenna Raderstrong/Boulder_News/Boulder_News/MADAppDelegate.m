@@ -1,23 +1,22 @@
 //
 //  MADAppDelegate.m
-//  musicDependent
+//  Boulder_News
 //
-//  Created by Jenna Raderstrong on 10/9/12.
+//  Created by Jenna Raderstrong on 10/18/12.
 //  Copyright (c) 2012 Jenna Raderstrong. All rights reserved.
 //
 
 #import "MADAppDelegate.h"
 
-#import "MADViewController.h"
-
 @implementation MADAppDelegate
+@synthesize rootViewController;
 
 - (BOOL)application:(UIApplication *)application didFinishLaunchingWithOptions:(NSDictionary *)launchOptions
 {
     self.window = [[UIWindow alloc] initWithFrame:[[UIScreen mainScreen] bounds]];
-    // Override point for customization after application launch.
-    self.viewController = [[MADViewController alloc] initWithNibName:@"MADViewController" bundle:nil];
-    self.window.rootViewController = self.viewController;
+    [[NSBundle mainBundle] loadNibNamed:@"TabBarController" owner:self options:nil];
+    [self.window addSubview:rootViewController.view];
+    self.window.backgroundColor = [UIColor whiteColor];
     [self.window makeKeyAndVisible];
     return YES;
 }
@@ -32,22 +31,10 @@
 {
     // Use this method to release shared resources, save user data, invalidate timers, and store enough application state information to restore your application to its current state in case it is terminated later. 
     // If your application supports background execution, this method is called instead of applicationWillTerminate: when the user quits.
-
- 
-    
-    
 }
 
 - (void)applicationWillEnterForeground:(UIApplication *)application
 {
-  [self.viewController.musicPicker selectRow:0 inComponent:artistComponent animated:YES]; //set the right component back to 0
-    [self.viewController.musicPicker reloadComponent:artistComponent];
-    
-    [self.viewController.musicPicker selectRow:0 inComponent:albumComponent animated:YES]; //set the right component back to 0
-   [self.viewController.musicPicker reloadComponent:albumComponent];
-    self.viewController.choiceLabel.text=@"";
-    
-    
     // Called as part of the transition from the background to the inactive state; here you can undo many of the changes made on entering the background.
 }
 
