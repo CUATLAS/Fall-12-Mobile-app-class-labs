@@ -1,0 +1,294 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		B2BE29D5162667B000BD4498 /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = B2BE29D4162667B000BD4498 /* UIKit.framework */; };
+		B2BE29D7162667B000BD4498 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = B2BE29D6162667B000BD4498 /* Foundation.framework */; };
+		B2BE29D9162667B000BD4498 /* CoreGraphics.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = B2BE29D8162667B000BD4498 /* CoreGraphics.framework */; };
+		B2BE29DF162667B000BD4498 /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = B2BE29DD162667B000BD4498 /* InfoPlist.strings */; };
+		B2BE29E1162667B000BD4498 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = B2BE29E0162667B000BD4498 /* main.m */; };
+		B2BE29E5162667B000BD4498 /* LABAppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = B2BE29E4162667B000BD4498 /* LABAppDelegate.m */; };
+		B2BE29E8162667B000BD4498 /* LABViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = B2BE29E7162667B000BD4498 /* LABViewController.m */; };
+		B2BE29EB162667B000BD4498 /* LABViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = B2BE29E9162667B000BD4498 /* LABViewController.xib */; };
+		B2D061DD1631A0B700D600AC /* paper-flower.png in Resources */ = {isa = PBXBuildFile; fileRef = B2D061DC1631A0B700D600AC /* paper-flower.png */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXFileReference section */
+		B2BE29D0162667B000BD4498 /* MusicPicker.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = MusicPicker.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		B2BE29D4162667B000BD4498 /* UIKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = UIKit.framework; path = System/Library/Frameworks/UIKit.framework; sourceTree = SDKROOT; };
+		B2BE29D6162667B000BD4498 /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = System/Library/Frameworks/Foundation.framework; sourceTree = SDKROOT; };
+		B2BE29D8162667B000BD4498 /* CoreGraphics.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreGraphics.framework; path = System/Library/Frameworks/CoreGraphics.framework; sourceTree = SDKROOT; };
+		B2BE29DC162667B000BD4498 /* MusicPicker-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "MusicPicker-Info.plist"; sourceTree = "<group>"; };
+		B2BE29DE162667B000BD4498 /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
+		B2BE29E0162667B000BD4498 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		B2BE29E2162667B000BD4498 /* MusicPicker-Prefix.pch */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "MusicPicker-Prefix.pch"; sourceTree = "<group>"; };
+		B2BE29E3162667B000BD4498 /* LABAppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = LABAppDelegate.h; sourceTree = "<group>"; };
+		B2BE29E4162667B000BD4498 /* LABAppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = LABAppDelegate.m; sourceTree = "<group>"; };
+		B2BE29E6162667B000BD4498 /* LABViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = LABViewController.h; sourceTree = "<group>"; };
+		B2BE29E7162667B000BD4498 /* LABViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = LABViewController.m; sourceTree = "<group>"; };
+		B2BE29EA162667B000BD4498 /* en */ = {isa = PBXFileReference; lastKnownFileType = file.xib; name = en; path = en.lproj/LABViewController.xib; sourceTree = "<group>"; };
+		B2D061DC1631A0B700D600AC /* paper-flower.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "paper-flower.png"; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		B2BE29CD162667B000BD4498 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				B2BE29D5162667B000BD4498 /* UIKit.framework in Frameworks */,
+				B2BE29D7162667B000BD4498 /* Foundation.framework in Frameworks */,
+				B2BE29D9162667B000BD4498 /* CoreGraphics.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		B2BE29C5162667B000BD4498 = {
+			isa = PBXGroup;
+			children = (
+				B2BE29DA162667B000BD4498 /* MusicPicker */,
+				B2BE29D3162667B000BD4498 /* Frameworks */,
+				B2BE29D1162667B000BD4498 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		B2BE29D1162667B000BD4498 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				B2BE29D0162667B000BD4498 /* MusicPicker.app */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		B2BE29D3162667B000BD4498 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				B2BE29D4162667B000BD4498 /* UIKit.framework */,
+				B2BE29D6162667B000BD4498 /* Foundation.framework */,
+				B2BE29D8162667B000BD4498 /* CoreGraphics.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		B2BE29DA162667B000BD4498 /* MusicPicker */ = {
+			isa = PBXGroup;
+			children = (
+				B2BE29E3162667B000BD4498 /* LABAppDelegate.h */,
+				B2BE29E4162667B000BD4498 /* LABAppDelegate.m */,
+				B2BE29E6162667B000BD4498 /* LABViewController.h */,
+				B2BE29E7162667B000BD4498 /* LABViewController.m */,
+				B2BE29E9162667B000BD4498 /* LABViewController.xib */,
+				B2BE29DB162667B000BD4498 /* Supporting Files */,
+			);
+			path = MusicPicker;
+			sourceTree = "<group>";
+		};
+		B2BE29DB162667B000BD4498 /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				B2D061DC1631A0B700D600AC /* paper-flower.png */,
+				B2BE29DC162667B000BD4498 /* MusicPicker-Info.plist */,
+				B2BE29DD162667B000BD4498 /* InfoPlist.strings */,
+				B2BE29E0162667B000BD4498 /* main.m */,
+				B2BE29E2162667B000BD4498 /* MusicPicker-Prefix.pch */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		B2BE29CF162667B000BD4498 /* MusicPicker */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = B2BE29EE162667B000BD4498 /* Build configuration list for PBXNativeTarget "MusicPicker" */;
+			buildPhases = (
+				B2BE29CC162667B000BD4498 /* Sources */,
+				B2BE29CD162667B000BD4498 /* Frameworks */,
+				B2BE29CE162667B000BD4498 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = MusicPicker;
+			productName = MusicPicker;
+			productReference = B2BE29D0162667B000BD4498 /* MusicPicker.app */;
+			productType = "com.apple.product-type.application";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		B2BE29C7162667B000BD4498 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				CLASSPREFIX = LAB;
+				LastUpgradeCheck = 0440;
+				ORGANIZATIONNAME = sdocrodrig;
+			};
+			buildConfigurationList = B2BE29CA162667B000BD4498 /* Build configuration list for PBXProject "MusicPicker" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+			);
+			mainGroup = B2BE29C5162667B000BD4498;
+			productRefGroup = B2BE29D1162667B000BD4498 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				B2BE29CF162667B000BD4498 /* MusicPicker */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		B2BE29CE162667B000BD4498 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				B2BE29DF162667B000BD4498 /* InfoPlist.strings in Resources */,
+				B2BE29EB162667B000BD4498 /* LABViewController.xib in Resources */,
+				B2D061DD1631A0B700D600AC /* paper-flower.png in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		B2BE29CC162667B000BD4498 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				B2BE29E1162667B000BD4498 /* main.m in Sources */,
+				B2BE29E5162667B000BD4498 /* LABAppDelegate.m in Sources */,
+				B2BE29E8162667B000BD4498 /* LABViewController.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXVariantGroup section */
+		B2BE29DD162667B000BD4498 /* InfoPlist.strings */ = {
+			isa = PBXVariantGroup;
+			children = (
+				B2BE29DE162667B000BD4498 /* en */,
+			);
+			name = InfoPlist.strings;
+			sourceTree = "<group>";
+		};
+		B2BE29E9162667B000BD4498 /* LABViewController.xib */ = {
+			isa = PBXVariantGroup;
+			children = (
+				B2BE29EA162667B000BD4498 /* en */,
+			);
+			name = LABViewController.xib;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		B2BE29EC162667B000BD4498 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ARCHS = "$(ARCHS_STANDARD_32_BIT)";
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				GCC_VERSION = com.apple.compilers.llvm.clang.1_0;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 5.1;
+				SDKROOT = iphoneos;
+				TARGETED_DEVICE_FAMILY = 2;
+			};
+			name = Debug;
+		};
+		B2BE29ED162667B000BD4498 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ARCHS = "$(ARCHS_STANDARD_32_BIT)";
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_VERSION = com.apple.compilers.llvm.clang.1_0;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 5.1;
+				OTHER_CFLAGS = "-DNS_BLOCK_ASSERTIONS=1";
+				SDKROOT = iphoneos;
+				TARGETED_DEVICE_FAMILY = 2;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		B2BE29EF162667B000BD4498 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "MusicPicker/MusicPicker-Prefix.pch";
+				INFOPLIST_FILE = "MusicPicker/MusicPicker-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				WRAPPER_EXTENSION = app;
+			};
+			name = Debug;
+		};
+		B2BE29F0162667B000BD4498 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "MusicPicker/MusicPicker-Prefix.pch";
+				INFOPLIST_FILE = "MusicPicker/MusicPicker-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				WRAPPER_EXTENSION = app;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		B2BE29CA162667B000BD4498 /* Build configuration list for PBXProject "MusicPicker" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				B2BE29EC162667B000BD4498 /* Debug */,
+				B2BE29ED162667B000BD4498 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		B2BE29EE162667B000BD4498 /* Build configuration list for PBXNativeTarget "MusicPicker" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				B2BE29EF162667B000BD4498 /* Debug */,
+				B2BE29F0162667B000BD4498 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = B2BE29C7162667B000BD4498 /* Project object */;
+}

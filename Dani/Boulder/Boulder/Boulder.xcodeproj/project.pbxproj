@@ -1,0 +1,310 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		B2F3B265163058D50019B7F3 /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = B2F3B264163058D50019B7F3 /* UIKit.framework */; };
+		B2F3B267163058D50019B7F3 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = B2F3B266163058D50019B7F3 /* Foundation.framework */; };
+		B2F3B269163058D50019B7F3 /* CoreGraphics.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = B2F3B268163058D50019B7F3 /* CoreGraphics.framework */; };
+		B2F3B26F163058D50019B7F3 /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = B2F3B26D163058D50019B7F3 /* InfoPlist.strings */; };
+		B2F3B271163058D50019B7F3 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = B2F3B270163058D50019B7F3 /* main.m */; };
+		B2F3B275163058D50019B7F3 /* LABAppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = B2F3B274163058D50019B7F3 /* LABAppDelegate.m */; };
+		B2F3B28316305E3C0019B7F3 /* TabBarController.xib in Resources */ = {isa = PBXBuildFile; fileRef = B2F3B28216305E3C0019B7F3 /* TabBarController.xib */; };
+		B2F3B287163061930019B7F3 /* MADFirstViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = B2F3B285163061930019B7F3 /* MADFirstViewController.m */; };
+		B2F3B288163061930019B7F3 /* MADFirstViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = B2F3B286163061930019B7F3 /* MADFirstViewController.xib */; };
+		B2F3B28C163061AE0019B7F3 /* MADSecondViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = B2F3B28A163061AE0019B7F3 /* MADSecondViewController.m */; };
+		B2F3B28D163061AE0019B7F3 /* MADSecondViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = B2F3B28B163061AE0019B7F3 /* MADSecondViewController.xib */; };
+		B2F3B28F1630623E0019B7F3 /* boulderflatirons.png in Resources */ = {isa = PBXBuildFile; fileRef = B2F3B28E1630623E0019B7F3 /* boulderflatirons.png */; };
+		B2F3B293163066820019B7F3 /* MADThirdViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = B2F3B291163066820019B7F3 /* MADThirdViewController.m */; };
+		B2F3B294163066820019B7F3 /* MADThirdViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = B2F3B292163066820019B7F3 /* MADThirdViewController.xib */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXFileReference section */
+		B2F3B260163058D50019B7F3 /* Boulder.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Boulder.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		B2F3B264163058D50019B7F3 /* UIKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = UIKit.framework; path = System/Library/Frameworks/UIKit.framework; sourceTree = SDKROOT; };
+		B2F3B266163058D50019B7F3 /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = System/Library/Frameworks/Foundation.framework; sourceTree = SDKROOT; };
+		B2F3B268163058D50019B7F3 /* CoreGraphics.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreGraphics.framework; path = System/Library/Frameworks/CoreGraphics.framework; sourceTree = SDKROOT; };
+		B2F3B26C163058D50019B7F3 /* Boulder-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "Boulder-Info.plist"; sourceTree = "<group>"; };
+		B2F3B26E163058D50019B7F3 /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
+		B2F3B270163058D50019B7F3 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		B2F3B272163058D50019B7F3 /* Boulder-Prefix.pch */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "Boulder-Prefix.pch"; sourceTree = "<group>"; };
+		B2F3B273163058D50019B7F3 /* LABAppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = LABAppDelegate.h; sourceTree = "<group>"; };
+		B2F3B274163058D50019B7F3 /* LABAppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = LABAppDelegate.m; sourceTree = "<group>"; };
+		B2F3B28216305E3C0019B7F3 /* TabBarController.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; name = TabBarController.xib; path = ../TabBarController.xib; sourceTree = "<group>"; };
+		B2F3B284163061930019B7F3 /* MADFirstViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MADFirstViewController.h; sourceTree = "<group>"; };
+		B2F3B285163061930019B7F3 /* MADFirstViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = MADFirstViewController.m; sourceTree = "<group>"; };
+		B2F3B286163061930019B7F3 /* MADFirstViewController.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = MADFirstViewController.xib; sourceTree = "<group>"; };
+		B2F3B289163061AE0019B7F3 /* MADSecondViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MADSecondViewController.h; sourceTree = "<group>"; };
+		B2F3B28A163061AE0019B7F3 /* MADSecondViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = MADSecondViewController.m; sourceTree = "<group>"; };
+		B2F3B28B163061AE0019B7F3 /* MADSecondViewController.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = MADSecondViewController.xib; sourceTree = "<group>"; };
+		B2F3B28E1630623E0019B7F3 /* boulderflatirons.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = boulderflatirons.png; sourceTree = "<group>"; };
+		B2F3B290163066820019B7F3 /* MADThirdViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MADThirdViewController.h; sourceTree = "<group>"; };
+		B2F3B291163066820019B7F3 /* MADThirdViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = MADThirdViewController.m; sourceTree = "<group>"; };
+		B2F3B292163066820019B7F3 /* MADThirdViewController.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = MADThirdViewController.xib; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		B2F3B25D163058D50019B7F3 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				B2F3B265163058D50019B7F3 /* UIKit.framework in Frameworks */,
+				B2F3B267163058D50019B7F3 /* Foundation.framework in Frameworks */,
+				B2F3B269163058D50019B7F3 /* CoreGraphics.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		B2F3B255163058D50019B7F3 = {
+			isa = PBXGroup;
+			children = (
+				B2F3B26A163058D50019B7F3 /* Boulder */,
+				B2F3B263163058D50019B7F3 /* Frameworks */,
+				B2F3B261163058D50019B7F3 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		B2F3B261163058D50019B7F3 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				B2F3B260163058D50019B7F3 /* Boulder.app */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		B2F3B263163058D50019B7F3 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				B2F3B264163058D50019B7F3 /* UIKit.framework */,
+				B2F3B266163058D50019B7F3 /* Foundation.framework */,
+				B2F3B268163058D50019B7F3 /* CoreGraphics.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		B2F3B26A163058D50019B7F3 /* Boulder */ = {
+			isa = PBXGroup;
+			children = (
+				B2F3B273163058D50019B7F3 /* LABAppDelegate.h */,
+				B2F3B28216305E3C0019B7F3 /* TabBarController.xib */,
+				B2F3B284163061930019B7F3 /* MADFirstViewController.h */,
+				B2F3B285163061930019B7F3 /* MADFirstViewController.m */,
+				B2F3B286163061930019B7F3 /* MADFirstViewController.xib */,
+				B2F3B289163061AE0019B7F3 /* MADSecondViewController.h */,
+				B2F3B28A163061AE0019B7F3 /* MADSecondViewController.m */,
+				B2F3B290163066820019B7F3 /* MADThirdViewController.h */,
+				B2F3B291163066820019B7F3 /* MADThirdViewController.m */,
+				B2F3B292163066820019B7F3 /* MADThirdViewController.xib */,
+				B2F3B28B163061AE0019B7F3 /* MADSecondViewController.xib */,
+				B2F3B274163058D50019B7F3 /* LABAppDelegate.m */,
+				B2F3B26B163058D50019B7F3 /* Supporting Files */,
+			);
+			path = Boulder;
+			sourceTree = "<group>";
+		};
+		B2F3B26B163058D50019B7F3 /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				B2F3B28E1630623E0019B7F3 /* boulderflatirons.png */,
+				B2F3B26C163058D50019B7F3 /* Boulder-Info.plist */,
+				B2F3B26D163058D50019B7F3 /* InfoPlist.strings */,
+				B2F3B270163058D50019B7F3 /* main.m */,
+				B2F3B272163058D50019B7F3 /* Boulder-Prefix.pch */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		B2F3B25F163058D50019B7F3 /* Boulder */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = B2F3B278163058D50019B7F3 /* Build configuration list for PBXNativeTarget "Boulder" */;
+			buildPhases = (
+				B2F3B25C163058D50019B7F3 /* Sources */,
+				B2F3B25D163058D50019B7F3 /* Frameworks */,
+				B2F3B25E163058D50019B7F3 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = Boulder;
+			productName = Boulder;
+			productReference = B2F3B260163058D50019B7F3 /* Boulder.app */;
+			productType = "com.apple.product-type.application";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		B2F3B257163058D50019B7F3 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				CLASSPREFIX = LAB;
+				LastUpgradeCheck = 0440;
+				ORGANIZATIONNAME = sdocrodrig;
+			};
+			buildConfigurationList = B2F3B25A163058D50019B7F3 /* Build configuration list for PBXProject "Boulder" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+			);
+			mainGroup = B2F3B255163058D50019B7F3;
+			productRefGroup = B2F3B261163058D50019B7F3 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				B2F3B25F163058D50019B7F3 /* Boulder */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		B2F3B25E163058D50019B7F3 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				B2F3B26F163058D50019B7F3 /* InfoPlist.strings in Resources */,
+				B2F3B28316305E3C0019B7F3 /* TabBarController.xib in Resources */,
+				B2F3B288163061930019B7F3 /* MADFirstViewController.xib in Resources */,
+				B2F3B28D163061AE0019B7F3 /* MADSecondViewController.xib in Resources */,
+				B2F3B28F1630623E0019B7F3 /* boulderflatirons.png in Resources */,
+				B2F3B294163066820019B7F3 /* MADThirdViewController.xib in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		B2F3B25C163058D50019B7F3 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				B2F3B271163058D50019B7F3 /* main.m in Sources */,
+				B2F3B275163058D50019B7F3 /* LABAppDelegate.m in Sources */,
+				B2F3B287163061930019B7F3 /* MADFirstViewController.m in Sources */,
+				B2F3B28C163061AE0019B7F3 /* MADSecondViewController.m in Sources */,
+				B2F3B293163066820019B7F3 /* MADThirdViewController.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXVariantGroup section */
+		B2F3B26D163058D50019B7F3 /* InfoPlist.strings */ = {
+			isa = PBXVariantGroup;
+			children = (
+				B2F3B26E163058D50019B7F3 /* en */,
+			);
+			name = InfoPlist.strings;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		B2F3B276163058D50019B7F3 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ARCHS = "$(ARCHS_STANDARD_32_BIT)";
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				GCC_VERSION = com.apple.compilers.llvm.clang.1_0;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 5.1;
+				SDKROOT = iphoneos;
+				TARGETED_DEVICE_FAMILY = 2;
+			};
+			name = Debug;
+		};
+		B2F3B277163058D50019B7F3 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ARCHS = "$(ARCHS_STANDARD_32_BIT)";
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_VERSION = com.apple.compilers.llvm.clang.1_0;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 5.1;
+				OTHER_CFLAGS = "-DNS_BLOCK_ASSERTIONS=1";
+				SDKROOT = iphoneos;
+				TARGETED_DEVICE_FAMILY = 2;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		B2F3B279163058D50019B7F3 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "Boulder/Boulder-Prefix.pch";
+				INFOPLIST_FILE = "Boulder/Boulder-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				WRAPPER_EXTENSION = app;
+			};
+			name = Debug;
+		};
+		B2F3B27A163058D50019B7F3 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "Boulder/Boulder-Prefix.pch";
+				INFOPLIST_FILE = "Boulder/Boulder-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				WRAPPER_EXTENSION = app;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		B2F3B25A163058D50019B7F3 /* Build configuration list for PBXProject "Boulder" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				B2F3B276163058D50019B7F3 /* Debug */,
+				B2F3B277163058D50019B7F3 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		B2F3B278163058D50019B7F3 /* Build configuration list for PBXNativeTarget "Boulder" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				B2F3B279163058D50019B7F3 /* Debug */,
+				B2F3B27A163058D50019B7F3 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = B2F3B257163058D50019B7F3 /* Project object */;
+}
