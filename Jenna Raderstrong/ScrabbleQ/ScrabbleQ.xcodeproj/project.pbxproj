@@ -15,6 +15,7 @@
 		98C2F7F81636FDAA00CC08C4 /* MADAppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 98C2F7F71636FDAA00CC08C4 /* MADAppDelegate.m */; };
 		98C2F7FB1636FDAA00CC08C4 /* MADViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 98C2F7FA1636FDAA00CC08C4 /* MADViewController.m */; };
 		98C2F7FE1636FDAA00CC08C4 /* MADViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = 98C2F7FC1636FDAA00CC08C4 /* MADViewController.xib */; };
+		98C2F8091636FE1000CC08C4 /* qwordswithoutu.plist in Resources */ = {isa = PBXBuildFile; fileRef = 98C2F8081636FE1000CC08C4 /* qwordswithoutu.plist */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -31,6 +32,7 @@
 		98C2F7F91636FDAA00CC08C4 /* MADViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = MADViewController.h; sourceTree = "<group>"; };
 		98C2F7FA1636FDAA00CC08C4 /* MADViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = MADViewController.m; sourceTree = "<group>"; };
 		98C2F7FD1636FDAA00CC08C4 /* en */ = {isa = PBXFileReference; lastKnownFileType = file.xib; name = en; path = en.lproj/MADViewController.xib; sourceTree = "<group>"; };
+		98C2F8081636FE1000CC08C4 /* qwordswithoutu.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; path = qwordswithoutu.plist; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -90,6 +92,7 @@
 		98C2F7EE1636FDAA00CC08C4 /* Supporting Files */ = {
 			isa = PBXGroup;
 			children = (
+				98C2F8081636FE1000CC08C4 /* qwordswithoutu.plist */,
 				98C2F7EF1636FDAA00CC08C4 /* ScrabbleQ-Info.plist */,
 				98C2F7F01636FDAA00CC08C4 /* InfoPlist.strings */,
 				98C2F7F31636FDAA00CC08C4 /* main.m */,
@@ -152,6 +155,7 @@
 			files = (
 				98C2F7F21636FDAA00CC08C4 /* InfoPlist.strings in Resources */,
 				98C2F7FE1636FDAA00CC08C4 /* MADViewController.xib in Resources */,
+				98C2F8091636FE1000CC08C4 /* qwordswithoutu.plist in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -280,6 +284,7 @@
 				98C2F8031636FDAA00CC08C4 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};

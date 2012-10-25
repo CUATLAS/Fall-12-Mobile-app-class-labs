@@ -8,6 +8,6 @@
 
 #import <UIKit/UIKit.h>
 
-@interface MADViewController : UIViewController
+@interface MADViewController : UIViewController <UITableViewDelegate, UITableViewDataSource>
 
 @end
