@@ -1,0 +1,316 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		CCE55B7416271E2300429548 /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = CCE55B7316271E2300429548 /* UIKit.framework */; };
+		CCE55B7616271E2300429548 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = CCE55B7516271E2300429548 /* Foundation.framework */; };
+		CCE55B7816271E2300429548 /* CoreGraphics.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = CCE55B7716271E2300429548 /* CoreGraphics.framework */; };
+		CCE55B7E16271E2300429548 /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = CCE55B7C16271E2300429548 /* InfoPlist.strings */; };
+		CCE55B8016271E2300429548 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = CCE55B7F16271E2300429548 /* main.m */; };
+		CCE55B8416271E2300429548 /* MADAppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = CCE55B8316271E2300429548 /* MADAppDelegate.m */; };
+		CCE55B8716271E2300429548 /* MADViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = CCE55B8616271E2300429548 /* MADViewController.m */; };
+		CCE55B8A16271E2300429548 /* MADViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = CCE55B8816271E2300429548 /* MADViewController.xib */; };
+		CCE55B93162722BA00429548 /* InfoViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = CCE55B91162722BA00429548 /* InfoViewController.m */; };
+		CCE55B94162722BA00429548 /* InfoViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = CCE55B92162722BA00429548 /* InfoViewController.xib */; };
+		CCE55B9616272DC800429548 /* movie57.png in Resources */ = {isa = PBXBuildFile; fileRef = CCE55B9516272DC800429548 /* movie57.png */; };
+		CCE55B9816272DCC00429548 /* movie114.png in Resources */ = {isa = PBXBuildFile; fileRef = CCE55B9716272DCC00429548 /* movie114.png */; };
+		CCEDF144162DB10600ECC240 /* Favorite.m in Sources */ = {isa = PBXBuildFile; fileRef = CCEDF143162DB10600ECC240 /* Favorite.m */; };
+		CCEDF147162DBAAD00ECC240 /* hollywoodMoviesCalendar2013.jpeg in Resources */ = {isa = PBXBuildFile; fileRef = CCEDF146162DBAAD00ECC240 /* hollywoodMoviesCalendar2013.jpeg */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXFileReference section */
+		CCE55B6F16271E2300429548 /* favorites_RachelStrobel.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = favorites_RachelStrobel.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		CCE55B7316271E2300429548 /* UIKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = UIKit.framework; path = System/Library/Frameworks/UIKit.framework; sourceTree = SDKROOT; };
+		CCE55B7516271E2300429548 /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = System/Library/Frameworks/Foundation.framework; sourceTree = SDKROOT; };
+		CCE55B7716271E2300429548 /* CoreGraphics.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreGraphics.framework; path = System/Library/Frameworks/CoreGraphics.framework; sourceTree = SDKROOT; };
+		CCE55B7B16271E2300429548 /* favorites_RachelStrobel-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "favorites_RachelStrobel-Info.plist"; sourceTree = "<group>"; };
+		CCE55B7D16271E2300429548 /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
+		CCE55B7F16271E2300429548 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		CCE55B8116271E2300429548 /* favorites_RachelStrobel-Prefix.pch */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "favorites_RachelStrobel-Prefix.pch"; sourceTree = "<group>"; };
+		CCE55B8216271E2300429548 /* MADAppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = MADAppDelegate.h; sourceTree = "<group>"; };
+		CCE55B8316271E2300429548 /* MADAppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = MADAppDelegate.m; sourceTree = "<group>"; };
+		CCE55B8516271E2300429548 /* MADViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = MADViewController.h; sourceTree = "<group>"; };
+		CCE55B8616271E2300429548 /* MADViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = MADViewController.m; sourceTree = "<group>"; };
+		CCE55B8916271E2300429548 /* en */ = {isa = PBXFileReference; lastKnownFileType = file.xib; name = en; path = en.lproj/MADViewController.xib; sourceTree = "<group>"; };
+		CCE55B90162722BA00429548 /* InfoViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = InfoViewController.h; sourceTree = "<group>"; };
+		CCE55B91162722BA00429548 /* InfoViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = InfoViewController.m; sourceTree = "<group>"; };
+		CCE55B92162722BA00429548 /* InfoViewController.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = InfoViewController.xib; sourceTree = "<group>"; };
+		CCE55B9516272DC800429548 /* movie57.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = movie57.png; sourceTree = "<group>"; };
+		CCE55B9716272DCC00429548 /* movie114.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = movie114.png; sourceTree = "<group>"; };
+		CCEDF142162DB10600ECC240 /* Favorite.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Favorite.h; sourceTree = "<group>"; };
+		CCEDF143162DB10600ECC240 /* Favorite.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = Favorite.m; sourceTree = "<group>"; };
+		CCEDF146162DBAAD00ECC240 /* hollywoodMoviesCalendar2013.jpeg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = hollywoodMoviesCalendar2013.jpeg; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		CCE55B6C16271E2200429548 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				CCE55B7416271E2300429548 /* UIKit.framework in Frameworks */,
+				CCE55B7616271E2300429548 /* Foundation.framework in Frameworks */,
+				CCE55B7816271E2300429548 /* CoreGraphics.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		CCE55B6416271E2200429548 = {
+			isa = PBXGroup;
+			children = (
+				CCE55B9716272DCC00429548 /* movie114.png */,
+				CCE55B9516272DC800429548 /* movie57.png */,
+				CCE55B7916271E2300429548 /* favorites_RachelStrobel */,
+				CCE55B7216271E2300429548 /* Frameworks */,
+				CCE55B7016271E2300429548 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		CCE55B7016271E2300429548 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				CCE55B6F16271E2300429548 /* favorites_RachelStrobel.app */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		CCE55B7216271E2300429548 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				CCE55B7316271E2300429548 /* UIKit.framework */,
+				CCE55B7516271E2300429548 /* Foundation.framework */,
+				CCE55B7716271E2300429548 /* CoreGraphics.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		CCE55B7916271E2300429548 /* favorites_RachelStrobel */ = {
+			isa = PBXGroup;
+			children = (
+				CCE55B8216271E2300429548 /* MADAppDelegate.h */,
+				CCE55B8316271E2300429548 /* MADAppDelegate.m */,
+				CCE55B8516271E2300429548 /* MADViewController.h */,
+				CCE55B8616271E2300429548 /* MADViewController.m */,
+				CCE55B90162722BA00429548 /* InfoViewController.h */,
+				CCE55B91162722BA00429548 /* InfoViewController.m */,
+				CCE55B92162722BA00429548 /* InfoViewController.xib */,
+				CCEDF142162DB10600ECC240 /* Favorite.h */,
+				CCEDF143162DB10600ECC240 /* Favorite.m */,
+				CCE55B8816271E2300429548 /* MADViewController.xib */,
+				CCE55B7A16271E2300429548 /* Supporting Files */,
+			);
+			path = favorites_RachelStrobel;
+			sourceTree = "<group>";
+		};
+		CCE55B7A16271E2300429548 /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				CCEDF146162DBAAD00ECC240 /* hollywoodMoviesCalendar2013.jpeg */,
+				CCE55B7B16271E2300429548 /* favorites_RachelStrobel-Info.plist */,
+				CCE55B7C16271E2300429548 /* InfoPlist.strings */,
+				CCE55B7F16271E2300429548 /* main.m */,
+				CCE55B8116271E2300429548 /* favorites_RachelStrobel-Prefix.pch */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		CCE55B6E16271E2200429548 /* favorites_RachelStrobel */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = CCE55B8D16271E2300429548 /* Build configuration list for PBXNativeTarget "favorites_RachelStrobel" */;
+			buildPhases = (
+				CCE55B6B16271E2200429548 /* Sources */,
+				CCE55B6C16271E2200429548 /* Frameworks */,
+				CCE55B6D16271E2200429548 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = favorites_RachelStrobel;
+			productName = favorites_RachelStrobel;
+			productReference = CCE55B6F16271E2300429548 /* favorites_RachelStrobel.app */;
+			productType = "com.apple.product-type.application";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		CCE55B6616271E2200429548 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				CLASSPREFIX = MAD;
+				LastUpgradeCheck = 0440;
+				ORGANIZATIONNAME = "Rachel Strobel";
+			};
+			buildConfigurationList = CCE55B6916271E2200429548 /* Build configuration list for PBXProject "favorites_RachelStrobel" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+			);
+			mainGroup = CCE55B6416271E2200429548;
+			productRefGroup = CCE55B7016271E2300429548 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				CCE55B6E16271E2200429548 /* favorites_RachelStrobel */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		CCE55B6D16271E2200429548 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				CCE55B7E16271E2300429548 /* InfoPlist.strings in Resources */,
+				CCE55B8A16271E2300429548 /* MADViewController.xib in Resources */,
+				CCE55B94162722BA00429548 /* InfoViewController.xib in Resources */,
+				CCE55B9616272DC800429548 /* movie57.png in Resources */,
+				CCE55B9816272DCC00429548 /* movie114.png in Resources */,
+				CCEDF147162DBAAD00ECC240 /* hollywoodMoviesCalendar2013.jpeg in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		CCE55B6B16271E2200429548 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				CCE55B8016271E2300429548 /* main.m in Sources */,
+				CCE55B8416271E2300429548 /* MADAppDelegate.m in Sources */,
+				CCE55B8716271E2300429548 /* MADViewController.m in Sources */,
+				CCE55B93162722BA00429548 /* InfoViewController.m in Sources */,
+				CCEDF144162DB10600ECC240 /* Favorite.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXVariantGroup section */
+		CCE55B7C16271E2300429548 /* InfoPlist.strings */ = {
+			isa = PBXVariantGroup;
+			children = (
+				CCE55B7D16271E2300429548 /* en */,
+			);
+			name = InfoPlist.strings;
+			sourceTree = "<group>";
+		};
+		CCE55B8816271E2300429548 /* MADViewController.xib */ = {
+			isa = PBXVariantGroup;
+			children = (
+				CCE55B8916271E2300429548 /* en */,
+			);
+			name = MADViewController.xib;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		CCE55B8B16271E2300429548 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ARCHS = "$(ARCHS_STANDARD_32_BIT)";
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				GCC_VERSION = com.apple.compilers.llvm.clang.1_0;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 5.1;
+				SDKROOT = iphoneos;
+			};
+			name = Debug;
+		};
+		CCE55B8C16271E2300429548 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ARCHS = "$(ARCHS_STANDARD_32_BIT)";
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_VERSION = com.apple.compilers.llvm.clang.1_0;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 5.1;
+				OTHER_CFLAGS = "-DNS_BLOCK_ASSERTIONS=1";
+				SDKROOT = iphoneos;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		CCE55B8E16271E2300429548 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "favorites_RachelStrobel/favorites_RachelStrobel-Prefix.pch";
+				INFOPLIST_FILE = "favorites_RachelStrobel/favorites_RachelStrobel-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				WRAPPER_EXTENSION = app;
+			};
+			name = Debug;
+		};
+		CCE55B8F16271E2300429548 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "favorites_RachelStrobel/favorites_RachelStrobel-Prefix.pch";
+				INFOPLIST_FILE = "favorites_RachelStrobel/favorites_RachelStrobel-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				WRAPPER_EXTENSION = app;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		CCE55B6916271E2200429548 /* Build configuration list for PBXProject "favorites_RachelStrobel" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				CCE55B8B16271E2300429548 /* Debug */,
+				CCE55B8C16271E2300429548 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		CCE55B8D16271E2300429548 /* Build configuration list for PBXNativeTarget "favorites_RachelStrobel" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				CCE55B8E16271E2300429548 /* Debug */,
+				CCE55B8F16271E2300429548 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = CCE55B6616271E2200429548 /* Project object */;
+}
