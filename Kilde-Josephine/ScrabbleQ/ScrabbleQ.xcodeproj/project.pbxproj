@@ -1,0 +1,286 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		963AE9711636FDCB00D03B78 /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 963AE9701636FDCB00D03B78 /* UIKit.framework */; };
+		963AE9731636FDCB00D03B78 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 963AE9721636FDCB00D03B78 /* Foundation.framework */; };
+		963AE9751636FDCB00D03B78 /* CoreGraphics.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 963AE9741636FDCB00D03B78 /* CoreGraphics.framework */; };
+		963AE97B1636FDCB00D03B78 /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = 963AE9791636FDCB00D03B78 /* InfoPlist.strings */; };
+		963AE97D1636FDCB00D03B78 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 963AE97C1636FDCB00D03B78 /* main.m */; };
+		963AE9811636FDCB00D03B78 /* MADAppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 963AE9801636FDCB00D03B78 /* MADAppDelegate.m */; };
+		963AE9841636FDCB00D03B78 /* MADViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 963AE9831636FDCB00D03B78 /* MADViewController.m */; };
+		963AE9871636FDCB00D03B78 /* MADViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = 963AE9851636FDCB00D03B78 /* MADViewController.xib */; };
+		963AE98E1636FDFF00D03B78 /* qwordswithoutu.plist in Resources */ = {isa = PBXBuildFile; fileRef = 963AE98D1636FDFF00D03B78 /* qwordswithoutu.plist */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXFileReference section */
+		963AE96C1636FDCB00D03B78 /* ScrabbleQ.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = ScrabbleQ.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		963AE9701636FDCB00D03B78 /* UIKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = UIKit.framework; path = System/Library/Frameworks/UIKit.framework; sourceTree = SDKROOT; };
+		963AE9721636FDCB00D03B78 /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = System/Library/Frameworks/Foundation.framework; sourceTree = SDKROOT; };
+		963AE9741636FDCB00D03B78 /* CoreGraphics.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreGraphics.framework; path = System/Library/Frameworks/CoreGraphics.framework; sourceTree = SDKROOT; };
+		963AE9781636FDCB00D03B78 /* ScrabbleQ-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "ScrabbleQ-Info.plist"; sourceTree = "<group>"; };
+		963AE97A1636FDCB00D03B78 /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
+		963AE97C1636FDCB00D03B78 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		963AE97E1636FDCB00D03B78 /* ScrabbleQ-Prefix.pch */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "ScrabbleQ-Prefix.pch"; sourceTree = "<group>"; };
+		963AE97F1636FDCB00D03B78 /* MADAppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = MADAppDelegate.h; sourceTree = "<group>"; };
+		963AE9801636FDCB00D03B78 /* MADAppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = MADAppDelegate.m; sourceTree = "<group>"; };
+		963AE9821636FDCB00D03B78 /* MADViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = MADViewController.h; sourceTree = "<group>"; };
+		963AE9831636FDCB00D03B78 /* MADViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = MADViewController.m; sourceTree = "<group>"; };
+		963AE9861636FDCB00D03B78 /* en */ = {isa = PBXFileReference; lastKnownFileType = file.xib; name = en; path = en.lproj/MADViewController.xib; sourceTree = "<group>"; };
+		963AE98D1636FDFF00D03B78 /* qwordswithoutu.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; path = qwordswithoutu.plist; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		963AE9691636FDCB00D03B78 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				963AE9711636FDCB00D03B78 /* UIKit.framework in Frameworks */,
+				963AE9731636FDCB00D03B78 /* Foundation.framework in Frameworks */,
+				963AE9751636FDCB00D03B78 /* CoreGraphics.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		963AE9611636FDCB00D03B78 = {
+			isa = PBXGroup;
+			children = (
+				963AE9761636FDCB00D03B78 /* ScrabbleQ */,
+				963AE96F1636FDCB00D03B78 /* Frameworks */,
+				963AE96D1636FDCB00D03B78 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		963AE96D1636FDCB00D03B78 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				963AE96C1636FDCB00D03B78 /* ScrabbleQ.app */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		963AE96F1636FDCB00D03B78 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				963AE9701636FDCB00D03B78 /* UIKit.framework */,
+				963AE9721636FDCB00D03B78 /* Foundation.framework */,
+				963AE9741636FDCB00D03B78 /* CoreGraphics.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		963AE9761636FDCB00D03B78 /* ScrabbleQ */ = {
+			isa = PBXGroup;
+			children = (
+				963AE97F1636FDCB00D03B78 /* MADAppDelegate.h */,
+				963AE9801636FDCB00D03B78 /* MADAppDelegate.m */,
+				963AE9821636FDCB00D03B78 /* MADViewController.h */,
+				963AE9831636FDCB00D03B78 /* MADViewController.m */,
+				963AE9851636FDCB00D03B78 /* MADViewController.xib */,
+				963AE9771636FDCB00D03B78 /* Supporting Files */,
+			);
+			path = ScrabbleQ;
+			sourceTree = "<group>";
+		};
+		963AE9771636FDCB00D03B78 /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				963AE98D1636FDFF00D03B78 /* qwordswithoutu.plist */,
+				963AE9781636FDCB00D03B78 /* ScrabbleQ-Info.plist */,
+				963AE9791636FDCB00D03B78 /* InfoPlist.strings */,
+				963AE97C1636FDCB00D03B78 /* main.m */,
+				963AE97E1636FDCB00D03B78 /* ScrabbleQ-Prefix.pch */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		963AE96B1636FDCB00D03B78 /* ScrabbleQ */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 963AE98A1636FDCB00D03B78 /* Build configuration list for PBXNativeTarget "ScrabbleQ" */;
+			buildPhases = (
+				963AE9681636FDCB00D03B78 /* Sources */,
+				963AE9691636FDCB00D03B78 /* Frameworks */,
+				963AE96A1636FDCB00D03B78 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = ScrabbleQ;
+			productName = ScrabbleQ;
+			productReference = 963AE96C1636FDCB00D03B78 /* ScrabbleQ.app */;
+			productType = "com.apple.product-type.application";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		963AE9631636FDCB00D03B78 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				CLASSPREFIX = MAD;
+				LastUpgradeCheck = 0430;
+			};
+			buildConfigurationList = 963AE9661636FDCB00D03B78 /* Build configuration list for PBXProject "ScrabbleQ" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+			);
+			mainGroup = 963AE9611636FDCB00D03B78;
+			productRefGroup = 963AE96D1636FDCB00D03B78 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				963AE96B1636FDCB00D03B78 /* ScrabbleQ */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		963AE96A1636FDCB00D03B78 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				963AE97B1636FDCB00D03B78 /* InfoPlist.strings in Resources */,
+				963AE9871636FDCB00D03B78 /* MADViewController.xib in Resources */,
+				963AE98E1636FDFF00D03B78 /* qwordswithoutu.plist in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		963AE9681636FDCB00D03B78 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				963AE97D1636FDCB00D03B78 /* main.m in Sources */,
+				963AE9811636FDCB00D03B78 /* MADAppDelegate.m in Sources */,
+				963AE9841636FDCB00D03B78 /* MADViewController.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXVariantGroup section */
+		963AE9791636FDCB00D03B78 /* InfoPlist.strings */ = {
+			isa = PBXVariantGroup;
+			children = (
+				963AE97A1636FDCB00D03B78 /* en */,
+			);
+			name = InfoPlist.strings;
+			sourceTree = "<group>";
+		};
+		963AE9851636FDCB00D03B78 /* MADViewController.xib */ = {
+			isa = PBXVariantGroup;
+			children = (
+				963AE9861636FDCB00D03B78 /* en */,
+			);
+			name = MADViewController.xib;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		963AE9881636FDCB00D03B78 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ARCHS = "$(ARCHS_STANDARD_32_BIT)";
+				CLANG_ENABLE_OBJC_ARC = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				GCC_VERSION = com.apple.compilers.llvm.clang.1_0;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 5.1;
+				SDKROOT = iphoneos;
+			};
+			name = Debug;
+		};
+		963AE9891636FDCB00D03B78 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ARCHS = "$(ARCHS_STANDARD_32_BIT)";
+				CLANG_ENABLE_OBJC_ARC = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_VERSION = com.apple.compilers.llvm.clang.1_0;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 5.1;
+				OTHER_CFLAGS = "-DNS_BLOCK_ASSERTIONS=1";
+				SDKROOT = iphoneos;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		963AE98B1636FDCB00D03B78 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "ScrabbleQ/ScrabbleQ-Prefix.pch";
+				INFOPLIST_FILE = "ScrabbleQ/ScrabbleQ-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				WRAPPER_EXTENSION = app;
+			};
+			name = Debug;
+		};
+		963AE98C1636FDCB00D03B78 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "ScrabbleQ/ScrabbleQ-Prefix.pch";
+				INFOPLIST_FILE = "ScrabbleQ/ScrabbleQ-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				WRAPPER_EXTENSION = app;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		963AE9661636FDCB00D03B78 /* Build configuration list for PBXProject "ScrabbleQ" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				963AE9881636FDCB00D03B78 /* Debug */,
+				963AE9891636FDCB00D03B78 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		963AE98A1636FDCB00D03B78 /* Build configuration list for PBXNativeTarget "ScrabbleQ" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				963AE98B1636FDCB00D03B78 /* Debug */,
+				963AE98C1636FDCB00D03B78 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 963AE9631636FDCB00D03B78 /* Project object */;
+}
