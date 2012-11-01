@@ -18,6 +18,8 @@
 		98253F751639918A00F1D535 /* MADMasterViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = 98253F731639918A00F1D535 /* MADMasterViewController.xib */; };
 		98253F791639996D00F1D535 /* MADDetailViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 98253F771639996D00F1D535 /* MADDetailViewController.m */; };
 		98253F7A1639996D00F1D535 /* MADDetailViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = 98253F781639996D00F1D535 /* MADDetailViewController.xib */; };
+		989257D01640347900FFB000 /* MADAddViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 989257CE1640347900FFB000 /* MADAddViewController.m */; };
+		989257D11640347900FFB000 /* MADAddViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = 989257CF1640347900FFB000 /* MADAddViewController.xib */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -38,6 +40,9 @@
 		98253F761639996D00F1D535 /* MADDetailViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MADDetailViewController.h; sourceTree = "<group>"; };
 		98253F771639996D00F1D535 /* MADDetailViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = MADDetailViewController.m; sourceTree = "<group>"; };
 		98253F781639996D00F1D535 /* MADDetailViewController.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = MADDetailViewController.xib; sourceTree = "<group>"; };
+		989257CD1640347900FFB000 /* MADAddViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = MADAddViewController.h; path = ../MADAddViewController.h; sourceTree = "<group>"; };
+		989257CE1640347900FFB000 /* MADAddViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = MADAddViewController.m; path = ../MADAddViewController.m; sourceTree = "<group>"; };
+		989257CF1640347900FFB000 /* MADAddViewController.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; name = MADAddViewController.xib; path = ../MADAddViewController.xib; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -92,6 +97,9 @@
 				98253F771639996D00F1D535 /* MADDetailViewController.m */,
 				98253F781639996D00F1D535 /* MADDetailViewController.xib */,
 				98253F681639903B00F1D535 /* MADAppDelegate.m */,
+				989257CD1640347900FFB000 /* MADAddViewController.h */,
+				989257CE1640347900FFB000 /* MADAddViewController.m */,
+				989257CF1640347900FFB000 /* MADAddViewController.xib */,
 				98253F5F1639903B00F1D535 /* Supporting Files */,
 			);
 			path = Countries2;
@@ -165,6 +173,7 @@
 				98253F701639907300F1D535 /* continents.plist in Resources */,
 				98253F751639918A00F1D535 /* MADMasterViewController.xib in Resources */,
 				98253F7A1639996D00F1D535 /* MADDetailViewController.xib in Resources */,
+				989257D11640347900FFB000 /* MADAddViewController.xib in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -179,6 +188,7 @@
 				98253F691639903B00F1D535 /* MADAppDelegate.m in Sources */,
 				98253F741639918A00F1D535 /* MADMasterViewController.m in Sources */,
 				98253F791639996D00F1D535 /* MADDetailViewController.m in Sources */,
+				989257D01640347900FFB000 /* MADAddViewController.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -286,6 +296,7 @@
 				98253F6E1639903B00F1D535 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};

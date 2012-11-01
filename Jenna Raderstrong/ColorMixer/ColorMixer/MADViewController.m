@@ -176,6 +176,7 @@
     }
         
 - (IBAction)tryAgain:(UIButton *)sender {
+    titleHeader.text=@"Choose two colors you want to mix";
     color1.text=@"";
     color2.text=@"";
       [picture setImage:[UIImage imageNamed:@""]];

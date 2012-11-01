@@ -7,13 +7,15 @@
 //
 
 #import "MADDetailViewController.h"
+#import "MADAddViewController.h"
 
-@interface MADDetailViewController ()
+@interface MADDetailViewController (){MADAddViewController *addViewController;}
 
 @end
 
 @implementation MADDetailViewController
 @synthesize countryList;
+@synthesize modalTransitionStyle;
 
 
 - (id)initWithStyle:(UITableViewStyle)style
@@ -31,12 +33,7 @@
 - (void)viewDidLoad
 {
     [super viewDidLoad];
-    NSBundle *bundle=[NSBundle mainBundle];
-    NSString *plistPath=[bundle pathForResource:@"continents" ofType:@"plist"];
-    NSMutableDictionary *dictionary=[[NSMutableDictionary alloc] initWithContentsOfFile:plistPath];
-    countryList=[dictionary objectForKey:self.title];
-    [self.tableView reloadData];
-    
+        self.navigationItem.rightBarButtonItem=self.editButtonItem; //ADDS EDIT BUTTON
     
 
     // Uncomment the following line to preserve selection between presentations.
@@ -49,6 +46,7 @@
 - (void)viewDidUnload
 {
     [super viewDidUnload];
+
     // Release any retained subviews of the main view.
     // e.g. self.myOutlet = nil;
 }
@@ -71,21 +69,29 @@
 
 - (NSInteger)tableView:(UITableView *)tableView numberOfRowsInSection:(NSInteger)section
 {
-
+if(self.editing)
+    return [countryList count]+1;
     // Return the number of rows in the section.
-    return [countryList count];
+    else return [countryList count];
 }
 
 - (UITableViewCell *)tableView:(UITableView *)tableView cellForRowAtIndexPath:(NSIndexPath *)indexPath
 {
     static NSString *CellIdentifier = @"Cell";
+    BOOL addCell=(indexPath.row==[countryList count]);
+    if(addCell)
+        CellIdentifier=@"Add Cell";
+    
     UITableViewCell *cell = [tableView dequeueReusableCellWithIdentifier:CellIdentifier];
     
     if(cell==nil){
         cell=[[UITableViewCell alloc] initWithStyle:UITableViewCellStyleDefault reuseIdentifier:CellIdentifier];
         
     }
-    cell.textLabel.text=[countryList objectAtIndex:indexPath.row];
+    if(addCell)
+        cell.textLabel.text=@"add new country";
+    
+    else cell.textLabel.text=[countryList objectAtIndex:indexPath.row];
     
     return cell;
 }
@@ -127,8 +133,8 @@
     // Return NO if you do not want the item to be re-orderable.
     return YES;
 }
-*/
 
+*/
 #pragma mark - Table view delegate
 
 - (void)tableView:(UITableView *)tableView didSelectRowAtIndexPath:(NSIndexPath *)indexPath
@@ -141,5 +147,97 @@
      [self.navigationController pushViewController:detailViewController animated:YES];
      */
 }
+
+-(void)tableView:(UITableView *)tableView commitEditingStyle:(UITableViewCellEditingStyle)editingStyle forRowAtIndexPath:(NSIndexPath *)indexPath
+{
+    
+    if(editingStyle == UITableViewCellEditingStyleDelete) {//DELETES ROW FROM ARRAY
+        [countryList removeObjectAtIndex:indexPath.row];
+        [tableView deleteRowsAtIndexPaths:[NSArray arrayWithObject:indexPath] withRowAnimation:UITableViewRowAnimationFade];
+        
+    }
+    else if (editingStyle == UITableViewCellEditingStyleInsert) {
+       
+        addViewController= [[MADAddViewController alloc] init];
+          addViewController.modalTransitionStyle=UIModalTransitionStyleFlipHorizontal;
+    
+         [self presentViewController:addViewController animated:YES completion:NULL];
+        /*if(addViewController.doneButton==YES){
+            [self dismissViewControllerAnimated:YES completion:NULL];}*/
+        NSString *newItem = addViewController.textBox.text;
+        
+        [countryList insertObject:newItem atIndex:indexPath.row];
+        [tableView insertRowsAtIndexPaths:[NSArray arrayWithObject:[NSIndexPath indexPathForRow:countryList.count inSection:0]] withRowAnimation:UITableViewRowAnimationFade];
+    }
+    [tableView reloadData];
+}
+    
+-(UITableViewCellEditingStyle)tableView:(UITableView *)tableView editingStyleForRowAtIndexPath:(NSIndexPath *)indexPath
+    {
+        if(indexPath.row==[countryList count])
+            return UITableViewCellEditingStyleInsert;
+        else return UITableViewCellEditingStyleDelete;
+  
+}
+
+  
+    
+        
+
+
+-(void)setEditing:(BOOL)editing animated:(BOOL)animated {
+    [super setEditing:editing animated:animated];
+    [self.tableView setEditing:editing animated:animated];
+    if(editing)
+    {
+        [self.tableView beginUpdates];
+        [self.tableView insertRowsAtIndexPaths:[NSArray arrayWithObject:[NSIndexPath indexPathForRow:countryList.count inSection:0]] withRowAnimation:UITableViewRowAnimationLeft];
+        [self.tableView endUpdates];
+        
+    }
+    else{
+        [self.tableView beginUpdates];
+        [self.tableView deleteRowsAtIndexPaths:[NSArray arrayWithObject:[NSIndexPath indexPathForRow:countryList.count inSection:0]] withRowAnimation:UITableViewRowAnimationLeft];
+        [self.tableView endUpdates];
+    }
+}
+
+
+- (BOOL)tableView:(UITableView *)tableView canMoveRowAtIndexPath:(NSIndexPath *)indexPath
+{
+    if(indexPath.row <[countryList count])
+        return YES;
+    else return NO;
+    // Return NO if you do not want the item to be re-orderable.
+  
+}
+//IMPLEMENT MOVING ROWS
+
+- (void)tableView:(UITableView *)tableView moveRowAtIndexPath:(NSIndexPath *)fromIndexPath toIndexPath:(NSIndexPath *)toIndexPath
+{
+    NSUInteger fromRow=[fromIndexPath row];
+    NSUInteger toRow=[toIndexPath row];
+    NSString *moveCountry=[countryList objectAtIndex:fromRow];
+    if(toRow<[countryList count]){
+        [countryList removeObjectAtIndex:fromRow];
+        [countryList insertObject:moveCountry atIndex:toRow];
+        
+    }
+    else{
+        [countryList removeObjectAtIndex:fromRow];
+        [countryList insertObject:moveCountry atIndex:[countryList count]];
+    }
+    [self.tableView reloadData];
+
+}
+
+
+
+
+
+
+
+
+
 
 @end

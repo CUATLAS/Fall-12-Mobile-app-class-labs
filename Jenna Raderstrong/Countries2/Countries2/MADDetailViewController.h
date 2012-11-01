@@ -10,5 +10,6 @@
 
 @interface MADDetailViewController : UITableViewController
 @property (strong, nonatomic) NSMutableArray *countryList;
+@property(nonatomic, assign) UIModalTransitionStyle modalTransitionStyle;
 
 @end

@@ -32,6 +32,7 @@
 {
     // Use this method to release shared resources, save user data, invalidate timers, and store enough application state information to restore your application to its current state in case it is terminated later. 
     // If your application supports background execution, this method is called instead of applicationWillTerminate: when the user quits.
+    self.viewController.titleHeader.text=@"Choose two colors you want to mix";
     self.viewController.color1.text=@"";
     self.viewController.color2.text=@"";
     [self.viewController.picture setImage:[UIImage imageNamed:@""]];
