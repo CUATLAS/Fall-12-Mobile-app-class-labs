@@ -33,7 +33,7 @@
 		449F5A7F161B75B000C5B485 /* dirt.png in Resources */ = {isa = PBXBuildFile; fileRef = 449F5A7E161B75B000C5B485 /* dirt.png */; };
 		449F5A81161B75E700C5B485 /* grass.png in Resources */ = {isa = PBXBuildFile; fileRef = 449F5A80161B75E700C5B485 /* grass.png */; };
 		449F5A83161B775400C5B485 /* obsidian.png in Resources */ = {isa = PBXBuildFile; fileRef = 449F5A82161B775400C5B485 /* obsidian.png */; };
-		44A15E78161DDD2C005541A9 /* CoreData.xcdatamodeld in Sources */ = {isa = PBXBuildFile; fileRef = 44A15E76161DDD2C005541A9 /* CoreData.xcdatamodeld */; };
+		79BA07B41635ECE700CCFF5F /* items.plist in Resources */ = {isa = PBXBuildFile; fileRef = 79BA07B31635ECE700CCFF5F /* items.plist */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -70,7 +70,7 @@
 		449F5A7E161B75B000C5B485 /* dirt.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = dirt.png; sourceTree = "<group>"; };
 		449F5A80161B75E700C5B485 /* grass.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = grass.png; sourceTree = "<group>"; };
 		449F5A82161B775400C5B485 /* obsidian.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = obsidian.png; sourceTree = "<group>"; };
-		44A15E77161DDD2C005541A9 /* CoreData.xcdatamodel */ = {isa = PBXFileReference; lastKnownFileType = wrapper.xcdatamodel; path = CoreData.xcdatamodel; sourceTree = "<group>"; };
+		79BA07B31635ECE700CCFF5F /* items.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; path = items.plist; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -143,9 +143,9 @@
 				445B1C5A161A7C7E00A44E2E /* SSViewController.m */,
 				445B1C48161A7C7E00A44E2E /* Supporting Files */,
 				445B1CB0161A9CC100A44E2E /* Storyboard.storyboard */,
-				44A15E76161DDD2C005541A9 /* CoreData.xcdatamodeld */,
 				44354B26161B399600A90E5F /* CustomCell.h */,
 				44354B27161B399600A90E5F /* CustomCell.m */,
+				79BA07B31635ECE700CCFF5F /* items.plist */,
 			);
 			path = Craftipedia;
 			sourceTree = "<group>";
@@ -253,6 +253,7 @@
 				444D2463161D4D3A004392C0 /* glass.png in Resources */,
 				444D2464161D4D3A004392C0 /* sand.png in Resources */,
 				444D2465161D4D3A004392C0 /* bedrock.png in Resources */,
+				79BA07B41635ECE700CCFF5F /* items.plist in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -268,7 +269,6 @@
 				445B1C5B161A7C7E00A44E2E /* SSViewController.m in Sources */,
 				445B1C6A161A814E00A44E2E /* MCItem.m in Sources */,
 				44354B28161B399600A90E5F /* CustomCell.m in Sources */,
-				44A15E78161DDD2C005541A9 /* CoreData.xcdatamodeld in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -381,19 +381,6 @@
 			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
-
-/* Begin XCVersionGroup section */
-		44A15E76161DDD2C005541A9 /* CoreData.xcdatamodeld */ = {
-			isa = XCVersionGroup;
-			children = (
-				44A15E77161DDD2C005541A9 /* CoreData.xcdatamodel */,
-			);
-			currentVersion = 44A15E77161DDD2C005541A9 /* CoreData.xcdatamodel */;
-			path = CoreData.xcdatamodeld;
-			sourceTree = "<group>";
-			versionGroupType = wrapper.xcdatamodel;
-		};
-/* End XCVersionGroup section */
 	};
 	rootObject = 445B1C34161A7C7E00A44E2E /* Project object */;
 }

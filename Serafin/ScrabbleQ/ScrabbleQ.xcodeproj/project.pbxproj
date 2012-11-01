@@ -1,0 +1,305 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		4454F0771636FE490013D450 /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 4454F0761636FE490013D450 /* UIKit.framework */; };
+		4454F0791636FE490013D450 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 4454F0781636FE490013D450 /* Foundation.framework */; };
+		4454F07B1636FE490013D450 /* CoreGraphics.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 4454F07A1636FE490013D450 /* CoreGraphics.framework */; };
+		4454F0811636FE490013D450 /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = 4454F07F1636FE490013D450 /* InfoPlist.strings */; };
+		4454F0831636FE490013D450 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 4454F0821636FE490013D450 /* main.m */; };
+		4454F0871636FE490013D450 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 4454F0861636FE490013D450 /* AppDelegate.m */; };
+		4454F0891636FE490013D450 /* Default.png in Resources */ = {isa = PBXBuildFile; fileRef = 4454F0881636FE490013D450 /* Default.png */; };
+		4454F08B1636FE490013D450 /* Default@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 4454F08A1636FE490013D450 /* Default@2x.png */; };
+		4454F08D1636FE490013D450 /* Default-568h@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 4454F08C1636FE490013D450 /* Default-568h@2x.png */; };
+		4454F0901636FE490013D450 /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 4454F08F1636FE490013D450 /* ViewController.m */; };
+		4454F0931636FE490013D450 /* ViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = 4454F0911636FE490013D450 /* ViewController.xib */; };
+		4454F09A1636FEB60013D450 /* qwords.plist in Resources */ = {isa = PBXBuildFile; fileRef = 4454F0991636FEB60013D450 /* qwords.plist */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXFileReference section */
+		4454F0721636FE490013D450 /* ScrabbleQ.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = ScrabbleQ.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		4454F0761636FE490013D450 /* UIKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = UIKit.framework; path = System/Library/Frameworks/UIKit.framework; sourceTree = SDKROOT; };
+		4454F0781636FE490013D450 /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = System/Library/Frameworks/Foundation.framework; sourceTree = SDKROOT; };
+		4454F07A1636FE490013D450 /* CoreGraphics.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreGraphics.framework; path = System/Library/Frameworks/CoreGraphics.framework; sourceTree = SDKROOT; };
+		4454F07E1636FE490013D450 /* ScrabbleQ-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "ScrabbleQ-Info.plist"; sourceTree = "<group>"; };
+		4454F0801636FE490013D450 /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
+		4454F0821636FE490013D450 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		4454F0841636FE490013D450 /* ScrabbleQ-Prefix.pch */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "ScrabbleQ-Prefix.pch"; sourceTree = "<group>"; };
+		4454F0851636FE490013D450 /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
+		4454F0861636FE490013D450 /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
+		4454F0881636FE490013D450 /* Default.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = Default.png; sourceTree = "<group>"; };
+		4454F08A1636FE490013D450 /* Default@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "Default@2x.png"; sourceTree = "<group>"; };
+		4454F08C1636FE490013D450 /* Default-568h@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "Default-568h@2x.png"; sourceTree = "<group>"; };
+		4454F08E1636FE490013D450 /* ViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ViewController.h; sourceTree = "<group>"; };
+		4454F08F1636FE490013D450 /* ViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ViewController.m; sourceTree = "<group>"; };
+		4454F0921636FE490013D450 /* en */ = {isa = PBXFileReference; lastKnownFileType = file.xib; name = en; path = en.lproj/ViewController.xib; sourceTree = "<group>"; };
+		4454F0991636FEB60013D450 /* qwords.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; path = qwords.plist; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		4454F06F1636FE490013D450 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				4454F0771636FE490013D450 /* UIKit.framework in Frameworks */,
+				4454F0791636FE490013D450 /* Foundation.framework in Frameworks */,
+				4454F07B1636FE490013D450 /* CoreGraphics.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		4454F0671636FE490013D450 = {
+			isa = PBXGroup;
+			children = (
+				4454F07C1636FE490013D450 /* ScrabbleQ */,
+				4454F0751636FE490013D450 /* Frameworks */,
+				4454F0731636FE490013D450 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		4454F0731636FE490013D450 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				4454F0721636FE490013D450 /* ScrabbleQ.app */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		4454F0751636FE490013D450 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				4454F0761636FE490013D450 /* UIKit.framework */,
+				4454F0781636FE490013D450 /* Foundation.framework */,
+				4454F07A1636FE490013D450 /* CoreGraphics.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		4454F07C1636FE490013D450 /* ScrabbleQ */ = {
+			isa = PBXGroup;
+			children = (
+				4454F0851636FE490013D450 /* AppDelegate.h */,
+				4454F0861636FE490013D450 /* AppDelegate.m */,
+				4454F08E1636FE490013D450 /* ViewController.h */,
+				4454F08F1636FE490013D450 /* ViewController.m */,
+				4454F0911636FE490013D450 /* ViewController.xib */,
+				4454F07D1636FE490013D450 /* Supporting Files */,
+			);
+			path = ScrabbleQ;
+			sourceTree = "<group>";
+		};
+		4454F07D1636FE490013D450 /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				4454F0991636FEB60013D450 /* qwords.plist */,
+				4454F07E1636FE490013D450 /* ScrabbleQ-Info.plist */,
+				4454F07F1636FE490013D450 /* InfoPlist.strings */,
+				4454F0821636FE490013D450 /* main.m */,
+				4454F0841636FE490013D450 /* ScrabbleQ-Prefix.pch */,
+				4454F0881636FE490013D450 /* Default.png */,
+				4454F08A1636FE490013D450 /* Default@2x.png */,
+				4454F08C1636FE490013D450 /* Default-568h@2x.png */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		4454F0711636FE490013D450 /* ScrabbleQ */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 4454F0961636FE490013D450 /* Build configuration list for PBXNativeTarget "ScrabbleQ" */;
+			buildPhases = (
+				4454F06E1636FE490013D450 /* Sources */,
+				4454F06F1636FE490013D450 /* Frameworks */,
+				4454F0701636FE490013D450 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = ScrabbleQ;
+			productName = ScrabbleQ;
+			productReference = 4454F0721636FE490013D450 /* ScrabbleQ.app */;
+			productType = "com.apple.product-type.application";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		4454F0691636FE490013D450 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 0450;
+				ORGANIZATIONNAME = "Scott Serafin";
+			};
+			buildConfigurationList = 4454F06C1636FE490013D450 /* Build configuration list for PBXProject "ScrabbleQ" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+			);
+			mainGroup = 4454F0671636FE490013D450;
+			productRefGroup = 4454F0731636FE490013D450 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				4454F0711636FE490013D450 /* ScrabbleQ */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		4454F0701636FE490013D450 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				4454F0811636FE490013D450 /* InfoPlist.strings in Resources */,
+				4454F0891636FE490013D450 /* Default.png in Resources */,
+				4454F08B1636FE490013D450 /* Default@2x.png in Resources */,
+				4454F08D1636FE490013D450 /* Default-568h@2x.png in Resources */,
+				4454F0931636FE490013D450 /* ViewController.xib in Resources */,
+				4454F09A1636FEB60013D450 /* qwords.plist in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		4454F06E1636FE490013D450 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				4454F0831636FE490013D450 /* main.m in Sources */,
+				4454F0871636FE490013D450 /* AppDelegate.m in Sources */,
+				4454F0901636FE490013D450 /* ViewController.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXVariantGroup section */
+		4454F07F1636FE490013D450 /* InfoPlist.strings */ = {
+			isa = PBXVariantGroup;
+			children = (
+				4454F0801636FE490013D450 /* en */,
+			);
+			name = InfoPlist.strings;
+			sourceTree = "<group>";
+		};
+		4454F0911636FE490013D450 /* ViewController.xib */ = {
+			isa = PBXVariantGroup;
+			children = (
+				4454F0921636FE490013D450 /* en */,
+			);
+			name = ViewController.xib;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		4454F0941636FE490013D450 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 6.0;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+			};
+			name = Debug;
+		};
+		4454F0951636FE490013D450 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 6.0;
+				OTHER_CFLAGS = "-DNS_BLOCK_ASSERTIONS=1";
+				SDKROOT = iphoneos;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		4454F0971636FE490013D450 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "ScrabbleQ/ScrabbleQ-Prefix.pch";
+				INFOPLIST_FILE = "ScrabbleQ/ScrabbleQ-Info.plist";
+				IPHONEOS_DEPLOYMENT_TARGET = 5.0;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				WRAPPER_EXTENSION = app;
+			};
+			name = Debug;
+		};
+		4454F0981636FE490013D450 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "ScrabbleQ/ScrabbleQ-Prefix.pch";
+				INFOPLIST_FILE = "ScrabbleQ/ScrabbleQ-Info.plist";
+				IPHONEOS_DEPLOYMENT_TARGET = 5.0;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				WRAPPER_EXTENSION = app;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		4454F06C1636FE490013D450 /* Build configuration list for PBXProject "ScrabbleQ" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				4454F0941636FE490013D450 /* Debug */,
+				4454F0951636FE490013D450 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		4454F0961636FE490013D450 /* Build configuration list for PBXNativeTarget "ScrabbleQ" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				4454F0971636FE490013D450 /* Debug */,
+				4454F0981636FE490013D450 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 4454F0691636FE490013D450 /* Project object */;
+}
