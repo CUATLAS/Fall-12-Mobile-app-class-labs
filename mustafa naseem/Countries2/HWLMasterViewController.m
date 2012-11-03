@@ -119,11 +119,12 @@
 {
     if (!detailViewController) {
         detailViewController = [[HWLDetailViewController alloc] initWithNibName:@"HWLDetailViewController" bundle:nil];
+    }
         NSArray *rowData = [continentData allKeys];
         detailViewController.title=[rowData objectAtIndex:indexPath.row];
+            detailViewController.countryList=[continentData objectForKey:detailViewController.title];
         [self.navigationController pushViewController:detailViewController animated:YES];
-        detailViewController.countryList=[continentData objectForKey:detailViewController.title];
-    }
+    
 }
 
 @end

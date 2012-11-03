@@ -24,16 +24,23 @@
     return self;
 }
 
+-(void)viewWillAppear:(BOOL)animated {
+    [self.tableView reloadData];
+}
+
 - (void)viewDidLoad
 {
     [super viewDidLoad];
+    self.navigationItem.rightBarButtonItem=self.editButtonItem;
 
     // Uncomment the following line to preserve selection between presentations.
     // self.clearsSelectionOnViewWillAppear = NO;
  
     // Uncomment the following line to display an Edit button in the navigation bar for this view controller.
     // self.navigationItem.rightBarButtonItem = self.editButtonItem;
+    
 }
+
 
 - (void)viewDidUnload
 {
@@ -69,6 +76,7 @@
     if (cell==nil) {
         cell = [[UITableViewCell alloc] initWithStyle:UITableViewCellStyleDefault reuseIdentifier:CellIdentifier];
         cell.textLabel.text=[countryList objectAtIndex:indexPath.row];
+        
     }
     
     return cell;
@@ -83,19 +91,22 @@
 }
 */
 
-/*
+
 // Override to support editing the table view.
 - (void)tableView:(UITableView *)tableView commitEditingStyle:(UITableViewCellEditingStyle)editingStyle forRowAtIndexPath:(NSIndexPath *)indexPath
 {
+    NSUInteger row= [indexPath row]; 
     if (editingStyle == UITableViewCellEditingStyleDelete) {
-        // Delete the row from the data source
+        [countryList removeObjectAtIndex:row];
         [tableView deleteRowsAtIndexPaths:[NSArray arrayWithObject:indexPath] withRowAnimation:UITableViewRowAnimationFade];
-    }   
-    else if (editingStyle == UITableViewCellEditingStyleInsert) {
-        // Create a new instance of the appropriate class, insert it into the array, and add a new row to the table view
-    }   
+         
+    }
+    
+    else if (editingStyle==UITableViewCellEditingStyleInsert) {
+        //create a new instance of the appropriate class, insert it into the array, and add a new row to the table view
+    }
 }
-*/
+
 
 /*
 // Override to support rearranging the table view.
@@ -126,8 +137,6 @@
      */
 }
 
--(void)viewWillAppear:(BOOL)animated {
-    [self.tableView reloadData];
-}
+
 
 @end
