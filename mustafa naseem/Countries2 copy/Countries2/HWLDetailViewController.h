@@ -7,8 +7,12 @@
 //
 
 #import <UIKit/UIKit.h>
+#import "Country.h"
+#import "HWLAddCountryViewController.h"
 
-@interface HWLDetailViewController : UITableViewController
+@interface HWLDetailViewController : UITableViewController {
+    Country *country;
+}
 
 @property (strong, nonatomic) NSMutableArray *countryList;
 

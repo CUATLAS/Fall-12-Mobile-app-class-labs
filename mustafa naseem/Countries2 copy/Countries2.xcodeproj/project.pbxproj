@@ -18,6 +18,9 @@
 		561F21D216401CC900AD0DCF /* HWLMasterViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = 561F21D016401CC900AD0DCF /* HWLMasterViewController.xib */; };
 		561F21D616401DF600AD0DCF /* HWLDetailViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 561F21D416401DF600AD0DCF /* HWLDetailViewController.m */; };
 		561F21D716401DF600AD0DCF /* HWLDetailViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = 561F21D516401DF600AD0DCF /* HWLDetailViewController.xib */; };
+		56E1A53F164656CA000CAF62 /* HWLAddCountryViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 56E1A53D164656CA000CAF62 /* HWLAddCountryViewController.m */; };
+		56E1A540164656CA000CAF62 /* HWLAddCountryViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = 56E1A53E164656CA000CAF62 /* HWLAddCountryViewController.xib */; };
+		56E1A54716466534000CAF62 /* Country.m in Sources */ = {isa = PBXBuildFile; fileRef = 56E1A54616466534000CAF62 /* Country.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -38,6 +41,11 @@
 		561F21D316401DF600AD0DCF /* HWLDetailViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = HWLDetailViewController.h; sourceTree = "<group>"; };
 		561F21D416401DF600AD0DCF /* HWLDetailViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = HWLDetailViewController.m; sourceTree = "<group>"; };
 		561F21D516401DF600AD0DCF /* HWLDetailViewController.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = HWLDetailViewController.xib; sourceTree = "<group>"; };
+		56E1A53C164656CA000CAF62 /* HWLAddCountryViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = HWLAddCountryViewController.h; path = ../HWLAddCountryViewController.h; sourceTree = "<group>"; };
+		56E1A53D164656CA000CAF62 /* HWLAddCountryViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = HWLAddCountryViewController.m; path = ../HWLAddCountryViewController.m; sourceTree = "<group>"; };
+		56E1A53E164656CA000CAF62 /* HWLAddCountryViewController.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; name = HWLAddCountryViewController.xib; path = ../HWLAddCountryViewController.xib; sourceTree = "<group>"; };
+		56E1A54516466534000CAF62 /* Country.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Country.h; sourceTree = "<group>"; };
+		56E1A54616466534000CAF62 /* Country.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = Country.m; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -92,6 +100,11 @@
 				561F21D316401DF600AD0DCF /* HWLDetailViewController.h */,
 				561F21D416401DF600AD0DCF /* HWLDetailViewController.m */,
 				561F21D516401DF600AD0DCF /* HWLDetailViewController.xib */,
+				56E1A54516466534000CAF62 /* Country.h */,
+				56E1A54616466534000CAF62 /* Country.m */,
+				56E1A53C164656CA000CAF62 /* HWLAddCountryViewController.h */,
+				56E1A53D164656CA000CAF62 /* HWLAddCountryViewController.m */,
+				56E1A53E164656CA000CAF62 /* HWLAddCountryViewController.xib */,
 				561F21BC16401C7200AD0DCF /* Supporting Files */,
 			);
 			path = Countries2;
@@ -164,6 +177,7 @@
 				561F21CD16401C9B00AD0DCF /* continents.plist in Resources */,
 				561F21D216401CC900AD0DCF /* HWLMasterViewController.xib in Resources */,
 				561F21D716401DF600AD0DCF /* HWLDetailViewController.xib in Resources */,
+				56E1A540164656CA000CAF62 /* HWLAddCountryViewController.xib in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -178,6 +192,8 @@
 				561F21C616401C7200AD0DCF /* HWLAppDelegate.m in Sources */,
 				561F21D116401CC900AD0DCF /* HWLMasterViewController.m in Sources */,
 				561F21D616401DF600AD0DCF /* HWLDetailViewController.m in Sources */,
+				56E1A53F164656CA000CAF62 /* HWLAddCountryViewController.m in Sources */,
+				56E1A54716466534000CAF62 /* Country.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};

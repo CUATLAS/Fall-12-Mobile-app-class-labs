@@ -7,8 +7,10 @@
 //
 
 #import "HWLDetailViewController.h"
+#import "HWLAddCountryViewController.h"
+#import "Country.h"
 
-@interface HWLDetailViewController ()
+@interface HWLDetailViewController () 
 
 @end
 
@@ -25,13 +27,19 @@
 }
 
 -(void)viewWillAppear:(BOOL)animated {
+    
     [self.tableView reloadData];
+   // addCountryField.text=country.word; 
+    
+    
 }
 
 - (void)viewDidLoad
 {
     [super viewDidLoad];
     self.navigationItem.rightBarButtonItem=self.editButtonItem;
+    country=[[Country alloc] init];
+    
 
     // Uncomment the following line to preserve selection between presentations.
     // self.clearsSelectionOnViewWillAppear = NO;
@@ -48,6 +56,7 @@
     countryList=nil;
     // Release any retained subviews of the main view.
     // e.g. self.myOutlet = nil;
+    country=nil;
 }
 
 - (BOOL)shouldAutorotateToInterfaceOrientation:(UIInterfaceOrientation)interfaceOrientation
@@ -86,7 +95,10 @@
     }
     
     if (addCell) {
-        cell.textLabel.text= @"add new country";
+        
+       
+        
+         cell.textLabel.text= @"add new country";
     }
        else cell.textLabel.text=[countryList objectAtIndex:indexPath.row];
     
@@ -115,9 +127,18 @@
     
     else if (editingStyle==UITableViewCellEditingStyleInsert) {
         //create a new instance of the appropriate class, insert it into the array, and add a new row to the table view
-        NSString *newItem = @"New Country";
-        [countryList insertObject:newItem atIndex:indexPath.row];
-        [tableView insertRowsAtIndexPaths:[NSArray arrayWithObject:[NSIndexPath indexPathForRow:countryList.count inSection:0]] withRowAnimation:UITableViewRowAnimationFade];
+        
+        HWLAddCountryViewController *myHWLAddCountryViewController = [[HWLAddCountryViewController alloc] init];
+        
+        myHWLAddCountryViewController.modalTransitionStyle=UIModalTransitionStyleFlipHorizontal;
+        
+        [self presentViewController:myHWLAddCountryViewController animated:YES completion:NULL];
+        
+  // NSString *newItem = country.text ;
+//        
+//       NSString *newItem = @"New Country";
+//        [countryList insertObject:newItem atIndex:indexPath.row];
+//        [tableView insertRowsAtIndexPaths:[NSArray arrayWithObject:[NSIndexPath indexPathForRow:countryList.count inSection:0]] withRowAnimation:UITableViewRowAnimationFade];
     }
 }
 
