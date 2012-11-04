@@ -10,4 +10,13 @@
 
 @interface HWLMasterViewController : UITableViewController
 
+//- (NSString *) dataFilePath {
+//    NSArray *paths = NSSearchPathForDirectoriesInDomains(
+//                                                         NSDocumentDocumentDirectory, NSUserDomainMask, YES);
+//    NSString *documentsDirectory=[paths objectAtIndex:0]; 
+//    NSLog(@"documents path: %@", documentsDirectory);
+//    return [documentsDirectory 
+//            stringByAppendingPathComponent:@"continents.plist"]; //returns path to file
+//}
+//    NSString *docDirectory = [paths objectAtIndex:0];
 @end
