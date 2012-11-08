@@ -50,7 +50,13 @@
                             <outlet property="delegate" destination="tHj-tM-nER" id="hKa-Tk-y8i"/>
                         </connections>
                     </tableView>
-                    <navigationItem key="navigationItem" title="Scores" id="V5V-Zv-IMx"/>
+                    <navigationItem key="navigationItem" title="Scores" id="V5V-Zv-IMx">
+                        <barButtonItem key="rightBarButtonItem" systemItem="add" id="Bwf-62-YQm">
+                            <connections>
+                                <segue destination="pPU-aI-KVB" kind="modal" identifier="AddGame" id="7uN-dk-ZUf"/>
+                            </connections>
+                        </barButtonItem>
+                    </navigationItem>
                 </tableViewController>
             </objects>
             <point key="canvasLocation" x="1172" y="-97"/>
@@ -86,7 +92,63 @@
                     </connections>
                 </viewController>
             </objects>
-            <point key="canvasLocation" x="1576" y="-97"/>
+            <point key="canvasLocation" x="1723" y="-97"/>
+        </scene>
+        <!--Game Details View Controller - Add Game-->
+        <scene sceneID="ryr-AT-kAo">
+            <objects>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="TAe-rV-EQk" userLabel="First Responder" sceneMemberID="firstResponder"/>
+                <tableViewController id="mje-eH-G6I" customClass="GameDetailsViewController" sceneMemberID="viewController">
+                    <tableView key="view" opaque="NO" clipsSubviews="YES" clearsContextBeforeDrawing="NO" contentMode="scaleToFill" alwaysBounceVertical="YES" dataMode="static" style="grouped" separatorStyle="singleLineEtched" rowHeight="44" sectionHeaderHeight="10" sectionFooterHeight="10" id="EgZ-HD-qgW">
+                        <rect key="frame" x="0.0" y="64" width="320" height="416"/>
+                        <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                        <color key="backgroundColor" cocoaTouchSystemColor="groupTableViewBackgroundColor"/>
+                        <sections>
+                            <tableViewSection headerTitle="Game name" id="Lwq-uY-QcZ">
+                                <cells>
+                                    <tableViewCell contentMode="scaleToFill" selectionStyle="blue" hidesAccessoryWhenEditing="NO" indentationLevel="1" indentationWidth="0.0" id="D9v-VZ-Wzx">
+                                        <rect key="frame" x="0.0" y="46" width="320" height="46"/>
+                                        <autoresizingMask key="autoresizingMask"/>
+                                        <view key="contentView" opaque="NO" clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="center">
+                                            <rect key="frame" x="10" y="1" width="300" height="43"/>
+                                            <autoresizingMask key="autoresizingMask"/>
+                                            <subviews>
+                                                <textField opaque="NO" clipsSubviews="YES" contentMode="scaleToFill" contentHorizontalAlignment="left" contentVerticalAlignment="center" minimumFontSize="17" id="Axf-LD-V9S">
+                                                    <rect key="frame" x="0.0" y="0.0" width="300" height="43"/>
+                                                    <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                                    <fontDescription key="fontDescription" type="system" pointSize="14"/>
+                                                    <textInputTraits key="textInputTraits"/>
+                                                </textField>
+                                            </subviews>
+                                            <color key="backgroundColor" white="0.0" alpha="0.0" colorSpace="calibratedWhite"/>
+                                        </view>
+                                    </tableViewCell>
+                                </cells>
+                            </tableViewSection>
+                        </sections>
+                        <connections>
+                            <outlet property="dataSource" destination="mje-eH-G6I" id="bje-uD-JiZ"/>
+                            <outlet property="delegate" destination="mje-eH-G6I" id="OGg-pG-1Zw"/>
+                        </connections>
+                    </tableView>
+                    <navigationItem key="navigationItem" title="Add Game" id="b8f-JP-wG4">
+                        <barButtonItem key="leftBarButtonItem" systemItem="cancel" id="1v3-bO-C0D">
+                            <connections>
+                                <action selector="cancel:" destination="mje-eH-G6I" id="5vo-vk-GrD"/>
+                            </connections>
+                        </barButtonItem>
+                        <barButtonItem key="rightBarButtonItem" systemItem="done" id="v7G-pj-Evw">
+                            <connections>
+                                <action selector="done:" destination="mje-eH-G6I" id="4O1-dF-DLK"/>
+                            </connections>
+                        </barButtonItem>
+                    </navigationItem>
+                    <connections>
+                        <outlet property="nameTextField" destination="Axf-LD-V9S" id="ZTh-eS-K0u"/>
+                    </connections>
+                </tableViewController>
+            </objects>
+            <point key="canvasLocation" x="2198" y="-724"/>
         </scene>
         <!--Second View Controller - Second-->
         <scene sceneID="13">
@@ -156,6 +218,24 @@
                 </navigationController>
             </objects>
             <point key="canvasLocation" x="646" y="-97"/>
+        </scene>
+        <!--Navigation Controller-->
+        <scene sceneID="19X-8i-d4j">
+            <objects>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="nmF-zi-eLm" userLabel="First Responder" sceneMemberID="firstResponder"/>
+                <navigationController id="pPU-aI-KVB" sceneMemberID="viewController">
+                    <toolbarItems/>
+                    <navigationBar key="navigationBar" opaque="NO" clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="scaleToFill" id="H0b-dc-b2A">
+                        <rect key="frame" x="0.0" y="0.0" width="320" height="44"/>
+                        <autoresizingMask key="autoresizingMask"/>
+                    </navigationBar>
+                    <nil name="viewControllers"/>
+                    <connections>
+                        <segue destination="mje-eH-G6I" kind="relationship" relationship="rootViewController" id="onk-It-Ot8"/>
+                    </connections>
+                </navigationController>
+            </objects>
+            <point key="canvasLocation" x="1705" y="-724"/>
         </scene>
     </scenes>
     <resources>

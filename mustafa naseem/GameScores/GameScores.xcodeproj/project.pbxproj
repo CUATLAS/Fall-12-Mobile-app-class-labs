@@ -7,6 +7,7 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		5629297B164C128F00E2361C /* GameDetailsViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 5629297A164C128F00E2361C /* GameDetailsViewController.m */; };
 		567C631E1649708E0026CA02 /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 567C631D1649708E0026CA02 /* UIKit.framework */; };
 		567C63201649708E0026CA02 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 567C631F1649708E0026CA02 /* Foundation.framework */; };
 		567C63221649708E0026CA02 /* CoreGraphics.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 567C63211649708E0026CA02 /* CoreGraphics.framework */; };
@@ -25,6 +26,8 @@
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		56292979164C128F00E2361C /* GameDetailsViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = GameDetailsViewController.h; path = ../GameDetailsViewController.h; sourceTree = "<group>"; };
+		5629297A164C128F00E2361C /* GameDetailsViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = GameDetailsViewController.m; path = ../GameDetailsViewController.m; sourceTree = "<group>"; };
 		567C63191649708E0026CA02 /* GameScores.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = GameScores.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		567C631D1649708E0026CA02 /* UIKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = UIKit.framework; path = System/Library/Frameworks/UIKit.framework; sourceTree = SDKROOT; };
 		567C631F1649708E0026CA02 /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = System/Library/Frameworks/Foundation.framework; sourceTree = SDKROOT; };
@@ -96,7 +99,9 @@
 			children = (
 				567C632C1649708E0026CA02 /* MADAppDelegate.h */,
 				567C632D1649708E0026CA02 /* MADAppDelegate.m */,
+				56292979164C128F00E2361C /* GameDetailsViewController.h */,
 				567C632F1649708E0026CA02 /* MainStoryboard.storyboard */,
+				5629297A164C128F00E2361C /* GameDetailsViewController.m */,
 				567C634D16497B2D0026CA02 /* ScoreViewController.h */,
 				567C634E16497B2D0026CA02 /* ScoreViewController.m */,
 				567C63491649752E0026CA02 /* GamesViewController.h */,
@@ -198,6 +203,7 @@
 				567C633B1649708E0026CA02 /* MADSecondViewController.m in Sources */,
 				567C634B1649752E0026CA02 /* GamesViewController.m in Sources */,
 				567C634F16497B2D0026CA02 /* ScoreViewController.m in Sources */,
+				5629297B164C128F00E2361C /* GameDetailsViewController.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};

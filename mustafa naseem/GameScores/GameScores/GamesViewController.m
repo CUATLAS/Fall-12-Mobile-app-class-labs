@@ -90,6 +90,13 @@
 
 -(void) prepareForSegue:(UIStoryboardSegue *)segue sender:(id)sender 
 { 
+    if ([segue.identifier isEqualToString:@"AddGame"]){
+        UINavigationController *navigationController = segue.destinationViewController;
+        
+        GameDetailsViewController *gameDetailsViewController = [[navigationController viewControllers] objectAtIndex:0];
+        gameDetailsViewController.delegate=self;
+    }
+    
     if ([segue.identifier isEqualToString:@"EnterScore"])
     {
         UIViewController *destination = segue.destinationViewController;
@@ -170,6 +177,19 @@
      // Pass the selected object to the new view controller.
      [self.navigationController pushViewController:detailViewController animated:YES];
      */
+}
+
+-(void)gameDetaisViewControllerDidCancel:(GameDetailsViewController *)controller {
+    [self dismissViewControllerAnimated:YES completion:nil];
+}
+
+-(void)gameDetaisViewController:(GameDetailsViewController *)controller DidSave:(NSString *)newGame {
+    
+    [games addObject:newGame];
+    [scores addObject:@"0"];
+    NSIndexPath *indexPath = [NSIndexPath indexPathForRow:[games count]-1 inSection:0];
+    [self.tableView insertRowsAtIndexPaths:[NSArray arrayWithObject:indexPath] withRowAnimation:UITableViewRowAnimationAutomatic];
+    [self dismissViewControllerAnimated:YES completion:nil];
 }
 
 @end
