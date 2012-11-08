@@ -1,0 +1,301 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		CC459BD516399016007372C7 /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = CC459BD416399016007372C7 /* UIKit.framework */; };
+		CC459BD716399016007372C7 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = CC459BD616399016007372C7 /* Foundation.framework */; };
+		CC459BD916399016007372C7 /* CoreGraphics.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = CC459BD816399016007372C7 /* CoreGraphics.framework */; };
+		CC459BDF16399016007372C7 /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = CC459BDD16399016007372C7 /* InfoPlist.strings */; };
+		CC459BE116399016007372C7 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = CC459BE016399016007372C7 /* main.m */; };
+		CC459BE516399016007372C7 /* MADAppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = CC459BE416399016007372C7 /* MADAppDelegate.m */; };
+		CC459BEC16399055007372C7 /* continents.plist in Resources */ = {isa = PBXBuildFile; fileRef = CC459BEB16399055007372C7 /* continents.plist */; };
+		CC459BEE16399072007372C7 /* world57.png in Resources */ = {isa = PBXBuildFile; fileRef = CC459BED16399072007372C7 /* world57.png */; };
+		CC459BF016399076007372C7 /* world114.png in Resources */ = {isa = PBXBuildFile; fileRef = CC459BEF16399076007372C7 /* world114.png */; };
+		CC459BF816399192007372C7 /* MADMasterViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = CC459BF616399192007372C7 /* MADMasterViewController.m */; };
+		CC459BF916399192007372C7 /* MADMasterViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = CC459BF716399192007372C7 /* MADMasterViewController.xib */; };
+		CC459C0116399962007372C7 /* MADDetailViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = CC459BFF16399962007372C7 /* MADDetailViewController.m */; };
+		CC459C0216399962007372C7 /* MADDetailViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = CC459C0016399962007372C7 /* MADDetailViewController.xib */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXFileReference section */
+		CC459BD016399016007372C7 /* countries2.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = countries2.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		CC459BD416399016007372C7 /* UIKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = UIKit.framework; path = System/Library/Frameworks/UIKit.framework; sourceTree = SDKROOT; };
+		CC459BD616399016007372C7 /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = System/Library/Frameworks/Foundation.framework; sourceTree = SDKROOT; };
+		CC459BD816399016007372C7 /* CoreGraphics.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreGraphics.framework; path = System/Library/Frameworks/CoreGraphics.framework; sourceTree = SDKROOT; };
+		CC459BDC16399016007372C7 /* countries2-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "countries2-Info.plist"; sourceTree = "<group>"; };
+		CC459BDE16399016007372C7 /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
+		CC459BE016399016007372C7 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		CC459BE216399016007372C7 /* countries2-Prefix.pch */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "countries2-Prefix.pch"; sourceTree = "<group>"; };
+		CC459BE316399016007372C7 /* MADAppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = MADAppDelegate.h; sourceTree = "<group>"; };
+		CC459BE416399016007372C7 /* MADAppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = MADAppDelegate.m; sourceTree = "<group>"; };
+		CC459BEB16399055007372C7 /* continents.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; path = continents.plist; sourceTree = "<group>"; };
+		CC459BED16399072007372C7 /* world57.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = world57.png; sourceTree = "<group>"; };
+		CC459BEF16399076007372C7 /* world114.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = world114.png; sourceTree = "<group>"; };
+		CC459BF516399192007372C7 /* MADMasterViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MADMasterViewController.h; sourceTree = "<group>"; };
+		CC459BF616399192007372C7 /* MADMasterViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = MADMasterViewController.m; sourceTree = "<group>"; };
+		CC459BF716399192007372C7 /* MADMasterViewController.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = MADMasterViewController.xib; sourceTree = "<group>"; };
+		CC459BFE16399962007372C7 /* MADDetailViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MADDetailViewController.h; sourceTree = "<group>"; };
+		CC459BFF16399962007372C7 /* MADDetailViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = MADDetailViewController.m; sourceTree = "<group>"; };
+		CC459C0016399962007372C7 /* MADDetailViewController.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = MADDetailViewController.xib; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		CC459BCD16399016007372C7 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				CC459BD516399016007372C7 /* UIKit.framework in Frameworks */,
+				CC459BD716399016007372C7 /* Foundation.framework in Frameworks */,
+				CC459BD916399016007372C7 /* CoreGraphics.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		CC459BC516399016007372C7 = {
+			isa = PBXGroup;
+			children = (
+				CC459BEF16399076007372C7 /* world114.png */,
+				CC459BED16399072007372C7 /* world57.png */,
+				CC459BDA16399016007372C7 /* countries2 */,
+				CC459BD316399016007372C7 /* Frameworks */,
+				CC459BD116399016007372C7 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		CC459BD116399016007372C7 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				CC459BD016399016007372C7 /* countries2.app */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		CC459BD316399016007372C7 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				CC459BD416399016007372C7 /* UIKit.framework */,
+				CC459BD616399016007372C7 /* Foundation.framework */,
+				CC459BD816399016007372C7 /* CoreGraphics.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		CC459BDA16399016007372C7 /* countries2 */ = {
+			isa = PBXGroup;
+			children = (
+				CC459BE316399016007372C7 /* MADAppDelegate.h */,
+				CC459BE416399016007372C7 /* MADAppDelegate.m */,
+				CC459BF516399192007372C7 /* MADMasterViewController.h */,
+				CC459BF616399192007372C7 /* MADMasterViewController.m */,
+				CC459BF716399192007372C7 /* MADMasterViewController.xib */,
+				CC459BFE16399962007372C7 /* MADDetailViewController.h */,
+				CC459BFF16399962007372C7 /* MADDetailViewController.m */,
+				CC459C0016399962007372C7 /* MADDetailViewController.xib */,
+				CC459BDB16399016007372C7 /* Supporting Files */,
+			);
+			path = countries2;
+			sourceTree = "<group>";
+		};
+		CC459BDB16399016007372C7 /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				CC459BEB16399055007372C7 /* continents.plist */,
+				CC459BDC16399016007372C7 /* countries2-Info.plist */,
+				CC459BDD16399016007372C7 /* InfoPlist.strings */,
+				CC459BE016399016007372C7 /* main.m */,
+				CC459BE216399016007372C7 /* countries2-Prefix.pch */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		CC459BCF16399016007372C7 /* countries2 */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = CC459BE816399016007372C7 /* Build configuration list for PBXNativeTarget "countries2" */;
+			buildPhases = (
+				CC459BCC16399016007372C7 /* Sources */,
+				CC459BCD16399016007372C7 /* Frameworks */,
+				CC459BCE16399016007372C7 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = countries2;
+			productName = countries2;
+			productReference = CC459BD016399016007372C7 /* countries2.app */;
+			productType = "com.apple.product-type.application";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		CC459BC716399016007372C7 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				CLASSPREFIX = MAD;
+				LastUpgradeCheck = 0440;
+				ORGANIZATIONNAME = "Rachel Strobel";
+			};
+			buildConfigurationList = CC459BCA16399016007372C7 /* Build configuration list for PBXProject "countries2" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+			);
+			mainGroup = CC459BC516399016007372C7;
+			productRefGroup = CC459BD116399016007372C7 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				CC459BCF16399016007372C7 /* countries2 */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		CC459BCE16399016007372C7 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				CC459BDF16399016007372C7 /* InfoPlist.strings in Resources */,
+				CC459BEC16399055007372C7 /* continents.plist in Resources */,
+				CC459BEE16399072007372C7 /* world57.png in Resources */,
+				CC459BF016399076007372C7 /* world114.png in Resources */,
+				CC459BF916399192007372C7 /* MADMasterViewController.xib in Resources */,
+				CC459C0216399962007372C7 /* MADDetailViewController.xib in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		CC459BCC16399016007372C7 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				CC459BE116399016007372C7 /* main.m in Sources */,
+				CC459BE516399016007372C7 /* MADAppDelegate.m in Sources */,
+				CC459BF816399192007372C7 /* MADMasterViewController.m in Sources */,
+				CC459C0116399962007372C7 /* MADDetailViewController.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXVariantGroup section */
+		CC459BDD16399016007372C7 /* InfoPlist.strings */ = {
+			isa = PBXVariantGroup;
+			children = (
+				CC459BDE16399016007372C7 /* en */,
+			);
+			name = InfoPlist.strings;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		CC459BE616399016007372C7 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ARCHS = "$(ARCHS_STANDARD_32_BIT)";
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				GCC_VERSION = com.apple.compilers.llvm.clang.1_0;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 5.1;
+				SDKROOT = iphoneos;
+			};
+			name = Debug;
+		};
+		CC459BE716399016007372C7 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ARCHS = "$(ARCHS_STANDARD_32_BIT)";
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_VERSION = com.apple.compilers.llvm.clang.1_0;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 5.1;
+				OTHER_CFLAGS = "-DNS_BLOCK_ASSERTIONS=1";
+				SDKROOT = iphoneos;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		CC459BE916399016007372C7 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "countries2/countries2-Prefix.pch";
+				INFOPLIST_FILE = "countries2/countries2-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				WRAPPER_EXTENSION = app;
+			};
+			name = Debug;
+		};
+		CC459BEA16399016007372C7 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "countries2/countries2-Prefix.pch";
+				INFOPLIST_FILE = "countries2/countries2-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				WRAPPER_EXTENSION = app;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		CC459BCA16399016007372C7 /* Build configuration list for PBXProject "countries2" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				CC459BE616399016007372C7 /* Debug */,
+				CC459BE716399016007372C7 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		CC459BE816399016007372C7 /* Build configuration list for PBXNativeTarget "countries2" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				CC459BE916399016007372C7 /* Debug */,
+				CC459BEA16399016007372C7 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = CC459BC716399016007372C7 /* Project object */;
+}
