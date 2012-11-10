@@ -1,0 +1,384 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		383C4D5E1641CE3600D82714 /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 383C4D5D1641CE3600D82714 /* UIKit.framework */; };
+		383C4D601641CE3600D82714 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 383C4D5F1641CE3600D82714 /* Foundation.framework */; };
+		383C4D621641CE3600D82714 /* CoreGraphics.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 383C4D611641CE3600D82714 /* CoreGraphics.framework */; };
+		383C4D681641CE3600D82714 /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = 383C4D661641CE3600D82714 /* InfoPlist.strings */; };
+		383C4D6A1641CE3600D82714 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 383C4D691641CE3600D82714 /* main.m */; };
+		383C4D6E1641CE3600D82714 /* MADAppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 383C4D6D1641CE3600D82714 /* MADAppDelegate.m */; };
+		383C4D751641CE5500D82714 /* earthIconSmall.png in Resources */ = {isa = PBXBuildFile; fileRef = 383C4D741641CE5500D82714 /* earthIconSmall.png */; };
+		383C4D771641CE5D00D82714 /* earthIconLarge.png in Resources */ = {isa = PBXBuildFile; fileRef = 383C4D761641CE5D00D82714 /* earthIconLarge.png */; };
+		383C4D7B1641CE8800D82714 /* earth.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 383C4D7A1641CE8800D82714 /* earth.jpg */; };
+		383C4D7D1641CE9C00D82714 /* longCountryListPlist.plist in Resources */ = {isa = PBXBuildFile; fileRef = 383C4D7C1641CE9C00D82714 /* longCountryListPlist.plist */; };
+		383C4D811641CEEF00D82714 /* MADMasterViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 383C4D7F1641CEEF00D82714 /* MADMasterViewController.m */; };
+		383C4D821641CEEF00D82714 /* MADMasterViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = 383C4D801641CEEF00D82714 /* MADMasterViewController.xib */; };
+		383C4D861641D04300D82714 /* MADDetailViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 383C4D841641D04300D82714 /* MADDetailViewController.m */; };
+		383C4D871641D04300D82714 /* MADDetailViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = 383C4D851641D04300D82714 /* MADDetailViewController.xib */; };
+		383C4D8A1641D41100D82714 /* MADStoredData.m in Sources */ = {isa = PBXBuildFile; fileRef = 383C4D891641D41100D82714 /* MADStoredData.m */; };
+		383C4D921641EA7E00D82714 /* MADHomeViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 383C4D901641EA7E00D82714 /* MADHomeViewController.m */; };
+		383C4D931641EA7E00D82714 /* MADHomeViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = 383C4D911641EA7E00D82714 /* MADHomeViewController.xib */; };
+		3840C9B71644774B00FFF941 /* MADSwipeContainer.m in Sources */ = {isa = PBXBuildFile; fileRef = 3840C9B61644774B00FFF941 /* MADSwipeContainer.m */; };
+		3840C9BB16448D1C00FFF941 /* MADSwipeData.m in Sources */ = {isa = PBXBuildFile; fileRef = 3840C9BA16448D1C00FFF941 /* MADSwipeData.m */; };
+		38998C49164A00E6006DBF6E /* InfoViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 38998C47164A00E6006DBF6E /* InfoViewController.m */; };
+		38998C4A164A00E6006DBF6E /* InfoViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = 38998C48164A00E6006DBF6E /* InfoViewController.xib */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXFileReference section */
+		383C4D591641CE3600D82714 /* countriesP2.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = countriesP2.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		383C4D5D1641CE3600D82714 /* UIKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = UIKit.framework; path = System/Library/Frameworks/UIKit.framework; sourceTree = SDKROOT; };
+		383C4D5F1641CE3600D82714 /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = System/Library/Frameworks/Foundation.framework; sourceTree = SDKROOT; };
+		383C4D611641CE3600D82714 /* CoreGraphics.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreGraphics.framework; path = System/Library/Frameworks/CoreGraphics.framework; sourceTree = SDKROOT; };
+		383C4D651641CE3600D82714 /* countriesP2-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "countriesP2-Info.plist"; sourceTree = "<group>"; };
+		383C4D671641CE3600D82714 /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
+		383C4D691641CE3600D82714 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		383C4D6B1641CE3600D82714 /* countriesP2-Prefix.pch */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "countriesP2-Prefix.pch"; sourceTree = "<group>"; };
+		383C4D6C1641CE3600D82714 /* MADAppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = MADAppDelegate.h; sourceTree = "<group>"; };
+		383C4D6D1641CE3600D82714 /* MADAppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = MADAppDelegate.m; sourceTree = "<group>"; };
+		383C4D741641CE5500D82714 /* earthIconSmall.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = earthIconSmall.png; path = ../earthIconSmall.png; sourceTree = "<group>"; };
+		383C4D761641CE5D00D82714 /* earthIconLarge.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = earthIconLarge.png; path = ../earthIconLarge.png; sourceTree = "<group>"; };
+		383C4D7A1641CE8800D82714 /* earth.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = earth.jpg; sourceTree = "<group>"; };
+		383C4D7C1641CE9C00D82714 /* longCountryListPlist.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; path = longCountryListPlist.plist; sourceTree = "<group>"; };
+		383C4D7E1641CEEF00D82714 /* MADMasterViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MADMasterViewController.h; sourceTree = "<group>"; };
+		383C4D7F1641CEEF00D82714 /* MADMasterViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = MADMasterViewController.m; sourceTree = "<group>"; };
+		383C4D801641CEEF00D82714 /* MADMasterViewController.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = MADMasterViewController.xib; sourceTree = "<group>"; };
+		383C4D831641D04300D82714 /* MADDetailViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MADDetailViewController.h; sourceTree = "<group>"; };
+		383C4D841641D04300D82714 /* MADDetailViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = MADDetailViewController.m; sourceTree = "<group>"; };
+		383C4D851641D04300D82714 /* MADDetailViewController.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = MADDetailViewController.xib; sourceTree = "<group>"; };
+		383C4D881641D41100D82714 /* MADStoredData.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MADStoredData.h; sourceTree = "<group>"; };
+		383C4D891641D41100D82714 /* MADStoredData.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = MADStoredData.m; sourceTree = "<group>"; };
+		383C4D8F1641EA7E00D82714 /* MADHomeViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MADHomeViewController.h; sourceTree = "<group>"; };
+		383C4D901641EA7E00D82714 /* MADHomeViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = MADHomeViewController.m; sourceTree = "<group>"; };
+		383C4D911641EA7E00D82714 /* MADHomeViewController.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = MADHomeViewController.xib; sourceTree = "<group>"; };
+		3840C9B51644774B00FFF941 /* MADSwipeContainer.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MADSwipeContainer.h; sourceTree = "<group>"; };
+		3840C9B61644774B00FFF941 /* MADSwipeContainer.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = MADSwipeContainer.m; sourceTree = "<group>"; };
+		3840C9B916448D1C00FFF941 /* MADSwipeData.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MADSwipeData.h; sourceTree = "<group>"; };
+		3840C9BA16448D1C00FFF941 /* MADSwipeData.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = MADSwipeData.m; sourceTree = "<group>"; };
+		38998C46164A00E6006DBF6E /* InfoViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = InfoViewController.h; sourceTree = "<group>"; };
+		38998C47164A00E6006DBF6E /* InfoViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = InfoViewController.m; sourceTree = "<group>"; };
+		38998C48164A00E6006DBF6E /* InfoViewController.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = InfoViewController.xib; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		383C4D561641CE3600D82714 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				383C4D5E1641CE3600D82714 /* UIKit.framework in Frameworks */,
+				383C4D601641CE3600D82714 /* Foundation.framework in Frameworks */,
+				383C4D621641CE3600D82714 /* CoreGraphics.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		383C4D4E1641CE3600D82714 = {
+			isa = PBXGroup;
+			children = (
+				383C4D631641CE3600D82714 /* countriesP2 */,
+				383C4D5C1641CE3600D82714 /* Frameworks */,
+				383C4D5A1641CE3600D82714 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		383C4D5A1641CE3600D82714 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				383C4D591641CE3600D82714 /* countriesP2.app */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		383C4D5C1641CE3600D82714 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				383C4D5D1641CE3600D82714 /* UIKit.framework */,
+				383C4D5F1641CE3600D82714 /* Foundation.framework */,
+				383C4D611641CE3600D82714 /* CoreGraphics.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		383C4D631641CE3600D82714 /* countriesP2 */ = {
+			isa = PBXGroup;
+			children = (
+				383C4D6C1641CE3600D82714 /* MADAppDelegate.h */,
+				383C4D6D1641CE3600D82714 /* MADAppDelegate.m */,
+				38998C45164A00A2006DBF6E /* Shared Data Object */,
+				38998C44164A0098006DBF6E /* Swipe Objects */,
+				38998C40164A0077006DBF6E /* Main Screen */,
+				38998C42164A0085006DBF6E /* Master View */,
+				38998C43164A008E006DBF6E /* Detail View */,
+				383C4D641641CE3600D82714 /* Supporting Files */,
+			);
+			path = countriesP2;
+			sourceTree = "<group>";
+		};
+		383C4D641641CE3600D82714 /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				383C4D761641CE5D00D82714 /* earthIconLarge.png */,
+				383C4D741641CE5500D82714 /* earthIconSmall.png */,
+				383C4D7C1641CE9C00D82714 /* longCountryListPlist.plist */,
+				383C4D7A1641CE8800D82714 /* earth.jpg */,
+				383C4D651641CE3600D82714 /* countriesP2-Info.plist */,
+				383C4D661641CE3600D82714 /* InfoPlist.strings */,
+				383C4D691641CE3600D82714 /* main.m */,
+				383C4D6B1641CE3600D82714 /* countriesP2-Prefix.pch */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		38998C40164A0077006DBF6E /* Main Screen */ = {
+			isa = PBXGroup;
+			children = (
+				383C4D8F1641EA7E00D82714 /* MADHomeViewController.h */,
+				383C4D901641EA7E00D82714 /* MADHomeViewController.m */,
+				383C4D911641EA7E00D82714 /* MADHomeViewController.xib */,
+				38998C46164A00E6006DBF6E /* InfoViewController.h */,
+				38998C47164A00E6006DBF6E /* InfoViewController.m */,
+				38998C48164A00E6006DBF6E /* InfoViewController.xib */,
+			);
+			name = "Main Screen";
+			sourceTree = "<group>";
+		};
+		38998C42164A0085006DBF6E /* Master View */ = {
+			isa = PBXGroup;
+			children = (
+				383C4D7E1641CEEF00D82714 /* MADMasterViewController.h */,
+				383C4D7F1641CEEF00D82714 /* MADMasterViewController.m */,
+				383C4D801641CEEF00D82714 /* MADMasterViewController.xib */,
+			);
+			name = "Master View";
+			sourceTree = "<group>";
+		};
+		38998C43164A008E006DBF6E /* Detail View */ = {
+			isa = PBXGroup;
+			children = (
+				383C4D831641D04300D82714 /* MADDetailViewController.h */,
+				383C4D841641D04300D82714 /* MADDetailViewController.m */,
+				383C4D851641D04300D82714 /* MADDetailViewController.xib */,
+			);
+			name = "Detail View";
+			sourceTree = "<group>";
+		};
+		38998C44164A0098006DBF6E /* Swipe Objects */ = {
+			isa = PBXGroup;
+			children = (
+				3840C9B51644774B00FFF941 /* MADSwipeContainer.h */,
+				3840C9B61644774B00FFF941 /* MADSwipeContainer.m */,
+				3840C9B916448D1C00FFF941 /* MADSwipeData.h */,
+				3840C9BA16448D1C00FFF941 /* MADSwipeData.m */,
+			);
+			name = "Swipe Objects";
+			sourceTree = "<group>";
+		};
+		38998C45164A00A2006DBF6E /* Shared Data Object */ = {
+			isa = PBXGroup;
+			children = (
+				383C4D881641D41100D82714 /* MADStoredData.h */,
+				383C4D891641D41100D82714 /* MADStoredData.m */,
+			);
+			name = "Shared Data Object";
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		383C4D581641CE3600D82714 /* countriesP2 */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 383C4D711641CE3600D82714 /* Build configuration list for PBXNativeTarget "countriesP2" */;
+			buildPhases = (
+				383C4D551641CE3600D82714 /* Sources */,
+				383C4D561641CE3600D82714 /* Frameworks */,
+				383C4D571641CE3600D82714 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = countriesP2;
+			productName = countriesP2;
+			productReference = 383C4D591641CE3600D82714 /* countriesP2.app */;
+			productType = "com.apple.product-type.application";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		383C4D501641CE3600D82714 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				CLASSPREFIX = MAD;
+				LastUpgradeCheck = 0440;
+				ORGANIZATIONNAME = "Aaron Vimont";
+			};
+			buildConfigurationList = 383C4D531641CE3600D82714 /* Build configuration list for PBXProject "countriesP2" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+			);
+			mainGroup = 383C4D4E1641CE3600D82714;
+			productRefGroup = 383C4D5A1641CE3600D82714 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				383C4D581641CE3600D82714 /* countriesP2 */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		383C4D571641CE3600D82714 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				383C4D681641CE3600D82714 /* InfoPlist.strings in Resources */,
+				383C4D751641CE5500D82714 /* earthIconSmall.png in Resources */,
+				383C4D771641CE5D00D82714 /* earthIconLarge.png in Resources */,
+				383C4D7B1641CE8800D82714 /* earth.jpg in Resources */,
+				383C4D7D1641CE9C00D82714 /* longCountryListPlist.plist in Resources */,
+				383C4D821641CEEF00D82714 /* MADMasterViewController.xib in Resources */,
+				383C4D871641D04300D82714 /* MADDetailViewController.xib in Resources */,
+				383C4D931641EA7E00D82714 /* MADHomeViewController.xib in Resources */,
+				38998C4A164A00E6006DBF6E /* InfoViewController.xib in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		383C4D551641CE3600D82714 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				383C4D6A1641CE3600D82714 /* main.m in Sources */,
+				383C4D6E1641CE3600D82714 /* MADAppDelegate.m in Sources */,
+				383C4D811641CEEF00D82714 /* MADMasterViewController.m in Sources */,
+				383C4D861641D04300D82714 /* MADDetailViewController.m in Sources */,
+				383C4D8A1641D41100D82714 /* MADStoredData.m in Sources */,
+				383C4D921641EA7E00D82714 /* MADHomeViewController.m in Sources */,
+				3840C9B71644774B00FFF941 /* MADSwipeContainer.m in Sources */,
+				3840C9BB16448D1C00FFF941 /* MADSwipeData.m in Sources */,
+				38998C49164A00E6006DBF6E /* InfoViewController.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXVariantGroup section */
+		383C4D661641CE3600D82714 /* InfoPlist.strings */ = {
+			isa = PBXVariantGroup;
+			children = (
+				383C4D671641CE3600D82714 /* en */,
+			);
+			name = InfoPlist.strings;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		383C4D6F1641CE3600D82714 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ARCHS = "$(ARCHS_STANDARD_32_BIT)";
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				GCC_VERSION = com.apple.compilers.llvm.clang.1_0;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 5.1;
+				SDKROOT = iphoneos;
+			};
+			name = Debug;
+		};
+		383C4D701641CE3600D82714 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ARCHS = "$(ARCHS_STANDARD_32_BIT)";
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_VERSION = com.apple.compilers.llvm.clang.1_0;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 5.1;
+				OTHER_CFLAGS = "-DNS_BLOCK_ASSERTIONS=1";
+				SDKROOT = iphoneos;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		383C4D721641CE3600D82714 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "countriesP2/countriesP2-Prefix.pch";
+				INFOPLIST_FILE = "countriesP2/countriesP2-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				WRAPPER_EXTENSION = app;
+			};
+			name = Debug;
+		};
+		383C4D731641CE3600D82714 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "countriesP2/countriesP2-Prefix.pch";
+				INFOPLIST_FILE = "countriesP2/countriesP2-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				WRAPPER_EXTENSION = app;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		383C4D531641CE3600D82714 /* Build configuration list for PBXProject "countriesP2" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				383C4D6F1641CE3600D82714 /* Debug */,
+				383C4D701641CE3600D82714 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		383C4D711641CE3600D82714 /* Build configuration list for PBXNativeTarget "countriesP2" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				383C4D721641CE3600D82714 /* Debug */,
+				383C4D731641CE3600D82714 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 383C4D501641CE3600D82714 /* Project object */;
+}
