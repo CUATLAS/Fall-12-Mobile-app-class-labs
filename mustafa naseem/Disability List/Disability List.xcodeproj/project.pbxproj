@@ -20,6 +20,15 @@
 		564C168A164A5324002DF42A /* HWLSecondViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 564C1689164A5324002DF42A /* HWLSecondViewController.m */; };
 		564C168C164A5324002DF42A /* second.png in Resources */ = {isa = PBXBuildFile; fileRef = 564C168B164A5324002DF42A /* second.png */; };
 		564C168E164A5324002DF42A /* second@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 564C168D164A5324002DF42A /* second@2x.png */; };
+		56B1E706164F7A5A00540FD7 /* DisabilityList.plist in Resources */ = {isa = PBXBuildFile; fileRef = 56B1E705164F7A5A00540FD7 /* DisabilityList.plist */; };
+		56B1E709164F7B0500540FD7 /* continents.plist in Resources */ = {isa = PBXBuildFile; fileRef = 56B1E708164F7B0500540FD7 /* continents.plist */; };
+		56B1E7141650A10500540FD7 /* HWLThirdViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 56B1E7131650A10500540FD7 /* HWLThirdViewController.m */; };
+		56B1E7201650B40700540FD7 /* HWLDetailViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 56B1E71F1650B40700540FD7 /* HWLDetailViewController.m */; };
+		56B1E7221650C18B00540FD7 /* wheelchairsymbol.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 56B1E7211650C18B00540FD7 /* wheelchairsymbol.jpg */; };
+		56B1E7241650DA0800540FD7 /* disability.png in Resources */ = {isa = PBXBuildFile; fileRef = 56B1E7231650DA0800540FD7 /* disability.png */; };
+		56B1E7261650DA1000540FD7 /* disability1.png in Resources */ = {isa = PBXBuildFile; fileRef = 56B1E7251650DA1000540FD7 /* disability1.png */; };
+		56B1E7281650DA4900540FD7 /* disability1.png in Resources */ = {isa = PBXBuildFile; fileRef = 56B1E7271650DA4900540FD7 /* disability1.png */; };
+		56B1E72A1650DA5200540FD7 /* disability.png in Resources */ = {isa = PBXBuildFile; fileRef = 56B1E7291650DA5200540FD7 /* disability.png */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -42,6 +51,17 @@
 		564C1689164A5324002DF42A /* HWLSecondViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = HWLSecondViewController.m; sourceTree = "<group>"; };
 		564C168B164A5324002DF42A /* second.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = second.png; sourceTree = "<group>"; };
 		564C168D164A5324002DF42A /* second@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "second@2x.png"; sourceTree = "<group>"; };
+		56B1E705164F7A5A00540FD7 /* DisabilityList.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; path = DisabilityList.plist; sourceTree = "<group>"; };
+		56B1E708164F7B0500540FD7 /* continents.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; name = continents.plist; path = ../../../../../../Users/muna0394/Downloads/continents.plist; sourceTree = "<group>"; };
+		56B1E7121650A10500540FD7 /* HWLThirdViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = HWLThirdViewController.h; sourceTree = "<group>"; };
+		56B1E7131650A10500540FD7 /* HWLThirdViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = HWLThirdViewController.m; sourceTree = "<group>"; };
+		56B1E71E1650B40700540FD7 /* HWLDetailViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = HWLDetailViewController.h; sourceTree = "<group>"; };
+		56B1E71F1650B40700540FD7 /* HWLDetailViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = HWLDetailViewController.m; sourceTree = "<group>"; };
+		56B1E7211650C18B00540FD7 /* wheelchairsymbol.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = wheelchairsymbol.jpg; sourceTree = "<group>"; };
+		56B1E7231650DA0800540FD7 /* disability.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = disability.png; sourceTree = "<group>"; };
+		56B1E7251650DA1000540FD7 /* disability1.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = disability1.png; sourceTree = "<group>"; };
+		56B1E7271650DA4900540FD7 /* disability1.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = disability1.png; sourceTree = "<group>"; };
+		56B1E7291650DA5200540FD7 /* disability.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = disability.png; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -61,6 +81,8 @@
 		564C165D164A5324002DF42A = {
 			isa = PBXGroup;
 			children = (
+				56B1E7291650DA5200540FD7 /* disability.png */,
+				56B1E7271650DA4900540FD7 /* disability1.png */,
 				564C1672164A5324002DF42A /* Disability List */,
 				564C166B164A5324002DF42A /* Frameworks */,
 				564C1669164A5324002DF42A /* Products */,
@@ -91,6 +113,11 @@
 				564C167B164A5324002DF42A /* HWLAppDelegate.h */,
 				564C167C164A5324002DF42A /* HWLAppDelegate.m */,
 				564C167E164A5324002DF42A /* MainStoryboard.storyboard */,
+				56B1E71E1650B40700540FD7 /* HWLDetailViewController.h */,
+				56B1E71F1650B40700540FD7 /* HWLDetailViewController.m */,
+				56B1E7121650A10500540FD7 /* HWLThirdViewController.h */,
+				56B1E7131650A10500540FD7 /* HWLThirdViewController.m */,
+				56B1E705164F7A5A00540FD7 /* DisabilityList.plist */,
 				564C1681164A5324002DF42A /* HWLFirstViewController.h */,
 				564C1682164A5324002DF42A /* HWLFirstViewController.m */,
 				564C1684164A5324002DF42A /* first.png */,
@@ -109,7 +136,11 @@
 			children = (
 				564C1674164A5324002DF42A /* Disability List-Info.plist */,
 				564C1675164A5324002DF42A /* InfoPlist.strings */,
+				56B1E708164F7B0500540FD7 /* continents.plist */,
 				564C1678164A5324002DF42A /* main.m */,
+				56B1E7231650DA0800540FD7 /* disability.png */,
+				56B1E7251650DA1000540FD7 /* disability1.png */,
+				56B1E7211650C18B00540FD7 /* wheelchairsymbol.jpg */,
 				564C167A164A5324002DF42A /* Disability List-Prefix.pch */,
 			);
 			name = "Supporting Files";
@@ -172,6 +203,13 @@
 				564C1687164A5324002DF42A /* first@2x.png in Resources */,
 				564C168C164A5324002DF42A /* second.png in Resources */,
 				564C168E164A5324002DF42A /* second@2x.png in Resources */,
+				56B1E706164F7A5A00540FD7 /* DisabilityList.plist in Resources */,
+				56B1E709164F7B0500540FD7 /* continents.plist in Resources */,
+				56B1E7221650C18B00540FD7 /* wheelchairsymbol.jpg in Resources */,
+				56B1E7241650DA0800540FD7 /* disability.png in Resources */,
+				56B1E7261650DA1000540FD7 /* disability1.png in Resources */,
+				56B1E7281650DA4900540FD7 /* disability1.png in Resources */,
+				56B1E72A1650DA5200540FD7 /* disability.png in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -186,6 +224,8 @@
 				564C167D164A5324002DF42A /* HWLAppDelegate.m in Sources */,
 				564C1683164A5324002DF42A /* HWLFirstViewController.m in Sources */,
 				564C168A164A5324002DF42A /* HWLSecondViewController.m in Sources */,
+				56B1E7141650A10500540FD7 /* HWLThirdViewController.m in Sources */,
+				56B1E7201650B40700540FD7 /* HWLDetailViewController.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -297,6 +337,7 @@
 				564C1693164A5324002DF42A /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};

@@ -8,6 +8,8 @@
 
 #import <UIKit/UIKit.h>
 
-@interface HWLSecondViewController : UIViewController
+@interface HWLSecondViewController : UIViewController <UIWebViewDelegate>
+@property (weak, nonatomic) IBOutlet UIWebView *webView;
+@property (weak, nonatomic) IBOutlet UIActivityIndicatorView *spinner;
 
 @end
