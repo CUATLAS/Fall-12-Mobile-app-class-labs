@@ -96,10 +96,11 @@
 //    UITableViewCell *cell = [tableView dequeueReusableCellWithIdentifier:CellIdentifier];
 //    
 //    // Configure the cell...
-    static NSString *CellIdentifier=@"CellIdentifier";
-    UITableViewCell *cell= [tableView dequeueReusableCellWithIdentifier:CellIdentifier];
+    
+    UITableViewCell *cell=[tableView dequeueReusableCellWithIdentifier:@"GameCell"];
+    
     if (cell==nil) {
-        cell=[[UITableViewCell alloc] initWithStyle:UITableViewCellStyleDefault reuseIdentifier:CellIdentifier];
+        cell=[[UITableViewCell alloc] initWithStyle:UITableViewCellStyleDefault reuseIdentifier:@"GameCell"];
     }
     NSArray *rowData=[continentData allKeys];
     cell.textLabel.text=[rowData objectAtIndex:indexPath.row];    
@@ -111,7 +112,16 @@
 {
     // Make sure your segue name in storyboard is the same as this line
    if ([[segue identifier] isEqualToString:@"DisabilityAppList"])
-    {
+   {UINavigationController *navigationController = segue.destinationViewController;
+       
+       NSIndexPath *indexPath = [self.tableView indexPathForCell:sender];
+       
+       HWLDetailViewController *hwlDetailViewController = [[navigationController viewControllers] objectAtIndex:indexPath.row];
+       hwlDetailViewController.countryList=[continentData objectForKey:hwlDetailViewController.title];
+       //hwlDetailViewController.delegate=self;
+       [self.navigationController pushViewController:detailViewController animated:YES];
+   }
+       
 //        // Get reference to the destination view controller
 //        HWLDetailViewController *vc = [segue destinationViewController];
 //        
@@ -130,11 +140,11 @@
 //            detailViewController = [[HWLDetailViewController alloc] initWithNibName:@"HWLDetailViewController" bundle:nil];
 //        }
 //        NSArray *rowData = [continentData allKeys];
-//        //detailViewController.title=[rowData objectAtIndex:indexPath.row];
+//        detailViewController.title=[rowData objectAtIndex:indexPath.row];
 //        detailViewController.countryList=[continentData objectForKey:detailViewController.title];
 //        [self.navigationController pushViewController:detailViewController animated:YES];
 //        
-    }
+    
 }
 
 
