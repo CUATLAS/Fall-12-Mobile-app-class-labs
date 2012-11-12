@@ -110,32 +110,35 @@
 - (void)prepareForSegue:(UIStoryboardSegue *)segue sender:(id)sender
 {
     // Make sure your segue name in storyboard is the same as this line
-//    if ([[segue identifier] isEqualToString:@"AppList"])
+   if ([[segue identifier] isEqualToString:@"DisabilityAppList"])
     {
 //        // Get reference to the destination view controller
 //        HWLDetailViewController *vc = [segue destinationViewController];
 //        
 //        // Pass any objects to the view controller here, like...
 //        [vc setMyObjectHere:object];
-        UIViewController *destination = segue.destinationViewController;
-        if ([destination respondsToSelector:@selector(setDelegate:)]) {
-            [destination setValue:self forKey:@"delegate"];
-        }
-        
-        if ([destination respondsToSelector:@selector(setselection:)]) {
-            NSIndexPath *indexPath = [self.tableView indexPathForCell:sender];
-            //id object = [self.tasks objectatindex 
-        }
-        if (!detailViewController) {
-            detailViewController = [[HWLDetailViewController alloc] initWithNibName:@"HWLDetailViewController" bundle:nil];
-        }
-        NSArray *rowData = [continentData allKeys];
-        //detailViewController.title=[rowData objectAtIndex:indexPath.row];
-        detailViewController.countryList=[continentData objectForKey:detailViewController.title];
-        [self.navigationController pushViewController:detailViewController animated:YES];
-        
+//        UIViewController *destination = segue.destinationViewController;
+//        if ([destination respondsToSelector:@selector(setDelegate:)]) {
+//            [destination setValue:self forKey:@"delegate"];
+//        }
+//        
+//        if ([destination respondsToSelector:@selector(setselection:)]) {
+//            NSIndexPath *indexPath = [self.tableView indexPathForCell:sender];
+//            //id object = [self.tasks objectatindex 
+//        }
+//        if (!detailViewController) {
+//            detailViewController = [[HWLDetailViewController alloc] initWithNibName:@"HWLDetailViewController" bundle:nil];
+//        }
+//        NSArray *rowData = [continentData allKeys];
+//        //detailViewController.title=[rowData objectAtIndex:indexPath.row];
+//        detailViewController.countryList=[continentData objectForKey:detailViewController.title];
+//        [self.navigationController pushViewController:detailViewController animated:YES];
+//        
     }
 }
+
+
+
 /*
 // Override to support conditional editing of the table view.
 - (BOOL)tableView:(UITableView *)tableView canEditRowAtIndexPath:(NSIndexPath *)indexPath

@@ -29,6 +29,9 @@
 		56B1E7261650DA1000540FD7 /* disability1.png in Resources */ = {isa = PBXBuildFile; fileRef = 56B1E7251650DA1000540FD7 /* disability1.png */; };
 		56B1E7281650DA4900540FD7 /* disability1.png in Resources */ = {isa = PBXBuildFile; fileRef = 56B1E7271650DA4900540FD7 /* disability1.png */; };
 		56B1E72A1650DA5200540FD7 /* disability.png in Resources */ = {isa = PBXBuildFile; fileRef = 56B1E7291650DA5200540FD7 /* disability.png */; };
+		56B1E77316510FF000540FD7 /* 04-squiggle.png in Resources */ = {isa = PBXBuildFile; fileRef = 56B1E77216510FF000540FD7 /* 04-squiggle.png */; };
+		56B1E7761651105000540FD7 /* 113-navigation.png in Resources */ = {isa = PBXBuildFile; fileRef = 56B1E7751651105000540FD7 /* 113-navigation.png */; };
+		56B1E7781651110800540FD7 /* 122-stats.png in Resources */ = {isa = PBXBuildFile; fileRef = 56B1E7771651110800540FD7 /* 122-stats.png */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -62,6 +65,9 @@
 		56B1E7251650DA1000540FD7 /* disability1.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = disability1.png; sourceTree = "<group>"; };
 		56B1E7271650DA4900540FD7 /* disability1.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = disability1.png; sourceTree = "<group>"; };
 		56B1E7291650DA5200540FD7 /* disability.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = disability.png; sourceTree = "<group>"; };
+		56B1E77216510FF000540FD7 /* 04-squiggle.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "04-squiggle.png"; sourceTree = "<group>"; };
+		56B1E7751651105000540FD7 /* 113-navigation.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "113-navigation.png"; sourceTree = "<group>"; };
+		56B1E7771651110800540FD7 /* 122-stats.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "122-stats.png"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -138,7 +144,10 @@
 				564C1675164A5324002DF42A /* InfoPlist.strings */,
 				56B1E708164F7B0500540FD7 /* continents.plist */,
 				564C1678164A5324002DF42A /* main.m */,
+				56B1E77216510FF000540FD7 /* 04-squiggle.png */,
 				56B1E7231650DA0800540FD7 /* disability.png */,
+				56B1E7771651110800540FD7 /* 122-stats.png */,
+				56B1E7751651105000540FD7 /* 113-navigation.png */,
 				56B1E7251650DA1000540FD7 /* disability1.png */,
 				56B1E7211650C18B00540FD7 /* wheelchairsymbol.jpg */,
 				564C167A164A5324002DF42A /* Disability List-Prefix.pch */,
@@ -210,6 +219,9 @@
 				56B1E7261650DA1000540FD7 /* disability1.png in Resources */,
 				56B1E7281650DA4900540FD7 /* disability1.png in Resources */,
 				56B1E72A1650DA5200540FD7 /* disability.png in Resources */,
+				56B1E77316510FF000540FD7 /* 04-squiggle.png in Resources */,
+				56B1E7761651105000540FD7 /* 113-navigation.png in Resources */,
+				56B1E7781651110800540FD7 /* 122-stats.png in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
