@@ -1,0 +1,27 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+<dict>
+	<key>schools</key>
+	<array>
+		<dict>
+			<key>name</key>
+			<string>Pius XI</string>
+			<key>url</key>
+			<string>http://www.piusxi.org/</string>
+		</dict>
+		<dict>
+			<key>name</key>
+			<string>White Fish Bay High School</string>
+			<key>url</key>
+			<string>http://www.wfbschools.com/schools/high/</string>
+		</dict>
+		<dict>
+			<key>name</key>
+			<string>Shorewood High School</string>
+			<key>url</key>
+			<string>http://www.shorewoodschools.org/page.cfm?p=2607</string>
+		</dict>
+	</array>
+</dict>
+</plist>
