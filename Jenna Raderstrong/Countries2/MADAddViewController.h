@@ -7,10 +7,11 @@
 //
 
 #import <UIKit/UIKit.h>
+#import "AddText.h"
 
 @interface MADAddViewController : UIViewController
 
 - (IBAction)doneButton:(UIButton *)sender;
 @property (weak, nonatomic) IBOutlet UITextField *textBox;
-
+@property (strong, nonatomic)AddText *addNew;
 @end

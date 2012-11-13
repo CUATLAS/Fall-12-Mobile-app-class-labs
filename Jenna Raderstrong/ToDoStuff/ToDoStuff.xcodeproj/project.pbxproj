@@ -1,0 +1,354 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		98058AA7164EFC9F002FE36B /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 98058AA6164EFC9F002FE36B /* UIKit.framework */; };
+		98058AA9164EFC9F002FE36B /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 98058AA8164EFC9F002FE36B /* Foundation.framework */; };
+		98058AAB164EFC9F002FE36B /* CoreGraphics.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 98058AAA164EFC9F002FE36B /* CoreGraphics.framework */; };
+		98058AB1164EFC9F002FE36B /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = 98058AAF164EFC9F002FE36B /* InfoPlist.strings */; };
+		98058AB3164EFC9F002FE36B /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 98058AB2164EFC9F002FE36B /* main.m */; };
+		98058AB7164EFC9F002FE36B /* MADAppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 98058AB6164EFC9F002FE36B /* MADAppDelegate.m */; };
+		98058ABA164EFC9F002FE36B /* MainStoryboard.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 98058AB8164EFC9F002FE36B /* MainStoryboard.storyboard */; };
+		98058ABF164EFC9F002FE36B /* first.png in Resources */ = {isa = PBXBuildFile; fileRef = 98058ABE164EFC9F002FE36B /* first.png */; };
+		98058AC1164EFC9F002FE36B /* first@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 98058AC0164EFC9F002FE36B /* first@2x.png */; };
+		98058AC6164EFC9F002FE36B /* second.png in Resources */ = {isa = PBXBuildFile; fileRef = 98058AC5164EFC9F002FE36B /* second.png */; };
+		98058AC8164EFC9F002FE36B /* second@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 98058AC7164EFC9F002FE36B /* second@2x.png */; };
+		98058AD0164EFF41002FE36B /* HomeworkViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 98058ACF164EFF41002FE36B /* HomeworkViewController.m */; };
+		98058AD3164F00A9002FE36B /* AddTaskViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 98058AD2164F00A9002FE36B /* AddTaskViewController.m */; };
+		98694ABD1650693600FE2C3C /* HomeworkDetailsViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 98694ABC1650693600FE2C3C /* HomeworkDetailsViewController.m */; };
+		98996F4316520C1200E3EB82 /* to-do.png in Resources */ = {isa = PBXBuildFile; fileRef = 98996F4216520C1200E3EB82 /* to-do.png */; };
+		98996F4616520C3100E3EB82 /* to-do-1.png in Resources */ = {isa = PBXBuildFile; fileRef = 98996F4516520C3100E3EB82 /* to-do-1.png */; };
+		98996F4A16520CCA00E3EB82 /* Default.png in Resources */ = {isa = PBXBuildFile; fileRef = 98996F4916520CCA00E3EB82 /* Default.png */; };
+		98996F4C16520CCE00E3EB82 /* Default@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 98996F4B16520CCE00E3EB82 /* Default@2x.png */; };
+		98C8A0281651E0DA00E3A9AE /* ErrandsViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 98C8A0271651E0DA00E3A9AE /* ErrandsViewController.m */; };
+		98C8A02B1651E25400E3A9AE /* PlaceViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 98C8A02A1651E25400E3A9AE /* PlaceViewController.m */; };
+		98C8A0311651F61200E3A9AE /* ErrandDetailsViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 98C8A0301651F61200E3A9AE /* ErrandDetailsViewController.m */; };
+		98C8A0331652012900E3A9AE /* Homework.plist in Resources */ = {isa = PBXBuildFile; fileRef = 98C8A0321652012900E3A9AE /* Homework.plist */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXFileReference section */
+		98058AA2164EFC9F002FE36B /* ToDoStuff.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = ToDoStuff.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		98058AA6164EFC9F002FE36B /* UIKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = UIKit.framework; path = System/Library/Frameworks/UIKit.framework; sourceTree = SDKROOT; };
+		98058AA8164EFC9F002FE36B /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = System/Library/Frameworks/Foundation.framework; sourceTree = SDKROOT; };
+		98058AAA164EFC9F002FE36B /* CoreGraphics.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreGraphics.framework; path = System/Library/Frameworks/CoreGraphics.framework; sourceTree = SDKROOT; };
+		98058AAE164EFC9F002FE36B /* ToDoStuff-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "ToDoStuff-Info.plist"; sourceTree = "<group>"; };
+		98058AB0164EFC9F002FE36B /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
+		98058AB2164EFC9F002FE36B /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		98058AB4164EFC9F002FE36B /* ToDoStuff-Prefix.pch */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "ToDoStuff-Prefix.pch"; sourceTree = "<group>"; };
+		98058AB5164EFC9F002FE36B /* MADAppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = MADAppDelegate.h; sourceTree = "<group>"; };
+		98058AB6164EFC9F002FE36B /* MADAppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = MADAppDelegate.m; sourceTree = "<group>"; };
+		98058AB9164EFC9F002FE36B /* en */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = en; path = en.lproj/MainStoryboard.storyboard; sourceTree = "<group>"; };
+		98058ABE164EFC9F002FE36B /* first.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = first.png; sourceTree = "<group>"; };
+		98058AC0164EFC9F002FE36B /* first@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "first@2x.png"; sourceTree = "<group>"; };
+		98058AC5164EFC9F002FE36B /* second.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = second.png; sourceTree = "<group>"; };
+		98058AC7164EFC9F002FE36B /* second@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "second@2x.png"; sourceTree = "<group>"; };
+		98058ACE164EFF41002FE36B /* HomeworkViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = HomeworkViewController.h; sourceTree = "<group>"; };
+		98058ACF164EFF41002FE36B /* HomeworkViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = HomeworkViewController.m; sourceTree = "<group>"; };
+		98058AD1164F00A9002FE36B /* AddTaskViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = AddTaskViewController.h; sourceTree = "<group>"; };
+		98058AD2164F00A9002FE36B /* AddTaskViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = AddTaskViewController.m; sourceTree = "<group>"; };
+		98694ABB1650693600FE2C3C /* HomeworkDetailsViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = HomeworkDetailsViewController.h; sourceTree = "<group>"; };
+		98694ABC1650693600FE2C3C /* HomeworkDetailsViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = HomeworkDetailsViewController.m; sourceTree = "<group>"; };
+		98996F4216520C1200E3EB82 /* to-do.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "to-do.png"; sourceTree = "<group>"; };
+		98996F4516520C3100E3EB82 /* to-do-1.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "to-do-1.png"; sourceTree = "<group>"; };
+		98996F4916520CCA00E3EB82 /* Default.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = Default.png; sourceTree = "<group>"; };
+		98996F4B16520CCE00E3EB82 /* Default@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "Default@2x.png"; sourceTree = "<group>"; };
+		98C8A0261651E0DA00E3A9AE /* ErrandsViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = ErrandsViewController.h; path = ../ErrandsViewController.h; sourceTree = "<group>"; };
+		98C8A0271651E0DA00E3A9AE /* ErrandsViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = ErrandsViewController.m; path = ../ErrandsViewController.m; sourceTree = "<group>"; };
+		98C8A0291651E25400E3A9AE /* PlaceViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = PlaceViewController.h; sourceTree = "<group>"; };
+		98C8A02A1651E25400E3A9AE /* PlaceViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = PlaceViewController.m; sourceTree = "<group>"; };
+		98C8A02F1651F61200E3A9AE /* ErrandDetailsViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = ErrandDetailsViewController.h; path = ../ErrandDetailsViewController.h; sourceTree = "<group>"; };
+		98C8A0301651F61200E3A9AE /* ErrandDetailsViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = ErrandDetailsViewController.m; path = ../ErrandDetailsViewController.m; sourceTree = "<group>"; };
+		98C8A0321652012900E3A9AE /* Homework.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; path = Homework.plist; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		98058A9F164EFC9E002FE36B /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				98058AA7164EFC9F002FE36B /* UIKit.framework in Frameworks */,
+				98058AA9164EFC9F002FE36B /* Foundation.framework in Frameworks */,
+				98058AAB164EFC9F002FE36B /* CoreGraphics.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		98058A97164EFC9E002FE36B = {
+			isa = PBXGroup;
+			children = (
+				98996F4B16520CCE00E3EB82 /* Default@2x.png */,
+				98996F4916520CCA00E3EB82 /* Default.png */,
+				98996F4516520C3100E3EB82 /* to-do-1.png */,
+				98996F4216520C1200E3EB82 /* to-do.png */,
+				98058AAC164EFC9F002FE36B /* ToDoStuff */,
+				98058AA5164EFC9F002FE36B /* Frameworks */,
+				98058AA3164EFC9F002FE36B /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		98058AA3164EFC9F002FE36B /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				98058AA2164EFC9F002FE36B /* ToDoStuff.app */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		98058AA5164EFC9F002FE36B /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				98058AA6164EFC9F002FE36B /* UIKit.framework */,
+				98058AA8164EFC9F002FE36B /* Foundation.framework */,
+				98058AAA164EFC9F002FE36B /* CoreGraphics.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		98058AAC164EFC9F002FE36B /* ToDoStuff */ = {
+			isa = PBXGroup;
+			children = (
+				98058AB5164EFC9F002FE36B /* MADAppDelegate.h */,
+				98058AB6164EFC9F002FE36B /* MADAppDelegate.m */,
+				98058AB8164EFC9F002FE36B /* MainStoryboard.storyboard */,
+				98C8A02F1651F61200E3A9AE /* ErrandDetailsViewController.h */,
+				98C8A0301651F61200E3A9AE /* ErrandDetailsViewController.m */,
+				98694ABB1650693600FE2C3C /* HomeworkDetailsViewController.h */,
+				98694ABC1650693600FE2C3C /* HomeworkDetailsViewController.m */,
+				98058ACE164EFF41002FE36B /* HomeworkViewController.h */,
+				98058ACF164EFF41002FE36B /* HomeworkViewController.m */,
+				98C8A0261651E0DA00E3A9AE /* ErrandsViewController.h */,
+				98C8A0271651E0DA00E3A9AE /* ErrandsViewController.m */,
+				98C8A0291651E25400E3A9AE /* PlaceViewController.h */,
+				98C8A02A1651E25400E3A9AE /* PlaceViewController.m */,
+				98058AD1164F00A9002FE36B /* AddTaskViewController.h */,
+				98058AD2164F00A9002FE36B /* AddTaskViewController.m */,
+				98058ABE164EFC9F002FE36B /* first.png */,
+				98058AC0164EFC9F002FE36B /* first@2x.png */,
+				98058AC5164EFC9F002FE36B /* second.png */,
+				98058AC7164EFC9F002FE36B /* second@2x.png */,
+				98058AAD164EFC9F002FE36B /* Supporting Files */,
+			);
+			path = ToDoStuff;
+			sourceTree = "<group>";
+		};
+		98058AAD164EFC9F002FE36B /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				98C8A0321652012900E3A9AE /* Homework.plist */,
+				98058AAE164EFC9F002FE36B /* ToDoStuff-Info.plist */,
+				98058AAF164EFC9F002FE36B /* InfoPlist.strings */,
+				98058AB2164EFC9F002FE36B /* main.m */,
+				98058AB4164EFC9F002FE36B /* ToDoStuff-Prefix.pch */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		98058AA1164EFC9E002FE36B /* ToDoStuff */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 98058ACB164EFC9F002FE36B /* Build configuration list for PBXNativeTarget "ToDoStuff" */;
+			buildPhases = (
+				98058A9E164EFC9E002FE36B /* Sources */,
+				98058A9F164EFC9E002FE36B /* Frameworks */,
+				98058AA0164EFC9E002FE36B /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = ToDoStuff;
+			productName = ToDoStuff;
+			productReference = 98058AA2164EFC9F002FE36B /* ToDoStuff.app */;
+			productType = "com.apple.product-type.application";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		98058A99164EFC9E002FE36B /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				CLASSPREFIX = MAD;
+				LastUpgradeCheck = 0440;
+				ORGANIZATIONNAME = "Jenna Raderstrong";
+			};
+			buildConfigurationList = 98058A9C164EFC9E002FE36B /* Build configuration list for PBXProject "ToDoStuff" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+			);
+			mainGroup = 98058A97164EFC9E002FE36B;
+			productRefGroup = 98058AA3164EFC9F002FE36B /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				98058AA1164EFC9E002FE36B /* ToDoStuff */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		98058AA0164EFC9E002FE36B /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				98058AB1164EFC9F002FE36B /* InfoPlist.strings in Resources */,
+				98058ABA164EFC9F002FE36B /* MainStoryboard.storyboard in Resources */,
+				98058ABF164EFC9F002FE36B /* first.png in Resources */,
+				98058AC1164EFC9F002FE36B /* first@2x.png in Resources */,
+				98058AC6164EFC9F002FE36B /* second.png in Resources */,
+				98058AC8164EFC9F002FE36B /* second@2x.png in Resources */,
+				98C8A0331652012900E3A9AE /* Homework.plist in Resources */,
+				98996F4316520C1200E3EB82 /* to-do.png in Resources */,
+				98996F4616520C3100E3EB82 /* to-do-1.png in Resources */,
+				98996F4A16520CCA00E3EB82 /* Default.png in Resources */,
+				98996F4C16520CCE00E3EB82 /* Default@2x.png in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		98058A9E164EFC9E002FE36B /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				98058AB3164EFC9F002FE36B /* main.m in Sources */,
+				98058AB7164EFC9F002FE36B /* MADAppDelegate.m in Sources */,
+				98058AD0164EFF41002FE36B /* HomeworkViewController.m in Sources */,
+				98058AD3164F00A9002FE36B /* AddTaskViewController.m in Sources */,
+				98694ABD1650693600FE2C3C /* HomeworkDetailsViewController.m in Sources */,
+				98C8A0281651E0DA00E3A9AE /* ErrandsViewController.m in Sources */,
+				98C8A02B1651E25400E3A9AE /* PlaceViewController.m in Sources */,
+				98C8A0311651F61200E3A9AE /* ErrandDetailsViewController.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXVariantGroup section */
+		98058AAF164EFC9F002FE36B /* InfoPlist.strings */ = {
+			isa = PBXVariantGroup;
+			children = (
+				98058AB0164EFC9F002FE36B /* en */,
+			);
+			name = InfoPlist.strings;
+			sourceTree = "<group>";
+		};
+		98058AB8164EFC9F002FE36B /* MainStoryboard.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				98058AB9164EFC9F002FE36B /* en */,
+			);
+			name = MainStoryboard.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		98058AC9164EFC9F002FE36B /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ARCHS = "$(ARCHS_STANDARD_32_BIT)";
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				GCC_VERSION = com.apple.compilers.llvm.clang.1_0;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 5.1;
+				SDKROOT = iphoneos;
+			};
+			name = Debug;
+		};
+		98058ACA164EFC9F002FE36B /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ARCHS = "$(ARCHS_STANDARD_32_BIT)";
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_VERSION = com.apple.compilers.llvm.clang.1_0;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 5.1;
+				OTHER_CFLAGS = "-DNS_BLOCK_ASSERTIONS=1";
+				SDKROOT = iphoneos;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		98058ACC164EFC9F002FE36B /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "ToDoStuff/ToDoStuff-Prefix.pch";
+				INFOPLIST_FILE = "ToDoStuff/ToDoStuff-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				WRAPPER_EXTENSION = app;
+			};
+			name = Debug;
+		};
+		98058ACD164EFC9F002FE36B /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "ToDoStuff/ToDoStuff-Prefix.pch";
+				INFOPLIST_FILE = "ToDoStuff/ToDoStuff-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				WRAPPER_EXTENSION = app;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		98058A9C164EFC9E002FE36B /* Build configuration list for PBXProject "ToDoStuff" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				98058AC9164EFC9F002FE36B /* Debug */,
+				98058ACA164EFC9F002FE36B /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		98058ACB164EFC9F002FE36B /* Build configuration list for PBXNativeTarget "ToDoStuff" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				98058ACC164EFC9F002FE36B /* Debug */,
+				98058ACD164EFC9F002FE36B /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 98058A99164EFC9E002FE36B /* Project object */;
+}

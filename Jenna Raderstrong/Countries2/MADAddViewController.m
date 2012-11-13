@@ -14,6 +14,7 @@
 
 @implementation MADAddViewController
 @synthesize textBox;
+@synthesize addNew;
 
 
 - (id)initWithNibName:(NSString *)nibNameOrNil bundle:(NSBundle *)nibBundleOrNil
@@ -28,6 +29,7 @@
 - (void)viewDidLoad
 {
     [super viewDidLoad];
+    addNew=textBox.text;
     // Do any additional setup after loading the view from its nib.
 }
 

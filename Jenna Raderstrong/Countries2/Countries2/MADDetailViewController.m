@@ -9,6 +9,7 @@
 #import "MADDetailViewController.h"
 #import "MADAddViewController.h"
 
+
 @interface MADDetailViewController (){MADAddViewController *addViewController;}
 
 @end
@@ -16,6 +17,7 @@
 @implementation MADDetailViewController
 @synthesize countryList;
 @synthesize modalTransitionStyle;
+@synthesize textInfo;
 
 
 - (id)initWithStyle:(UITableViewStyle)style
@@ -27,6 +29,7 @@
     return self;
 }
 -(void)viewWillAppear:(BOOL)animated{
+    
     [self.tableView reloadData];//reloads the data in the tableView
 }
 
@@ -164,7 +167,7 @@ if(self.editing)
          [self presentViewController:addViewController animated:YES completion:NULL];
         /*if(addViewController.doneButton==YES){
             [self dismissViewControllerAnimated:YES completion:NULL];}*/
-        NSString *newItem = addViewController.textBox.text;
+        NSString *newItem = textInfo;
         
         [countryList insertObject:newItem atIndex:indexPath.row];
         [tableView insertRowsAtIndexPaths:[NSArray arrayWithObject:[NSIndexPath indexPathForRow:countryList.count inSection:0]] withRowAnimation:UITableViewRowAnimationFade];

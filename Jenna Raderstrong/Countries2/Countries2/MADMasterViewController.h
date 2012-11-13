@@ -7,7 +7,8 @@
 //
 
 #import <UIKit/UIKit.h>
+#import "AddText.h"
 
-@interface MADMasterViewController : UITableViewController
+@interface MADMasterViewController : UITableViewController {AddText *addField;}
 
 @end
