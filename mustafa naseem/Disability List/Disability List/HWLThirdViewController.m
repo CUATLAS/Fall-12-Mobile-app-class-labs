@@ -108,7 +108,8 @@
     if (!detailViewController) {
         detailViewController = [[HWLDetailViewController alloc] initWithNibName:@"HWLDetailViewController" bundle:nil];
     }
-    NSArray *rowData = [continentData allKeys]; 
+    NSArray *rowData = [continentData allKeys];
+    NSLog(@"row data %@", rowData);
     detailViewController.title=[rowData objectAtIndex:indexPath.row];
     detailViewController.countryList=[continentData objectForKey:detailViewController.title];
     
@@ -121,6 +122,7 @@
 
 - (void)prepareForSegue:(UIStoryboardSegue *)segue sender:(id)sender
 {
+    NSLog(@"in prepare for segue");
     // Make sure your segue name in storyboard is the same as this line
    if ([[segue identifier] isEqualToString:@"DisabilityAppList"])
    {UINavigationController *navigationController = segue.destinationViewController;
@@ -128,6 +130,7 @@
        NSIndexPath *indexPath = [self.tableView indexPathForCell:sender];
        
        HWLDetailViewController *hwlDetailViewController = [[navigationController viewControllers] objectAtIndex:indexPath.row];
+       NSLog(@"title %@", hwlDetailViewController.title );
        hwlDetailViewController.countryList=[continentData objectForKey:hwlDetailViewController.title];
        hwlDetailViewController.delegate=self;
        [self.navigationController pushViewController:detailViewController animated:YES];
