@@ -11,7 +11,7 @@
 
 @interface HWLThirdViewController (){
     
-    NSDictionary *continentData;
+    NSMutableDictionary *continentData;
 //    NSMutableDictionary *continentData;
     HWLDetailViewController *detailViewController;
 }
@@ -97,14 +97,25 @@
 //    
 //    // Configure the cell...
     
-    UITableViewCell *cell=[tableView dequeueReusableCellWithIdentifier:@"GameCell"];
+    static NSString *CellIdentifier = @"Cell";
+    
+    UITableViewCell *cell=[tableView dequeueReusableCellWithIdentifier:CellIdentifier];
     
     if (cell==nil) {
-        cell=[[UITableViewCell alloc] initWithStyle:UITableViewCellStyleDefault reuseIdentifier:@"GameCell"];
+        cell=[[UITableViewCell alloc] initWithStyle:UITableViewCellStyleDefault reuseIdentifier:@"Cell"];
     }
-    NSArray *rowData=[continentData allKeys];
-    cell.textLabel.text=[rowData objectAtIndex:indexPath.row];    
+  
+    if (!detailViewController) {
+        detailViewController = [[HWLDetailViewController alloc] initWithNibName:@"HWLDetailViewController" bundle:nil];
+    }
+    NSArray *rowData = [continentData allKeys]; 
+    detailViewController.title=[rowData objectAtIndex:indexPath.row];
+    detailViewController.countryList=[continentData objectForKey:detailViewController.title];
+    
+   cell.textLabel.text=[rowData objectAtIndex:indexPath.row];    
     return cell;
+    
+    
 }
 
 
@@ -118,7 +129,7 @@
        
        HWLDetailViewController *hwlDetailViewController = [[navigationController viewControllers] objectAtIndex:indexPath.row];
        hwlDetailViewController.countryList=[continentData objectForKey:hwlDetailViewController.title];
-       //hwlDetailViewController.delegate=self;
+       hwlDetailViewController.delegate=self;
        [self.navigationController pushViewController:detailViewController animated:YES];
    }
        

@@ -2,22 +2,22 @@
 <!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
 <plist version="1.0">
 <dict>
-	<key>Hearing</key>
+	<key>Cognitive</key>
 	<array>
 		<string>Algeria</string>
 		<string>Angola</string>
 	</array>
-	<key>Vision</key>
+	<key>Hearing</key>
 	<array>
 		<string>Afghanistan</string>
 		<string>Bahrain</string>
 	</array>
-	<key>Ambulatory</key>
+	<key>Vision</key>
 	<array>
 		<string>Albania</string>
 		<string>Andorra</string>
 	</array>
-	<key>Cognitive</key>
+	<key>Ambulatory</key>
 	<array>
 		<string>Canada</string>
 		<string>United States</string>

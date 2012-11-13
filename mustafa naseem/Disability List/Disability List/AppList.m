@@ -1,20 +1,18 @@
 //
-//  HWLDetailViewController.m
+//  AppList.m
 //  Disability List
 //
-//  Created by  on 11/11/12.
+//  Created by  on 11/13/12.
 //  Copyright (c) 2012 __MyCompanyName__. All rights reserved.
 //
 
-#import "HWLDetailViewController.h"
-#import "HWLThirdViewController.h"
+#import "AppList.h"
 
-@interface HWLDetailViewController ()
+@interface AppList ()
 
 @end
 
-@implementation HWLDetailViewController
-@synthesize countryList, delegate;
+@implementation AppList
 
 - (id)initWithStyle:(UITableViewStyle)style
 {
@@ -25,15 +23,9 @@
     return self;
 }
 
-- (void)viewWillAppear:(BOOL)animated {
-    [self.tableView reloadData];
-}
-
-
 - (void)viewDidLoad
 {
     [super viewDidLoad];
-    [self.tableView reloadData];
 
     // Uncomment the following line to preserve selection between presentations.
     // self.clearsSelectionOnViewWillAppear = NO;
@@ -47,13 +39,11 @@
     [super viewDidUnload];
     // Release any retained subviews of the main view.
     // e.g. self.myOutlet = nil;
-    countryList=nil;
-    delegate=nil;
 }
 
 - (BOOL)shouldAutorotateToInterfaceOrientation:(UIInterfaceOrientation)interfaceOrientation
 {
-    return (interfaceOrientation != UIInterfaceOrientationPortraitUpsideDown);
+    return (interfaceOrientation == UIInterfaceOrientationPortrait);
 }
 
 #pragma mark - Table view data source
@@ -62,14 +52,14 @@
 {
 #warning Potentially incomplete method implementation.
     // Return the number of sections.
-    return 1;
+    return 0;
 }
 
 - (NSInteger)tableView:(UITableView *)tableView numberOfRowsInSection:(NSInteger)section
 {
 #warning Incomplete method implementation.
     // Return the number of rows in the section.
-    return [countryList count];
+    return 0;
 }
 
 - (UITableViewCell *)tableView:(UITableView *)tableView cellForRowAtIndexPath:(NSIndexPath *)indexPath
@@ -78,11 +68,6 @@
     UITableViewCell *cell = [tableView dequeueReusableCellWithIdentifier:CellIdentifier];
     
     // Configure the cell...
-   if (cell==nil) {
-        cell = [[UITableViewCell alloc] initWithStyle:UITableViewCellStyleDefault reuseIdentifier:CellIdentifier];
-  }
-    
-    cell.textLabel.text=[countryList objectAtIndex:indexPath.row];
     
     return cell;
 }

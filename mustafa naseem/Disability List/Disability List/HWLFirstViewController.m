@@ -13,12 +13,26 @@
 @end
 
 @implementation HWLFirstViewController
+@synthesize landscapeImage;
 
 - (void)viewDidLoad
 {
     [super viewDidLoad];
+//    if (UIInterfaceOrientationPortrait) {
+//        
+//        UIImage *image = [UIImage imageNamed: @"images.png"];
+//        
+//        [landscapeImage setImage:image];
+//    }
+//       
+//    if (!UIInterfaceOrientationLandscapeRight || !UIInterfaceOrientationLandscapeLeft) 
+//    { UIImage *photo = [UIImage imageNamed:@"blank.png"];
+//        [landscapeImage setImage:photo];
+//    }
+ 
 	// Do any additional setup after loading the view, typically from a nib.
 }
+
 
 - (void)viewDidUnload
 {
@@ -29,6 +43,9 @@
 - (BOOL)shouldAutorotateToInterfaceOrientation:(UIInterfaceOrientation)interfaceOrientation
 {
     return (interfaceOrientation != UIInterfaceOrientationPortraitUpsideDown);
+    
 }
+
+
 
 @end

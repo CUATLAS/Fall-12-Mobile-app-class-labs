@@ -9,5 +9,6 @@
 #import <UIKit/UIKit.h>
 
 @interface HWLFirstViewController : UIViewController
+@property (weak, nonatomic) IBOutlet UIImageView *landscapeImage;
 
 @end
