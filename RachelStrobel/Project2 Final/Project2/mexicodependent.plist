@@ -1,0 +1,47 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+<dict>
+	<key>RED: No action</key>
+	<array>
+		<string>Aguascalientes</string>
+		<string>Baja California Sur</string>
+		<string>Campeche</string>
+		<string>Chihuahua</string>
+		<string>Coahuila</string>
+		<string>Colima</string>
+		<string>Durango</string>
+		<string>Guanajuato</string>
+		<string>Guerrero</string>
+		<string>Jalisco</string>
+		<string>Michoacán</string>
+		<string>Morelos</string>
+		<string>Nayarit</string>
+		<string>Querétaro</string>
+		<string>San Luis Potosí</string>
+		<string>Sinaloa</string>
+		<string>Sonora</string>
+		<string>Yucatán</string>
+		<string>Zacatecas</string>
+	</array>
+	<key>ORANGE: Progress happening</key>
+	<array>
+		<string>Hidalgo</string>
+		<string>Nuevo León</string>
+		<string>Oaxaca</string>
+		<string>Quintana Roo</string>
+		<string>Tamaulipas</string>
+		<string>Veracruz</string>
+	</array>
+	<key>GREEN: Convictions for traffickers</key>
+	<array>
+		<string>Baja California Norte</string>
+		<string>Chiapas</string>
+		<string>México</string>
+		<string>México City</string>
+		<string>Puebla</string>
+		<string>Tabasco</string>
+		<string>Tlaxcala</string>
+	</array>
+</dict>
+</plist>
