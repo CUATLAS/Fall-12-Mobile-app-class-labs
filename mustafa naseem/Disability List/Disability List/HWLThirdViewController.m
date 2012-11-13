@@ -7,18 +7,13 @@
 //
 
 #import "HWLThirdViewController.h"
-#import "HWLDetailViewController.h"
 
-@interface HWLThirdViewController (){
-    
-    NSMutableDictionary *continentData;
-//    NSMutableDictionary *continentData;
-    HWLDetailViewController *detailViewController;
-}
+@interface HWLThirdViewController ()
 
 @end
 
 @implementation HWLThirdViewController
+@synthesize detailViewController, continentData;
 
 - (id)initWithStyle:(UITableViewStyle)style
 {
@@ -36,7 +31,7 @@
     NSString *plistPath=[bundle pathForResource:@"continents" ofType:@"plist"];
     NSDictionary *dictionary = [[NSDictionary alloc] initWithContentsOfFile:plistPath];
     continentData=dictionary;
-    self.title=@"App List";
+   // NSLog(@"%@",[continentData objectForKey:@"Cognitive"]);
 
     // Uncomment the following line to preserve selection between presentations.
     // self.clearsSelectionOnViewWillAppear = NO;
@@ -78,14 +73,13 @@
 
 - (NSInteger)numberOfSectionsInTableView:(UITableView *)tableView
 {
-#warning Potentially incomplete method implementation.
+
     // Return the number of sections.
     return 1;
 }
 
 - (NSInteger)tableView:(UITableView *)tableView numberOfRowsInSection:(NSInteger)section
 {
-#warning Incomplete method implementation.
     // Return the number of rows in the section.
     return [continentData count];
 }
@@ -105,15 +99,18 @@
         cell=[[UITableViewCell alloc] initWithStyle:UITableViewCellStyleDefault reuseIdentifier:@"Cell"];
     }
   
-    if (!detailViewController) {
+    /*if (!detailViewController) {
         detailViewController = [[HWLDetailViewController alloc] initWithNibName:@"HWLDetailViewController" bundle:nil];
     }
-    NSArray *rowData = [continentData allKeys];
+    
     NSLog(@"row data %@", rowData);
     detailViewController.title=[rowData objectAtIndex:indexPath.row];
     detailViewController.countryList=[continentData objectForKey:detailViewController.title];
     
-   cell.textLabel.text=[rowData objectAtIndex:indexPath.row];    
+    
+    NSLog(@"cell data %@", cell);*/
+    NSArray *rowData = [continentData allKeys];
+     cell.textLabel.text=[rowData objectAtIndex:indexPath.row];
     return cell;
     
     
@@ -124,17 +121,45 @@
 {
     NSLog(@"in prepare for segue");
     // Make sure your segue name in storyboard is the same as this line
-   if ([[segue identifier] isEqualToString:@"DisabilityAppList"])
-   {UINavigationController *navigationController = segue.destinationViewController;
+   if ([segue.identifier isEqualToString:@"DisabilityAppList"])
+   {
        
-       NSIndexPath *indexPath = [self.tableView indexPathForCell:sender];
+       NSIndexPath *indexPath = [self.tableView indexPathForSelectedRow];
        
-       HWLDetailViewController *hwlDetailViewController = [[navigationController viewControllers] objectAtIndex:indexPath.row];
+       NSArray *rowData = [continentData allKeys];
+        NSLog(@"%@", rowData);
+       
+
+       detailViewController.title=[rowData objectAtIndex:indexPath.row];
+       
+       NSLog([NSString stringWithFormat:@"%d", indexPath.row]); 
+       NSLog(@"Title");
+       NSLog(detailViewController.title);
+       detailViewController.countryList=[continentData objectForKey:detailViewController.title];
+      NSLog(@"Array");
+       NSLog(@"%@", detailViewController.countryList);
+   }
+}
+       
+       
+       
+       
+       
+       //NSString *cell = [rowData objectAtIndex:indexPath.row];
+       //NSLog(@"cell data1 %@", cell);
+       
+      // cell.textLabel.text=[rowData objectAtIndex:indexPath.row];  
+       //NSLog(@"title %@", hwlDetailViewController.title );
+
+       /*HWLDetailViewController *hwlDetailViewController = [[navigationController viewControllers] objectAtIndex:indexPath.row];
+       
        NSLog(@"title %@", hwlDetailViewController.title );
+       
+       
        hwlDetailViewController.countryList=[continentData objectForKey:hwlDetailViewController.title];
        hwlDetailViewController.delegate=self;
-       [self.navigationController pushViewController:detailViewController animated:YES];
-   }
+       [self.navigationController pushViewController:detailViewController animated:YES];*/
+
        
 //        // Get reference to the destination view controller
 //        HWLDetailViewController *vc = [segue destinationViewController];
@@ -159,7 +184,6 @@
 //        [self.navigationController pushViewController:detailViewController animated:YES];
 //        
     
-}
 
 
 

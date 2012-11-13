@@ -113,7 +113,7 @@
                                     <color key="backgroundColor" white="0.0" alpha="0.0" colorSpace="calibratedWhite"/>
                                 </view>
                                 <connections>
-                                    <segue destination="Oha-YS-6y6" kind="push" identifier="DisabilityAppList" id="gej-Do-rdG"/>
+                                    <segue destination="5IE-u7-OT3" kind="push" identifier="DisabilityAppList" id="Nfg-gN-HXV"/>
                                 </connections>
                             </tableViewCell>
                         </prototypes>
@@ -125,7 +125,7 @@
                     <navigationItem key="navigationItem" title="Disability List" id="46k-mg-jsi"/>
                 </tableViewController>
             </objects>
-            <point key="canvasLocation" x="1206" y="1126"/>
+            <point key="canvasLocation" x="1214" y="1120"/>
         </scene>
         <!--Detail View Controller - App List-->
         <scene sceneID="Aik-H4-8f7">
@@ -162,23 +162,7 @@
                     </navigationItem>
                 </tableViewController>
             </objects>
-            <point key="canvasLocation" x="2201" y="1126"/>
-        </scene>
-        <!--Navigation Controller-->
-        <scene sceneID="GW4-a9-fRV">
-            <objects>
-                <placeholder placeholderIdentifier="IBFirstResponder" id="Ekw-xF-7SP" userLabel="First Responder" sceneMemberID="firstResponder"/>
-                <navigationController definesPresentationContext="YES" id="Oha-YS-6y6" sceneMemberID="viewController">
-                    <navigationItem key="navigationItem" id="RSz-us-2Jh"/>
-                    <navigationBar key="navigationBar" opaque="NO" clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="scaleToFill" id="euY-mu-uM2">
-                        <autoresizingMask key="autoresizingMask"/>
-                    </navigationBar>
-                    <connections>
-                        <segue destination="5IE-u7-OT3" kind="relationship" relationship="rootViewController" id="Jvy-aR-QhI"/>
-                    </connections>
-                </navigationController>
-            </objects>
-            <point key="canvasLocation" x="1687" y="1126"/>
+            <point key="canvasLocation" x="1673" y="1126"/>
         </scene>
         <!--Second View Controller - Second-->
         <scene sceneID="13">
@@ -256,6 +240,27 @@
         <image name="122-stats.png" width="27" height="19"/>
         <image name="wheelchairsymbol.jpg" width="230" height="230"/>
     </resources>
+    <classes>
+        <class className="HWLDetailViewController" superclassName="UITableViewController">
+            <source key="sourceIdentifier" type="project" relativePath="./Classes/HWLDetailViewController.h"/>
+        </class>
+        <class className="HWLFirstViewController" superclassName="UIViewController">
+            <source key="sourceIdentifier" type="project" relativePath="./Classes/HWLFirstViewController.h"/>
+            <relationships>
+                <relationship kind="outlet" name="landscapeImage" candidateClass="UIImageView"/>
+            </relationships>
+        </class>
+        <class className="HWLSecondViewController" superclassName="UIViewController">
+            <source key="sourceIdentifier" type="project" relativePath="./Classes/HWLSecondViewController.h"/>
+            <relationships>
+                <relationship kind="outlet" name="spinner" candidateClass="UIActivityIndicatorView"/>
+                <relationship kind="outlet" name="webView" candidateClass="UIWebView"/>
+            </relationships>
+        </class>
+        <class className="HWLThirdViewController" superclassName="UITableViewController">
+            <source key="sourceIdentifier" type="project" relativePath="./Classes/HWLThirdViewController.h"/>
+        </class>
+    </classes>
     <simulatedMetricsContainer key="defaultSimulatedMetrics">
         <simulatedStatusBarMetrics key="statusBar"/>
         <simulatedOrientationMetrics key="orientation"/>
