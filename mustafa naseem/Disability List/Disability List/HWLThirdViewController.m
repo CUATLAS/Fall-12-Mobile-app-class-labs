@@ -124,7 +124,7 @@
    if ([segue.identifier isEqualToString:@"DisabilityAppList"])
    {
        
-       NSIndexPath *indexPath = [self.tableView indexPathForSelectedRow];
+       NSIndexPath *indexPath = [self.tableView indexPathForCell:sender];
        
        NSArray *rowData = [continentData allKeys];
         NSLog(@"%@", rowData);

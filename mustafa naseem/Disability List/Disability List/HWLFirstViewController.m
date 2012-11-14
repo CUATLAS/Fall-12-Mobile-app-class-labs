@@ -18,8 +18,8 @@
 - (void)viewDidLoad
 {
     [super viewDidLoad];
-//    if (UIInterfaceOrientationPortrait) {
-//        
+    if (UIInterfaceOrientationPortrait) {
+        
 //        UIImage *image = [UIImage imageNamed: @"images.png"];
 //        
 //        [landscapeImage setImage:image];
@@ -28,7 +28,7 @@
 //    if (!UIInterfaceOrientationLandscapeRight || !UIInterfaceOrientationLandscapeLeft) 
 //    { UIImage *photo = [UIImage imageNamed:@"blank.png"];
 //        [landscapeImage setImage:photo];
-//    }
+   }
  
 	// Do any additional setup after loading the view, typically from a nib.
 }

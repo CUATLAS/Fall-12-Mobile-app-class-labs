@@ -10,7 +10,7 @@
 
 @interface HWLDetailViewController : UITableViewController
 
-@property (strong, nonatomic) NSMutableArray *countryList;
+@property (strong, nonatomic) NSArray *countryList;
 @property (weak, nonatomic) id delegate;
 
 

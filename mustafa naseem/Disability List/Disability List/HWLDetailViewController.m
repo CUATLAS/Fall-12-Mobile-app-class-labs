@@ -25,9 +25,9 @@
     return self;
 }
 
-- (void)viewWillAppear:(BOOL)animated {
-    [self.tableView reloadData];
-}
+//- (void)viewWillAppear:(BOOL)animated {
+//    [self.tableView reloadData];
+//}
 
 
 - (void)viewDidLoad
@@ -83,6 +83,7 @@
   }
     
     cell.textLabel.text=[countryList objectAtIndex:indexPath.row];
+    NSLog(@"%@", cell); 
     
     return cell;
 }
