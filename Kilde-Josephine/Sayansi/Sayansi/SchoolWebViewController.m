@@ -27,6 +27,15 @@
     return self;
 }
 
+-(void)setDetailItem:(id)newDetailItem
+{
+    if (detailItem != newDetailItem) {
+        detailItem = newDetailItem;
+        
+    }
+}
+
+
 -(void)configureView {
     //Update user interface for the detail item
     NSURL *url = [NSURL URLWithString:detailItem]; //A NSURL object is initialized using the url detail item
@@ -50,7 +59,7 @@
 
 - (BOOL)shouldAutorotateToInterfaceOrientation:(UIInterfaceOrientation)interfaceOrientation
 {
-    return YES;
+    return (interfaceOrientation != UIInterfaceOrientationPortraitUpsideDown);
 }
 /*
 -(BOOL)application:(UIApplication *)application didFinishLaunchingWithOptions:(NSDictionary *)launchOptions {

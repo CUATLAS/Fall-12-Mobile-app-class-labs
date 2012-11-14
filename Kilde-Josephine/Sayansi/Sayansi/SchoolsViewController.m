@@ -18,6 +18,7 @@
 
 @synthesize schools;
 @synthesize webViewController;
+@synthesize detailItem;
 
 - (id)initWithStyle:(UITableViewStyle)style
 {
@@ -51,7 +52,7 @@
 
 - (BOOL)shouldAutorotateToInterfaceOrientation:(UIInterfaceOrientation)interfaceOrientation
 {
-    return YES;
+    return (interfaceOrientation != UIInterfaceOrientationPortraitUpsideDown);
 }
 
 #pragma mark - Table view data source
@@ -80,18 +81,21 @@
         cell = [[UITableViewCell alloc] initWithStyle:UITableViewCellStyleDefault reuseIdentifier:CellIdentifier];
         cell.accessoryType = UITableViewCellAccessoryNone;
     }
-   
+
     //Configure the cell
     NSDictionary *schoolChosen=[self.schools objectAtIndex:indexPath.row]; //Assigns dictionary item for the row
+    
     cell.textLabel.text = [schoolChosen objectForKey:@"name"]; //Assigns the value of name to cell
     
     return cell;
+    NSLog(@"test");
 }
 
 //Notifies the view controller that a segue is about to be performed
 -(void)prepareForSegue:(UIStoryboardSegue *)segue sender:(id)sender {
     NSIndexPath *indexPath=[self.tableView indexPathForCell:sender];    
-    NSDictionary *schoolChosen=[self.schools objectAtIndex:indexPath.row];    
+    NSDictionary *schoolChosen=[self.schools objectAtIndex:indexPath.row]; 
+    NSLog(@"test1");
     NSString *url = [schoolChosen objectForKey:@"url"]; //Assigns the url of the row
     SchoolWebViewController *webViewController = self.webViewController;
     webViewController.detailItem=url; //Assigns the url to the detailItem    

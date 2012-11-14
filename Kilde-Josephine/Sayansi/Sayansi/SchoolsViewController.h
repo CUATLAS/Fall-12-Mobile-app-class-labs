@@ -13,5 +13,6 @@
 
 @property (strong, nonatomic) SchoolWebViewController *webViewController;
 @property (strong, nonatomic)NSArray *schools;
+@property (strong, nonatomic) id detailItem;
 
 @end

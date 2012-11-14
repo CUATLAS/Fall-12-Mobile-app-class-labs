@@ -13,7 +13,7 @@
                 <viewController title="First" id="2" customClass="MADFirstViewController" sceneMemberID="viewController">
                     <view key="view" contentMode="scaleToFill" id="16">
                         <rect key="frame" x="0.0" y="20" width="320" height="411"/>
-                        <autoresizingMask key="autoresizingMask" flexibleMinX="YES" widthSizable="YES" flexibleMaxX="YES" heightSizable="YES" flexibleMaxY="YES"/>
+                        <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
                         <subviews>
                             <label opaque="NO" clipsSubviews="YES" userInteractionEnabled="NO" contentMode="scaleToFill" text="Welcome to Sayansi!" textAlignment="center" lineBreakMode="tailTruncation" minimumFontSize="10" id="20">
                                 <rect key="frame" x="20" y="140" width="280" height="43"/>
@@ -39,7 +39,7 @@ The goal is to provide meaningful learning, problem-solving skills, build commun
                         </subviews>
                         <color key="backgroundColor" white="1" alpha="1" colorSpace="custom" customColorSpace="calibratedWhite"/>
                     </view>
-                    <tabBarItem key="tabBarItem" title="Home" image="first" id="7"/>
+                    <tabBarItem key="tabBarItem" title="Home" image="house.png" id="7"/>
                     <navigationItem key="navigationItem" id="bA9-yJ-0v6"/>
                 </viewController>
             </objects>
@@ -73,7 +73,7 @@ The goal is to provide meaningful learning, problem-solving skills, build commun
                 <viewController id="BLS-nh-Udj" customClass="ProjectPickerViewController" sceneMemberID="viewController">
                     <view key="view" contentMode="scaleToFill" id="Dvq-iO-uMW">
                         <rect key="frame" x="0.0" y="20" width="320" height="411"/>
-                        <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                        <autoresizingMask key="autoresizingMask"/>
                         <subviews>
                             <pickerView contentMode="scaleToFill" id="sX4-oR-7yJ">
                                 <rect key="frame" x="0.0" y="70" width="320" height="216"/>
@@ -106,7 +106,7 @@ The goal is to provide meaningful learning, problem-solving skills, build commun
                         </subviews>
                         <color key="backgroundColor" white="1" alpha="1" colorSpace="custom" customColorSpace="calibratedWhite"/>
                     </view>
-                    <tabBarItem key="tabBarItem" title="Projects" id="zCz-Hb-dUU"/>
+                    <tabBarItem key="tabBarItem" title="Projects" image="lightbulb.png" id="zCz-Hb-dUU"/>
                     <connections>
                         <outlet property="projectLabel" destination="LgY-qp-Iad" id="Gq1-2g-uae"/>
                         <outlet property="projectPicker" destination="sX4-oR-7yJ" id="Ba0-NX-Frx"/>
@@ -185,7 +185,7 @@ Accenture Unified Collaboration</string>
                 <viewController id="Roy-BT-0iq" customClass="metricCalcViewController" sceneMemberID="viewController">
                     <view key="view" contentMode="scaleToFill" id="uhe-xV-6OK">
                         <rect key="frame" x="0.0" y="20" width="320" height="411"/>
-                        <autoresizingMask key="autoresizingMask"/>
+                        <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMinY="YES" flexibleMaxY="YES"/>
                         <subviews>
                             <label opaque="NO" clipsSubviews="YES" userInteractionEnabled="NO" contentMode="left" text="Enter Number" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" minimumFontSize="10" id="mHn-WF-jMs">
                                 <rect key="frame" x="20" y="51" width="106" height="21"/>
@@ -309,7 +309,7 @@ Accenture Unified Collaboration</string>
                         </subviews>
                         <color key="backgroundColor" white="0.66666666666666663" alpha="1" colorSpace="calibratedWhite"/>
                     </view>
-                    <tabBarItem key="tabBarItem" title="Metric Calc" id="UEs-3v-N0E"/>
+                    <tabBarItem key="tabBarItem" title="Metric Calc" image="calculator.png" id="UEs-3v-N0E"/>
                     <connections>
                         <outlet property="answerLabel" destination="rGa-Vk-fOJ" id="7eu-Fq-XL4"/>
                         <outlet property="enterNumberTextField" destination="gmM-p4-iFF" id="4Jc-jP-RdX"/>
@@ -401,7 +401,7 @@ Accenture Unified Collaboration</string>
             <objects>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="maW-Hb-7N1" userLabel="First Responder" sceneMemberID="firstResponder"/>
                 <navigationController id="y41-VP-iGl" sceneMemberID="viewController">
-                    <tabBarItem key="tabBarItem" title="Schools" image="second.png" id="2bt-OU-1X8"/>
+                    <tabBarItem key="tabBarItem" title="Schools" image="star.png" id="2bt-OU-1X8"/>
                     <toolbarItems/>
                     <navigationBar key="navigationBar" opaque="NO" clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="scaleToFill" id="ByF-EO-jCT">
                         <rect key="frame" x="0.0" y="0.0" width="320" height="44"/>
@@ -418,8 +418,10 @@ Accenture Unified Collaboration</string>
     </scenes>
     <resources>
         <image name="Mad_Science.gif" width="400" height="384"/>
-        <image name="first" width="16" height="16"/>
-        <image name="second.png" width="30" height="30"/>
+        <image name="calculator.png" width="26" height="26"/>
+        <image name="house.png" width="26" height="26"/>
+        <image name="lightbulb.png" width="26" height="26"/>
+        <image name="star.png" width="26" height="26"/>
     </resources>
     <classes>
         <class className="MADFirstViewController" superclassName="UIViewController">
