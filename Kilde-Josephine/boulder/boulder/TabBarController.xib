@@ -2,20 +2,20 @@
 <archive type="com.apple.InterfaceBuilder3.CocoaTouch.iPad.XIB" version="8.00">
 	<data>
 		<int key="IBDocument.SystemTarget">1296</int>
-		<string key="IBDocument.SystemVersion">11E53</string>
-		<string key="IBDocument.InterfaceBuilderVersion">2182</string>
-		<string key="IBDocument.AppKitVersion">1138.47</string>
-		<string key="IBDocument.HIToolboxVersion">569.00</string>
+		<string key="IBDocument.SystemVersion">12C54</string>
+		<string key="IBDocument.InterfaceBuilderVersion">2549</string>
+		<string key="IBDocument.AppKitVersion">1187.34</string>
+		<string key="IBDocument.HIToolboxVersion">625.00</string>
 		<object class="NSMutableDictionary" key="IBDocument.PluginVersions">
 			<string key="NS.key.0">com.apple.InterfaceBuilder.IBCocoaTouchPlugin</string>
-			<string key="NS.object.0">1181</string>
+			<string key="NS.object.0">1498</string>
 		</object>
 		<array key="IBDocument.IntegratedClassDependencies">
+			<string>IBProxyObject</string>
 			<string>IBUITabBar</string>
 			<string>IBUITabBarController</string>
-			<string>IBUIViewController</string>
 			<string>IBUITabBarItem</string>
-			<string>IBProxyObject</string>
+			<string>IBUIViewController</string>
 		</array>
 		<array key="IBDocument.PluginDependencies">
 			<string>com.apple.InterfaceBuilder.IBCocoaTouchPlugin</string>
@@ -45,13 +45,13 @@
 				<bool key="IBUIDefinesPresentationContext">YES</bool>
 				<string key="targetRuntimeIdentifier">IBIPadFramework</string>
 				<bool key="IBUIHorizontal">NO</bool>
-				<object class="IBUIViewController" key="IBUISelectedViewController" id="12726313">
-					<object class="IBUITabBarItem" key="IBUITabBarItem" id="718863750">
-						<string key="IBUITitle">City of Boulder</string>
+				<object class="IBUIViewController" key="IBUISelectedViewController" id="222051837">
+					<object class="IBUITabBarItem" key="IBUITabBarItem" id="50104682">
+						<string key="IBUITitle">Item</string>
 						<string key="targetRuntimeIdentifier">IBIPadFramework</string>
 					</object>
+					<array key="IBUIToolbarItems" id="0"/>
 					<reference key="IBUIParentViewController" ref="516340627"/>
-					<string key="IBUINibName">MADsecondViewController</string>
 					<object class="IBUISimulatedOrientationMetrics" key="IBUISimulatedOrientationMetrics">
 						<int key="IBUIInterfaceOrientation">1</int>
 						<int key="interfaceOrientation">1</int>
@@ -78,14 +78,13 @@
 						<string key="targetRuntimeIdentifier">IBIPadFramework</string>
 						<bool key="IBUIHorizontal">NO</bool>
 					</object>
-					<reference ref="12726313"/>
-					<object class="IBUIViewController" id="222051837">
-						<object class="IBUITabBarItem" key="IBUITabBarItem" id="50104682">
-							<string key="IBUITitle">Item</string>
+					<object class="IBUIViewController" id="12726313">
+						<object class="IBUITabBarItem" key="IBUITabBarItem" id="718863750">
+							<string key="IBUITitle">City of Boulder</string>
 							<string key="targetRuntimeIdentifier">IBIPadFramework</string>
 						</object>
-						<array key="IBUIToolbarItems" id="0"/>
 						<reference key="IBUIParentViewController" ref="516340627"/>
+						<string key="IBUINibName">MADsecondViewController</string>
 						<object class="IBUISimulatedOrientationMetrics" key="IBUISimulatedOrientationMetrics">
 							<int key="IBUIInterfaceOrientation">1</int>
 							<int key="interfaceOrientation">1</int>
@@ -93,13 +92,13 @@
 						<string key="targetRuntimeIdentifier">IBIPadFramework</string>
 						<bool key="IBUIHorizontal">NO</bool>
 					</object>
+					<reference ref="222051837"/>
 				</array>
 				<object class="IBUITabBar" key="IBUITabBar" id="618997302">
 					<reference key="NSNextResponder"/>
 					<int key="NSvFlags">266</int>
 					<string key="NSFrame">{{0, 975}, {768, 49}}</string>
 					<reference key="NSSuperview"/>
-					<reference key="NSNextKeyView"/>
 					<string key="NSReuseIdentifierKey">_NS:29</string>
 					<object class="NSColor" key="IBUIBackgroundColor">
 						<int key="NSColorSpace">3</int>
@@ -231,6 +230,6 @@
 			<string key="NS.key.0">welcome3.png</string>
 			<string key="NS.object.0">{30, 30}</string>
 		</object>
-		<string key="IBCocoaTouchPluginVersion">1181</string>
+		<string key="IBCocoaTouchPluginVersion">1498</string>
 	</data>
 </archive>
