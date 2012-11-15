@@ -15,6 +15,7 @@ Feuerstein/Twist - project 2
 ######################
 .DS_Store
 .DS_Store?
+*/.DS_Store
 *.xcuserstate
 *.xcscheme
 xcschememanagement.plist
