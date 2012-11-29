@@ -7,17 +7,17 @@
 //
 
 #import "MADDetailViewController.h"
-#import "MADAddViewController.h"
 
 
-@interface MADDetailViewController (){MADAddViewController *addViewController;}
+
+@interface MADDetailViewController ()
 
 @end
 
 @implementation MADDetailViewController
 @synthesize countryList;
 @synthesize modalTransitionStyle;
-@synthesize textInfo;
+
 
 
 - (id)initWithStyle:(UITableViewStyle)style
@@ -152,28 +152,21 @@ if(self.editing)
 }
 
 -(void)tableView:(UITableView *)tableView commitEditingStyle:(UITableViewCellEditingStyle)editingStyle forRowAtIndexPath:(NSIndexPath *)indexPath
-{
-    
-    if(editingStyle == UITableViewCellEditingStyleDelete) {//DELETES ROW FROM ARRAY
-        [countryList removeObjectAtIndex:indexPath.row];
-        [tableView deleteRowsAtIndexPaths:[NSArray arrayWithObject:indexPath] withRowAnimation:UITableViewRowAnimationFade];
-        
+
+    {
+        if (editingStyle == UITableViewCellEditingStyleDelete) { //deletes the row from the table
+            [countryList removeObjectAtIndex:indexPath.row]; //removes the row being deleted from the array
+            [tableView deleteRowsAtIndexPaths:[NSArray arrayWithObject:indexPath] withRowAnimation:UITableViewRowAnimationFade];
+        }
+        else if (editingStyle == UITableViewCellEditingStyleInsert) {
+            NSString *newItem = @"new country";
+            [countryList insertObject:newItem atIndex:indexPath.row];
+            [tableView insertRowsAtIndexPaths:[NSArray arrayWithObject:[NSIndexPath indexPathForRow:countryList.count inSection:0]] withRowAnimation:UITableViewRowAnimationFade];
+        }   
     }
-    else if (editingStyle == UITableViewCellEditingStyleInsert) {
-       
-        addViewController= [[MADAddViewController alloc] init];
-          addViewController.modalTransitionStyle=UIModalTransitionStyleFlipHorizontal;
+
     
-         [self presentViewController:addViewController animated:YES completion:NULL];
-        /*if(addViewController.doneButton==YES){
-            [self dismissViewControllerAnimated:YES completion:NULL];}*/
-        NSString *newItem = textInfo;
-        
-        [countryList insertObject:newItem atIndex:indexPath.row];
-        [tableView insertRowsAtIndexPaths:[NSArray arrayWithObject:[NSIndexPath indexPathForRow:countryList.count inSection:0]] withRowAnimation:UITableViewRowAnimationFade];
-    }
-    [tableView reloadData];
-}
+
     
 -(UITableViewCellEditingStyle)tableView:(UITableView *)tableView editingStyleForRowAtIndexPath:(NSIndexPath *)indexPath
     {

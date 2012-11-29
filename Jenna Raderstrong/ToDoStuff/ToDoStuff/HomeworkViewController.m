@@ -201,4 +201,41 @@
         return YES;
     else return NO; 
 }
+
+/*-(NSString *)dataFilePath{
+    NSArray *paths=NSSearchPathForDirectoriesInDomains(NSDocumentDirectory, NSUserDomainMask, YES); 
+    NSString *documentsDirectory=[paths objectAtIndex:0]; 
+    NSLog(@"documents path: %@", documentsDirectory);
+    return [documentsDirectory stringByAppendingPathComponent:@"continents.plist"]; 
+}
+- (void)viewDidLoad
+{
+    [super viewDidLoad];
+    NSString *filePath=[self dataFilePath];
+    NSLog(@"filePath: %@", filePath);
+    NSFileManager *fileManager = [[NSFileManager alloc] init];
+    //creates a NSFileManager instance for the file system
+    if (![fileManager fileExistsAtPath:filePath]){ //uses starting
+        plist
+        NSLog(@"file not found");
+        NSBundle *bundle=[NSBundle mainBundle]; //returns a bundle
+        object of our app
+        filePath=[bundle pathForResource:@"continents"
+                                  ofType:@"plist"]; //retrieve the path of continents.plist
+    }
+    NSMutableDictionary *dictionary=[[NSMutableDictionary alloc]
+                                     initWithContentsOfFile:filePath]; //loads the contents of the plist
+    file into a dictionary
+    //the dictionary uses the continents as the keys and a NSArray
+    with the countries for each continent.
+        continentData=dictionary;
+    self.title=@"Continents"; //sets the title of the controller
+    UIApplication *app=[UIApplication sharedApplication]; //returns
+    the application instance
+    //subscribing to UIApplicationWillResignActiveNotification
+    [[NSNotificationCenter defaultCenter] addObserver:self
+                                             selector:@selector(applicationWillResignActive:)
+                                                 name:UIApplicationWillResignActiveNotification
+                                               object:app];Aileen Pierce Mobile Application Development 10/29/2012
+}*/
 @end

@@ -8,11 +8,11 @@
 
 #import <UIKit/UIKit.h>
 #import "AddText.h"
-#import "MADAddViewController.h"
+
 
 @interface MADDetailViewController : UITableViewController
 @property (strong, nonatomic) NSMutableArray *countryList;
 @property(nonatomic, assign) UIModalTransitionStyle modalTransitionStyle;
-@property (strong, nonatomic)MADAddViewController *textInfo;
+
 
 @end

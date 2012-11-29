@@ -22,6 +22,7 @@
 		98058A8816497090002FE36B /* second@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 98058A8716497090002FE36B /* second@2x.png */; };
 		98058A93164975F5002FE36B /* GamesViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 98058A92164975F5002FE36B /* GamesViewController.m */; };
 		98058A9616497B19002FE36B /* ScoreViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 98058A9516497B19002FE36B /* ScoreViewController.m */; };
+		98F124E316652E96002A80D3 /* GamesDetailsViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 98F124E216652E96002A80D3 /* GamesDetailsViewController.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -48,6 +49,9 @@
 		98058A92164975F5002FE36B /* GamesViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = GamesViewController.m; sourceTree = "<group>"; };
 		98058A9416497B19002FE36B /* ScoreViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ScoreViewController.h; sourceTree = "<group>"; };
 		98058A9516497B19002FE36B /* ScoreViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ScoreViewController.m; sourceTree = "<group>"; };
+		98F124E116652E96002A80D3 /* GamesDetailsViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = GamesDetailsViewController.h; sourceTree = "<group>"; };
+		98F124E216652E96002A80D3 /* GamesDetailsViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = GamesDetailsViewController.m; sourceTree = "<group>"; };
+		98F124E516653229002A80D3 /* MediaPlayer.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = MediaPlayer.framework; path = System/Library/Frameworks/MediaPlayer.framework; sourceTree = SDKROOT; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -67,6 +71,7 @@
 		98058A5716497090002FE36B = {
 			isa = PBXGroup;
 			children = (
+				98F124E516653229002A80D3 /* MediaPlayer.framework */,
 				98058A6C16497090002FE36B /* GameScores */,
 				98058A6516497090002FE36B /* Frameworks */,
 				98058A6316497090002FE36B /* Products */,
@@ -97,6 +102,8 @@
 				98058A7516497090002FE36B /* MADAppDelegate.h */,
 				98058A7616497090002FE36B /* MADAppDelegate.m */,
 				98058A7816497090002FE36B /* MainStoryboard.storyboard */,
+				98F124E116652E96002A80D3 /* GamesDetailsViewController.h */,
+				98F124E216652E96002A80D3 /* GamesDetailsViewController.m */,
 				98058A9416497B19002FE36B /* ScoreViewController.h */,
 				98058A9516497B19002FE36B /* ScoreViewController.m */,
 				98058A91164975F5002FE36B /* GamesViewController.h */,
@@ -199,6 +206,7 @@
 				98058A8416497090002FE36B /* MADSecondViewController.m in Sources */,
 				98058A93164975F5002FE36B /* GamesViewController.m in Sources */,
 				98058A9616497B19002FE36B /* ScoreViewController.m in Sources */,
+				98F124E316652E96002A80D3 /* GamesDetailsViewController.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -314,6 +322,7 @@
 				98058A8D16497090002FE36B /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};

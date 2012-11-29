@@ -7,8 +7,9 @@
 //
 
 #import <UIKit/UIKit.h>
-
+#import "GamesDetailsViewController.h"
 @interface GamesViewController : UITableViewController
+<GamesDetailsViewControllerDelegate>
 @property(strong, nonatomic) NSMutableArray *games;
 @property(strong, nonatomic) NSMutableArray *scores;
 @property(copy, nonatomic) NSDictionary *editedSelection;
