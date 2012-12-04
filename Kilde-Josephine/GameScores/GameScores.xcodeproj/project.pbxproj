@@ -23,6 +23,8 @@
 		96499B9516497089006EB2C4 /* second@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 96499B9416497089006EB2C4 /* second@2x.png */; };
 		96499B9D1649752E006EB2C4 /* GamesViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 96499B9C1649752E006EB2C4 /* GamesViewController.m */; };
 		96499BA016497B1E006EB2C4 /* ScoreViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 96499B9F16497B1E006EB2C4 /* ScoreViewController.m */; };
+		967B97F0166E60D400A2DA97 /* avatar.png in Resources */ = {isa = PBXBuildFile; fileRef = 967B97EF166E60D400A2DA97 /* avatar.png */; };
+		967B97F2166E60D800A2DA97 /* avatar.png in Resources */ = {isa = PBXBuildFile; fileRef = 967B97F1166E60D800A2DA97 /* avatar.png */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -51,6 +53,8 @@
 		96499B9C1649752E006EB2C4 /* GamesViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = GamesViewController.m; sourceTree = "<group>"; };
 		96499B9E16497B1E006EB2C4 /* ScoreViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ScoreViewController.h; sourceTree = "<group>"; };
 		96499B9F16497B1E006EB2C4 /* ScoreViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ScoreViewController.m; sourceTree = "<group>"; };
+		967B97EF166E60D400A2DA97 /* avatar.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = avatar.png; sourceTree = "<group>"; };
+		967B97F1166E60D800A2DA97 /* avatar.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = avatar.png; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -70,6 +74,7 @@
 		96499B6416497089006EB2C4 = {
 			isa = PBXGroup;
 			children = (
+				967B97F1166E60D800A2DA97 /* avatar.png */,
 				96499B7916497089006EB2C4 /* GameScores */,
 				96499B7216497089006EB2C4 /* Frameworks */,
 				96499B7016497089006EB2C4 /* Products */,
@@ -122,6 +127,7 @@
 		96499B7A16497089006EB2C4 /* Supporting Files */ = {
 			isa = PBXGroup;
 			children = (
+				967B97EF166E60D400A2DA97 /* avatar.png */,
 				96499B7B16497089006EB2C4 /* GameScores-Info.plist */,
 				96499B7C16497089006EB2C4 /* InfoPlist.strings */,
 				96499B7F16497089006EB2C4 /* main.m */,
@@ -187,6 +193,8 @@
 				96499B8E16497089006EB2C4 /* first@2x.png in Resources */,
 				96499B9316497089006EB2C4 /* second.png in Resources */,
 				96499B9516497089006EB2C4 /* second@2x.png in Resources */,
+				967B97F0166E60D400A2DA97 /* avatar.png in Resources */,
+				967B97F2166E60D800A2DA97 /* avatar.png in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
