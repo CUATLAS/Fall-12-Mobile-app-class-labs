@@ -4,6 +4,11 @@
 <dict>
 	<key>SchemeUserState</key>
 	<dict>
+		<key>beatles copy.xcscheme</key>
+		<dict>
+			<key>orderHint</key>
+			<integer>1</integer>
+		</dict>
 		<key>beatles.xcscheme</key>
 		<dict>
 			<key>orderHint</key>
@@ -13,6 +18,11 @@
 	<key>SuppressBuildableAutocreation</key>
 	<dict>
 		<key>B5677E891602317400FCDC4F</key>
+		<dict>
+			<key>primary</key>
+			<true/>
+		</dict>
+		<key>B5912E36166E641A00AAB86A</key>
 		<dict>
 			<key>primary</key>
 			<true/>

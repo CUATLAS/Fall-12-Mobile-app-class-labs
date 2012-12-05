@@ -20,6 +20,19 @@
 		B5677EB41602322800FCDC4F /* beatles2.png in Resources */ = {isa = PBXBuildFile; fileRef = B5677EAF1602322800FCDC4F /* beatles2.png */; };
 		B5677EB6160232B500FCDC4F /* Beatles_Abbey_Road_icon.png in Resources */ = {isa = PBXBuildFile; fileRef = B5677EB5160232B500FCDC4F /* Beatles_Abbey_Road_icon.png */; };
 		B5677EB8160232BC00FCDC4F /* Beatles_Abbey_Road_icon@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = B5677EB7160232BC00FCDC4F /* Beatles_Abbey_Road_icon@2x.png */; };
+		B5912E38166E641A00AAB86A /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = B5677E9A1602317400FCDC4F /* main.m */; };
+		B5912E39166E641A00AAB86A /* MADAppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = B5677E9E1602317400FCDC4F /* MADAppDelegate.m */; };
+		B5912E3A166E641A00AAB86A /* MADViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = B5677EA11602317400FCDC4F /* MADViewController.m */; };
+		B5912E3C166E641A00AAB86A /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = B5677E8E1602317400FCDC4F /* UIKit.framework */; };
+		B5912E3D166E641A00AAB86A /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = B5677E901602317400FCDC4F /* Foundation.framework */; };
+		B5912E3E166E641A00AAB86A /* CoreGraphics.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = B5677E921602317400FCDC4F /* CoreGraphics.framework */; };
+		B5912E40166E641A00AAB86A /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = B5677E971602317400FCDC4F /* InfoPlist.strings */; };
+		B5912E42166E641A00AAB86A /* Beatles_Abbey_Road.png in Resources */ = {isa = PBXBuildFile; fileRef = B5677EAD1602322700FCDC4F /* Beatles_Abbey_Road.png */; };
+		B5912E43166E641A00AAB86A /* beatles1.png in Resources */ = {isa = PBXBuildFile; fileRef = B5677EAE1602322700FCDC4F /* beatles1.png */; };
+		B5912E44166E641A00AAB86A /* beatles2.png in Resources */ = {isa = PBXBuildFile; fileRef = B5677EAF1602322800FCDC4F /* beatles2.png */; };
+		B5912E45166E641A00AAB86A /* Beatles_Abbey_Road_icon.png in Resources */ = {isa = PBXBuildFile; fileRef = B5677EB5160232B500FCDC4F /* Beatles_Abbey_Road_icon.png */; };
+		B5912E46166E641A00AAB86A /* Beatles_Abbey_Road_icon@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = B5677EB7160232BC00FCDC4F /* Beatles_Abbey_Road_icon@2x.png */; };
+		B5912E50166E641C00AAB86A /* MADViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = B5912E4E166E641C00AAB86A /* MADViewController.xib */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -41,6 +54,9 @@
 		B5677EAF1602322800FCDC4F /* beatles2.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = beatles2.png; sourceTree = "<group>"; };
 		B5677EB5160232B500FCDC4F /* Beatles_Abbey_Road_icon.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = Beatles_Abbey_Road_icon.png; path = ../Beatles_Abbey_Road_icon.png; sourceTree = "<group>"; };
 		B5677EB7160232BC00FCDC4F /* Beatles_Abbey_Road_icon@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = "Beatles_Abbey_Road_icon@2x.png"; path = "../Beatles_Abbey_Road_icon@2x.png"; sourceTree = "<group>"; };
+		B5912E4A166E641A00AAB86A /* beatles-iPad.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "beatles-iPad.app"; sourceTree = BUILT_PRODUCTS_DIR; };
+		B5912E4D166E641B00AAB86A /* beatles copy-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; name = "beatles copy-Info.plist"; path = "/Users/ben/Documents/MAD/class-labs/leduc_mills/beatles/beatles copy-Info.plist"; sourceTree = "<absolute>"; };
+		B5912E4F166E641C00AAB86A /* en */ = {isa = PBXFileReference; lastKnownFileType = file.xib; name = en; path = "Resources-iPad/beatles/en.lproj/MADViewController.xib"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -54,15 +70,27 @@
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
+		B5912E3B166E641A00AAB86A /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				B5912E3C166E641A00AAB86A /* UIKit.framework in Frameworks */,
+				B5912E3D166E641A00AAB86A /* Foundation.framework in Frameworks */,
+				B5912E3E166E641A00AAB86A /* CoreGraphics.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
 		B5677E7F1602317400FCDC4F = {
 			isa = PBXGroup;
 			children = (
+				B5912E4C166E641B00AAB86A /* Resources-iPad */,
 				B5677E941602317400FCDC4F /* beatles */,
 				B5677E8D1602317400FCDC4F /* Frameworks */,
 				B5677E8B1602317400FCDC4F /* Products */,
+				B5912E4D166E641B00AAB86A /* beatles copy-Info.plist */,
 			);
 			sourceTree = "<group>";
 		};
@@ -70,6 +98,7 @@
 			isa = PBXGroup;
 			children = (
 				B5677E8A1602317400FCDC4F /* beatles.app */,
+				B5912E4A166E641A00AAB86A /* beatles-iPad.app */,
 			);
 			name = Products;
 			sourceTree = "<group>";
@@ -113,6 +142,14 @@
 			name = "Supporting Files";
 			sourceTree = "<group>";
 		};
+		B5912E4C166E641B00AAB86A /* Resources-iPad */ = {
+			isa = PBXGroup;
+			children = (
+				B5912E4E166E641C00AAB86A /* MADViewController.xib */,
+			);
+			name = "Resources-iPad";
+			sourceTree = "<group>";
+		};
 /* End PBXGroup section */
 
 /* Begin PBXNativeTarget section */
@@ -131,6 +168,23 @@
 			name = beatles;
 			productName = beatles;
 			productReference = B5677E8A1602317400FCDC4F /* beatles.app */;
+			productType = "com.apple.product-type.application";
+		};
+		B5912E36166E641A00AAB86A /* beatles-iPad */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = B5912E47166E641A00AAB86A /* Build configuration list for PBXNativeTarget "beatles-iPad" */;
+			buildPhases = (
+				B5912E37166E641A00AAB86A /* Sources */,
+				B5912E3B166E641A00AAB86A /* Frameworks */,
+				B5912E3F166E641A00AAB86A /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = "beatles-iPad";
+			productName = beatles;
+			productReference = B5912E4A166E641A00AAB86A /* beatles-iPad.app */;
 			productType = "com.apple.product-type.application";
 		};
 /* End PBXNativeTarget section */
@@ -156,6 +210,7 @@
 			projectRoot = "";
 			targets = (
 				B5677E891602317400FCDC4F /* beatles */,
+				B5912E36166E641A00AAB86A /* beatles-iPad */,
 			);
 		};
 /* End PBXProject section */
@@ -175,6 +230,20 @@
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
+		B5912E3F166E641A00AAB86A /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				B5912E40166E641A00AAB86A /* InfoPlist.strings in Resources */,
+				B5912E42166E641A00AAB86A /* Beatles_Abbey_Road.png in Resources */,
+				B5912E43166E641A00AAB86A /* beatles1.png in Resources */,
+				B5912E44166E641A00AAB86A /* beatles2.png in Resources */,
+				B5912E45166E641A00AAB86A /* Beatles_Abbey_Road_icon.png in Resources */,
+				B5912E46166E641A00AAB86A /* Beatles_Abbey_Road_icon@2x.png in Resources */,
+				B5912E50166E641C00AAB86A /* MADViewController.xib in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
 /* End PBXResourcesBuildPhase section */
 
 /* Begin PBXSourcesBuildPhase section */
@@ -185,6 +254,16 @@
 				B5677E9B1602317400FCDC4F /* main.m in Sources */,
 				B5677E9F1602317400FCDC4F /* MADAppDelegate.m in Sources */,
 				B5677EA21602317400FCDC4F /* MADViewController.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		B5912E37166E641A00AAB86A /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				B5912E38166E641A00AAB86A /* main.m in Sources */,
+				B5912E39166E641A00AAB86A /* MADAppDelegate.m in Sources */,
+				B5912E3A166E641A00AAB86A /* MADViewController.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -203,6 +282,14 @@
 			isa = PBXVariantGroup;
 			children = (
 				B5677EA41602317400FCDC4F /* en */,
+			);
+			name = MADViewController.xib;
+			sourceTree = "<group>";
+		};
+		B5912E4E166E641C00AAB86A /* MADViewController.xib */ = {
+			isa = PBXVariantGroup;
+			children = (
+				B5912E4F166E641C00AAB86A /* en */,
 			);
 			name = MADViewController.xib;
 			sourceTree = "<group>";
@@ -265,7 +352,9 @@
 				GCC_PRECOMPILE_PREFIX_HEADER = YES;
 				GCC_PREFIX_HEADER = "beatles/beatles-Prefix.pch";
 				INFOPLIST_FILE = "beatles/beatles-Info.plist";
+				IPHONEOS_DEPLOYMENT_TARGET = 5.1;
 				PRODUCT_NAME = "$(TARGET_NAME)";
+				TARGETED_DEVICE_FAMILY = 1;
 				WRAPPER_EXTENSION = app;
 			};
 			name = Debug;
@@ -276,7 +365,35 @@
 				GCC_PRECOMPILE_PREFIX_HEADER = YES;
 				GCC_PREFIX_HEADER = "beatles/beatles-Prefix.pch";
 				INFOPLIST_FILE = "beatles/beatles-Info.plist";
+				IPHONEOS_DEPLOYMENT_TARGET = 5.1;
 				PRODUCT_NAME = "$(TARGET_NAME)";
+				TARGETED_DEVICE_FAMILY = 1;
+				WRAPPER_EXTENSION = app;
+			};
+			name = Release;
+		};
+		B5912E48166E641A00AAB86A /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "beatles/beatles-Prefix.pch";
+				INFOPLIST_FILE = "beatles copy-Info.plist";
+				IPHONEOS_DEPLOYMENT_TARGET = 5.1;
+				PRODUCT_NAME = "beatles-iPad";
+				TARGETED_DEVICE_FAMILY = 2;
+				WRAPPER_EXTENSION = app;
+			};
+			name = Debug;
+		};
+		B5912E49166E641A00AAB86A /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "beatles/beatles-Prefix.pch";
+				INFOPLIST_FILE = "beatles copy-Info.plist";
+				IPHONEOS_DEPLOYMENT_TARGET = 5.1;
+				PRODUCT_NAME = "beatles-iPad";
+				TARGETED_DEVICE_FAMILY = 2;
 				WRAPPER_EXTENSION = app;
 			};
 			name = Release;
@@ -300,6 +417,16 @@
 				B5677EAA1602317400FCDC4F /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		B5912E47166E641A00AAB86A /* Build configuration list for PBXNativeTarget "beatles-iPad" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				B5912E48166E641A00AAB86A /* Debug */,
+				B5912E49166E641A00AAB86A /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};
