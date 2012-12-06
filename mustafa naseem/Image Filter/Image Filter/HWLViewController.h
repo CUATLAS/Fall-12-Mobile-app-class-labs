@@ -18,4 +18,5 @@
 - (IBAction)loadPhoto:(id)sender;
 
 - (IBAction)savePhoto:(id)sender;
+- (IBAction)tweetTapped:(id)sender;
 @end

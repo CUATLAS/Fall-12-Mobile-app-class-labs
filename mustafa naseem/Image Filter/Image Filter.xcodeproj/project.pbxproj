@@ -7,6 +7,7 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		56A163EE16700DA700982D15 /* Twitter.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 56A163ED16700DA700982D15 /* Twitter.framework */; };
 		56AE3428166F1A68002081E9 /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 56AE3427166F1A68002081E9 /* UIKit.framework */; };
 		56AE342A166F1A68002081E9 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 56AE3429166F1A68002081E9 /* Foundation.framework */; };
 		56AE342C166F1A68002081E9 /* CoreGraphics.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 56AE342B166F1A68002081E9 /* CoreGraphics.framework */; };
@@ -21,6 +22,7 @@
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		56A163ED16700DA700982D15 /* Twitter.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Twitter.framework; path = System/Library/Frameworks/Twitter.framework; sourceTree = SDKROOT; };
 		56AE3423166F1A68002081E9 /* Image Filter.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "Image Filter.app"; sourceTree = BUILT_PRODUCTS_DIR; };
 		56AE3427166F1A68002081E9 /* UIKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = UIKit.framework; path = System/Library/Frameworks/UIKit.framework; sourceTree = SDKROOT; };
 		56AE3429166F1A68002081E9 /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = System/Library/Frameworks/Foundation.framework; sourceTree = SDKROOT; };
@@ -44,6 +46,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				56A163EE16700DA700982D15 /* Twitter.framework in Frameworks */,
 				56AE344A166F3AC4002081E9 /* AssetsLibrary.framework in Frameworks */,
 				56AE3445166F1A9A002081E9 /* CoreImage.framework in Frameworks */,
 				56AE3428166F1A68002081E9 /* UIKit.framework in Frameworks */,
@@ -58,6 +61,7 @@
 		56AE3418166F1A68002081E9 = {
 			isa = PBXGroup;
 			children = (
+				56A163ED16700DA700982D15 /* Twitter.framework */,
 				56AE3449166F3AC4002081E9 /* AssetsLibrary.framework */,
 				56AE3444166F1A9A002081E9 /* CoreImage.framework */,
 				56AE342D166F1A68002081E9 /* Image Filter */,
@@ -295,6 +299,7 @@
 				56AE3443166F1A68002081E9 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};

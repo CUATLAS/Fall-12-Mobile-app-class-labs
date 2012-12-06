@@ -7,8 +7,11 @@
 //
 
 #import "HWLViewController.h"
+#import <Twitter/Twitter.h>
 
 @interface HWLViewController ()
+@property (strong, nonatomic) NSString *imageString;
+@property (strong, nonatomic) NSString *urlString;
 
 @end
 
@@ -19,6 +22,8 @@
 }
 @synthesize amountSlider;
 @synthesize imgV;
+@synthesize imageString = _imageString;
+@synthesize urlString = _urlString;
 
 -(void) logAllFilters {
     NSArray *properties = [CIFilter filterNamesInCategory:kCICategoryBuiltIn];
@@ -58,6 +63,8 @@
     [self setImgV:nil];
     [self setAmountSlider:nil];
     [super viewDidUnload];
+    self.imageString = nil;
+    self.urlString = nil;
     // Release any retained subviews of the main view.
 }
 
@@ -98,6 +105,24 @@
         CGImageRelease(cgImg);
     }];
                         
+}
+
+- (IBAction)tweetTapped:(id)sender {
+    
+    if ([TWTweetComposeViewController canSendTweet])
+    {
+        TWTweetComposeViewController *tweetSheet = [[TWTweetComposeViewController alloc] init];
+        [tweetSheet setInitialText:@"Tweeting from my own app!"]; 
+     //  [tweetSheet addImage:(UIImage *)imgV];
+        [self presentModalViewController:tweetSheet animated:YES];
+    }
+    else {
+        UIAlertView *alertView = [[UIAlertView alloc] initWithTitle:@"Sorry" message:@"You can't tweet right now, make sure your device has an internet connection and you have at least one Twitter account setup" delegate:self cancelButtonTitle:@"OK" otherButtonTitles:nil];
+        [alertView show];
+    }
+    
+    
+   // self.imageString = imgV;
 }
 
 -(void) imagePickerController:(UIImagePickerController *)picker didFinishPickingMediaWithInfo:(NSDictionary *)info 
