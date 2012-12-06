@@ -84,6 +84,7 @@
     UIImage *newImg = [UIImage imageWithCGImage:cgimg];
     [imgV setImage:newImg];
     
+    
     CGImageRelease(cgimg);
      
      
@@ -113,7 +114,7 @@
     {
         TWTweetComposeViewController *tweetSheet = [[TWTweetComposeViewController alloc] init];
         [tweetSheet setInitialText:@"Tweeting from my own app!"]; 
-     //  [tweetSheet addImage:(UIImage *)imgV];
+       [tweetSheet addImage:imgV.image];
         [self presentModalViewController:tweetSheet animated:YES];
     }
     else {
