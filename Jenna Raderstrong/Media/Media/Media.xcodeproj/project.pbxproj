@@ -16,6 +16,8 @@
 		98B7FA5516753FB30016500C /* MADViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 98B7FA5416753FB30016500C /* MADViewController.m */; };
 		98B7FA5816753FB30016500C /* MADViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = 98B7FA5616753FB30016500C /* MADViewController.xib */; };
 		98B7FA5F16753FCA0016500C /* MobileCoreServices.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 98B7FA5E16753FCA0016500C /* MobileCoreServices.framework */; };
+		98B7FA61167549810016500C /* AVFoundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 98B7FA60167549810016500C /* AVFoundation.framework */; };
+		98B7FA631675499D0016500C /* MediaPlayer.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 98B7FA621675499D0016500C /* MediaPlayer.framework */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -33,6 +35,10 @@
 		98B7FA5416753FB30016500C /* MADViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = MADViewController.m; sourceTree = "<group>"; };
 		98B7FA5716753FB30016500C /* en */ = {isa = PBXFileReference; lastKnownFileType = file.xib; name = en; path = en.lproj/MADViewController.xib; sourceTree = "<group>"; };
 		98B7FA5E16753FCA0016500C /* MobileCoreServices.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = MobileCoreServices.framework; path = System/Library/Frameworks/MobileCoreServices.framework; sourceTree = SDKROOT; };
+		98B7FA60167549810016500C /* AVFoundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = AVFoundation.framework; path = System/Library/Frameworks/AVFoundation.framework; sourceTree = SDKROOT; };
+		98B7FA621675499D0016500C /* MediaPlayer.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = MediaPlayer.framework; path = System/Library/Frameworks/MediaPlayer.framework; sourceTree = SDKROOT; };
+		98B7FA6416754A6A0016500C /* callmemaybe.m4r */ = {isa = PBXFileReference; lastKnownFileType = file; path = callmemaybe.m4r; sourceTree = "<group>"; };
+		98B7FA6516754A6A0016500C /* started.m4r */ = {isa = PBXFileReference; lastKnownFileType = file; path = started.m4r; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -40,6 +46,8 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				98B7FA631675499D0016500C /* MediaPlayer.framework in Frameworks */,
+				98B7FA61167549810016500C /* AVFoundation.framework in Frameworks */,
 				98B7FA5F16753FCA0016500C /* MobileCoreServices.framework in Frameworks */,
 				98B7FA4216753FB30016500C /* UIKit.framework in Frameworks */,
 				98B7FA4416753FB30016500C /* Foundation.framework in Frameworks */,
@@ -53,6 +61,8 @@
 		98B7FA3216753FB30016500C = {
 			isa = PBXGroup;
 			children = (
+				98B7FA621675499D0016500C /* MediaPlayer.framework */,
+				98B7FA60167549810016500C /* AVFoundation.framework */,
 				98B7FA5E16753FCA0016500C /* MobileCoreServices.framework */,
 				98B7FA4716753FB30016500C /* Media */,
 				98B7FA4016753FB30016500C /* Frameworks */,
@@ -94,6 +104,8 @@
 		98B7FA4816753FB30016500C /* Supporting Files */ = {
 			isa = PBXGroup;
 			children = (
+				98B7FA6416754A6A0016500C /* callmemaybe.m4r */,
+				98B7FA6516754A6A0016500C /* started.m4r */,
 				98B7FA4916753FB30016500C /* Media-Info.plist */,
 				98B7FA4A16753FB30016500C /* InfoPlist.strings */,
 				98B7FA4D16753FB30016500C /* main.m */,

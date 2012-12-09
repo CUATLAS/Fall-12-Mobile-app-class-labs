@@ -8,11 +8,14 @@
 
 #import <UIKit/UIKit.h>
 #import <MobileCoreServices/MobileCoreServices.h>
+#import "MediaPlayer/MediaPlayer.h"
+#import "AVFoundation/AVFoundation.h"
 
-@interface MADViewController : UIViewController <UIActionSheetDelegate, UIImagePickerControllerDelegate, UINavigationControllerDelegate>
+@interface MADViewController : UIViewController <UIActionSheetDelegate, UIImagePickerControllerDelegate, UINavigationControllerDelegate, UIActionSheetDelegate, AVAudioPlayerDelegate>
 @property (weak, nonatomic) IBOutlet UIImageView *imageView;
-- (IBAction)actionButtonTapped:(id)sender;
-- (IBAction)cameraButtonTapped:(id)sender;
+- (IBAction)actionButtonTapped:(UIBarButtonItem *)sender;
+- (IBAction)cameraButtonTapped:(UIBarButtonItem *)sender;
+
 
 
 @end
