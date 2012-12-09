@@ -1,0 +1,486 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		983468381670FF9700E9F2EB /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 983468371670FF9700E9F2EB /* UIKit.framework */; };
+		9834683A1670FF9700E9F2EB /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 983468391670FF9700E9F2EB /* Foundation.framework */; };
+		9834683C1670FF9700E9F2EB /* CoreGraphics.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 9834683B1670FF9700E9F2EB /* CoreGraphics.framework */; };
+		983468421670FF9700E9F2EB /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = 983468401670FF9700E9F2EB /* InfoPlist.strings */; };
+		983468441670FF9700E9F2EB /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 983468431670FF9700E9F2EB /* main.m */; };
+		983468481670FF9700E9F2EB /* MADAppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 983468471670FF9700E9F2EB /* MADAppDelegate.m */; };
+		9834684B1670FF9700E9F2EB /* MADViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 9834684A1670FF9700E9F2EB /* MADViewController.m */; };
+		9834684E1670FF9700E9F2EB /* MADViewController_iPhone.xib in Resources */ = {isa = PBXBuildFile; fileRef = 9834684C1670FF9700E9F2EB /* MADViewController_iPhone.xib */; };
+		983468511670FF9700E9F2EB /* MADViewController_iPad.xib in Resources */ = {isa = PBXBuildFile; fileRef = 9834684F1670FF9700E9F2EB /* MADViewController_iPad.xib */; };
+		983468591670FF9700E9F2EB /* SenTestingKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 983468581670FF9700E9F2EB /* SenTestingKit.framework */; };
+		9834685A1670FF9700E9F2EB /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 983468371670FF9700E9F2EB /* UIKit.framework */; };
+		9834685B1670FF9700E9F2EB /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 983468391670FF9700E9F2EB /* Foundation.framework */; };
+		983468631670FF9700E9F2EB /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = 983468611670FF9700E9F2EB /* InfoPlist.strings */; };
+		983468661670FF9700E9F2EB /* GizmoNewTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 983468651670FF9700E9F2EB /* GizmoNewTests.m */; };
+		9834687216710A7100E9F2EB /* 1386-0903-0314-0914.png in Resources */ = {isa = PBXBuildFile; fileRef = 9834686F16710A7100E9F2EB /* 1386-0903-0314-0914.png */; };
+		9834687616710AFF00E9F2EB /* Basketball.png in Resources */ = {isa = PBXBuildFile; fileRef = 9834687516710AFF00E9F2EB /* Basketball.png */; };
+		9834687816710B2000E9F2EB /* neonBop.png in Resources */ = {isa = PBXBuildFile; fileRef = 9834687716710B2000E9F2EB /* neonBop.png */; };
+		9834687A16710B7900E9F2EB /* 1043149_cool_background_1.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 9834687916710B7900E9F2EB /* 1043149_cool_background_1.jpg */; };
+		98A4BF1E16710D7400641617 /* swirl.png in Resources */ = {isa = PBXBuildFile; fileRef = 98A4BF1D16710D7400641617 /* swirl.png */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		9834685C1670FF9700E9F2EB /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 9834682A1670FF9600E9F2EB /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 983468321670FF9700E9F2EB;
+			remoteInfo = GizmoNew;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		983468331670FF9700E9F2EB /* GizmoNew.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = GizmoNew.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		983468371670FF9700E9F2EB /* UIKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = UIKit.framework; path = System/Library/Frameworks/UIKit.framework; sourceTree = SDKROOT; };
+		983468391670FF9700E9F2EB /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = System/Library/Frameworks/Foundation.framework; sourceTree = SDKROOT; };
+		9834683B1670FF9700E9F2EB /* CoreGraphics.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreGraphics.framework; path = System/Library/Frameworks/CoreGraphics.framework; sourceTree = SDKROOT; };
+		9834683F1670FF9700E9F2EB /* GizmoNew-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "GizmoNew-Info.plist"; sourceTree = "<group>"; };
+		983468411670FF9700E9F2EB /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
+		983468431670FF9700E9F2EB /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		983468451670FF9700E9F2EB /* GizmoNew-Prefix.pch */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "GizmoNew-Prefix.pch"; sourceTree = "<group>"; };
+		983468461670FF9700E9F2EB /* MADAppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = MADAppDelegate.h; sourceTree = "<group>"; };
+		983468471670FF9700E9F2EB /* MADAppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = MADAppDelegate.m; sourceTree = "<group>"; };
+		983468491670FF9700E9F2EB /* MADViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = MADViewController.h; sourceTree = "<group>"; };
+		9834684A1670FF9700E9F2EB /* MADViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = MADViewController.m; sourceTree = "<group>"; };
+		9834684D1670FF9700E9F2EB /* en */ = {isa = PBXFileReference; lastKnownFileType = file.xib; name = en; path = en.lproj/MADViewController_iPhone.xib; sourceTree = "<group>"; };
+		983468501670FF9700E9F2EB /* en */ = {isa = PBXFileReference; lastKnownFileType = file.xib; name = en; path = en.lproj/MADViewController_iPad.xib; sourceTree = "<group>"; };
+		983468571670FF9700E9F2EB /* GizmoNewTests.octest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = GizmoNewTests.octest; sourceTree = BUILT_PRODUCTS_DIR; };
+		983468581670FF9700E9F2EB /* SenTestingKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = SenTestingKit.framework; path = Library/Frameworks/SenTestingKit.framework; sourceTree = DEVELOPER_DIR; };
+		983468601670FF9700E9F2EB /* GizmoNewTests-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "GizmoNewTests-Info.plist"; sourceTree = "<group>"; };
+		983468621670FF9700E9F2EB /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
+		983468641670FF9700E9F2EB /* GizmoNewTests.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = GizmoNewTests.h; sourceTree = "<group>"; };
+		983468651670FF9700E9F2EB /* GizmoNewTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = GizmoNewTests.m; sourceTree = "<group>"; };
+		9834686F16710A7100E9F2EB /* 1386-0903-0314-0914.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "1386-0903-0314-0914.png"; sourceTree = "<group>"; };
+		9834687516710AFF00E9F2EB /* Basketball.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = Basketball.png; sourceTree = "<group>"; };
+		9834687716710B2000E9F2EB /* neonBop.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = neonBop.png; sourceTree = "<group>"; };
+		9834687916710B7900E9F2EB /* 1043149_cool_background_1.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = 1043149_cool_background_1.jpg; sourceTree = "<group>"; };
+		98A4BF1D16710D7400641617 /* swirl.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = swirl.png; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		983468301670FF9700E9F2EB /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				983468381670FF9700E9F2EB /* UIKit.framework in Frameworks */,
+				9834683A1670FF9700E9F2EB /* Foundation.framework in Frameworks */,
+				9834683C1670FF9700E9F2EB /* CoreGraphics.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		983468531670FF9700E9F2EB /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				983468591670FF9700E9F2EB /* SenTestingKit.framework in Frameworks */,
+				9834685A1670FF9700E9F2EB /* UIKit.framework in Frameworks */,
+				9834685B1670FF9700E9F2EB /* Foundation.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		983468281670FF9600E9F2EB = {
+			isa = PBXGroup;
+			children = (
+				9834683D1670FF9700E9F2EB /* GizmoNew */,
+				9834685E1670FF9700E9F2EB /* GizmoNewTests */,
+				983468361670FF9700E9F2EB /* Frameworks */,
+				983468341670FF9700E9F2EB /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		983468341670FF9700E9F2EB /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				983468331670FF9700E9F2EB /* GizmoNew.app */,
+				983468571670FF9700E9F2EB /* GizmoNewTests.octest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		983468361670FF9700E9F2EB /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				983468371670FF9700E9F2EB /* UIKit.framework */,
+				983468391670FF9700E9F2EB /* Foundation.framework */,
+				9834683B1670FF9700E9F2EB /* CoreGraphics.framework */,
+				983468581670FF9700E9F2EB /* SenTestingKit.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		9834683D1670FF9700E9F2EB /* GizmoNew */ = {
+			isa = PBXGroup;
+			children = (
+				983468461670FF9700E9F2EB /* MADAppDelegate.h */,
+				983468471670FF9700E9F2EB /* MADAppDelegate.m */,
+				983468491670FF9700E9F2EB /* MADViewController.h */,
+				9834684A1670FF9700E9F2EB /* MADViewController.m */,
+				9834684C1670FF9700E9F2EB /* MADViewController_iPhone.xib */,
+				9834684F1670FF9700E9F2EB /* MADViewController_iPad.xib */,
+				9834683E1670FF9700E9F2EB /* Supporting Files */,
+			);
+			path = GizmoNew;
+			sourceTree = "<group>";
+		};
+		9834683E1670FF9700E9F2EB /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				98A4BF1D16710D7400641617 /* swirl.png */,
+				9834686F16710A7100E9F2EB /* 1386-0903-0314-0914.png */,
+				9834687716710B2000E9F2EB /* neonBop.png */,
+				9834683F1670FF9700E9F2EB /* GizmoNew-Info.plist */,
+				9834687516710AFF00E9F2EB /* Basketball.png */,
+				983468401670FF9700E9F2EB /* InfoPlist.strings */,
+				9834687916710B7900E9F2EB /* 1043149_cool_background_1.jpg */,
+				983468431670FF9700E9F2EB /* main.m */,
+				983468451670FF9700E9F2EB /* GizmoNew-Prefix.pch */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		9834685E1670FF9700E9F2EB /* GizmoNewTests */ = {
+			isa = PBXGroup;
+			children = (
+				983468641670FF9700E9F2EB /* GizmoNewTests.h */,
+				983468651670FF9700E9F2EB /* GizmoNewTests.m */,
+				9834685F1670FF9700E9F2EB /* Supporting Files */,
+			);
+			path = GizmoNewTests;
+			sourceTree = "<group>";
+		};
+		9834685F1670FF9700E9F2EB /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				983468601670FF9700E9F2EB /* GizmoNewTests-Info.plist */,
+				983468611670FF9700E9F2EB /* InfoPlist.strings */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		983468321670FF9700E9F2EB /* GizmoNew */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 983468691670FF9700E9F2EB /* Build configuration list for PBXNativeTarget "GizmoNew" */;
+			buildPhases = (
+				9834682F1670FF9700E9F2EB /* Sources */,
+				983468301670FF9700E9F2EB /* Frameworks */,
+				983468311670FF9700E9F2EB /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = GizmoNew;
+			productName = GizmoNew;
+			productReference = 983468331670FF9700E9F2EB /* GizmoNew.app */;
+			productType = "com.apple.product-type.application";
+		};
+		983468561670FF9700E9F2EB /* GizmoNewTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 9834686C1670FF9700E9F2EB /* Build configuration list for PBXNativeTarget "GizmoNewTests" */;
+			buildPhases = (
+				983468521670FF9700E9F2EB /* Sources */,
+				983468531670FF9700E9F2EB /* Frameworks */,
+				983468541670FF9700E9F2EB /* Resources */,
+				983468551670FF9700E9F2EB /* ShellScript */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				9834685D1670FF9700E9F2EB /* PBXTargetDependency */,
+			);
+			name = GizmoNewTests;
+			productName = GizmoNewTests;
+			productReference = 983468571670FF9700E9F2EB /* GizmoNewTests.octest */;
+			productType = "com.apple.product-type.bundle";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		9834682A1670FF9600E9F2EB /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				CLASSPREFIX = MAD;
+				LastUpgradeCheck = 0440;
+				ORGANIZATIONNAME = "Jenna Raderstrong";
+			};
+			buildConfigurationList = 9834682D1670FF9600E9F2EB /* Build configuration list for PBXProject "GizmoNew" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+			);
+			mainGroup = 983468281670FF9600E9F2EB;
+			productRefGroup = 983468341670FF9700E9F2EB /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				983468321670FF9700E9F2EB /* GizmoNew */,
+				983468561670FF9700E9F2EB /* GizmoNewTests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		983468311670FF9700E9F2EB /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				983468421670FF9700E9F2EB /* InfoPlist.strings in Resources */,
+				9834684E1670FF9700E9F2EB /* MADViewController_iPhone.xib in Resources */,
+				983468511670FF9700E9F2EB /* MADViewController_iPad.xib in Resources */,
+				9834687216710A7100E9F2EB /* 1386-0903-0314-0914.png in Resources */,
+				9834687616710AFF00E9F2EB /* Basketball.png in Resources */,
+				9834687816710B2000E9F2EB /* neonBop.png in Resources */,
+				9834687A16710B7900E9F2EB /* 1043149_cool_background_1.jpg in Resources */,
+				98A4BF1E16710D7400641617 /* swirl.png in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		983468541670FF9700E9F2EB /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				983468631670FF9700E9F2EB /* InfoPlist.strings in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXShellScriptBuildPhase section */
+		983468551670FF9700E9F2EB /* ShellScript */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "# Run the unit tests in this test bundle.\n\"${SYSTEM_DEVELOPER_DIR}/Tools/RunUnitTests\"\n";
+		};
+/* End PBXShellScriptBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		9834682F1670FF9700E9F2EB /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				983468441670FF9700E9F2EB /* main.m in Sources */,
+				983468481670FF9700E9F2EB /* MADAppDelegate.m in Sources */,
+				9834684B1670FF9700E9F2EB /* MADViewController.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		983468521670FF9700E9F2EB /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				983468661670FF9700E9F2EB /* GizmoNewTests.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		9834685D1670FF9700E9F2EB /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 983468321670FF9700E9F2EB /* GizmoNew */;
+			targetProxy = 9834685C1670FF9700E9F2EB /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		983468401670FF9700E9F2EB /* InfoPlist.strings */ = {
+			isa = PBXVariantGroup;
+			children = (
+				983468411670FF9700E9F2EB /* en */,
+			);
+			name = InfoPlist.strings;
+			sourceTree = "<group>";
+		};
+		9834684C1670FF9700E9F2EB /* MADViewController_iPhone.xib */ = {
+			isa = PBXVariantGroup;
+			children = (
+				9834684D1670FF9700E9F2EB /* en */,
+			);
+			name = MADViewController_iPhone.xib;
+			sourceTree = "<group>";
+		};
+		9834684F1670FF9700E9F2EB /* MADViewController_iPad.xib */ = {
+			isa = PBXVariantGroup;
+			children = (
+				983468501670FF9700E9F2EB /* en */,
+			);
+			name = MADViewController_iPad.xib;
+			sourceTree = "<group>";
+		};
+		983468611670FF9700E9F2EB /* InfoPlist.strings */ = {
+			isa = PBXVariantGroup;
+			children = (
+				983468621670FF9700E9F2EB /* en */,
+			);
+			name = InfoPlist.strings;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		983468671670FF9700E9F2EB /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ARCHS = "$(ARCHS_STANDARD_32_BIT)";
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				GCC_VERSION = com.apple.compilers.llvm.clang.1_0;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 5.1;
+				SDKROOT = iphoneos;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		983468681670FF9700E9F2EB /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ARCHS = "$(ARCHS_STANDARD_32_BIT)";
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_VERSION = com.apple.compilers.llvm.clang.1_0;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 5.1;
+				OTHER_CFLAGS = "-DNS_BLOCK_ASSERTIONS=1";
+				SDKROOT = iphoneos;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		9834686A1670FF9700E9F2EB /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "GizmoNew/GizmoNew-Prefix.pch";
+				INFOPLIST_FILE = "GizmoNew/GizmoNew-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				WRAPPER_EXTENSION = app;
+			};
+			name = Debug;
+		};
+		9834686B1670FF9700E9F2EB /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "GizmoNew/GizmoNew-Prefix.pch";
+				INFOPLIST_FILE = "GizmoNew/GizmoNew-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				WRAPPER_EXTENSION = app;
+			};
+			name = Release;
+		};
+		9834686D1670FF9700E9F2EB /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(BUILT_PRODUCTS_DIR)/GizmoNew.app/GizmoNew";
+				FRAMEWORK_SEARCH_PATHS = (
+					"\"$(SDKROOT)/Developer/Library/Frameworks\"",
+					"\"$(DEVELOPER_LIBRARY_DIR)/Frameworks\"",
+				);
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "GizmoNew/GizmoNew-Prefix.pch";
+				INFOPLIST_FILE = "GizmoNewTests/GizmoNewTests-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUNDLE_LOADER)";
+				WRAPPER_EXTENSION = octest;
+			};
+			name = Debug;
+		};
+		9834686E1670FF9700E9F2EB /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(BUILT_PRODUCTS_DIR)/GizmoNew.app/GizmoNew";
+				FRAMEWORK_SEARCH_PATHS = (
+					"\"$(SDKROOT)/Developer/Library/Frameworks\"",
+					"\"$(DEVELOPER_LIBRARY_DIR)/Frameworks\"",
+				);
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "GizmoNew/GizmoNew-Prefix.pch";
+				INFOPLIST_FILE = "GizmoNewTests/GizmoNewTests-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUNDLE_LOADER)";
+				WRAPPER_EXTENSION = octest;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		9834682D1670FF9600E9F2EB /* Build configuration list for PBXProject "GizmoNew" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				983468671670FF9700E9F2EB /* Debug */,
+				983468681670FF9700E9F2EB /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		983468691670FF9700E9F2EB /* Build configuration list for PBXNativeTarget "GizmoNew" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				9834686A1670FF9700E9F2EB /* Debug */,
+				9834686B1670FF9700E9F2EB /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		9834686C1670FF9700E9F2EB /* Build configuration list for PBXNativeTarget "GizmoNewTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				9834686D1670FF9700E9F2EB /* Debug */,
+				9834686E1670FF9700E9F2EB /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 9834682A1670FF9600E9F2EB /* Project object */;
+}
