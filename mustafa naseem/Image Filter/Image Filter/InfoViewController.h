@@ -7,11 +7,13 @@
 //
 
 #import <UIKit/UIKit.h>
+#import "Image.h"
 
-@interface InfoViewController : UIViewController <UIImagePickerControllerDelegate, UINavigationControllerDelegate>
+@interface InfoViewController : UIViewController <UIImagePickerControllerDelegate, UINavigationControllerDelegate >
 - (IBAction)doneButtonTapped:(UIBarButtonItem *)sender;
 - (IBAction)changeValue:(UISlider *)sender;
 @property (weak, nonatomic) IBOutlet UISlider *amountSlider;
 @property (weak, nonatomic) IBOutlet UIImageView *imgV1;
+@property (strong, nonatomic) Image *userInfo;
 
 @end

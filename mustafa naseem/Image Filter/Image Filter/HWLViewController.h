@@ -8,6 +8,7 @@
 
 #import <UIKit/UIKit.h>
 #import <AssetsLibrary/ALAsset.h>
+#import "Image.h"
 
 @interface HWLViewController : UIViewController <UIImagePickerControllerDelegate, UINavigationControllerDelegate > 
 

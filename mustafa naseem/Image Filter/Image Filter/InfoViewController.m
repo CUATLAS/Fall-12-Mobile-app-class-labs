@@ -19,6 +19,7 @@
 }
 @synthesize amountSlider;
 @synthesize imgV1;
+@synthesize userInfo;
 
 - (id)initWithNibName:(NSString *)nibNameOrNil bundle:(NSBundle *)nibBundleOrNil
 {
@@ -27,6 +28,11 @@
         // Custom initialization
     }
     return self;
+}
+
+-(void)viewWillAppear:(BOOL)animated {
+    [super viewWillAppear:YES];
+    imgV1.image=userInfo.picture;
 }
 
 - (void)viewDidLoad
@@ -62,6 +68,10 @@
 }
 
 - (IBAction)doneButtonTapped:(UIBarButtonItem *)sender {
+    
+    NSLog(@"done button tapped");
+   [self dismissViewControllerAnimated:YES completion:NULL];
+    userInfo.picture=imgV1.image;
 }
 
 - (IBAction)changeValue:(UISlider *)sender {

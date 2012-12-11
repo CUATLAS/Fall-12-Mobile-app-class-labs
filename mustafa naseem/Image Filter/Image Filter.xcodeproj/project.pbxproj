@@ -7,6 +7,7 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		5624AA04167725F2001B8CF7 /* Image.m in Sources */ = {isa = PBXBuildFile; fileRef = 5624AA03167725F2001B8CF7 /* Image.m */; };
 		568EA484167442F9009B3AB0 /* InfoViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 568EA482167442F9009B3AB0 /* InfoViewController.m */; };
 		568EA485167442F9009B3AB0 /* InfoViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = 568EA483167442F9009B3AB0 /* InfoViewController.xib */; };
 		56A163EE16700DA700982D15 /* Twitter.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 56A163ED16700DA700982D15 /* Twitter.framework */; };
@@ -24,6 +25,8 @@
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		5624AA02167725F2001B8CF7 /* Image.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Image.h; sourceTree = "<group>"; };
+		5624AA03167725F2001B8CF7 /* Image.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = Image.m; sourceTree = "<group>"; };
 		568EA481167442F9009B3AB0 /* InfoViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = InfoViewController.h; sourceTree = "<group>"; };
 		568EA482167442F9009B3AB0 /* InfoViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = InfoViewController.m; sourceTree = "<group>"; };
 		568EA483167442F9009B3AB0 /* InfoViewController.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = InfoViewController.xib; sourceTree = "<group>"; };
@@ -103,6 +106,8 @@
 				56AE343C166F1A68002081E9 /* HWLViewController.xib */,
 				568EA481167442F9009B3AB0 /* InfoViewController.h */,
 				568EA482167442F9009B3AB0 /* InfoViewController.m */,
+				5624AA02167725F2001B8CF7 /* Image.h */,
+				5624AA03167725F2001B8CF7 /* Image.m */,
 				568EA483167442F9009B3AB0 /* InfoViewController.xib */,
 				56AE3448166F1AE2002081E9 /* resources */,
 				56AE342E166F1A68002081E9 /* Supporting Files */,
@@ -198,6 +203,7 @@
 				56AE3438166F1A68002081E9 /* HWLAppDelegate.m in Sources */,
 				56AE343B166F1A68002081E9 /* HWLViewController.m in Sources */,
 				568EA484167442F9009B3AB0 /* InfoViewController.m in Sources */,
+				5624AA04167725F2001B8CF7 /* Image.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};

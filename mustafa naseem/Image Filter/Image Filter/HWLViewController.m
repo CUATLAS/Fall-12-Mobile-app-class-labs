@@ -8,8 +8,12 @@
 
 #import "HWLViewController.h"
 #import <Twitter/Twitter.h>
+#import "InfoViewController.h"
 
-@interface HWLViewController ()
+
+@interface HWLViewController () {
+    Image *user;
+}
 @property (strong, nonatomic) NSString *imageString;
 @property (strong, nonatomic) NSString *urlString;
 
@@ -34,6 +38,11 @@
     }
 }
 
+-(void)viewWillAppear:(BOOL)animated {
+    [super viewWillAppear:YES];
+    imgV.image=user.picture;
+}
+
 - (void)viewDidLoad
 {
     [super viewDidLoad];
@@ -56,6 +65,8 @@
     CGImageRelease(cgimg) ;
     
     [self logAllFilters];
+    
+    user = [[Image alloc] init];
 }
 
 - (void)viewDidUnload
@@ -65,6 +76,7 @@
     [super viewDidUnload];
     self.imageString = nil;
     self.urlString = nil;
+    user = nil;
     // Release any retained subviews of the main view.
 }
 
@@ -127,6 +139,12 @@
 }
 
 - (IBAction)editButtonTapped:(UIBarButtonItem *)sender {
+    
+    InfoViewController *infoViewController = [[InfoViewController alloc] init];
+    infoViewController.modalTransitionStyle = UIModalTransitionStyleFlipHorizontal;
+    [self presentViewController:infoViewController animated:YES
+                     completion:NULL]; 
+    infoViewController.userInfo=user;
 }
 
 -(void) imagePickerController:(UIImagePickerController *)picker didFinishPickingMediaWithInfo:(NSDictionary *)info 
@@ -144,5 +162,7 @@ beginImage = [CIImage imageWithCGImage:gotImage.CGImage];
 -(void) imagePickerControllerDidCancel:(UIImagePickerController *)picker {
 [self dismissModalViewControllerAnimated:YES];
 }
+
+
 
 @end
