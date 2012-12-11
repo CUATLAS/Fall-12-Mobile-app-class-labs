@@ -7,6 +7,8 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		568EA484167442F9009B3AB0 /* InfoViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 568EA482167442F9009B3AB0 /* InfoViewController.m */; };
+		568EA485167442F9009B3AB0 /* InfoViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = 568EA483167442F9009B3AB0 /* InfoViewController.xib */; };
 		56A163EE16700DA700982D15 /* Twitter.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 56A163ED16700DA700982D15 /* Twitter.framework */; };
 		56AE3428166F1A68002081E9 /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 56AE3427166F1A68002081E9 /* UIKit.framework */; };
 		56AE342A166F1A68002081E9 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 56AE3429166F1A68002081E9 /* Foundation.framework */; };
@@ -22,6 +24,9 @@
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		568EA481167442F9009B3AB0 /* InfoViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = InfoViewController.h; sourceTree = "<group>"; };
+		568EA482167442F9009B3AB0 /* InfoViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = InfoViewController.m; sourceTree = "<group>"; };
+		568EA483167442F9009B3AB0 /* InfoViewController.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = InfoViewController.xib; sourceTree = "<group>"; };
 		56A163ED16700DA700982D15 /* Twitter.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Twitter.framework; path = System/Library/Frameworks/Twitter.framework; sourceTree = SDKROOT; };
 		56AE3423166F1A68002081E9 /* Image Filter.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "Image Filter.app"; sourceTree = BUILT_PRODUCTS_DIR; };
 		56AE3427166F1A68002081E9 /* UIKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = UIKit.framework; path = System/Library/Frameworks/UIKit.framework; sourceTree = SDKROOT; };
@@ -96,6 +101,9 @@
 				56AE3439166F1A68002081E9 /* HWLViewController.h */,
 				56AE343A166F1A68002081E9 /* HWLViewController.m */,
 				56AE343C166F1A68002081E9 /* HWLViewController.xib */,
+				568EA481167442F9009B3AB0 /* InfoViewController.h */,
+				568EA482167442F9009B3AB0 /* InfoViewController.m */,
+				568EA483167442F9009B3AB0 /* InfoViewController.xib */,
 				56AE3448166F1AE2002081E9 /* resources */,
 				56AE342E166F1A68002081E9 /* Supporting Files */,
 			);
@@ -175,6 +183,7 @@
 				56AE3432166F1A68002081E9 /* InfoPlist.strings in Resources */,
 				56AE343E166F1A68002081E9 /* HWLViewController.xib in Resources */,
 				56AE3447166F1AC3002081E9 /* image.png in Resources */,
+				568EA485167442F9009B3AB0 /* InfoViewController.xib in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -188,6 +197,7 @@
 				56AE3434166F1A68002081E9 /* main.m in Sources */,
 				56AE3438166F1A68002081E9 /* HWLAppDelegate.m in Sources */,
 				56AE343B166F1A68002081E9 /* HWLViewController.m in Sources */,
+				568EA484167442F9009B3AB0 /* InfoViewController.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};

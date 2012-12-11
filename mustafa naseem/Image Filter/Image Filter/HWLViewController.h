@@ -19,4 +19,5 @@
 
 - (IBAction)savePhoto:(id)sender;
 - (IBAction)tweetTapped:(id)sender;
+- (IBAction)editButtonTapped:(UIBarButtonItem *)sender;
 @end

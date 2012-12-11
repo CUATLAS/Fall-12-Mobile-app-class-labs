@@ -70,7 +70,8 @@
 
 - (BOOL)shouldAutorotateToInterfaceOrientation:(UIInterfaceOrientation)interfaceOrientation
 {
-    return (interfaceOrientation != UIInterfaceOrientationPortraitUpsideDown);
+    return NO;
+    //return (interfaceOrientation = (UIInterfaceOrientationIsPortrait(interfaceOrientation)));
 }
 
 - (IBAction)changeValue:(UISlider *)sender { 
@@ -83,7 +84,6 @@
     
     UIImage *newImg = [UIImage imageWithCGImage:cgimg];
     [imgV setImage:newImg];
-    
     
     CGImageRelease(cgimg);
      
@@ -114,7 +114,7 @@
     {
         TWTweetComposeViewController *tweetSheet = [[TWTweetComposeViewController alloc] init];
         [tweetSheet setInitialText:@"Tweeting from my own app!"]; 
-       [tweetSheet addImage:imgV.image];
+     //  [tweetSheet addImage:(UIImage *)imgV];
         [self presentModalViewController:tweetSheet animated:YES];
     }
     else {
@@ -124,6 +124,9 @@
     
     
    // self.imageString = imgV;
+}
+
+- (IBAction)editButtonTapped:(UIBarButtonItem *)sender {
 }
 
 -(void) imagePickerController:(UIImagePickerController *)picker didFinishPickingMediaWithInfo:(NSDictionary *)info 
