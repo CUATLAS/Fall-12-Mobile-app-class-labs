@@ -1,0 +1,299 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		53FE4407167B8A9F00CF71C4 /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 53FE4406167B8A9F00CF71C4 /* UIKit.framework */; };
+		53FE4409167B8A9F00CF71C4 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 53FE4408167B8A9F00CF71C4 /* Foundation.framework */; };
+		53FE440B167B8A9F00CF71C4 /* CoreGraphics.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 53FE440A167B8A9F00CF71C4 /* CoreGraphics.framework */; };
+		53FE4411167B8A9F00CF71C4 /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = 53FE440F167B8A9F00CF71C4 /* InfoPlist.strings */; };
+		53FE4413167B8A9F00CF71C4 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 53FE4412167B8A9F00CF71C4 /* main.m */; };
+		53FE4417167B8A9F00CF71C4 /* MADAppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 53FE4416167B8A9F00CF71C4 /* MADAppDelegate.m */; };
+		53FE441A167B8A9F00CF71C4 /* MADViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 53FE4419167B8A9F00CF71C4 /* MADViewController.m */; };
+		53FE441D167B8A9F00CF71C4 /* MADViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = 53FE441B167B8A9F00CF71C4 /* MADViewController.xib */; };
+		53FE4424167B8AAC00CF71C4 /* tennisball.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 53FE4423167B8AAC00CF71C4 /* tennisball.jpg */; };
+		53FE4428167B922700CF71C4 /* Tennis.png in Resources */ = {isa = PBXBuildFile; fileRef = 53FE4427167B922700CF71C4 /* Tennis.png */; };
+		53FE442A167B922F00CF71C4 /* Tennis.png in Resources */ = {isa = PBXBuildFile; fileRef = 53FE4429167B922F00CF71C4 /* Tennis.png */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXFileReference section */
+		53FE4402167B8A9E00CF71C4 /* Animation.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Animation.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		53FE4406167B8A9F00CF71C4 /* UIKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = UIKit.framework; path = System/Library/Frameworks/UIKit.framework; sourceTree = SDKROOT; };
+		53FE4408167B8A9F00CF71C4 /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = System/Library/Frameworks/Foundation.framework; sourceTree = SDKROOT; };
+		53FE440A167B8A9F00CF71C4 /* CoreGraphics.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreGraphics.framework; path = System/Library/Frameworks/CoreGraphics.framework; sourceTree = SDKROOT; };
+		53FE440E167B8A9F00CF71C4 /* Animation-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "Animation-Info.plist"; sourceTree = "<group>"; };
+		53FE4410167B8A9F00CF71C4 /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
+		53FE4412167B8A9F00CF71C4 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		53FE4414167B8A9F00CF71C4 /* Animation-Prefix.pch */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "Animation-Prefix.pch"; sourceTree = "<group>"; };
+		53FE4415167B8A9F00CF71C4 /* MADAppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = MADAppDelegate.h; sourceTree = "<group>"; };
+		53FE4416167B8A9F00CF71C4 /* MADAppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = MADAppDelegate.m; sourceTree = "<group>"; };
+		53FE4418167B8A9F00CF71C4 /* MADViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = MADViewController.h; sourceTree = "<group>"; };
+		53FE4419167B8A9F00CF71C4 /* MADViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = MADViewController.m; sourceTree = "<group>"; };
+		53FE441C167B8A9F00CF71C4 /* en */ = {isa = PBXFileReference; lastKnownFileType = file.xib; name = en; path = en.lproj/MADViewController.xib; sourceTree = "<group>"; };
+		53FE4423167B8AAC00CF71C4 /* tennisball.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = tennisball.jpg; sourceTree = "<group>"; };
+		53FE4427167B922700CF71C4 /* Tennis.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = Tennis.png; sourceTree = "<group>"; };
+		53FE4429167B922F00CF71C4 /* Tennis.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = Tennis.png; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		53FE43FF167B8A9E00CF71C4 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				53FE4407167B8A9F00CF71C4 /* UIKit.framework in Frameworks */,
+				53FE4409167B8A9F00CF71C4 /* Foundation.framework in Frameworks */,
+				53FE440B167B8A9F00CF71C4 /* CoreGraphics.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		53FE43F7167B8A9E00CF71C4 = {
+			isa = PBXGroup;
+			children = (
+				53FE4429167B922F00CF71C4 /* Tennis.png */,
+				53FE440C167B8A9F00CF71C4 /* Animation */,
+				53FE4405167B8A9F00CF71C4 /* Frameworks */,
+				53FE4403167B8A9E00CF71C4 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		53FE4403167B8A9E00CF71C4 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				53FE4402167B8A9E00CF71C4 /* Animation.app */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		53FE4405167B8A9F00CF71C4 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				53FE4406167B8A9F00CF71C4 /* UIKit.framework */,
+				53FE4408167B8A9F00CF71C4 /* Foundation.framework */,
+				53FE440A167B8A9F00CF71C4 /* CoreGraphics.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		53FE440C167B8A9F00CF71C4 /* Animation */ = {
+			isa = PBXGroup;
+			children = (
+				53FE4415167B8A9F00CF71C4 /* MADAppDelegate.h */,
+				53FE4416167B8A9F00CF71C4 /* MADAppDelegate.m */,
+				53FE4418167B8A9F00CF71C4 /* MADViewController.h */,
+				53FE4419167B8A9F00CF71C4 /* MADViewController.m */,
+				53FE441B167B8A9F00CF71C4 /* MADViewController.xib */,
+				53FE440D167B8A9F00CF71C4 /* Supporting Files */,
+			);
+			path = Animation;
+			sourceTree = "<group>";
+		};
+		53FE440D167B8A9F00CF71C4 /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				53FE4427167B922700CF71C4 /* Tennis.png */,
+				53FE4423167B8AAC00CF71C4 /* tennisball.jpg */,
+				53FE440E167B8A9F00CF71C4 /* Animation-Info.plist */,
+				53FE440F167B8A9F00CF71C4 /* InfoPlist.strings */,
+				53FE4412167B8A9F00CF71C4 /* main.m */,
+				53FE4414167B8A9F00CF71C4 /* Animation-Prefix.pch */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		53FE4401167B8A9E00CF71C4 /* Animation */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 53FE4420167B8A9F00CF71C4 /* Build configuration list for PBXNativeTarget "Animation" */;
+			buildPhases = (
+				53FE43FE167B8A9E00CF71C4 /* Sources */,
+				53FE43FF167B8A9E00CF71C4 /* Frameworks */,
+				53FE4400167B8A9E00CF71C4 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = Animation;
+			productName = Animation;
+			productReference = 53FE4402167B8A9E00CF71C4 /* Animation.app */;
+			productType = "com.apple.product-type.application";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		53FE43F9167B8A9E00CF71C4 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				CLASSPREFIX = MAD;
+				LastUpgradeCheck = 0440;
+				ORGANIZATIONNAME = "Josephine Kilde";
+			};
+			buildConfigurationList = 53FE43FC167B8A9E00CF71C4 /* Build configuration list for PBXProject "Animation" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+			);
+			mainGroup = 53FE43F7167B8A9E00CF71C4;
+			productRefGroup = 53FE4403167B8A9E00CF71C4 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				53FE4401167B8A9E00CF71C4 /* Animation */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		53FE4400167B8A9E00CF71C4 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				53FE4411167B8A9F00CF71C4 /* InfoPlist.strings in Resources */,
+				53FE441D167B8A9F00CF71C4 /* MADViewController.xib in Resources */,
+				53FE4424167B8AAC00CF71C4 /* tennisball.jpg in Resources */,
+				53FE4428167B922700CF71C4 /* Tennis.png in Resources */,
+				53FE442A167B922F00CF71C4 /* Tennis.png in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		53FE43FE167B8A9E00CF71C4 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				53FE4413167B8A9F00CF71C4 /* main.m in Sources */,
+				53FE4417167B8A9F00CF71C4 /* MADAppDelegate.m in Sources */,
+				53FE441A167B8A9F00CF71C4 /* MADViewController.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXVariantGroup section */
+		53FE440F167B8A9F00CF71C4 /* InfoPlist.strings */ = {
+			isa = PBXVariantGroup;
+			children = (
+				53FE4410167B8A9F00CF71C4 /* en */,
+			);
+			name = InfoPlist.strings;
+			sourceTree = "<group>";
+		};
+		53FE441B167B8A9F00CF71C4 /* MADViewController.xib */ = {
+			isa = PBXVariantGroup;
+			children = (
+				53FE441C167B8A9F00CF71C4 /* en */,
+			);
+			name = MADViewController.xib;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		53FE441E167B8A9F00CF71C4 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ARCHS = "$(ARCHS_STANDARD_32_BIT)";
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				GCC_VERSION = com.apple.compilers.llvm.clang.1_0;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 5.1;
+				SDKROOT = iphoneos;
+			};
+			name = Debug;
+		};
+		53FE441F167B8A9F00CF71C4 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ARCHS = "$(ARCHS_STANDARD_32_BIT)";
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_VERSION = com.apple.compilers.llvm.clang.1_0;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 5.1;
+				OTHER_CFLAGS = "-DNS_BLOCK_ASSERTIONS=1";
+				SDKROOT = iphoneos;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		53FE4421167B8A9F00CF71C4 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "Animation/Animation-Prefix.pch";
+				INFOPLIST_FILE = "Animation/Animation-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				WRAPPER_EXTENSION = app;
+			};
+			name = Debug;
+		};
+		53FE4422167B8A9F00CF71C4 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "Animation/Animation-Prefix.pch";
+				INFOPLIST_FILE = "Animation/Animation-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				WRAPPER_EXTENSION = app;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		53FE43FC167B8A9E00CF71C4 /* Build configuration list for PBXProject "Animation" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				53FE441E167B8A9F00CF71C4 /* Debug */,
+				53FE441F167B8A9F00CF71C4 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		53FE4420167B8A9F00CF71C4 /* Build configuration list for PBXNativeTarget "Animation" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				53FE4421167B8A9F00CF71C4 /* Debug */,
+				53FE4422167B8A9F00CF71C4 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 53FE43F9167B8A9E00CF71C4 /* Project object */;
+}

@@ -8,6 +8,13 @@
 
 #import <UIKit/UIKit.h>
 
-@interface MADSecondViewController : UIViewController
+@interface MADSecondViewController : UIViewController <UIWebViewDelegate>
+
+@property (weak, nonatomic) IBOutlet UIWebView *gameWeb;
+@property (weak, nonatomic) IBOutlet UIActivityIndicatorView *gameSpinner;
+
+
 
 @end
+
+

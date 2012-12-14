@@ -7,6 +7,8 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		53FE43F0167B792400CF71C4 /* MADThirdViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 53FE43EE167B792400CF71C4 /* MADThirdViewController.m */; };
+		53FE43F1167B792400CF71C4 /* MADThirdViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = 53FE43EF167B792400CF71C4 /* MADThirdViewController.xib */; };
 		9623A334163054A500E0508B /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 9623A333163054A500E0508B /* UIKit.framework */; };
 		9623A336163054A500E0508B /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 9623A335163054A500E0508B /* Foundation.framework */; };
 		9623A338163054A500E0508B /* CoreGraphics.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 9623A337163054A500E0508B /* CoreGraphics.framework */; };
@@ -25,6 +27,9 @@
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		53FE43ED167B792400CF71C4 /* MADThirdViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MADThirdViewController.h; sourceTree = "<group>"; };
+		53FE43EE167B792400CF71C4 /* MADThirdViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = MADThirdViewController.m; sourceTree = "<group>"; };
+		53FE43EF167B792400CF71C4 /* MADThirdViewController.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = MADThirdViewController.xib; sourceTree = "<group>"; };
 		9623A32F163054A500E0508B /* boulder.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = boulder.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		9623A333163054A500E0508B /* UIKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = UIKit.framework; path = System/Library/Frameworks/UIKit.framework; sourceTree = SDKROOT; };
 		9623A335163054A500E0508B /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = System/Library/Frameworks/Foundation.framework; sourceTree = SDKROOT; };
@@ -99,6 +104,9 @@
 				9623A35316305CE000E0508B /* MADsecondViewController.h */,
 				9623A35416305CE000E0508B /* MADsecondViewController.m */,
 				9623A35516305CE000E0508B /* MADsecondViewController.xib */,
+				53FE43ED167B792400CF71C4 /* MADThirdViewController.h */,
+				53FE43EE167B792400CF71C4 /* MADThirdViewController.m */,
+				53FE43EF167B792400CF71C4 /* MADThirdViewController.xib */,
 				9623A342163054A500E0508B /* MADAppDelegate.h */,
 				9623A343163054A500E0508B /* MADAppDelegate.m */,
 				9623A33A163054A500E0508B /* Supporting Files */,
@@ -180,6 +188,7 @@
 				9623A35B163067B800E0508B /* welcome.png in Resources */,
 				9623A35D1630687E00E0508B /* welcome2.png in Resources */,
 				9623A35F1630692000E0508B /* welcome3.png in Resources */,
+				53FE43F1167B792400CF71C4 /* MADThirdViewController.xib in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -194,6 +203,7 @@
 				9623A344163054A500E0508B /* MADAppDelegate.m in Sources */,
 				9623A35116305CBD00E0508B /* MADFirstViewControllerViewController.m in Sources */,
 				9623A35616305CE000E0508B /* MADsecondViewController.m in Sources */,
+				53FE43F0167B792400CF71C4 /* MADThirdViewController.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -299,6 +309,7 @@
 				9623A349163054A500E0508B /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};
