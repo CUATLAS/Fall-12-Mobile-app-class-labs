@@ -1,0 +1,47 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<map version="1.0" orientation="orthogonal" width="32" height="36" tilewidth="16" tileheight="16">
+ <tileset firstgid="1" name="interiorTileset" tilewidth="16" tileheight="16">
+  <image source="interiorTileset.png" trans="ff00ff" width="144" height="64"/>
+ </tileset>
+ <layer name="background" width="32" height="36">
+  <data encoding="base64" compression="zlib">
+   eJztz6EOACAIRVE0an7//6sSSWJhzO2GOxpwZGbTGw1T3vJ24+xwx4n/L7+Sqv3Zffz48ePHjx8/fvz48d/3vf6b3VbRPqKqDsgwMCI=
+  </data>
+ </layer>
+ <layer name="walls" width="32" height="36">
+  <data encoding="base64" compression="zlib">
+   eJzt0jEKACAMQ9Es1U3c1Ptf1B6hQ6UIP5Ct5C01Sa2o3TtUl4n/lW+K/dQrfybd4OPj4+Pj4+Pj4+PX+Mu7gz2Bzew9Ql7mAgO7CaM=
+  </data>
+ </layer>
+ <layer name="switches" width="32" height="36">
+  <data encoding="base64" compression="zlib">
+   eJztwQENAAAAwqD3T20PBxQAAAAAzwYSAAAB
+  </data>
+ </layer>
+ <layer name="gravTiles" width="32" height="36">
+  <data encoding="base64" compression="zlib">
+   eJztwzEJAAAIADA7aP+svgbwENxgEb/UCAAAwB05Arsa0IgAdg==
+  </data>
+ </layer>
+ <objectgroup name="spawnPoint" width="32" height="36">
+  <object name="spawnPoint1" x="44" y="396"/>
+ </objectgroup>
+ <layer name="acid" width="32" height="36">
+  <data encoding="base64" compression="zlib">
+   eJztwQENAAAAwqD3T20PBxQAAAAAzwYSAAAB
+  </data>
+ </layer>
+ <layer name="exit" width="32" height="36">
+  <data encoding="base64" compression="zlib">
+   eJztzgEJAAAMA6BVef+SjzEGmsAEAAAAdl07AAMeeigAIg==
+  </data>
+ </layer>
+ <layer name="exitDummyTiles" width="32" height="36">
+  <data encoding="base64" compression="zlib">
+   eJztzrEJAAAIBDFHEfcf0sYd5CFprr0qAAAAyNTX+ZyAAAviSABD
+  </data>
+ </layer>
+ <objectgroup name="tutorial" width="32" height="36">
+  <object name="tut" x="148" y="464"/>
+ </objectgroup>
+</map>

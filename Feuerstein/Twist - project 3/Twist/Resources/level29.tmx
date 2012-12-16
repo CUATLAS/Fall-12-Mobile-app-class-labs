@@ -1,0 +1,49 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<map version="1.0" orientation="orthogonal" width="80" height="45" tilewidth="16" tileheight="16">
+ <tileset firstgid="1" name="interiorTileset" tilewidth="16" tileheight="16">
+  <image source="interiorTileset.png" trans="ff00ff" width="144" height="64"/>
+ </tileset>
+ <layer name="background" width="80" height="45">
+  <data encoding="base64" compression="zlib">
+   eJzt2TEOgzAQBVEnZah9/6vGZYQIknGU2RG/WL2KxrMCBL219hzziNP2Ma8xW7xshY5m6X526X526X526X526X526X526X526X526X4r9onJ/tW0wh6Z7Yvnv3q93Zl7yH62D+k9sO7f3aX72aX72aX7me0F+ln893v52fPK+t/l6PzoribP3uMq9K3ut/Oju1rM/mX/qu1fha4W8/zN/mX/vGb/fr+PFbqardDRLN3PLt3PLt3PLt3PLt3Pbr6/XHfl33kmk8lk7j1vHPdxKg==
+  </data>
+ </layer>
+ <layer name="walls" width="80" height="45">
+  <data encoding="base64" compression="zlib">
+   eJztmt1KxDAQhSO6CqLr7pVbEG/0/Z/RDmthCJNJ03SaSXs+OFctTXryM5kkp+CP66hnRdcG9bkJehl13rgue+IS4F8NR/TvcdQv01PmXe35Uv/iOkjSym3J26gfpvfMu9rzpf7FdZCklbsXPI3fVJ/22o8JT/6l+rTnfuzJvx5Zw79TuK8jj8ga/l3+tTXUbjwn+RLe+WbPLdq4Z/+o3h8FsqijtX+WMfUzyDlpSsMKZcZY+7dlTH01+GYO+m9qR22vQ5tfiCG0Gb8xDw3KpP8umUNi8e8cEfpvimMl80jt3LKn9U6L9fM5zOuvPeRznv3rIZ/z7J8X4nU6F81b8E9nWp+k5mxL/6TYNAR5zdQqpuT2mCdSbW7pn5YjcO+s8oM55PaYJ1r4tyfgXzl8bMO/cvjYhn91wD8Zz/G3B3qKvyVn/97w4F/J2b8HEH/r4GNbygVwf60OnJ/Pj78S8G9+/JXw5l8Pe84cb/5523O2uj95FKzuT4I70/k50OH3kOLzDwAAAGAJf24JGbM=
+  </data>
+ </layer>
+ <layer name="switches" width="80" height="45">
+  <data encoding="base64" compression="zlib">
+   eJztzjENAAAIA7Cd+FfMOQMkPK2CJgAAADXfAQAAAAAAAAAAAADgxAKZLwAJ
+  </data>
+ </layer>
+ <layer name="gravTiles" width="80" height="45">
+  <data encoding="base64" compression="zlib">
+   eJzt2cEJACEMBEB70P5r9SWISEAU8Y4Z2A7CBpKU+KMSBIB1L/SpLgd25S4wykGgMSMAcJ79CnBf9EdzhwUAAPgudzYAAIC5CoqiA/Y=
+  </data>
+ </layer>
+ <objectgroup name="spawnPoint" width="80" height="45">
+  <object name="spawnPoint1" x="1225" y="595"/>
+ </objectgroup>
+ <layer name="acid" width="80" height="45">
+  <data encoding="base64" compression="zlib">
+   eJzt2jEKgEAMBMB8QrBQ//9M+5NARDQqM7B9SLFNEgEAAMBZ6xDqpiTUzEn4j7Fftt5xPkW/XKNfAAAAAAAAgCcscbyNS/0PKbuNS+1HoHu+t8f+7t8hdNgBzl4dFw==
+  </data>
+ </layer>
+ <layer name="exit" width="80" height="45">
+  <data encoding="base64" compression="zlib">
+   eJztzjEBAAAIA6BVsX9JK8zLBxKQAAAAAAAAAAAAF/MdAAAAAAAoLOaqACI=
+  </data>
+ </layer>
+ <layer name="exitDummyTiles" width="80" height="45">
+  <data encoding="base64" compression="zlib">
+   eJztzqERAAAIxLAfhWP/ITEMgMMkprYJAAAAAAAAAABwVdv+nAAAAAAAOBiVGwBD
+  </data>
+ </layer>
+ <layer name="spikes" width="80" height="45">
+  <data encoding="base64" compression="zlib">
+   eJztzjENADAQxLBQKH+ypfDjDbaUPVVvrIu1HwAAAAAAAAAAAAAAAABY8gFBmwQw
+  </data>
+ </layer>
+</map>

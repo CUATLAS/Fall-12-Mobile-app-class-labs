@@ -1,0 +1,44 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<map version="1.0" orientation="orthogonal" width="40" height="32" tilewidth="16" tileheight="16">
+ <tileset firstgid="1" name="interiorTileset" tilewidth="16" tileheight="16">
+  <image source="interiorTileset.png" trans="ff00ff" width="144" height="64"/>
+ </tileset>
+ <layer name="background" width="40" height="32">
+  <data encoding="base64" compression="zlib">
+   eJzt1rEOgDAIBNDqqHP//1etg4mLeNAiqDeQW6zBF2pbSylzq0nICpS03pr7e5dWK5BSb8h6a6LfI/U32u2cX/GT5jKDn+SKPo/ss5F+x1xqvTX/Aa+5yeJnmVf60Y9+7/JDevP2Q3vI6Bd1/npntA/94v0i7s0av6v+6Ee/3rxz0J6XT993WKw/1wbsljOv
+  </data>
+ </layer>
+ <layer name="walls" width="40" height="32">
+  <data encoding="base64" compression="zlib">
+   eJztl0EOQEAMRbvBDjvc/6J0IZkI7Z/WWMh/SWNh0r5QU9OJSO/EIDYdkCMSWnd0aitz8n4UzUu/OKjfcsR6E2dfIn5oj5a9jvo9MV+uyNqadX/3O9/7VlkXXZf1q4F+OeiXg3423nxA9qCWfppnMgKlld/TjK6N8jl/2X8R6JcD8bO+S+9ckgXxs/atVv/NZX76xaFfDs3v7fvW3HxrZkRqE0JEdqS/DUw=
+  </data>
+ </layer>
+ <layer name="switches" width="40" height="32">
+  <data encoding="base64" compression="zlib">
+   eJztwQENAAAAwqD3T20PBxQAAAAA8GoUAAAB
+  </data>
+ </layer>
+ <layer name="gravTiles" width="40" height="32">
+  <data encoding="base64" compression="zlib">
+   eJztzrENADAIwDB+gP9v7cIDoA4MtpQ9EUxVBwAAAD9ld8W1H2DnATkkAHU=
+  </data>
+ </layer>
+ <objectgroup name="spawnPoint" width="40" height="32">
+  <object name="spawnPoint1" x="100" y="354"/>
+ </objectgroup>
+ <layer name="acid" width="40" height="32">
+  <data encoding="base64" compression="zlib">
+   eJztwQENAAAAwqD3T20PBxQAAAAA8GoUAAAB
+  </data>
+ </layer>
+ <layer name="exit" width="40" height="32">
+  <data encoding="base64" compression="zlib">
+   eJztzgENAAAIA6BXsX9JY9w5SEACAAAAfDDtAHDSApucACI=
+  </data>
+ </layer>
+ <layer name="exitDummyTiles" width="40" height="32">
+  <data encoding="base64" compression="zlib">
+   eJztzjENAAAIwDCkEPyL5MEDkLTP3kUAAAAA3+W0NieAkxojPwBD
+  </data>
+ </layer>
+</map>

@@ -1,0 +1,49 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<map version="1.0" orientation="orthogonal" width="80" height="25" tilewidth="16" tileheight="16">
+ <tileset firstgid="1" name="interiorTileset" tilewidth="16" tileheight="16">
+  <image source="interiorTileset.png" trans="ff00ff" width="144" height="64"/>
+ </tileset>
+ <layer name="background" width="80" height="25">
+  <data encoding="base64" compression="zlib">
+   eJzt2LENwFAIxNCflEnN/quGFUJjLF1xegOYijrn3L0r/rZ6T++NYzd0NFtLOlqtJR2t5v5yf6R0P7t0P7t0P7t0P7t0P7t0P7t0P7t0P7t0P7t0P7t0P7t0P7v5v8ytLMuyLBvuA1B0Rss=
+  </data>
+ </layer>
+ <layer name="walls" width="80" height="25">
+  <data encoding="base64" compression="zlib">
+   eJztmMsKwyAURIU2yaYtaTel6+b/v7F2IaQXreDk6lXmwODKByc4SCanx91n3uWhuFcLFp9b60N0zOroD8G6v5PPlskZWLt0bsC6v4vPO5MrsHbp3IB1f9ahPwzEX6qb0E7pCcRfqpv+dUqus4/o9JrUvr+5zj6i02vC/sMYyZ/mWzHFSP7Qt2JJ947kD6Wke+kPg/4wpL/QAXIkcaS/0AFyJHG07u/kfv87Lwp7WODr76mwrvwmI3TsHMmr6YkIIYT0zAeHsAn5
+  </data>
+ </layer>
+ <layer name="switches" width="80" height="25">
+  <data encoding="base64" compression="zlib">
+   eJztzjENAAAIA7Cd+FeMjAXSKmgCAFw07QAAAAAAADyz2yAACQ==
+  </data>
+ </layer>
+ <layer name="gravTiles" width="80" height="25">
+  <data encoding="base64" compression="zlib">
+   eJzt1rEJACAMRcHsoPvPaispjUWUO/gbhEci6GxuA6BmRr2rmgycyg3y5/1ppAFwX26t5vIq9wsA0NMCLVYCOA==
+  </data>
+ </layer>
+ <objectgroup name="spawnPoint" width="80" height="25">
+  <object name="spawnPoint1" x="97" y="225"/>
+ </objectgroup>
+ <layer name="acid" width="80" height="25">
+  <data encoding="base64" compression="zlib">
+   eJzt0LENACAIAEGWoFP3HxMXMJRS3CW/wEcAAAAAAAATrdvWs9P8S7X559/Uf/BLAdPoGj0=
+  </data>
+ </layer>
+ <layer name="exit" width="80" height="25">
+  <data encoding="base64" compression="zlib">
+   eJztzjEBAAAMw6BYmX+Tk9EHFFAAAAAAAMDarQMAQA8Y3wAi
+  </data>
+ </layer>
+ <layer name="exitDummyTiles" width="80" height="25">
+  <data encoding="base64" compression="zlib">
+   eJztzqERAAAIA7GOwrH/kBh2qEnM208AAAAAAICm+W5zAgDIARJ2AEM=
+  </data>
+ </layer>
+ <layer name="spikes" width="80" height="25">
+  <data encoding="base64" compression="zlib">
+   eJztwzENAAAIA7BZAP9iMcDLQ9qkSVJHN/0oAAAAAAAAAH8Mo9oFDQ==
+  </data>
+ </layer>
+</map>

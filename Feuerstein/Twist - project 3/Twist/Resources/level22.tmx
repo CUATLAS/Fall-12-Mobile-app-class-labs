@@ -1,0 +1,49 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<map version="1.0" orientation="orthogonal" width="45" height="45" tilewidth="16" tileheight="16">
+ <tileset firstgid="1" name="interiorTileset" tilewidth="16" tileheight="16">
+  <image source="interiorTileset.png" trans="ff00ff" width="144" height="64"/>
+ </tileset>
+ <layer name="background" width="45" height="45">
+  <data encoding="base64" compression="zlib">
+   eJzt2LEOgCAMhGF01Lnv/6p2ZHBoSaSH/MPl9i+kNLXW2uk5FmnzXJ57sa52G2kFN5w1W8HtK2cT8M06m4Avzjjv7qyyn2ScZ2V35+p3zNzAGWecRzvqp+Qc9cN5L+fM/jDDObpDrTY31Jz/PJ9xxhlnnHHWdI749X99tfPM2xAh5D0PlhxBvQ==
+  </data>
+ </layer>
+ <layer name="walls" width="45" height="45">
+  <data encoding="base64" compression="zlib">
+   eJztmN0OgjAMRpsoeuNfdoPo+7+nWyKBLN3sBvs2s57ku6KTEyhSNhDRyYuhBcMcD2W9LkTo9/y1obqzzU1wnpZ4kDojUGcMUueBlme2NlJnV3P/1tdGnTGoM4YenEeSz0tbEvtPTXVGJXY/U53du+XphZs/DVOXUjvt6PyP/azOeagzBnXGoM4Y1Hk783dnLBO15SydxUo6H2yOCfVu1uVmq3Wk+3W5zi+bd+KaX5Tu59aduT642Fzz1ILs6VzimnL05IzqA45cZ9Q15ejJGdUHHK3NGxKcg+R9Oe83jBUcfWJ7H4qiYPgASGgTNg==
+  </data>
+ </layer>
+ <layer name="switches" width="45" height="45">
+  <data encoding="base64" compression="zlib">
+   eJztzjENAAAIA7Cd+FeMhz2EpFXQBAAAAAAAaM11AAB4ZQFhhAAJ
+  </data>
+ </layer>
+ <layer name="gravTiles" width="45" height="45">
+  <data encoding="base64" compression="zlib">
+   eJzt1jsKACAMRMHcId7/rLYBLf0gzsBrU2yViD+00s0bAACwgt8UgBOyxMg2ALBfTgJ4XQe32wFz
+  </data>
+ </layer>
+ <objectgroup name="spawnPoint" width="45" height="45">
+  <object name="spawnPoint1" x="41" y="582"/>
+ </objectgroup>
+ <layer name="acid" width="45" height="45">
+  <data encoding="base64" compression="zlib">
+   eJztzrERACAIADGWoFP2H1NnoBCL5O77jwAAAAAAAABeWLc9VDWfczjP/z7TcwChCAuB
+  </data>
+ </layer>
+ <layer name="exit" width="45" height="45">
+  <data encoding="base64" compression="zlib">
+   eJztzjENAAAIA7BZwb9JNOwiJK2CJgAAP811AAAAAAAASgsSLQAi
+  </data>
+ </layer>
+ <layer name="exitDummyTiles" width="45" height="45">
+  <data encoding="base64" compression="zlib">
+   eJztzjENAAAIwDCkEPyL5MEAFyFpn72LAAD4J6d1OQEAAAAAAEsNBK4AQw==
+  </data>
+ </layer>
+ <layer name="spikes" width="45" height="45">
+  <data encoding="base64" compression="zlib">
+   eJzt1iEOADAIBEHewP8fi6lsAtTUzCQrz1/EXZ62smm6BQCAide/6XMCAAAAAD8UXnwBew==
+  </data>
+ </layer>
+</map>
